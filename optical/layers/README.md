@@ -14,7 +14,7 @@ IC2
 
 IC1
 
-IP1
+IP1 -- Power Layer
 
 ?
 
