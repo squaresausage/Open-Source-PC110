@@ -8,9 +8,9 @@ IP2  -- Ground Layer
 
 IC4
 
-?
+IC3
 
-?
+IC2
 
 ?
 
