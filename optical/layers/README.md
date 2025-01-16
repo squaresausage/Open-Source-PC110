@@ -16,18 +16,6 @@ IC1
 
 IP1 -- Power Layer
 
-?
-
-?
-
-?
-
-?
-
-?
-
-?
-
-?
+FC1
 
 FC2 -- Top Layer
