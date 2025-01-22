@@ -8,7 +8,7 @@ Layout Tracing Status
 | ----- | ---------- | ------------ | ------ |
 | 1     | FC2        | Top Layer    |        |
 | 2     | FC1        |              | Done   |
-| 3     | IP1        | Power Layer  |        |
+| 3     | IP1        | Power Layer  | Done   |
 | 4     | IC1        |              |        |
 | 5     | IC2        |              |        |
 | 6     | IC3        |              |        |
