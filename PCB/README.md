@@ -1,4 +1,4 @@
-#PCB in KiCad
+IBM PC110 PCB designed in KiCad
 
 10 Layers and Status
 
