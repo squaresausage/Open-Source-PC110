@@ -2,6 +2,7 @@
 
 10 Layers and Status
 
+Layout Tracing Status
 
 | Index | Layer name | Description  | Status |
 | ----- | ---------- | ------------ | ------ |
@@ -17,4 +18,10 @@
 | 10    | BC2        | Bottom Layer |        |
 
 
-just started
+BOM Tracing
+
+| Index | Layer name | Description  | Status |
+| ----- | ---------- | ------------ | ------ |
+| 1     | FC2        | Top Layer    |        |
+| 2     | BC2        | Bottom Layer |        |
+
