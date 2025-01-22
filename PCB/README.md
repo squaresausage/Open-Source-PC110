@@ -15,7 +15,6 @@
 | 8     | IP2        | Ground Layer |          |
 | 9     | BC1        |              | Finished |
 | 10    | BC2        | Bottom Layer |          |
-| ----- | ---------- | ------------ | -------- |
 
 
 just started
