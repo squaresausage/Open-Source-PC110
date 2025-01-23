@@ -12,7 +12,7 @@ Layout Tracing Status
 | 4     | IC1        |              |        |
 | 5     | IC2        |              |        |
 | 6     | IC3        |              |        |
-| 7     | IC4        |              | Progress |
+| 7     | IC4        |              | Almost |
 | 8     | IP2        | Ground Layer | Done   |
 | 9     | BC1        |              | Done   |
 | 10    | BC2        | Bottom Layer |        |
