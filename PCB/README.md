@@ -11,7 +11,7 @@ Layout Tracing Status
 | 3     | IP1        | Power Layer  | Done   |
 | 4     | IC1        |              |        |
 | 5     | IC2        |              |        |
-| 6     | IC3        |              |        |
+| 6     | IC3        |              | Done   |
 | 7     | IC4        |              | Almost |
 | 8     | IP2        | Ground Layer | Done   |
 | 9     | BC1        |              | Done   |
