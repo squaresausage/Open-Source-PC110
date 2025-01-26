@@ -9,9 +9,9 @@ would like to do the followings:
 
 3- Trace back each layer via KiCad and recreate the board
 
-3- Identify the components (at least the standard ones) and represent the mysterious ones (ASIC like the CPU, Chips, Bowman, etc...) as blocks with pins.
+4- Identify the components (at least the standard ones) and represent the mysterious ones (ASIC like the CPU, Chips, Bowman, etc...) as blocks with pins.
 
-4- Put together a schematic based a net list of traces in a software like Altium.
+5- Put together a schematic based a net list of traces in a software like Altium.
 
 Stretch Goals:
 
