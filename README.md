@@ -5,7 +5,9 @@ would like to do the followings:
 
 1- Disassemble all the components from a motherboard and take a high res scan.
 
-2- Take a CT-Scan from the board to find the inner layers traces.
+2- Sand every layer step-by-step and perform a high res scan.
+
+3- Trace back each layer via KiCad and recreate the board
 
 3- Identify the components (at least the standard ones) and represent the mysterious ones (ASIC like the CPU, Chips, Bowman, etc...) as blocks with pins.
 
