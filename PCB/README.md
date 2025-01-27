@@ -7,14 +7,14 @@ Layout Tracing Status
 | Index | Layer name | Description  | Status |
 | ----- | ---------- | ------------ | ------ |
 | 1     | FC2        | Top Layer    |        |
-| 2     | FC1        |              | Done   |
+| 2     | FC1        | Signal       | Done   |
 | 3     | IP1        | Power Layer  | Done   |
-| 4     | IC1        |              | Done   |
-| 5     | IC2        |              | Done   |
-| 6     | IC3        |              | Done   |
-| 7     | IC4        |              | Done   |
+| 4     | IC1        | Signal       | Done   |
+| 5     | IC2        | Signal       | Done   |
+| 6     | IC3        | Signal       | Done   |
+| 7     | IC4        | Signal       | Done   |
 | 8     | IP2        | Ground Layer | Done   |
-| 9     | BC1        |              | Done   |
+| 9     | BC1        | Signal       | Done   |
 | 10    | BC2        | Bottom Layer |        |
 
 
