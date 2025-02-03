@@ -6,7 +6,7 @@ Layout Tracing Status
 
 | Index | Layer name | Description  | Status |
 | ----- | ---------- | ------------ | ------ |
-| 1     | FC2        | Top Layer    |        |
+| 1     | FC2        | Top Layer    |  70%   |
 | 2     | FC1        | Signal Layer | Done   |
 | 3     | IP1        | Power Layer  | Done   |
 | 4     | IC1        | Signal Layer | Done   |
@@ -15,7 +15,7 @@ Layout Tracing Status
 | 7     | IC4        | Signal Layer | Done   |
 | 8     | IP2        | Ground Layer | Done   |
 | 9     | BC1        | Signal Layer | Done   |
-| 10    | BC2        | Bottom Layer |        |
+| 10    | BC2        | Bottom Layer |  70%   |
 
 
 BOM Tracing
