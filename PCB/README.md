@@ -18,7 +18,7 @@ Layout Tracing Status
 | 10    | BC2        | Bottom Layer |  70%   |
 
 
-BOM Tracing
+BOM Values
 
 | Index | Layer name | Description  | Status |
 | ----- | ---------- | ------------ | ------ |
