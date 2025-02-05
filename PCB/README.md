@@ -15,7 +15,7 @@ Layout Tracing Status
 | 7     | IC4        | Signal Layer | Done   |
 | 8     | IP2        | Ground Layer | Done   |
 | 9     | BC1        | Signal Layer | Done   |
-| 10    | BC2        | Bottom Layer |  70%   |
+| 10    | BC2        | Bottom Layer | Done   |
 
 
 BOM Values
