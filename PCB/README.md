@@ -31,4 +31,5 @@ Here is a render of FC1, IC1, IC2, IC3, IC4 and BC1 together:
 <img width="1723" alt="Screenshot 2025-01-25 at 10 13 16 PM" src="https://github.com/user-attachments/assets/236c46e9-727b-4f4f-9e76-789af8857413" />
 
 And here is a render of FC2, FC1, IC1, IC2, IC3, IC4, BC1 and BC2 together:
-<img width="1357" alt="Screenshot 2025-02-03 at 4 49 04 AM" src="https://github.com/user-attachments/assets/fb7dd9a6-491d-4eba-8d8e-10f9e5afd9f7" />
+<img width="1373" alt="Screenshot 2025-02-05 at 3 54 23 PM" src="https://github.com/user-attachments/assets/b2f1c086-2c23-4186-90f2-25991bcc9946" />
+
