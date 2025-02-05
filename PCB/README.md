@@ -6,7 +6,7 @@ Layout Tracing Status
 
 | Index | Layer name | Description  | Status |
 | ----- | ---------- | ------------ | ------ |
-| 1     | FC2        | Top Layer    |  70%   |
+| 1     | FC2        | Top Layer    | Done   |
 | 2     | FC1        | Signal Layer | Done   |
 | 3     | IP1        | Power Layer  | Done   |
 | 4     | IC1        | Signal Layer | Done   |
