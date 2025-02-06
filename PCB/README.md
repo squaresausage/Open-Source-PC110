@@ -37,3 +37,53 @@ And here are 3D renders from the top and bottom layers:
 
 <img width="660" alt="Screenshot 2025-02-05 at 3 56 22 PM" src="https://github.com/user-attachments/assets/d97c7430-9a43-4559-bb10-abd026b0ce3e" />
 
+PCB statistics report
+=====================
+
+Board
+-----
+- Width: 150.0500 mm
+- Height: 107.3513 mm
+- Area: 12400.2967 mm²
+
+Pads
+----
+- Through hole: 29
+- SMD: 4859
+- Connector: 0
+- NPTH: 0
+
+Vias
+----
+- Through vias: 2406
+- Blind/buried: 3685
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          1 |         0 |     1 |
+|SMD:          |        486 |       446 |   932 |
+|Unspecified:  |          0 |         0 |     0 |
+|Total:        |        487 |       446 |   933 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|  1950 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         BC1 |        BC2 |
+|  1913 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        BC2 |
+|  1730 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        FC1 |
+|   493 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |         FC2 |        BC2 |
+|    20 | Round | 0.8000 mm | 0.8000 mm |    PTH |     Pad |         FC2 |        BC2 |
+|     5 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |         FC2 |        BC2 |
+|     2 |  Slot | 2.0000 mm | 0.9000 mm |    PTH |     Pad |         FC2 |        BC2 |
+|     2 |  Slot | 0.8000 mm | 2.2000 mm |    PTH |     Pad |         FC2 |        BC2 |
+|     2 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        IC2 |
+|     1 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        IC1 |
+|     1 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |         BC1 |        BC2 |
+|     1 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         IP1 |        BC2 |
+
