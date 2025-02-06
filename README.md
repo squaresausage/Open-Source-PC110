@@ -1,20 +1,19 @@
-# PC110-Mainboard-Schematic
-Figuring out the schematic of PC110's mainboard
+# PC110
 
-would like to do the followings:
+A repository for all the technical details of the PC110
 
-1- Disassemble all the components from a motherboard and take a high res scan.
+What it includes:
 
-2- Sand every layer step-by-step and perform a high res scan.
+PCB layout of the motherboard (based on KiCad)
 
-3- Trace back each layer via KiCad and recreate the board
+Design layout of the keyboard membrane
 
-4- Identify the components (at least the standard ones) and represent the mysterious ones (ASIC like the CPU, Chips, Bowman, etc...) as blocks with pins.
+Flash dump of the BIOS and the AT29LV512 (available in only few models).
 
-5- Put together a schematic based a net list of traces in a software like Altium.
+How can you help?
 
-Stretch Goals:
+Help by reviewing the PCB layout and report bugs/issues
 
-1- Make a replacement PCB where you can have most of generic components already installed and try to migrate the ones that are specific to the new PCB.
+Help with the schematic development
 
-2- Make a modernized version of the motherboard with a Vortex86 to be a drop in replacement with all* the features preserved or just modernize certain parts of the motherboard to newer stuff.
+
