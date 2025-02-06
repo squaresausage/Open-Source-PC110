@@ -1,8 +1,6 @@
 ### IBM PC110 PCB redesigned in KiCad
 
-10 Layers and Status
-
-Layout Tracing Status
+Layer Stack-up
 
 | Index | Layer name | Description  |
 | ----- | ---------- | ------------ |
