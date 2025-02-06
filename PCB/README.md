@@ -4,16 +4,16 @@ Layer Stack-up
 
 | Index | Layer name | Description  |
 | ----- | ---------- | ------------ |
-| 1     | FC2        | Top Layer    |
-| 2     | FC1        | Signal Layer |
-| 3     | IP1        | Power Layer  |
-| 4     | IC1        | Signal Layer |
-| 5     | IC2        | Signal Layer |
-| 6     | IC3        | Signal Layer |
-| 7     | IC4        | Signal Layer |
-| 8     | IP2        | Ground Layer |
-| 9     | BC1        | Signal Layer |
-| 10    | BC2        | Bottom Layer |
+| 1     | FC2        | Top          |
+| 2     | FC1        | Signal       |
+| 3     | IP1        | Power        |
+| 4     | IC1        | Signal       |
+| 5     | IC2        | Signal       |
+| 6     | IC3        | Signal       |
+| 7     | IC4        | Signal       |
+| 8     | IP2        | Ground       |
+| 9     | BC1        | Signal       |
+| 10    | BC2        | Bottom       |
 
 
 BOM Values
