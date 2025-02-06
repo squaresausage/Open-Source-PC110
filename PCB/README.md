@@ -33,9 +33,14 @@ And here is a render of FC2, FC1, IC1, IC2, IC3, IC4, BC1 and BC2 together:
 
 And here are 3D renders from the top and bottom layers:
 
-<img width="599" alt="Screenshot 2025-02-05 at 3 56 40 PM" src="https://github.com/user-attachments/assets/cc1f8b43-0334-481c-b038-97cd68cfb6fb" />
+Top side:
 
-<img width="660" alt="Screenshot 2025-02-05 at 3 56 22 PM" src="https://github.com/user-attachments/assets/d97c7430-9a43-4559-bb10-abd026b0ce3e" />
+<img width="855" alt="Screenshot 2025-02-06 at 12 04 35 PM" src="https://github.com/user-attachments/assets/cf40bf70-88c1-4b75-b342-a2ce01d46a0f" />
+
+Bottom side:
+
+<img width="760" alt="Screenshot 2025-02-06 at 11 39 49 AM" src="https://github.com/user-attachments/assets/9d0b4595-2fb0-436e-89dd-8a7c70f2fd0a" />
+
 
 PCB statistics report
 =====================
