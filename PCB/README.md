@@ -1,4 +1,4 @@
-<img width="660" alt="Screenshot 2025-02-05 at 3 56 22 PM" src="https://github.com/user-attachments/assets/d97c7430-9a43-4559-bb10-abd026b0ce3e" />IBM PC110 PCB redesigned in KiCad
+### IBM PC110 PCB redesigned in KiCad
 
 10 Layers and Status
 
@@ -34,5 +34,8 @@ And here is a render of FC2, FC1, IC1, IC2, IC3, IC4, BC1 and BC2 together:
 <img width="1373" alt="Screenshot 2025-02-05 at 3 54 23 PM" src="https://github.com/user-attachments/assets/b2f1c086-2c23-4186-90f2-25991bcc9946" />
 
 And here are 3D renders from the top and bottom layers:
-![Uploading Screenshot 20<img width="599" alt="Screenshot 2025-02-05 at 3 56 40 PM" src="https://github.com/user-attachments/assets/cc1f8b43-0334-481c-b038-97cd68cfb6fb" />
+
+<img width="599" alt="Screenshot 2025-02-05 at 3 56 40 PM" src="https://github.com/user-attachments/assets/cc1f8b43-0334-481c-b038-97cd68cfb6fb" />
+
+<img width="660" alt="Screenshot 2025-02-05 at 3 56 22 PM" src="https://github.com/user-attachments/assets/d97c7430-9a43-4559-bb10-abd026b0ce3e" />
 
