@@ -92,3 +92,8 @@ Drill holes
 |     1 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |         BC1 |        BC2 |
 |     1 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         IP1 |        BC2 |
 
+Here is a cross section of the PCB stack-up
+
+![Board_cross_section](https://github.com/user-attachments/assets/69448d79-1651-4f14-ac00-2899aa87db19)
+
+
