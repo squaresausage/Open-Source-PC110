@@ -16,4 +16,6 @@ Help by reviewing the PCB layout and report bugs/issues
 
 Help with the schematic development
 
+Help with finding missing datasheets
+
 
