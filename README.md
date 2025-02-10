@@ -1,6 +1,6 @@
 # PC110
 
-<img width="340" alt="Screenshot 2025-02-09 at 7 00 37 PM" src="https://github.com/user-attachments/assets/7af2518e-ea4f-4ab8-af3d-d80d857d3f26" />
+![WhatsApp Image 2025-02-09 at 20 47 54](https://github.com/user-attachments/assets/c6637c3c-e702-4e55-9bf8-3859ba364878)
 
 A repository for all the technical details of the PC110
 
