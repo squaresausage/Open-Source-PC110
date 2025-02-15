@@ -20,4 +20,8 @@ Help with the schematic development
 
 Help with finding missing datasheets
 
+# License
+
+This project is free for non-commercial reproduction. You are not permitted to sell it for profit. Nor you are permitted to create a closed-source clone of it. Share your experiences, forks and ideas with the community to make everyone benefit.
+
 
