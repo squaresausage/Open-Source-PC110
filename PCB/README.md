@@ -53,15 +53,14 @@ Board
 Pads
 ----
 - Through hole: 29
-- SMD: 4859
-- Connector: 0
-- NPTH: 0
+- SMD: 4860
+- Total: 4889
 
 Vias
 ----
-- Through vias: 2406
-- Blind/buried: 3685
-- Micro vias: 0
+- Through vias: 2407
+- Blind/buried: 3684
+- Total: 6091
 
 Components
 ----------
@@ -70,8 +69,8 @@ Components
 |--------------|------------|-----------|-------|
 |THT:          |          1 |         0 |     1 |
 |SMD:          |        486 |       446 |   932 |
-|Unspecified:  |          0 |         0 |     0 |
-|Total:        |        487 |       446 |   933 |
+|Unspecified:  |          0 |         1 |     1 |
+|Total:        |        487 |       447 |   934 |
 
 Drill holes
 -----------
@@ -79,7 +78,7 @@ Drill holes
 | Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
 |-------|-------|-----------|-----------|--------|---------|-------------|------------|
 |  1950 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         BC1 |        BC2 |
-|  1913 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        BC2 |
+|  1914 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        BC2 |
 |  1730 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |         FC2 |        FC1 |
 |   493 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |         FC2 |        BC2 |
 |    20 | Round | 0.8000 mm | 0.8000 mm |    PTH |     Pad |         FC2 |        BC2 |
