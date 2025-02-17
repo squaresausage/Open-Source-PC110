@@ -35,12 +35,11 @@ And here are 3D renders from the top and bottom layers:
 
 Top side:
 
-<img width="855" alt="Screenshot 2025-02-06 at 12 04 35 PM" src="https://github.com/user-attachments/assets/cf40bf70-88c1-4b75-b342-a2ce01d46a0f" />
+<img width="994" alt="Screenshot 2025-02-17 at 8 02 00 AM" src="https://github.com/user-attachments/assets/af295db9-487c-485d-89b8-cdb4f690c88e" />
 
 Bottom side:
 
-<img width="760" alt="Screenshot 2025-02-06 at 11 39 49 AM" src="https://github.com/user-attachments/assets/9d0b4595-2fb0-436e-89dd-8a7c70f2fd0a" />
-
+<img width="956" alt="Screenshot 2025-02-17 at 8 03 11 AM" src="https://github.com/user-attachments/assets/25254511-8bc8-42e2-8ac2-375a284d0696" />
 
 PCB statistics report
 =====================
