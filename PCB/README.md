@@ -35,9 +35,21 @@ And here are 3D renders from the top and bottom layers:
 
 Top side:
 
+Real picture:
+
+![IMG_3971](https://github.com/user-attachments/assets/75b1abc5-cac4-496b-b5d3-1811dfd3c4c2)
+
+3D render:
+
 <img width="775" alt="Screenshot 2025-03-01 at 7 24 52 AM" src="https://github.com/user-attachments/assets/523f7844-b7db-4861-845e-9c4a9800933a" />
 
 Bottom side:
+
+Real picture:
+
+![IMG_3970](https://github.com/user-attachments/assets/f91a05f9-e525-4199-8f36-1ad349f0f6ab)
+
+3D render:
 
 <img width="753" alt="Screenshot 2025-03-01 at 8 22 09 AM" src="https://github.com/user-attachments/assets/d8d5141f-493d-4d2e-96a1-e3b77a2a9792" />
 
