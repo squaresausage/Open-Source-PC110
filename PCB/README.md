@@ -39,7 +39,8 @@ Top side:
 
 Bottom side:
 
-<img width="765" alt="Screenshot 2025-03-01 at 7 24 11 AM" src="https://github.com/user-attachments/assets/e825ecb6-823c-4456-91f5-bc7e24c31b7f" />
+<img width="815" alt="Screenshot 2025-03-01 at 8 18 19 AM" src="https://github.com/user-attachments/assets/54a1c68a-a290-463d-9549-918463ed0309" />
+
 
 PCB statistics report
 =====================
