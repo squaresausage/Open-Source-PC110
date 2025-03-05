@@ -10,7 +10,7 @@ And here are the results
 
 ![PHOTO-2025-03-04-19-22-45](https://github.com/user-attachments/assets/ba34fce3-9987-4b54-a465-0ccf8b7b9a59)
 
-It looks like the first 8k bytes is what gets exposed in the "font window" and is a properly formatted option rom with the japanese character sets.
+It looks like the first 8k bytes are exposed in the "font window" and is a properly formatted option rom with the Japanese character sets.
 
 This is what the 8k bytes look like:
 
