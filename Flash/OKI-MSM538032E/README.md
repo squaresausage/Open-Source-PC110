@@ -18,7 +18,7 @@ This is what the 8k bytes look like:
 
 Higher resolution character sets in their too.
 
-Digging further in the code tt seems that there is reference to the different size character sets:
+Digging further in the code it seems that there is a reference to the different size character sets:
 
 ![PHOTO-2025-03-04-20-59-01](https://github.com/user-attachments/assets/b8fc24f2-c471-4327-af1e-fa48569bc93e)
 
