@@ -6,6 +6,8 @@ Here is how the chip was fitted on a proto board to be read by a programmer
 
 ![PHOTO-2025-03-04-15-16-44](https://github.com/user-attachments/assets/1ec6310c-30fe-4bd9-a26a-1ebd54b33e12)
 
+![PHOTO-2025-03-04-19-28-03](https://github.com/user-attachments/assets/bf7013b9-3256-4670-97f9-fc8ebe8a1ee1)
+
 And here are the results
 
 ![PHOTO-2025-03-04-19-22-45](https://github.com/user-attachments/assets/ba34fce3-9987-4b54-a465-0ccf8b7b9a59)
