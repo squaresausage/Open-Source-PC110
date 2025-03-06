@@ -1,6 +1,6 @@
 
 ## Datasheets ##
-[M38224M6HP.PDF](/datasheets/top/HP-M38222M6HP.PDF)
+[M38224M6HP](M3822.pdf)
 ## Part Number Details ##
 ```
 M38223E4HP
