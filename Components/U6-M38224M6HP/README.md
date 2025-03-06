@@ -11,3 +11,6 @@ M38223E4HP
 ||||+------> 512 Bytes RAM
 ++++-------> Mitsubishi 3822 Group MCU
 ```
+## Location ##
+
+![image](https://github.com/user-attachments/assets/a2e46dda-e8bc-42d8-bcc8-e8081ce7fbb1)
