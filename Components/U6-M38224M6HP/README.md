@@ -18,6 +18,9 @@ M38223E4HP
 
 ![image](https://github.com/user-attachments/assets/a2e46dda-e8bc-42d8-bcc8-e8081ce7fbb1)
 
+![image](https://github.com/user-attachments/assets/63b54d00-19b9-41cf-ab7a-5a5157431210)
+
+
 ## Program Recovery & Analysis
 
 The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
