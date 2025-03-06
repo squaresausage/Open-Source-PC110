@@ -25,9 +25,16 @@ M38223E4HP
 
 The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
 
-Adapter for this package is:
-
+### Recover / Extraction ###
 PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
+
+This is also a M38xx group,  does not mention this part# but PIN names make sense.
+
+(https://www.segger.com/products/production/flasher-5st7/models/flasher-5/)
+
+![image](https://github.com/user-attachments/assets/db51f1a1-64f6-43c3-beae-86c8674d6033)
+
+### Forkflow ###
 
 ![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
 
