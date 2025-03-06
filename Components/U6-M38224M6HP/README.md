@@ -2,7 +2,7 @@
 ## Datasheets ##
 [M38224M6HP](M3822.pdf)
 
-[PCA4738H080A](PCA4738H.pdf)
+[PCA4738H0-80A](PCA4738H.pdf)
 
 ## Part Number Details ##
 ```
