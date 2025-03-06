@@ -16,6 +16,8 @@ And here are the results
 
 It looks like the first 8k bytes are exposed in the "font window" and is a properly formatted option rom with the Japanese character sets.
 
+![image](https://github.com/user-attachments/assets/e8f472ae-dba9-4e9c-a3e1-813c6356e733)
+
 This is what the 8k bytes look like:
 
 ![WhatsApp Image 2025-03-04 at 20 44 57](https://github.com/user-attachments/assets/ab47040d-b2bb-4e07-9493-6b115e13f85e)
