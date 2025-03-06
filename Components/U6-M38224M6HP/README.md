@@ -23,13 +23,13 @@ Adapter for this package is:
 
 PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
 
+![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
+
 ## TODO ##
 * Find pinout for the above mentioned adapter.
 * Attempt to read program back using verification process of the programming workflow
 * Potentially extract optically 
 * Dissassmble and comment the code.
-
-![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
 
 ## Other Notes ##
 
