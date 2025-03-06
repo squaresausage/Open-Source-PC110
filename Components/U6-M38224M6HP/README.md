@@ -14,3 +14,16 @@ M38223E4HP
 ## Location ##
 
 ![image](https://github.com/user-attachments/assets/a2e46dda-e8bc-42d8-bcc8-e8081ce7fbb1)
+
+##
+
+The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
+
+Adapter for this package is PCA4738H-80A.
+
+TODO:
+* Attempt to read program back using verification process of the programming workflow
+* Potentially extract optically 
+
+
+![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
