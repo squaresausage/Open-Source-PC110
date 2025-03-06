@@ -19,9 +19,12 @@ M38223E4HP
 
 The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
 
-Adapter for this package is PCA4738H-80A.
+Adapter for this package is:
 
-TODO:
+PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
+
+## TODO ##
+* Find pinout for the above mentioned adapter.
 * Attempt to read program back using verification process of the programming workflow
 * Potentially extract optically 
 * Dissassmble and comment the code.
