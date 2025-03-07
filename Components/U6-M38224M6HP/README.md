@@ -14,6 +14,10 @@ M38223E4HP
 ||||+------> 512 Bytes RAM
 ++++-------> Mitsubishi 3822 Group MCU
 ```
+There are at least two variations of the PC110.    In a small number of systems U6 is M38223E4HP OTP/EPROM version of the chip,  in the rest it is the M38223M4-192HP MASKROM version.  It is unclear if these represent early production models or perhaps supply chain related.    This is a helpful detail as it is unclear if a MASKROM variant can have its program read out without an optical approach.
+
+It seems the boards with OTP version of the Mitsubishi MCU's  also have non-programmed Sandisk controllers in U41 and contain a flash chip U27 for the program/config, where as the rest omit the external flashrom and have a maskrom U41.
+
 ## Location ##
 
 ![image](https://github.com/user-attachments/assets/a2e46dda-e8bc-42d8-bcc8-e8081ce7fbb1)
