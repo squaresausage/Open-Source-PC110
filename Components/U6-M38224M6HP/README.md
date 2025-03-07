@@ -42,9 +42,9 @@ This is also a M38xx group,  does not mention this part# but PIN names make sens
 
 (https://www.segger.com/products/production/flasher-5st7/models/flasher-5/)
 
-![image](https://github.com/user-attachments/assets/db51f1a1-64f6-43c3-beae-86c8674d6033)
+![image](https://github.com/user-attachments/assets/14d8da21-7dae-48d2-bbe9-4c3d3efb0e96)
 
-### Forkflow ###
+### Workflow ###
 
 ![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
 
