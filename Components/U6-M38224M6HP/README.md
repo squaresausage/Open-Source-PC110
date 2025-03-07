@@ -16,7 +16,9 @@ M38223E4HP
 ```
 There are at least two variations of the PC110.    In a small number of systems U6 is M38223E4HP OTP/EPROM version of the chip,  in the rest it is the M38223M4-192HP MASKROM version.  It is unclear if these represent early production models or perhaps supply chain related.    This is a helpful detail as it is unclear if a MASKROM variant can have its program read out without an optical approach.
 
-It seems the boards with OTP version of the Mitsubishi MCU's  also have non-programmed Sandisk controllers in U41 and contain a flash chip U27 for the program/config, where as the rest omit the external flashrom and have a maskrom U41.
+Some boards also have non-programmed Sandisk controllers in U41 and contain a flash chip U27 for the program/config, where as the rest omit the external flashrom and have a maskrom U41.
+
+I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet seen one where U6 is MASKROM and U41 is not.  
 
 ## Location ##
 
