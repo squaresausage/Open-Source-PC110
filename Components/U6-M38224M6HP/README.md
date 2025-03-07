@@ -26,6 +26,9 @@ I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet see
 
 ![image](https://github.com/user-attachments/assets/63b54d00-19b9-41cf-ab7a-5a5157431210)
 
+![image](https://github.com/user-attachments/assets/ee8c9987-725a-453d-a366-4c2538670507)
+
+
 
 ## Program Recovery & Analysis
 
