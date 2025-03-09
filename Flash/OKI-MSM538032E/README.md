@@ -3,6 +3,7 @@
 Here is a memory dump from the MSM538032E made by OKI.
 
 You can use https://binvis.io/ to study the binary file.
+In this analysis https://github.com/bbbradsmith/binxelview was used.
 
 Here is how the chip was fitted on a proto board to be read by a programmer
 
