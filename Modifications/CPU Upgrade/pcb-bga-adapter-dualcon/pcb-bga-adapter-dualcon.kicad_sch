@@ -7287,6 +7287,12 @@
 		(uuid "154d54d3-69aa-4988-bf12-820767d94da0")
 	)
 	(junction
+		(at 29.21 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176ce802-f674-4536-a4cc-dbe5d0baa713")
+	)
+	(junction
 		(at 186.69 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7575,6 +7581,12 @@
 		(uuid "682976b8-a264-40fc-9215-33481c69a9ed")
 	)
 	(junction
+		(at 29.21 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a363eac-b688-4733-9058-b00fea03eedb")
+	)
+	(junction
 		(at 140.97 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7681,6 +7693,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81fb7548-e2e6-4435-a23b-fce1f62b97d4")
+	)
+	(junction
+		(at 29.21 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ca76dc-e0d4-48bb-b815-5c3f1d26c14d")
 	)
 	(junction
 		(at 173.99 17.78)
@@ -8170,6 +8188,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 184.15) (xy 29.21 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ff1bca-7d1d-4531-a1d0-5c0b41af2980")
+	)
+	(wire
+		(pts
 			(xy 245.11 17.78) (xy 247.65 17.78)
 		)
 		(stroke
@@ -8197,6 +8225,16 @@
 			(type default)
 		)
 		(uuid "1dd4518e-9f48-40e8-be79-a541936b6a34")
+	)
+	(wire
+		(pts
+			(xy 29.21 181.61) (xy 29.21 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22008b42-ebf0-41c8-b117-2c36ede64dc3")
 	)
 	(wire
 		(pts
@@ -8860,6 +8898,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 176.53) (xy 29.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a68e637-1a43-465b-9fba-dac626350d20")
+	)
+	(wire
+		(pts
 			(xy 29.21 85.09) (xy 29.21 87.63)
 		)
 		(stroke
@@ -9277,6 +9325,16 @@
 			(type default)
 		)
 		(uuid "d46a7bdb-4d2d-463c-b341-4a3f108dc5cf")
+	)
+	(wire
+		(pts
+			(xy 29.21 179.07) (xy 29.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b3a2ca-7ff9-4564-b0c5-73c718b1d48a")
 	)
 	(wire
 		(pts
@@ -13091,6 +13149,28 @@
 		(uuid "e79bd65b-9d41-438c-93fe-0e1531adcc8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.3263 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 29.21 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea706ce4-8be0-4637-b08b-35ba953cc152")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5962 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
