@@ -12,5 +12,6 @@ Layer Stack-up
 
 Here is a 3D model of the PSU board:
 
-<img width="800" alt="Screenshot 2025-03-11 at 2 40 22 AM" src="https://github.com/user-attachments/assets/188dee61-abcd-4622-acbd-23efc138b9de" />
+<img width="754" alt="Screenshot 2025-03-11 at 11 00 23 AM" src="https://github.com/user-attachments/assets/266402bf-5e6c-46d5-ac77-59adff50b2f2" />
+
 
