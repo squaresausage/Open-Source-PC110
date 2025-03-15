@@ -11,7 +11,7 @@ Layer Stack-up
 
 Here is a render of FC, IC, IP and BC:
 
-<img width="745" alt="Screenshot 2025-03-14 at 3 52 06 PM" src="https://github.com/user-attachments/assets/908faa63-43a4-4a1a-8aa7-be288cf0c142" />
+<img width="1381" alt="Screenshot 2025-03-15 at 12 15 58 AM" src="https://github.com/user-attachments/assets/0c8553ee-b266-47ee-b05e-83d6d14733f8" />
 
 Here are 3D models of the PSU board:
 
