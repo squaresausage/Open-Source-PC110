@@ -16,14 +16,6 @@ Layer Stack-up
 | 10    | BC2        | Bottom       |
 
 
-BOM Values
-
-| Index | Layer name | Description  | Status |
-| ----- | ---------- | ------------ | ------ |
-| 1     | FC2        | Top Layer    |        |
-| 2     | BC2        | Bottom Layer |        |
-
-
 Here is a render of FC1, IC1, IC2, IC3, IC4 and BC1 together:
 
 <img width="1723" alt="Screenshot 2025-01-25 at 10 13 16 PM" src="https://github.com/user-attachments/assets/236c46e9-727b-4f4f-9e76-789af8857413" />
