@@ -15,8 +15,6 @@ Here is a render of FC, IC, IP and BC:
 
 Here are 3D models of the PSU board:
 
-<img width="794" alt="Screenshot 2025-03-14 at 3 49 32 PM" src="https://github.com/user-attachments/assets/14c75e2a-5fe2-4b18-b4dc-a7f7d55f597e" />
+<img width="748" alt="Screenshot 2025-03-15 at 9 56 52 AM" src="https://github.com/user-attachments/assets/f21a35e7-b01c-4f98-92cc-5873599aab76" />
 
-<img width="703" alt="Screenshot 2025-03-14 at 3 49 49 PM" src="https://github.com/user-attachments/assets/49762210-c20b-4a68-aab0-6583263dab60" />
-
-
+<img width="756" alt="Screenshot 2025-03-15 at 9 57 06 AM" src="https://github.com/user-attachments/assets/8a94e8fd-1956-4f4d-a7ff-a7bfec145423" />
