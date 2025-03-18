@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "PC110 Docking Station Board")
+	)
 	(layers
 		(0 "F.Cu" signal "FC")
 		(4 "In1.Cu" power "IP1")
@@ -169,7 +172,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "520d225d-f49b-409e-98cb-03ee304f16b1")
@@ -362,7 +365,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2cc15950-0934-4683-832d-4e4498239935")
@@ -772,7 +775,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "953eaf6b-b0ab-419e-9a8d-8a9dffb64db4")
@@ -966,7 +969,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9342347d-7544-4280-b085-c4872c82f006")
@@ -1160,7 +1163,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7831a1de-e73f-4de3-9bf7-b7dbbf0e27e3")
@@ -1354,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "65c94444-0529-4bf4-b693-a94906b6d887")
@@ -1548,7 +1551,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8b5a969d-f958-49db-9cee-203b0827a4dd")
@@ -1585,7 +1588,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -1778,7 +1781,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.68 1.16)
 			(end 0.73 1.16)
@@ -1984,7 +1987,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9bea04ee-554e-48f1-a48c-b8c1c83d684b")
@@ -2021,7 +2024,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -2177,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "360nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "02dbf531-3ab0-4870-a410-3f23d3240a84")
@@ -2371,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "774f54af-547b-405e-a90d-7eec01fb503a")
@@ -2564,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "acbc0c6a-533f-4337-81c7-5ed91e7c2d14")
@@ -2758,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "c1ac139e-0f2a-481a-abf1-dddefcedd428")
@@ -2951,7 +2954,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c3308734-97f3-432c-85f3-6e3247ea4257")
@@ -3145,7 +3148,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a0583578-2d3e-4a58-bf2c-8c7a5cf172c2")
@@ -3339,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dc9b2a42-7b21-42f3-aab6-1030512c602d")
@@ -3533,7 +3536,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d99533fe-c183-40ad-a695-a9c7481cf5a6")
@@ -3570,7 +3573,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -4307,7 +4310,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "1nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "5ed0b85c-2a58-4c49-b695-dc2c35efb81d")
@@ -4502,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fad18da6-9594-42e6-93c9-1e0ed4bc2532")
@@ -4696,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fafc1fa0-f2db-4691-b1cd-85127db02ec2")
@@ -4889,7 +4892,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "c6583ec2-7bd1-4586-b66e-44a2712ae334")
@@ -5082,7 +5085,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "23277b43-85fa-4a73-965a-f05c03f262f9")
@@ -5119,7 +5122,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -5275,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "35b7b398-fb76-48eb-a5ea-ac23720fda39")
@@ -5469,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "cb15d241-1556-4450-97e1-2c89c50b6a58")
@@ -5662,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "0b159385-249d-4e4a-8816-1b8b5b8ca425")
@@ -5856,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "250nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d03efd23-5490-4b33-87aa-d403902b22e9")
@@ -6050,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0071806e-8e95-4ed8-b6c6-96cda1427b10")
@@ -6087,7 +6090,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -6244,7 +6247,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3e9afcd6-ec7b-416c-9d59-03cf852a4ff0")
@@ -6438,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "360nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "d7eea01b-3266-4b27-94a0-62832c32ed16")
@@ -6631,7 +6634,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "7c7b9d2e-46c8-4822-85f1-aad72332f7d7")
@@ -6824,7 +6827,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-23W"
+		(property "Value" "DNP"
 			(at 0 2.5 90)
 			(layer "F.Fab")
 			(uuid "8a9fc2e2-eaa9-4bdf-a332-344cbbba9c17")
@@ -6861,7 +6864,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.075 -1.61)
 			(end 1.075 -0.7)
@@ -7068,7 +7071,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "40ed7273-47d7-41c3-abf8-f507c036f761")
@@ -7438,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "3c6e77c2-3007-4cfa-8ec9-73975bde1a58")
@@ -7631,7 +7634,7 @@
 				)
 			)
 		)
-		(property "Value" "C_1206_3216Metric"
+		(property "Value" "DNP"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "dc2ca4dd-d4f5-4e96-9e1c-11d423c83b17")
@@ -7668,7 +7671,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -7825,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1b039699-2c62-4abc-ac98-dd7bf3f7f4c4")
@@ -8019,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "45f8798a-284f-42ce-9647-925028b7942a")
@@ -8056,7 +8059,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -8212,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3a5f4067-4353-47c4-bb03-a3b275916054")
@@ -8249,7 +8252,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -8405,7 +8408,7 @@
 				)
 			)
 		)
-		(property "Value" "C_1206_3216Metric"
+		(property "Value" "DNP"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "72801240-0017-42e0-8694-8f5f1f3015ae")
@@ -8442,7 +8445,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -8599,7 +8602,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "360nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "58bd805c-d440-41fe-a0ec-ae50e1ab9b54")
@@ -8792,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "e84ed544-607f-4ec4-8adf-ff53760b1a2f")
@@ -9035,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "47k"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "6ea7aa36-f582-478c-8935-5a4b6efc369e")
@@ -9266,7 +9269,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "2aecef95-ba9c-4862-964e-c9c4faa2e21f")
@@ -9459,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8f776677-790b-4ffd-9bad-954bd82a9caa")
@@ -9652,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "e403144b-00e1-4905-b344-244eb3ec65f0")
@@ -9845,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "2393e9ab-c6af-4f40-8728-41f0c0bc8ac8")
@@ -10038,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "330nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "629c8fa8-8a4a-4b49-b6ae-740d7597ef95")
@@ -10898,7 +10901,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1b0c66b9-880d-4be3-86c4-d5db95664b69")
@@ -11092,7 +11095,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "10nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9b261f20-fbda-46df-822b-5bfe17d4e1ca")
@@ -11287,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "8C"
 			(at -0.05 2.05 0)
 			(layer "F.Fab")
 			(uuid "96c602a1-650e-4974-b4cd-548e01d8de80")
@@ -11530,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d82b189b-889e-4602-b2bd-4759e51a1d23")
@@ -11724,7 +11727,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "c1f6dc63-5dda-4e3c-b514-fbe72c4ae78b")
@@ -11917,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "33"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "e5355922-ec7a-43be-a77a-f48f7ebc3cb0")
@@ -12110,7 +12113,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8440e0ca-1044-4b55-9427-79d756e4818c")
@@ -12303,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d7027b41-2f91-479e-8307-d3e0b3198a1a")
@@ -12340,7 +12343,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -12496,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "97d89e54-29a7-4c42-aba8-09c24c299f20")
@@ -12689,7 +12692,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "134c564d-f4ee-42a9-a05b-0878b016fbdc")
@@ -12882,7 +12885,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "943298d7-9375-4a72-8e2a-a09ee8dcc407")
@@ -13075,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Value" "C_1206_3216Metric"
+		(property "Value" "2.5uF"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "bcfa3259-7201-4bb4-815a-c4cad926bc9f")
@@ -13269,7 +13272,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "4c811376-399b-4dae-83ee-281c7f88d5dc")
@@ -13462,7 +13465,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "dd136c70-fcf9-4dfe-b4f4-f5af73087a9b")
@@ -13655,7 +13658,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "de5d59c0-6221-4380-9fe1-1f14f66f1332")
@@ -17860,7 +17863,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "cc0f9370-3623-49b0-8245-f5f4eeea9855")
@@ -18054,7 +18057,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3617b4d5-66d1-40a0-a75e-710fcbf20188")
@@ -18247,7 +18250,7 @@
 				)
 			)
 		)
-		(property "Value" "D_0805_2012Metric"
+		(property "Value" "5_1"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "848306d0-e2c0-4d3c-b756-e100bc94e8e7")
@@ -18461,7 +18464,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "4d405442-0527-453b-9864-9a52bc68f2b6")
@@ -18654,7 +18657,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ea4b5d08-a662-4d5d-9fc7-4c8dcfe1ab2b")
@@ -18691,7 +18694,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -18847,7 +18850,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8c43bd05-674e-45bd-a466-a91b5781b245")
@@ -19041,7 +19044,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4fc356e9-767f-4340-aff3-7ca6d8acca0e")
@@ -19236,7 +19239,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Littelfuse_395Series"
+		(property "Value" "50v x1G0 JX30"
 			(at 2.35 3.1 0)
 			(layer "F.Fab")
 			(uuid "0a5e1ee3-de49-4a49-943f-9097d2ca09cc")
@@ -19453,7 +19456,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "805e7bcb-93ae-42c0-83c6-2b1a5e84fc95")
@@ -19646,7 +19649,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8dbb73fc-eb16-464e-930a-2248e161baf9")
@@ -19683,7 +19686,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -19840,7 +19843,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dddc675b-c13c-4864-b095-c86b314e6bef")
@@ -20033,7 +20036,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c41f3162-98b6-4c65-a60f-b814ee69d8b8")
@@ -20070,7 +20073,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -20227,7 +20230,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "c7a376b3-9deb-463a-b275-116974d8a854")
@@ -20420,7 +20423,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ff25dcbb-67ab-4daa-b85d-45de227d3c13")
@@ -20613,7 +20616,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "d054d56f-8173-48ea-a442-2ff877d17cef")
@@ -20806,7 +20809,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "8c7337e9-0cae-42af-b195-f088f74a6542")
@@ -20999,7 +21002,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2c94fb24-29b1-419c-95dd-71076c67984c")
@@ -21193,7 +21196,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d295395c-524b-4cca-b375-0220428d0174")
@@ -21386,7 +21389,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "87657d9b-e53a-4c3e-96e2-d0da93808b83")
@@ -21580,7 +21583,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a48d776b-3ecb-464f-aa50-9e898570cadf")
@@ -21617,7 +21620,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -21773,7 +21776,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "da62f26b-2cd0-48d7-a456-7459ba47efc6")
@@ -21966,7 +21969,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "12086c3e-71dc-4497-a7fb-846368d34874")
@@ -22160,7 +22163,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "abe92201-7259-4092-94b1-4ce3b153ebeb")
@@ -22353,7 +22356,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "114012c1-0c55-4fca-9b71-dffc9a494d55")
@@ -22546,7 +22549,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "5d8afac7-9d4d-412b-babf-cc69df6b8a9d")
@@ -22739,7 +22742,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "ebf4d051-f7d5-4e2c-98ac-746d4a0acf3c")
@@ -22982,7 +22985,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "190d962d-e165-460c-be47-788be1817e5b")
@@ -23236,7 +23239,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e46d3ffc-d63f-4272-9876-8f19aaf24ba4")
@@ -23273,7 +23276,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -23429,7 +23432,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "1nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9ff7f55a-93ab-475e-b878-7f870f903f0b")
@@ -23623,7 +23626,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a9ee36f7-2b9e-44e5-ab84-5e3829c146e6")
@@ -23660,7 +23663,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -23816,7 +23819,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "33"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "99eee55f-0e4a-439d-9a00-803e44ae5dc7")
@@ -24009,7 +24012,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d374e868-d269-47c6-83e2-d6fa88340fac")
@@ -24202,7 +24205,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "d7c9dade-b868-490a-9f26-e7813ad46b32")
@@ -24445,7 +24448,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "360nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "202b1609-bfe7-441e-a03c-65655fb8e5f7")
@@ -24638,7 +24641,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0a739267-6176-4c40-99b1-63d328e47321")
@@ -24831,7 +24834,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a99f8bbe-184d-4bb3-8b9f-a78b356247f0")
@@ -25024,7 +25027,7 @@
 				)
 			)
 		)
-		(property "Value" "SSOP-28_5.3x10.2mm_P0.65mm"
+		(property "Value" "DS14C535MSA"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(uuid "6c70603e-1f39-412c-a630-9190221867bc")
@@ -25435,7 +25438,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "497485ca-be7e-4239-91e9-48da76042363")
@@ -25628,7 +25631,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fba0ab36-2ea2-4ea9-a9f4-286213926ea7")
@@ -26214,7 +26217,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "c382ee03-7842-403d-b76c-4a121f46936d")
@@ -26407,7 +26410,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "DNP"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "f224fd4a-0f6e-424a-9149-7c553d58d18f")
@@ -26444,7 +26447,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0.4 -1.72)
 			(end -0.4 -1.72)
@@ -26634,7 +26637,7 @@
 				)
 			)
 		)
-		(property "Value" "TO-252-2"
+		(property "Value" "3P4J"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "5389fbdc-ede1-4bd1-86f6-517ba44b3c32")
@@ -26998,7 +27001,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "47k"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "c62925c4-425b-4529-8d70-4c7e5fa1d1fd")
@@ -27229,7 +27232,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a047cd9b-4472-4a83-acee-42a2a8c28f9e")
@@ -27422,7 +27425,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4d098ed0-6dba-4e2a-a885-0e8cdff6223b")
@@ -27616,7 +27619,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b469e472-d8ce-4db5-8433-6ec98a8551d7")
@@ -27810,7 +27813,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "250nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8a0f8afb-acc3-431a-86ac-47de0df8715a")
@@ -28004,7 +28007,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-23W"
+		(property "Value" "DNP"
 			(at 0 2.5 90)
 			(layer "F.Fab")
 			(uuid "9a7e7c0c-1397-449f-847a-7f9e39d51c37")
@@ -28041,7 +28044,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.075 -1.61)
 			(end 1.075 -0.7)
@@ -28248,7 +28251,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "DNP"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "99d5c229-473e-46a0-a909-fe5252c543f5")
@@ -28285,7 +28288,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -28441,7 +28444,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b928e92b-4b6f-4c38-921e-29ade322cead")
@@ -28635,7 +28638,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "33"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "44b320b6-6dfd-4a32-8ff1-79be5ffc5e40")
@@ -28828,7 +28831,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1d7e544c-8823-44f8-b4ee-970d4f557d67")
@@ -29021,7 +29024,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "35c38cdc-1b98-432f-ad12-7fe3145148ad")
@@ -29214,7 +29217,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "DNP"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "4dd9c510-9d52-4da1-bfda-851274408517")
@@ -29251,7 +29254,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -29407,7 +29410,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "330nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "de163417-97d8-4257-ac51-a0d05ff95e2a")
@@ -29602,7 +29605,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "1b19e812-eaac-458f-83a8-d2f750d520d5")
@@ -29795,7 +29798,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ef359ff5-472f-420b-92b7-532f52d12503")
@@ -29989,7 +29992,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "cb734fe8-67ea-40c5-9a53-39700fd94dd8")
@@ -30183,7 +30186,7 @@
 				)
 			)
 		)
-		(property "Value" "D_0805_2012Metric"
+		(property "Value" "18-"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "16366717-ed82-41f3-83f9-6ba2a3ada516")
@@ -30397,7 +30400,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "7b5c49d0-7892-4f57-9c52-589b706ae9ad")
@@ -30590,7 +30593,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "47k"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "c1ca8101-a48f-480a-89d4-04b418d98dce")
@@ -30817,7 +30820,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "5b2ee17b-5b14-406a-8661-59d8f2dfa92a")
@@ -31010,7 +31013,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "845c5514-eea7-41f1-9b51-3cbdb5bce4dc")
@@ -31203,7 +31206,7 @@
 				)
 			)
 		)
-		(property "Value" "D_2010_5025Metric"
+		(property "Value" "s.3 5J"
 			(at 0 2.28 0)
 			(layer "F.Fab")
 			(uuid "78bc7ef7-07f6-47e7-bd5d-88debb880a4e")
@@ -31418,7 +31421,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "0"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "2ca2443a-2954-4bd5-a1d5-4d81560773c6")
@@ -31612,7 +31615,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "20df7316-a4dd-47d3-b913-81434395b918")
@@ -31807,7 +31810,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "61518625-abf3-4b5d-ae0a-86a7fc55270e")
@@ -32000,7 +32003,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2f7641ed-ac54-481b-b8d3-e0cce93e3cec")
@@ -32194,7 +32197,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "ab8c29c4-8a3f-43f8-aefc-5c5968f93c14")
@@ -32437,7 +32440,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0a321658-60d0-4891-955a-8599f849a6c6")
@@ -32474,7 +32477,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -32631,7 +32634,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "78045f34-a608-4183-ad28-967588ef71b4")
@@ -32825,7 +32828,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "69095389-af3b-4b27-8c17-a3e63c9e478b")
@@ -33019,7 +33022,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7198ce95-8d55-40f4-a62c-9444881bf596")
@@ -33213,7 +33216,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c1f69253-21fe-41b2-9c2e-f2388676284a")
@@ -33407,7 +33410,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "29a6c522-caab-4619-bd3c-9a9090d8edcd")
@@ -33600,7 +33603,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e0bd8fe7-ad91-4e8d-89b8-c677f5bd8568")
@@ -33794,7 +33797,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "1c8cc9d1-e9d8-4941-b0ee-f3e717d08d21")
@@ -33987,7 +33990,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "71614bb6-7858-4e4c-b985-1ae03ea166f5")
@@ -34180,7 +34183,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c31bda72-a95d-42ec-a47a-2b5da9f64b1c")
@@ -34217,7 +34220,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -34374,7 +34377,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d0b86809-b33a-4d2b-a0e7-095f92ed1111")
@@ -34568,7 +34571,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ec245e0d-b4cc-4863-9f2a-78f5f5577216")
@@ -34762,7 +34765,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "3d8245ad-4074-475a-a867-ba5f51203447")
@@ -34955,7 +34958,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "200pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "1c918cc3-1f3e-4d4e-bff4-cd0a774740af")
@@ -35149,7 +35152,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-23-5"
+		(property "Value" "DNP"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "03a13e31-ce3b-469b-9e26-7fb9b2ceb782")
@@ -35184,7 +35187,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0 -1.56)
 			(end 0.8 -1.56)
@@ -35404,7 +35407,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0d066fab-5c10-4166-9f92-d48b369062c9")
@@ -35597,7 +35600,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "470k"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "34ea12a9-33a3-4d51-9305-cbbb442c6d5c")
@@ -35828,7 +35831,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cfef8d98-2f97-4f2d-9848-4ce98dd43431")
@@ -35865,7 +35868,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -36021,7 +36024,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "23cc5ce1-c2c2-4147-a9a3-4114aace3b3c")
@@ -36215,7 +36218,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a9b668ec-97fe-4566-8cca-1939dc05ecbf")
@@ -36408,7 +36411,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "19e86c71-df11-4a7c-b5ae-2fd28df7b1fd")
@@ -36602,7 +36605,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4985027e-c52e-49e3-9050-d158c566baf3")
@@ -36795,7 +36798,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8192dd9f-beed-4c9e-b122-1d923e5e4581")
@@ -36832,7 +36835,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -36988,7 +36991,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d54fd5c9-d9c3-49f4-a4b6-91d7406b2986")
@@ -37182,7 +37185,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "24036384-a2cd-49d5-96ad-69943f5dc9aa")
@@ -37375,7 +37378,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0fb086bf-a47b-45c9-bc9a-7084c6181858")
@@ -37569,7 +37572,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "92640ca5-4e7d-4d3f-9147-2ab6f0b26fdf")
@@ -37606,7 +37609,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -37762,7 +37765,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "e2255b93-1872-4cab-9b91-6786d171c15f")
@@ -37955,7 +37958,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "a25145bd-8f75-44e4-b1df-0994afb30938")
@@ -38148,7 +38151,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "abfa0865-a6fe-47ba-a1dd-9d9377bcdb99")
@@ -38342,7 +38345,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "61e010cc-3c8f-44c4-9943-34294588f959")
@@ -38536,7 +38539,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "732d3b90-048f-4e97-b1f9-aa4b5404c41c")
@@ -38778,7 +38781,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "8c22448e-fa93-4a63-b8de-48c56f1a6247")
@@ -39021,7 +39024,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5582d8aa-4639-4362-b949-5b9415e25b94")
@@ -39215,7 +39218,7 @@
 				)
 			)
 		)
-		(property "Value" "D_2010_5025Metric"
+		(property "Value" "s.3 5J"
 			(at 0 2.28 0)
 			(layer "F.Fab")
 			(uuid "6c57d112-a9b4-4d2b-b858-ec8a96fd1548")
@@ -39430,7 +39433,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a8cc3d68-9c27-410d-b23d-79f34f353829")
@@ -39625,7 +39628,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "150nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "07d6d051-5a1c-4c88-aba0-ca8cb18a2740")
@@ -39819,7 +39822,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "21663b35-9c42-40c3-9f14-7ef68cfdeefd")
@@ -40012,7 +40015,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0805_2012Metric"
+		(property "Value" "200pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "d3700b79-d13d-4236-af9d-355ae8d9de01")
@@ -40267,7 +40270,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b1069935-21d8-47a0-a58a-ed76ccc64c59")
@@ -40991,7 +40994,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "DNP"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "e24e6d6a-cef8-4e0c-b24d-d1f6b739eae5")
@@ -41028,7 +41031,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0.4 -1.72)
 			(end -0.4 -1.72)
@@ -41218,7 +41221,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "d3d34775-ec6d-4ba2-b0ef-90e55be8872d")
@@ -41411,7 +41414,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "4c7c1755-819c-4a8e-86cb-5e6e70b1dcd1")
@@ -41604,7 +41607,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6e24d4e4-a97a-42f1-9eb5-0cd8b61c314f")
@@ -41798,7 +41801,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8d2eb213-68f8-4e5a-8fc1-54df8a552e0b")
@@ -41992,7 +41995,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6991a9b3-7d92-4d4e-9a12-094f44537b7d")
@@ -42185,7 +42188,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ce8e8d07-75c4-42ed-8f6d-0e49a5c35d31")
@@ -42222,7 +42225,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -42379,7 +42382,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "82pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "12e3ab30-f385-4303-9540-f429418ef275")
@@ -42573,7 +42576,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "3bcf3028-24c4-424e-9ce2-0e4dd856271c")
@@ -42766,7 +42769,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "6955a804-9e6b-41f3-8cbc-d024ab814345")
@@ -42960,7 +42963,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "36905b49-d752-407e-a664-eda4e09012a4")
@@ -43153,7 +43156,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "b9b9da8e-1537-4bfa-a20d-c532555e14c2")
@@ -43347,7 +43350,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "36fa07d7-c756-4acc-ad0d-071be49e3771")
@@ -43540,7 +43543,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "bfb95351-60d7-4092-9bdb-13e037874ca5")
@@ -43733,7 +43736,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f8d12197-7c05-497d-805d-eb4af96871c8")
@@ -43770,7 +43773,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -43926,7 +43929,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "e7c9f4ed-e7fd-4c71-8889-970fab503115")
@@ -44119,7 +44122,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "51809a64-d90f-4c9f-acd4-924642699ccb")
@@ -44312,7 +44315,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "f024b19e-e386-42f7-8fae-41e9c0eb5866")
@@ -44505,7 +44508,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "48993301-c075-4233-91d8-92ab0b232e40")
@@ -44542,7 +44545,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -44698,7 +44701,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "6deae547-7951-47cb-ab2c-381c01ae01df")
@@ -44891,7 +44894,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ab31cb69-e1f1-4798-b29d-96271fd867ad")
@@ -45084,7 +45087,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "eb22fe31-50b6-40bd-81ba-814fbf4040c2")
@@ -45278,7 +45281,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "d732f792-3d70-4264-8706-6f1506c08b3a")
@@ -45472,7 +45475,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "33"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d1a7368b-2d70-4607-b679-97f93c05d7f9")
@@ -45665,7 +45668,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "16036952-0616-4d23-bd0b-cacc4a7ed7ec")
@@ -45858,7 +45861,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "43cea8d2-0a4e-4ac8-b8c5-9c6e462925c1")
@@ -46051,7 +46054,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "26309884-32c9-412e-81d1-de7285752429")
@@ -46245,7 +46248,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a1457371-14a4-4ca0-9089-eecec62fb0fc")
@@ -46438,7 +46441,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "aa53a424-6055-4c9a-b5c1-87b3a71f8299")
@@ -46632,7 +46635,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "44c89fac-785f-49ef-8ef4-8ee63ac7b529")
@@ -46825,7 +46828,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "250nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1493c992-1faf-42ea-9855-afcc7d66c5d4")
@@ -47019,7 +47022,7 @@
 				)
 			)
 		)
-		(property "Value" "SSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Value" "74VHCT244"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "45609970-9cfa-4a6a-8926-91e6f80250a3")
@@ -47382,7 +47385,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4911e458-6232-4f4a-ba4c-8daa755386fb")
@@ -47576,7 +47579,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d513df2a-afe2-4fdc-abdc-61d3d1a00cf9")
@@ -47613,7 +47616,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -47769,7 +47772,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "bf8cc2b2-6177-4e1b-acc6-621d41b67f0f")
@@ -47962,7 +47965,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "16f3526d-28ab-40ad-aae3-4a28029dacfc")
@@ -48155,7 +48158,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "0656fdd4-88a6-4aa8-9e5f-5e8f1a5da0ee")
@@ -48348,7 +48351,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "300e0101-93fb-478e-b522-f50682b0a7ca")
@@ -48541,7 +48544,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f0dd2fbe-91f9-48d3-adf9-587476034503")
@@ -48735,7 +48738,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "06c8c828-f598-4cf3-b787-98190dff45c4")
@@ -48928,7 +48931,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "10"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "24e1b313-0dee-4afd-99fc-c8796acb2ccf")
@@ -49121,7 +49124,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "43af8205-7763-4357-931d-aedb464b89dd")
@@ -49314,7 +49317,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "eb6526ca-0909-4e3b-af3d-f9170387696b")
@@ -49508,7 +49511,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "32cc0125-5b94-45c4-a451-5f3cd333b8c1")
@@ -49877,7 +49880,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0dbe24fb-6ac0-439d-a59f-a6ec97c7d1a8")
@@ -49914,7 +49917,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -50070,7 +50073,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "65114f71-f215-49c5-919c-e485904323be")
@@ -50369,7 +50372,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "287fe955-c1c3-4ca8-8717-0bfcec699b48")
@@ -50562,7 +50565,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "13f4c178-a354-4e4d-97f7-2e17703d668f")
@@ -50755,7 +50758,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "567c52fc-9a2b-4fd3-aec8-ec15c11209ee")
@@ -50949,7 +50952,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "729f1ada-c141-4ac7-bc57-149f63bf0baf")
@@ -51142,7 +51145,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ac960ad5-0b7b-4a55-bfbe-7ef2a6a75830")
@@ -51179,7 +51182,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -51336,7 +51339,7 @@
 				)
 			)
 		)
-		(property "Value" "SSOP-28_5.3x10.2mm_P0.65mm"
+		(property "Value" "DNP (LT1237CS)"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(uuid "5040258a-92ed-4e6a-80a3-3588cc62837e")
@@ -51373,7 +51376,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.875 -5.325)
 			(end -2.875 -4.75)
@@ -51745,7 +51748,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "e30dfe88-1087-4e3e-83f5-03c7251d6959")
@@ -51938,7 +51941,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "470k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8145a9db-c0d7-4cfe-a0ff-10d743b923b5")
@@ -52132,7 +52135,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Array_Concave_4x0603"
+		(property "Value" "470k"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "0c604b38-224b-4bd3-b491-a9f8903e1403")
@@ -52363,7 +52366,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "a24a4e82-898d-49b7-8e31-ddae4d9e3239")
@@ -52605,7 +52608,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a5d2a7be-e4ef-4582-905c-14c66e21cc22")
@@ -52799,7 +52802,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "DNP"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "03040adf-5f5f-4319-b984-49d6a9768519")
@@ -52836,7 +52839,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -52992,7 +52995,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d66b3b31-6ec5-4fb6-9fc7-6f9bbc552b11")
@@ -53186,7 +53189,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0ee60309-ac25-4ce8-9033-7f1796a7d61b")
@@ -53379,7 +53382,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "0"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d6d9ac07-fc54-4179-a53e-6f0763a5c9e9")
@@ -53572,7 +53575,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "26e23305-53eb-43e7-94ff-71edd3cd96a7")
@@ -53960,7 +53963,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_1608Metric"
+		(property "Value" "470k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "dba40780-45b1-4a8c-a35d-f5b56e07768c")
@@ -54154,7 +54157,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "680nH"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "89fa9bd6-97ce-4ebf-b534-a0b16c5d81fd")
@@ -54347,7 +54350,7 @@
 				)
 			)
 		)
-		(property "Value" "SOT-323_SC-70"
+		(property "Value" "1W"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
 			(uuid "9f586f72-ab3a-4105-979c-138651c2a1a7")
@@ -54590,7 +54593,7 @@
 				)
 			)
 		)
-		(property "Value" "L_0805_2012Metric"
+		(property "Value" "300nH"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "dea254a8-e06b-4444-bfd6-4e483f4c44c4")
@@ -54783,7 +54786,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "280nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "97c65dc5-3f8f-4a1f-a9eb-11f9a647a56f")
@@ -54977,7 +54980,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "200pF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6d2c4d76-6d43-4d1f-bcd7-c1f6782ba79d")
@@ -55171,7 +55174,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603_1608Metric"
+		(property "Value" "10nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cb536118-5e43-4aa3-b263-c12c540a9ee4")
@@ -55366,7 +55369,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0805_2012Metric"
+		(property "Value" "1k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "86314113-4a24-4cf7-9d5a-bad67cd48ff2")
@@ -57848,6 +57851,14 @@
 		(uuid "02ee2342-6808-42ad-a969-98af94b2027a")
 	)
 	(segment
+		(start 108.88 71.11)
+		(end 104.84 71.11)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "03361f39-a3a0-410c-a4ce-b6759eaab65c")
+	)
+	(segment
 		(start 93.63 114.34)
 		(end 93.63 113.94)
 		(width 0.2)
@@ -57886,6 +57897,22 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "03cb3b4c-4326-4a8f-a603-6a5dd79502e4")
+	)
+	(segment
+		(start 114.3825 101.45)
+		(end 114.3825 101.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "03e1eb60-d17a-4093-a770-ece54d346d63")
+	)
+	(segment
+		(start 113.69 79.34)
+		(end 109.8 75.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "03f74aa3-2004-4391-b82e-ba0b8bb1e5c4")
 	)
 	(segment
 		(start 162.62 101.84)
@@ -58078,14 +58105,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "06504410-7db2-4eff-9ea7-41658d506e06")
-	)
-	(segment
-		(start 106.155 73.63)
-		(end 105.465 72.94)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "065afe73-34ac-4372-a987-8b9886e19229")
 	)
 	(segment
 		(start 92.8625 120.4875)
@@ -58304,14 +58323,6 @@
 		(uuid "09d4faac-0250-4338-9215-4fe50bc96bd0")
 	)
 	(segment
-		(start 114.3825 101.0375)
-		(end 115.07 100.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "09d9df20-7cff-42a1-9a3d-3b1ca81fecd5")
-	)
-	(segment
 		(start 187.15 91.72)
 		(end 188.24 91.72)
 		(width 0.2)
@@ -58374,14 +58385,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "0ab2ed13-7773-41d3-8a34-59e57cbb33e7")
-	)
-	(segment
-		(start 106.94 73.63)
-		(end 106.155 73.63)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "0adca780-301e-43a6-9b2c-7cc73da53277")
 	)
 	(segment
 		(start 133.94 94.3)
@@ -58464,6 +58467,14 @@
 		(uuid "0e9730f5-ff07-4226-9fdc-fc1cf69d98f8")
 	)
 	(segment
+		(start 116.01 88.1475)
+		(end 115.97 88.1875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "0e9d5aaa-bdd4-4304-ba7b-33e8d2884f81")
+	)
+	(segment
 		(start 131.0275 86.4725)
 		(end 131.34 86.4725)
 		(width 0.2)
@@ -58542,6 +58553,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "0fe84f88-3e12-4036-9fd5-1c2e3ba130e3")
+	)
+	(segment
+		(start 115.07 100.35)
+		(end 117 100.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "105b9aff-16d1-4caa-ad7b-3dcf31b35515")
 	)
 	(segment
 		(start 203.7625 79.4075)
@@ -58936,14 +58955,6 @@
 		(uuid "153d8ca0-299e-402d-ae93-c49289750344")
 	)
 	(segment
-		(start 117.36 101.14)
-		(end 117.67 101.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "15545cf9-df63-44d4-b3e3-2ded742f9fb7")
-	)
-	(segment
 		(start 187.27 112.15)
 		(end 201.42 112.15)
 		(width 0.2)
@@ -58968,20 +58979,20 @@
 		(uuid "1621a04a-fcab-424a-8427-f336cb593826")
 	)
 	(segment
-		(start 113.69 79.93)
-		(end 107.87 74.11)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "167ee62a-b021-4c55-8c0c-7a934cc710a7")
-	)
-	(segment
 		(start 187.78 101.89)
 		(end 187.99 102.1)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 0)
 		(uuid "16ae1808-dfb6-4798-b345-ab32579d6d9a")
+	)
+	(segment
+		(start 117.67 101.02)
+		(end 117.67 101.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "16dd4026-8da5-468d-8ee2-8e7a0971382d")
 	)
 	(segment
 		(start 179.07 112.39)
@@ -59046,6 +59057,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "1855fa5f-efd3-4035-a47c-7bf3658e413c")
+	)
+	(segment
+		(start 109.8 72.96)
+		(end 108.5 71.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "18d93c9e-1369-49d5-970d-3ca6731bf95b")
 	)
 	(segment
 		(start 167.825 92.935)
@@ -59416,6 +59435,14 @@
 		(uuid "1ef1b0c3-e8d6-4bb9-a06a-f630343d05f9")
 	)
 	(segment
+		(start 106.745 71.66)
+		(end 105.465 72.94)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "1f363bc9-41b3-4f28-96f6-36a3520b2c99")
+	)
+	(segment
 		(start 149.58 97.935)
 		(end 150.835 97.935)
 		(width 0.2)
@@ -59558,6 +59585,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "2156089a-bd6b-4b9d-a9ab-a59482d19d51")
+	)
+	(segment
+		(start 113.69 79.93)
+		(end 113.69 79.34)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "215e4db1-30c8-4f21-a132-48a0ccfb35fa")
 	)
 	(segment
 		(start 182.6425 86.5125)
@@ -59886,6 +59921,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "25ed9c25-f8f7-4dcc-b0cf-a14c7829b9db")
+	)
+	(segment
+		(start 110.5 72.73)
+		(end 108.88 71.11)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "25f86131-1f36-450c-8c68-e1889612e9e0")
 	)
 	(segment
 		(start 82.285 121.645)
@@ -62400,6 +62443,14 @@
 		(uuid "530bc9a0-3892-4224-b5db-07b5e77e1dbf")
 	)
 	(segment
+		(start 114.3825 101.0375)
+		(end 115.07 100.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "53127b34-e8b2-466f-a417-3429cffc487d")
+	)
+	(segment
 		(start 190.35 92.51)
 		(end 190.47 92.51)
 		(width 0.2)
@@ -62784,6 +62835,22 @@
 		(uuid "58b0d643-8c92-4ab2-8e79-78b9174b6997")
 	)
 	(segment
+		(start 116.01 86.0925)
+		(end 116.01 88.1475)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "58da4b21-34ae-4148-9986-141e5aeab10a")
+	)
+	(segment
+		(start 108.5 71.66)
+		(end 106.745 71.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "58ea86ae-c615-407c-a240-d881bf2043fc")
+	)
+	(segment
 		(start 155.385 93.385)
 		(end 156.78 93.385)
 		(width 0.2)
@@ -62814,6 +62881,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "59b020ec-77ca-48f4-a10b-f2eea1caf81c")
+	)
+	(segment
+		(start 110.5 75.05)
+		(end 110.5 72.73)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "5a354490-20b3-4201-be7e-6fb0af523079")
 	)
 	(segment
 		(start 143.55 89.9)
@@ -63398,6 +63473,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "6527e5a6-2e12-4847-9245-4436dcf61fd5")
+	)
+	(segment
+		(start 117 100.35)
+		(end 117.67 101.02)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "658c434c-7ed0-45ef-bd9d-ba8aa919081d")
 	)
 	(segment
 		(start 205.09 85.26)
@@ -63992,6 +64075,14 @@
 		(uuid "70d9d117-4372-49a9-94f9-c1af38d24b01")
 	)
 	(segment
+		(start 104.84 71.11)
+		(end 103.175 72.775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "70dd7d15-536c-4c2e-98e1-0a6dec7bc06b")
+	)
+	(segment
 		(start 211.035 92.03)
 		(end 211.035 92.005)
 		(width 0.2)
@@ -64520,14 +64611,6 @@
 		(uuid "7b82b479-e36e-4324-8eee-8fcc3d68c19e")
 	)
 	(segment
-		(start 115.07 100.35)
-		(end 116.88 100.35)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "7bae037f-5b2c-41e1-8878-6719cebb5148")
-	)
-	(segment
 		(start 187.99 102.1)
 		(end 188.97 103.08)
 		(width 0.2)
@@ -64718,14 +64801,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "7fc4bd31-3d5a-4090-9ffa-7a06bf09fe25")
-	)
-	(segment
-		(start 110.5 75.05)
-		(end 110.5 73.83)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "7ff11ee5-ff52-4812-8c1d-73169c864de0")
 	)
 	(segment
 		(start 180.25 84.29)
@@ -64976,14 +65051,6 @@
 		(uuid "846b93f3-9c62-4e84-a30a-5fb2dc1beef4")
 	)
 	(segment
-		(start 115.36 79.91)
-		(end 110.5 75.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "84998416-bc77-4107-a3d1-dfacd2a7c286")
-	)
-	(segment
 		(start 206.85 91.09)
 		(end 206.89 91.05)
 		(width 0.2)
@@ -65110,6 +65177,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "866062e1-d6bc-476e-b7a2-0d869e855e87")
+	)
+	(segment
+		(start 103.175 72.775)
+		(end 103.175 72.94)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "8673c78c-c674-4d1c-9bcd-78eec553fdc6")
 	)
 	(segment
 		(start 157.905 98.585)
@@ -66536,14 +66611,6 @@
 		(uuid "9de5923c-ea0d-4be1-a512-98428afadb20")
 	)
 	(segment
-		(start 114.3825 101.45)
-		(end 114.3825 101.0375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "9e23ea24-a3cc-4738-9629-ecb8e325e214")
-	)
-	(segment
 		(start 158.74 100.28)
 		(end 158.35 99.89)
 		(width 0.2)
@@ -66944,6 +67011,14 @@
 		(uuid "a75f378c-74d5-4c52-a7dc-ff6d28160056")
 	)
 	(segment
+		(start 114.02 86.0725)
+		(end 114.02 87.8075)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "a7c56411-86c6-4bbc-814f-d8cc209eda70")
+	)
+	(segment
 		(start 198.41 76.83)
 		(end 199.46 75.78)
 		(width 0.2)
@@ -67270,14 +67345,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "ad600963-4e89-47d0-97a4-1543b5d41de3")
-	)
-	(segment
-		(start 107.42 74.11)
-		(end 106.94 73.63)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "ad69ad34-dd01-4055-a534-fb0fda30de35")
 	)
 	(segment
 		(start 138.5 92.63)
@@ -68256,14 +68323,6 @@
 		(uuid "bd0d885c-6772-4bd4-9137-07733bff1d6d")
 	)
 	(segment
-		(start 117.36 100.83)
-		(end 117.36 101.14)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "bd8f5920-270a-4cdd-b5b7-2e1e1f533e33")
-	)
-	(segment
 		(start 187.37 102)
 		(end 188.77 103.4)
 		(width 0.2)
@@ -68566,6 +68625,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "c2001ee4-b418-4415-91c8-09f74ba91bb6")
+	)
+	(segment
+		(start 109.8 75.45)
+		(end 109.8 72.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "c2017bbb-1b69-4174-9d68-b63247aba1da")
 	)
 	(segment
 		(start 141.28 103.55)
@@ -69080,6 +69147,14 @@
 		(uuid "cb541b61-d70b-4fd7-961d-151d49956b5d")
 	)
 	(segment
+		(start 114.02 87.8075)
+		(end 113.67 88.1575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "cb62006c-aa28-4f00-8fbd-4bd62e56d5c3")
+	)
+	(segment
 		(start 177.825 91.77)
 		(end 177.825 91.775)
 		(width 0.2)
@@ -69342,14 +69417,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "d0d39b36-029c-451d-adb3-26a5755388fc")
-	)
-	(segment
-		(start 110.5 73.83)
-		(end 108.3 71.63)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "d0e48e39-4d13-403d-8318-6fcef871ab90")
 	)
 	(segment
 		(start 147.26 84.21)
@@ -69680,14 +69747,6 @@
 		(uuid "d772805d-b52c-40ff-ad5a-dd568eeccdcd")
 	)
 	(segment
-		(start 107.87 74.11)
-		(end 107.42 74.11)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "d7828492-8df5-4e48-b182-bbe53f63ebed")
-	)
-	(segment
 		(start 160.845 96.42)
 		(end 160.845 96.435)
 		(width 0.2)
@@ -69830,14 +69889,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "da86749f-b531-487a-856e-62f2b6f461c2")
-	)
-	(segment
-		(start 116.88 100.35)
-		(end 117.36 100.83)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "daa3983e-becc-4422-85f9-fbfa0564e374")
 	)
 	(segment
 		(start 189.57 99.74)
@@ -70200,14 +70251,6 @@
 		(uuid "e018b986-9a4b-45a9-9bd5-20bcb673d39f")
 	)
 	(segment
-		(start 108.3 71.63)
-		(end 104.32 71.63)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "e01b4ac1-4259-4e87-9dbc-4292a426772c")
-	)
-	(segment
 		(start 164.48 93.33)
 		(end 164.48 94.05)
 		(width 0.2)
@@ -70366,6 +70409,14 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "e2636bbd-6169-4f53-98c1-1393fa613b0d")
+	)
+	(segment
+		(start 115.36 79.91)
+		(end 110.5 75.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "e2810947-4519-4f79-b783-d206f7b754db")
 	)
 	(segment
 		(start 208.555 78.955)
@@ -70598,14 +70649,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "e77eb80f-426e-4e06-8375-72b7d9e6d3ca")
-	)
-	(segment
-		(start 104.32 71.63)
-		(end 103.175 72.775)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "e7890b8d-53b7-4fd2-9692-3759ec8acdf5")
 	)
 	(segment
 		(start 159.88 108.7)
@@ -71838,14 +71881,6 @@
 		(layer "F.Cu")
 		(net 0)
 		(uuid "ffab257e-181c-4d65-a4d5-fb71d4685e10")
-	)
-	(segment
-		(start 103.175 72.775)
-		(end 103.175 72.94)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 0)
-		(uuid "ffc23503-dee7-4948-bdd2-8aaaa2fa33ab")
 	)
 	(via
 		(at 144.86 108.71)
@@ -78677,6 +78712,14 @@
 		(uuid "09dbbe63-df96-4ea1-8cc6-01a61bceee7b")
 	)
 	(segment
+		(start 114.92 89.07)
+		(end 117.65 89.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "0af4a3c1-e90b-4173-ab07-43dab16cbda7")
+	)
+	(segment
 		(start 104.18 101.83)
 		(end 104.21 101.86)
 		(width 0.2)
@@ -78957,6 +79000,14 @@
 		(uuid "28e05846-6f72-4d6a-9f17-c70fccd547ed")
 	)
 	(segment
+		(start 110.9075 104.0875)
+		(end 110.9075 103.62)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "2aa3f799-d188-4049-9169-1d34f92bdbef")
+	)
+	(segment
 		(start 88.725 114.39)
 		(end 89.35 114.39)
 		(width 0.2)
@@ -79165,6 +79216,14 @@
 		(uuid "4077078f-225d-46df-9a23-9247e9475780")
 	)
 	(segment
+		(start 117.85 88.87)
+		(end 117.85 88.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "409113c6-d997-4b29-ba23-5a44ad086457")
+	)
+	(segment
 		(start 142.73 82.3)
 		(end 142.82 82.39)
 		(width 0.2)
@@ -79245,6 +79304,14 @@
 		(uuid "4bc3aabc-64d9-44ae-8ba5-4fb668bab14a")
 	)
 	(segment
+		(start 113.76 105.28)
+		(end 112.966 104.486)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4bd347a5-dfd2-4559-a722-8ae2935aaebc")
+	)
+	(segment
 		(start 113.69 81.83)
 		(end 113.69 82.55)
 		(width 0.2)
@@ -79307,6 +79374,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "5530967b-8321-43c5-8870-7853657850cb")
+	)
+	(segment
+		(start 113.76 105.285)
+		(end 113.76 105.28)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "55a5eabc-1799-4aa5-aa1c-8511ec11b9db")
 	)
 	(segment
 		(start 210.25 81.895)
@@ -79453,14 +79528,6 @@
 		(uuid "61b5aac0-42e8-4a90-8804-b5b7a44e1546")
 	)
 	(segment
-		(start 114.81 88.96)
-		(end 111.24 88.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "61c51f86-fde5-45b8-bf43-5af9b8bdccba")
-	)
-	(segment
 		(start 187.03 81.505)
 		(end 187.03 80.61)
 		(width 0.2)
@@ -79549,14 +79616,6 @@
 		(uuid "6d7335d9-47a9-4f43-ad9f-2773425eb6ee")
 	)
 	(segment
-		(start 113.76 105.285)
-		(end 113.76 104.56)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "6ea51ef7-ddb4-481d-981f-7ca1641590c0")
-	)
-	(segment
 		(start 210.215 112.485)
 		(end 209.86 112.84)
 		(width 0.2)
@@ -79621,6 +79680,14 @@
 		(uuid "76db2b51-b718-4121-9598-ffd26ca05ae8")
 	)
 	(segment
+		(start 114.81 88.96)
+		(end 114.92 89.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "76ebadb8-70b2-45fe-aaf9-27c14b8c7733")
+	)
+	(segment
 		(start 190.93 80.17)
 		(end 190.86 80.1)
 		(width 0.2)
@@ -79651,14 +79718,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "793df091-0661-4c39-bd55-1a8f2916b52f")
-	)
-	(segment
-		(start 117.85 88.87)
-		(end 117.85 88.15)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "7ba18eba-9b5b-4ccd-923f-c4e3e725eeda")
 	)
 	(segment
 		(start 183.14 81.565)
@@ -79781,6 +79840,14 @@
 		(uuid "86814c00-a60e-45be-b984-5e5e90577416")
 	)
 	(segment
+		(start 114.81 88.96)
+		(end 114.68 89.09)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "868dd4f1-2ab4-412b-a1f3-30bbcfce9d23")
+	)
+	(segment
 		(start 108.32 82.29)
 		(end 105.9 82.29)
 		(width 0.2)
@@ -79891,6 +79958,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "90aae467-989f-448d-b308-9b3a2884939d")
+	)
+	(segment
+		(start 111.306 104.486)
+		(end 110.9075 104.0875)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "90b64210-73cb-4057-9a01-96f7bf951709")
 	)
 	(segment
 		(start 209.455 93.77)
@@ -80053,28 +80128,12 @@
 		(uuid "a07ed5ee-a4f4-4a3b-8cbf-ac70d26bdd94")
 	)
 	(segment
-		(start 113.76 104.56)
-		(end 113.686 104.486)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a21b1008-ba4b-4c35-baec-b84504f3a1c4")
-	)
-	(segment
 		(start 138.43 124.35)
 		(end 138.43 122.71)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "a224c2f8-fe29-4b97-8063-2951d42fcfc9")
-	)
-	(segment
-		(start 114.81 88.96)
-		(end 117.76 88.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a365641e-b3bc-437b-b190-4359a086138b")
 	)
 	(segment
 		(start 119.5 88.12)
@@ -80101,36 +80160,12 @@
 		(uuid "a61d1fb9-1851-40d5-a07f-6756823e15a4")
 	)
 	(segment
-		(start 111.306 104.486)
-		(end 110.9075 104.0875)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a66f263b-40b2-45d0-aee5-9d237ffdc1cc")
-	)
-	(segment
-		(start 110.9075 104.0875)
-		(end 110.9075 103.62)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a7daa508-10da-423a-8625-3b727e7498e9")
-	)
-	(segment
 		(start 171.76 82.74)
 		(end 171.74 82.76)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "a84b0258-0a73-4c3f-a6d6-ddf7c7a6ef1b")
-	)
-	(segment
-		(start 113.686 104.486)
-		(end 111.306 104.486)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "a8955e3e-6c0a-4a05-813e-506d4c790ef7")
 	)
 	(segment
 		(start 109.67 85.81)
@@ -80283,6 +80318,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "bb3e9677-9c67-4d98-8ebc-a13f6a24f474")
+	)
+	(segment
+		(start 114.68 89.09)
+		(end 111.37 89.09)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "bbbd1e46-058e-43d6-8cf7-62fbc527d43e")
 	)
 	(segment
 		(start 114.81 96.68)
@@ -80451,6 +80494,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "d0db40a5-d867-4c10-9063-14314f449269")
+	)
+	(segment
+		(start 117.65 89.07)
+		(end 117.85 88.87)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "d1857bb9-d614-4484-8259-d59c0693bb25")
 	)
 	(segment
 		(start 159.93 87.615)
@@ -80693,6 +80744,14 @@
 		(uuid "e953234a-faab-40a5-9048-a1e348ce4e68")
 	)
 	(segment
+		(start 111.37 89.09)
+		(end 111.24 88.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "e9760165-0511-421c-841e-7caa954db6b5")
+	)
+	(segment
 		(start 168.21 82.32)
 		(end 168.31 82.42)
 		(width 0.2)
@@ -80707,6 +80766,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "f0d7b140-5de6-4547-be8e-7ecb9b8f7792")
+	)
+	(segment
+		(start 112.966 104.486)
+		(end 111.306 104.486)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "f0fa6c16-cc7f-4d7d-bd15-f2240538dacd")
 	)
 	(segment
 		(start 144.29 82.36)
@@ -80739,14 +80806,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "f40c39d6-1ac6-4880-9190-f3069fcf891d")
-	)
-	(segment
-		(start 117.76 88.96)
-		(end 117.85 88.87)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "f4358180-a3c7-4a7b-ad86-1e9c9433265d")
 	)
 	(segment
 		(start 104.13 94.12)
