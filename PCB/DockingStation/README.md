@@ -11,7 +11,7 @@ Layer Stack-up
 
 Here is a rendering of FC, IP1, IP2 and BC:
 
-<img width="1289" alt="Screenshot 2025-03-18 at 1 56 45 PM" src="https://github.com/user-attachments/assets/4a471f62-8562-44da-b42d-d860e7c826a6" />
+<img width="1289" alt="Screenshot 2025-03-18 at 2 07 06 PM" src="https://github.com/user-attachments/assets/09e227ba-eb6a-40e3-9bb2-e61be603cf0c" />
 
 Here are renderings of the 3D model of the Docking Station PCB
 
