@@ -8,13 +8,19 @@ What it includes:
 
 PCB layout of the motherboard (based on KiCad)
 
-Design layout of the keyboard membrane
+PCB layout of the PSU module (based on KiCad)
 
-Flash dump of the BIOS and the AT29LV512 (available in only few models).
+PCB layout of the Docking Station (based on KiCad)
+
+PET layout of the Keyboard Membrane (based on KiCad)
+
+Optical scans, X-ray images from different PCBs, layers, and chips.
+
+Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
 How can you help?
 
-Help by reviewing the PCB layout and report bugs/issues
+Help by reviewing the PCB layout and reporting bugs/issues
 
 Help with the schematic development
 
@@ -22,6 +28,6 @@ Help with finding missing datasheets
 
 # License
 
-This project is free for non-commercial reproduction. You are not permitted to sell it for profit. Nor you are permitted to create a closed-source clone of it. Share your experiences, forks and ideas with the community to make everyone benefit.
+This project is free for non-commercial reproduction. You are not permitted to sell it for profit. Neither are you permitted to create a closed-source clone of it. Share your experiences, forks, and ideas with the community to benefit everyone.
 
 
