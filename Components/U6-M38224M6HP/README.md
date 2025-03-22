@@ -41,12 +41,6 @@ Datasheet states the M822 group is based on the 740 family core,  which is based
 ### Recover / Extraction ###
 PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
 
-This is also a M38xx group,  does not mention this part# but PIN names make sense.
-
-(https://www.segger.com/products/production/flasher-5st7/models/flasher-5/)
-
-![image](https://github.com/user-attachments/assets/14d8da21-7dae-48d2-bbe9-4c3d3efb0e96)
-
 ### Workflow ###
 
 ![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
