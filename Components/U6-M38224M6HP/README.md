@@ -37,7 +37,7 @@ PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Ser
 
 I was unable to find detailed documentation on this adapter,  but the manual does specify some useful information.
 
-The document titled *PROM Programming Adapters for 38000 Series* on Page 16 under *3.6 Setting the Programming Area* specifies to configure your programmer for a M5M27C256A and that the ROM area will be 0x4080 to 0x7FFD.
+The document titled [*PROM Programming Adapters for 38000 Series*](PCA4738H.pdf) on Page 16 under *2.6 Setting the Programming Area * specifies to configure your programmer for a M5M27C256A and that the ROM area will be 0x4080 to 0x7FFD.
 
 In reviewing related chips of the M38 family I was able to determine the following were the required connections for accessing the PROM.   Note VCC not not be powered, and instead P40 receives VCC to power only the internal PROM.  There is a note about this PIN and its special use case for powering the internal PROM.   PIN60 must be grounded.   
 
