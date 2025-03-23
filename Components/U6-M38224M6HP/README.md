@@ -30,7 +30,7 @@ I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet see
 
 ## ROM Extraction ##
 
-[M38223E4HP@QFP80.BIN](Flash/M38223E4HP/M38223E4HP@QFP80.BIN)
+[M38223E4HP@QFP80.BIN](/Flash/M38223E4HP/M38223E4HP@QFP80.BIN)
 
 So far it seems to not be possible to  read the program from the MASKROM version of the chip,  which likely is to be expected.
 
