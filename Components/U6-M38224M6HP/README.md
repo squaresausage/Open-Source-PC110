@@ -34,13 +34,15 @@ I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet see
 
 So far it seems to not be possible to  read the program from the MASKROM version of the chip,  which likely is to be expected.
 
-For the PROM version, the documentation specifies to utilize a standard programmer with the following special adapter:
+There was some indictation that M38xx could be  programmed using a Segger Flasher 5 or earlier,  but I was unsuccessful with this approach so far.
+
+For the PROM method, the documentation specifies to utilize a standard programmer with the following special adapter:
 
 PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
 
 I was unable to find detailed documentation on this adapter,  but the manual does specify some useful information.
 
-The document titled [**PROM Programming Adapters for 38000 Series**](PCA4738H.pdf) on **Page 16 under *2.6 Setting the Programming Area** specifies to configure your programmer for a M5M27C256A and that the ROM area will be 0x4080 to 0x7FFD.
+The document titled [**PROM Programming Adapters for 38000 Series**](PCA4738H.pdf) on **Page 16 under 2.6 Setting the Programming Area** specifies to configure your programmer for a M5M27C256A and that the ROM area will be 0x4080 to 0x7FFD.
 
 In reviewing related chips of the M38 family I was able to determine the following were the required connections for accessing the PROM.   Note VCC not not be powered, and instead P40 receives VCC to power only the internal PROM.  There is a note about this PIN and its special use case for powering the internal PROM.   PIN60 must be grounded.   
 
