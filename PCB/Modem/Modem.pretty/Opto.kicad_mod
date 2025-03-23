@@ -1,0 +1,408 @@
+(footprint "Opto"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "package for Everlight ITR8307 with PCB cutout, light-direction downwards, see http://www.everlight.com/file/ProductFile/ITR8307.pdf")
+	(tags "refective opto couple photo coupler")
+	(property "Reference" "REF**"
+		(at -2.8 0 90)
+		(layer "F.SilkS")
+		(uuid "f53d1d02-80f2-47ba-84ba-571e6e331b09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Opto"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "d089e9ac-879a-4b50-8997-a6f7d4b8d76b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfd7d96e-293b-4bcc-9ac3-5b7ef21fdb8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c99ae9f0-880e-42be-99db-6b248ad59508")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 1.7)
+		(end -2 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df6835cc-d683-44f4-a093-ee4b59e340bb")
+	)
+	(fp_line
+		(start 1.8 3.5)
+		(end 1.8 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c52d6397-e58c-4442-bfc5-0ab7bd24dd14")
+	)
+	(fp_line
+		(start 2 -1.7)
+		(end 1.75 -2.21)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0dae195-1d5d-476a-9b3d-7d642b9a6509")
+	)
+	(fp_line
+		(start 2 1.95)
+		(end 1.8 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96c4312f-277c-40c4-bf38-451a3192d138")
+	)
+	(fp_line
+		(start 2 1.95)
+		(end 2 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d0a3584-4df3-4349-8126-411d2637e7e7")
+	)
+	(fp_line
+		(start -1.85 -1.8)
+		(end 1.85 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "de0a51c4-e1bd-46d1-959f-85fb2a9ab4bd")
+	)
+	(fp_line
+		(start -1.85 1.8)
+		(end -1.85 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf0cd734-597e-4f26-a7e4-28d239fd8a5a")
+	)
+	(fp_line
+		(start 1.85 -1.8)
+		(end 1.85 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "940aa457-984f-41e3-bf7f-735e57c0df27")
+	)
+	(fp_line
+		(start 1.85 1.8)
+		(end -1.85 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbdd9c05-4fe7-467e-8c68-2e226d153360")
+	)
+	(fp_line
+		(start -2.1 -3.75)
+		(end -2.1 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9f03daf-80e5-4370-9f46-a1e86b0e6117")
+	)
+	(fp_line
+		(start -2.1 -3.75)
+		(end 2.1 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6105db7a-6b6d-4e15-a2de-aea6cd0d1948")
+	)
+	(fp_line
+		(start 2.1 3.75)
+		(end -2.1 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4b2ec40-2c4c-44fa-bbbd-2e11a0059596")
+	)
+	(fp_line
+		(start 2.1 3.75)
+		(end 2.1 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a3fee2f-b34f-49aa-aab2-3c01102617ac")
+	)
+	(fp_line
+		(start -1.6 -1.3)
+		(end -1.6 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea4f5631-d834-446e-b7ce-bc937fb20b93")
+	)
+	(fp_line
+		(start -1.6 1.3)
+		(end 1.6 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ada1c22-2843-4ea2-954c-fb77c19de79d")
+	)
+	(fp_line
+		(start -1.3 -3.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b07a2a08-2cf0-4205-9298-d3d4b730feb6")
+	)
+	(fp_line
+		(start -1.3 3.4)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "890dd1d5-acfa-4941-b3da-13cd5f030334")
+	)
+	(fp_line
+		(start -0.5 -3.3)
+		(end -1.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a374a2c5-1b4a-4c95-9bba-9c72d2c05f05")
+	)
+	(fp_line
+		(start -0.5 -1.3)
+		(end -0.5 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31a97a3b-6f0c-49e4-bd3d-c6e0160b873b")
+	)
+	(fp_line
+		(start -0.5 1.3)
+		(end -0.5 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65488875-6f76-42fe-a2c0-4ba3275600b3")
+	)
+	(fp_line
+		(start -0.5 3.4)
+		(end -1.3 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03d3767a-90d2-4bbe-8fc1-ed6e5f6d9865")
+	)
+	(fp_line
+		(start 0.5 -3.3)
+		(end 0.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44708ac1-dfba-4a7a-891c-e9dfcc4af1e4")
+	)
+	(fp_line
+		(start 0.5 1.3)
+		(end 0.5 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11b1c584-77e4-41f4-8b13-4c97de6bb386")
+	)
+	(fp_line
+		(start 0.5 3.4)
+		(end 1.3 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "641985db-e226-42dd-9b72-b777edd0a11c")
+	)
+	(fp_line
+		(start 1.1 -1.3)
+		(end -1.6 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff7e0a12-deed-4711-b29d-4ab00614a0b7")
+	)
+	(fp_line
+		(start 1.3 -3.3)
+		(end 0.5 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e8b9210-da3a-4cc9-b0f7-92942313306e")
+	)
+	(fp_line
+		(start 1.3 -3.3)
+		(end 1.3 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0b49442-8f67-4684-b062-5ae40f19c889")
+	)
+	(fp_line
+		(start 1.3 3.4)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9f90bdc-5249-4241-a134-e26617d2ae00")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.1 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb528953-56ba-4ba5-aceb-818d7f5d9452")
+	)
+	(fp_line
+		(start 1.6 1.3)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e14bda5c-9303-406e-8d48-39ae8bbb2202")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.2 0)
+		(layer "F.Fab")
+		(uuid "be66954b-6272-4400-b0a4-912d6b549539")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.9 -3.2)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "9b3e0f81-a77f-4dda-b69a-dcb01deb4598")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 3.8)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b1baa675-dcda-4c04-8e2e-b0a39622dfcf")
+	)
+	(pad "3" smd roundrect
+		(at -1.6 -3.2)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "553d6d1c-ba97-407d-bc73-c2a587a12da0")
+	)
+	(pad "4" smd roundrect
+		(at -1.6 3.8)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "026813e6-a2db-4c16-941d-1115452b44e2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Everlight_ITR8307_Reverse.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
