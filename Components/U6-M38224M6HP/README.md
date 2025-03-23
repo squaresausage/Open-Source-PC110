@@ -28,28 +28,48 @@ I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet see
 
 ![image](https://github.com/user-attachments/assets/ee8c9987-725a-453d-a366-4c2538670507)
 
+## ROM Extraction ##
+
+[M38223E4HP@QFP80.BIN](/Flash/M38223E4HP/M38223E4HP@QFP80.BIN) - **M3822X POWER SENSE MICON FIRMWARE Rev 8 (C) 1995 RIOS SYSTEMS CO.,LTD**
+
+So far it seems to not be possible to  read the program from the MASKROM version of the chip,  which likely is to be expected.
+
+There was some indictation that M38xx could be  programmed using a Segger Flasher 5 or earlier,  but I was unsuccessful with this approach so far.
+
+For the PROM method, the documentation specifies to utilize a standard programmer with the following special adapter:
+
+PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
+
+I was unable to find detailed documentation on this adapter,  but the manual does specify some useful information.
+
+The document titled [**PROM Programming Adapters for 38000 Series**](PCA4738H.pdf) on **Page 16 under 2.6 Setting the Programming Area** specifies to configure your programmer for a M5M27C256A and that the ROM area will be 0x4080 to 0x7FFD.
+
+In reviewing related chips of the M38 family I was able to determine the following were the required connections for accessing the PROM.   Note VCC not not be powered, and instead P40 receives VCC to power only the internal PROM.  There is a note about this PIN and its special use case for powering the internal PROM.   PIN60 must be grounded.   
+
+![image](https://github.com/user-attachments/assets/8579a198-b227-40f8-a572-06c0f398118c)
+
+![image](https://github.com/user-attachments/assets/6970e252-dd4f-4683-bb03-ae091cd09395)
+
+![image](https://github.com/user-attachments/assets/3129b726-b946-48d5-81b0-c5377505cb77)
+
+![image](https://github.com/user-attachments/assets/38b46af4-bfe2-436d-9f8f-eba12970e8a5)
+
+
 
 
 ## Program Recovery & Analysis
 
-The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
-
-Datasheet states the M822 group is based on the 740 family core,  which is based on the 6502.
+Datasheet states the M3822 group is based on the 740 family core,  which is based on the 65C02.
 
 [Mitsubishi 704 Family MCU](https://en.wikipedia.org/wiki/Mitsubishi_740)
 
-### Recover / Extraction ###
-PCA4738H-80A - PROM Programming Adapter for 80-pin 0.5mm-pitch LQFP of 38000 Series with PROM
+The vector table at the end of the PROM is as expected and dissassembly is the next step.
 
-### Workflow ###
+The ROM is appears at 0xC080 -> 0xFFFD  in the 65C02 memory space, with FFFC/FFFD being the reset vector.
 
-![image](https://github.com/user-attachments/assets/fc6904b1-b986-44e2-942a-3a0fede0cd2a)
+![image](https://github.com/user-attachments/assets/961d2ac0-5853-4dcf-a048-27df407ffb32)
 
-## TODO ##
-* Find pinout for the above mentioned adapter.
-* Attempt to read program back using verification process of the programming workflow
-* Potentially extract optically 
-* Dissassmble and comment the code (superset of 6502 instructions), registers documented in M3822 datasheet.
+
 
 ## Other Notes ##
 
