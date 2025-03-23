@@ -29,6 +29,9 @@ I have observed boards where U6 is EPROM but U41 is MASKROM.  I have not yet see
 ![image](https://github.com/user-attachments/assets/ee8c9987-725a-453d-a366-4c2538670507)
 
 ## ROM Extraction ##
+
+[M38223E4HP@QFP80.BIN](Flash/M38223E4HP/M38223E4HP@QFP80.BIN)
+
 So far it seems to not be possible to  read the program from the MASKROM version of the chip,  which likely is to be expected.
 
 For the PROM version, the documentation specifies to utilize a standard programmer with the following special adapter:
@@ -54,15 +57,11 @@ In reviewing related chips of the M38 family I was able to determine the followi
 
 ## Program Recovery & Analysis
 
-The documentation states that the  EPROM version can be programmed and verified using a general purpose PROM Programmer (with adapter).
-
-Datasheet states the M822 group is based on the 740 family core,  which is based on the 6502.
+Datasheet states the M3822 group is based on the 740 family core,  which is based on the 65C02.
 
 [Mitsubishi 704 Family MCU](https://en.wikipedia.org/wiki/Mitsubishi_740)
 
-### Recover / Extraction ###
-
-
+The vector table at the end of the PROM is as expected and dissassembly is the next step.
 
 
 ## Other Notes ##
