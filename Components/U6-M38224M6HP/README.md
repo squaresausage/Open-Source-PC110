@@ -65,6 +65,11 @@ Datasheet states the M3822 group is based on the 740 family core,  which is base
 
 The vector table at the end of the PROM is as expected and dissassembly is the next step.
 
+The ROM is appears at 0xC080 -> 0xFFFD  in the 65C02 memory space, with FFFC/FFFD being the reset vector.
+
+![image](https://github.com/user-attachments/assets/961d2ac0-5853-4dcf-a048-27df407ffb32)
+
+
 
 ## Other Notes ##
 
