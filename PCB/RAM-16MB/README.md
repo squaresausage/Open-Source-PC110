@@ -5,8 +5,8 @@ Layer Stack-up
 | Index | Layer name | Description  |
 | ----- | ---------- | ------------ |
 | 1     | FC         | Top          |
-| 2     | IP1        | Ground       |
-| 3     | IP2        | Power        |
+| 2     | IP1        | Power        |
+| 3     | IP2        | Ground       |
 | 4     | BC         | Bottom       |
 
 Here is a rendering of FC, IP1, IP2 and BC:
