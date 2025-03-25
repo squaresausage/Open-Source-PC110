@@ -19,7 +19,7 @@ Here are the 3D renders from the board:
 
 <img width="586" alt="Screenshot 2025-03-21 at 8 27 20 PM" src="https://github.com/user-attachments/assets/0c2bc8c2-bcce-4551-9ae2-9307b6ac0546" />
 
-<img width="542" alt="Screenshot 2025-03-21 at 8 27 56 PM" src="https://github.com/user-attachments/assets/b63b410a-dd53-4d73-9b85-a6341052693d" />
+<img width="659" alt="Screenshot 2025-03-25 at 2 58 01 AM" src="https://github.com/user-attachments/assets/0e4ecba2-b090-4157-af79-4185a35dfe8f" />
 
 PCB statistics report
 =====================
