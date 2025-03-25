@@ -25,7 +25,7 @@ Power Supply:
 
 Keyboard Membrane:
 
-![keyboard](https://github.com/user-attachments/assets/9e3b307a-07fe-4d0c-8fff-8528a2f3a871)
+<img width="749" alt="Screenshot 2025-03-25 at 11 04 07 PM" src="https://github.com/user-attachments/assets/2b81acaa-e62b-42f1-a64c-16737db2f6bc" />
 
 Port Expansion (Docking Station):
 
