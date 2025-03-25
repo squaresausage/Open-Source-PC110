@@ -16,6 +16,7 @@ Here is a description of each folder:
 Here are some 3D renders of the PCBs
 
 Mother Board:
+
 <img width="753" alt="motherboard" src="https://github.com/user-attachments/assets/24e71d16-02dd-4cf2-a335-273538d7219c" />
 
 Power Supply:
