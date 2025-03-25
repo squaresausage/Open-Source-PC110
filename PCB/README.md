@@ -1,4 +1,4 @@
-## Recreated PCBs of PC110
+## PC110 Recreated PCBs
 
 
 Here you can find the recreated PCBs for different parts of the PC110 based on KiCad 9.0
