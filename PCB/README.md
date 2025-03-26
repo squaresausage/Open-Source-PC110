@@ -37,4 +37,7 @@ Port Expansion (Docking Station):
 
 16MB RAM Module:
 
-<img width="481" alt="ram" src="https://github.com/user-attachments/assets/9b24fe11-b881-4266-bc0a-529b105c6025" />
+<img width="326" alt="Screenshot 2025-03-26 at 7 45 36 PM" src="https://github.com/user-attachments/assets/63ea09f8-2a62-4767-a2ea-7ffe4497582d" />
+
+<img width="296" alt="Screenshot 2025-03-26 at 7 45 54 PM" src="https://github.com/user-attachments/assets/5574484b-f86c-4c51-978d-42033861f85c" />
+
