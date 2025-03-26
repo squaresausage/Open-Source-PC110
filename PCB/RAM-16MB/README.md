@@ -17,6 +17,7 @@ Here are renderings of the 3D model of the Docking Station PCB
 
 <img width="326" alt="Screenshot 2025-03-26 at 7 45 36 PM" src="https://github.com/user-attachments/assets/efaedb90-73ea-4eac-bbd2-028632cf3109" />
 
+
 <img width="296" alt="Screenshot 2025-03-26 at 7 45 54 PM" src="https://github.com/user-attachments/assets/253eef10-01b8-4cc8-b747-42a8c96a1ad1" />
 
 PCB statistics report
