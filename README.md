@@ -12,7 +12,11 @@ PCB layout of the PSU module (based on KiCad)
 
 PCB layout of the Docking Station (based on KiCad)
 
-PET layout of the Keyboard Membrane (based on KiCad)
+PCB layout of the Modem (based on KiCad)
+
+PCB layout of the 16MB RAM Module (based on KiCad)
+
+Flex PCB and PET layout of the Keyboard Membrane (based on KiCad)
 
 Optical scans, X-ray images from different PCBs, layers, and chips.
 
