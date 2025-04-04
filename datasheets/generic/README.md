@@ -5,4 +5,9 @@ The following website is a great source: https://smd.yooneed.one/
 
 | Code| Part Number |
 |----|--------------|
-| 3D | RB715F |
+| 3D | RB715F  |
+| E2 | TC7S08F |
+| E3 | TC7S02F |
+| E4 | TC7S32F |
+| E8 | TC7S86F |
+| EA | TC7S14F |
