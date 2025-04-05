@@ -21,7 +21,7 @@ Mother Board:
 
 Power Supply:
 
-<img width="685" alt="PSU" src="https://github.com/user-attachments/assets/dcf54020-32cd-49bd-b285-0e2e36a3cd9d" />
+<img width="766" alt="Screenshot 2025-04-04 at 7 01 09 PM" src="https://github.com/user-attachments/assets/467c653b-4416-476a-ba74-c6799add9fb2" />
 
 Keyboard Membrane:
 
