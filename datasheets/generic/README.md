@@ -11,4 +11,5 @@ The following website is a great source: https://smd.yooneed.one/
 | E4  | TC7S32F      |
 | E8  | TC7S86F      |
 | EA  | TC7S14F      |
+| TA  | BD45385G     |
 | 3^9 | MAZ8039GHL   | 
