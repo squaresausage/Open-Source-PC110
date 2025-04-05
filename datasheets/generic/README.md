@@ -13,3 +13,5 @@ The following website is a great source: https://smd.yooneed.one/
 | EA  | TC7S14F      |
 | TA  | BD45385G     |
 | 3^9 | MAZ8039GHL   | 
+|  K  | DA204K       |
+
