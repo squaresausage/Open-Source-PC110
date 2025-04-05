@@ -14,4 +14,5 @@ The following website is a great source: https://smd.yooneed.one/
 | TA  | BD45385G     |
 | 3^9 | MAZ8039GHL   | 
 |  K  | DA204K       |
+|  Q  | SB05-03Q     |
 
