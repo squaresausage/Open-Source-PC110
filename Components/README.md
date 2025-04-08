@@ -1,3 +1,6 @@
+Here is a list of microcontrollers used on the PC110.
+You can find the binary used on them with the disassembler approach.
+
 |Designator|Part#  |Functions           |Notes                             |
 |----------|-------|--------------------|----------------------------------|
 |U6        |M38223*|Power Control, Front LCD & More|[Notes](U6-M38224M6HP/)|
