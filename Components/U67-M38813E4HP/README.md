@@ -23,5 +23,5 @@ M38813E4HP
 
 ## ROM Extraction ##
 
-[M3881E4HP@QFP64.BIN](/Flash/M38813E4HP/M38813E4HP@QFP64.BIN) - **MELPS 740 Series Keyboard Firmware Version 1.1(C) Copyright 1992-1995 RIOS Systems Co.,Ltd**
+[M3881E4HP@QFP64.BIN](/Flash/M38813E4HP/M38813E4HP@QFP64.bin) - **MELPS 740 Series Keyboard Firmware Version 1.1(C) Copyright 1992-1995 RIOS Systems Co.,Ltd**
 
