@@ -1,8 +1,11 @@
 ## Datasheets ##
 
+As found with the  power management MCU,  some PC110's  have a MASKROM version populated,  and some have PROM version which can be read back.
+
 The actual datasheet for the M3881   does not appear to be available,  however reviewing datasheets of similiar chips is helpful.
 
-[PCA4738H0-80A](PCA4738H.pdf)
+[PCA4738H0-80A](/Components/U6-M38224E4HP/PCA4738H.pdf)
+
 
 ## Part Number Details ##
 ```
