@@ -6,6 +6,10 @@ The actual datasheet for the M3881   does not appear to be available,  however r
 
 [PCA4738H0-80A](/Components/U6-M38224M6HP/PCA4738H.pdf)
 
+[M38813M4 Example](M38813M4.png)
+
+[M38002M4.PDF](M38002M4.PDF)
+
 
 ## Part Number Details ##
 ```
