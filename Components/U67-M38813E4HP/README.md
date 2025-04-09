@@ -32,7 +32,7 @@ Extraction of the firmware from the M38813E4 was the same concept as the M38824E
 
 As shown below, those are the connections made when using at as an M5M27C256K chip.    Datasheets for similiar  chips showed attaching A15 to VCC, however doing this caused unexpected behaviour.   Pulling A15 high with a 10K resistor resulted in reliable results.  The connections are still not quite as expected in relation to CE/OE.    Once connected the PROM is located at 0x4080 to 0x7FFD.
 
-For a little bit more detail refer to [/Components/U6-M38224M6HP/](U6-M38224M6HP).
+For a little bit more detail refer to [U6-M38224M6HP](/Components/U6-M38224M6HP/).
 
 ![image](https://github.com/user-attachments/assets/b446d97c-5ab2-43ac-837a-550ea7de3277)
 
