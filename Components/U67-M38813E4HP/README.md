@@ -11,6 +11,7 @@ M38813E4HP
 |||||+-----> EPROM / OTP Version
 ||||+------> 512 Bytes RAM
 ++++-------> Mitsubishi 3881 Group MCU
+```
 
 ## Location ##
 
