@@ -15,7 +15,7 @@ M38813E4HP
 
 ## Location ##
 
-![image](https://github.com/user-attachments/assets/ca92aa84-9d10-4ed6-86ad-3661b2657040)
+![image](https://github.com/user-attachments/assets/75d7d57d-3b6d-42b6-a599-fa1e0b315e55)
 
 ![image](https://github.com/user-attachments/assets/18fbbbcb-55ce-4dbd-80cf-8aaa6c8dd9de)
 
