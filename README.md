@@ -22,6 +22,8 @@ Optical scans, X-ray images from different PCBs, layers, and chips.
 
 Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
+Flash dump of M38224M6HP and M38813E4HP.
+
 How can you help?
 
 Help by reviewing the PCB layout and reporting bugs/issues
