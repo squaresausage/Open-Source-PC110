@@ -17,5 +17,5 @@ This part is a collaboration with [John McMaster](https://siliconpr0n.org/archiv
 |U75       |D17137AGT  |Trackpoint          |[Images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:nec:d17137agt)|[Notes](U75-D17137AGT/)|
 |U35       |Pluto      |Gate Array          |[Images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:rios:z10s10922-00)|[Notes](U35-Pluto/)|
 |U21       |Bowman     |Gate Array          |[Images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:rios:63g33f1017)|[Notes](U21-Bowman/)|
-|U61       |VL82C420FC5|Chipset             |[Images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:rios:vl82c420fc5-c)|[Notes](U61-VL82C420FC5/)|
+|U61       |VL82C420FC5|Chipset, RTC, DMA, Intrupt Controller, Timer             |[Images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:rios:vl82c420fc5-c)|[Notes](U61-VL82C420FC5/)|
 
