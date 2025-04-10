@@ -12,4 +12,10 @@ You can find the binary used on them with the disassembler approach.
 
 This part is a collaboration with [John McMaster](https://siliconpr0n.org/archive/doku.php?id=ibm:pc110)
 
-|U75       |D17137AGT|Trackpoint|[Notes](U75-D17137AGT/)                   |
+|Designator|Part#      |Functions           |Images | Notes                             |
+|----------|-----------|--------------------|-------|-----------------------------------|
+|U75       |D17137AGT  |Trackpoint          | [images](https://siliconpr0n.org/archive/doku.php?id=mcmaster:nec:d17137agt) | [Notes](U75-D17137AGT/)           |
+|          |Pluto      |Gate Array          |       |                                   |
+|          |Bowman     |Gate Array          |       |                                   |
+|          |VL82C420FC5|Chipset             |[images] |                                 |
+
