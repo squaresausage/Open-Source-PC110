@@ -1,6 +1,6 @@
 # IBM PC110
 
-<img width="719" alt="Screenshot 2025-02-16 at 1 59 35 PM" src="https://github.com/user-attachments/assets/62033198-8260-4e61-870c-ddcfe33ed97f" />
+<img width="630" alt="Screenshot 2025-04-17 at 7 04 40 PM" src="https://github.com/user-attachments/assets/035395bb-da18-442e-9486-4e40237b8320" />
 
 A repository for all the technical details of the PC110
 
