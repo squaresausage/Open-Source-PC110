@@ -1,4 +1,4 @@
-# IBM PC110
+# IBM PalmTop PC110
 
 <img width="630" alt="Screenshot 2025-04-17 at 7 04 40 PM" src="https://github.com/user-attachments/assets/035395bb-da18-442e-9486-4e40237b8320" />
 
