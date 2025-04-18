@@ -24,13 +24,17 @@ Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
 Flash dump of M38224M6HP and M38813E4HP.
 
-How can you help?
+# How can you help?
 
 Help by reviewing the PCB layout and reporting bugs/issues
 
 Help with the schematic development
 
 Help with finding missing datasheets
+
+Please help us fund the next iteration of PCBA to test the recreated motherboard:
+https://gofund.me/716b7dae
+
 
 # License
 
