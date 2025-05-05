@@ -30,6 +30,7 @@ Board
 - Width: 41.4600 mm
 - Height: 41.6000 mm
 - Area: 1724.3156 mm²
+- Thickness: 0.6mm
 
 Pads
 ----
