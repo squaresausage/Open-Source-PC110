@@ -16,4 +16,4 @@ The following website is a great source: https://smd.yooneed.one/
 |  K  | DA204K       |
 |  Q  | SB05-03Q     |
 | 8C  | UN2213       |
-
+| HQ  | 2SA1577-Q    |
