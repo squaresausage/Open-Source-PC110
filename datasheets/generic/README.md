@@ -18,3 +18,4 @@ The following website is a great source: https://smd.yooneed.one/
 | 8C  | UN2213       |
 | HQ  | 2SA1577-Q    |
 | CQ  | 2SC2411K     |
+| QC01| RN5VD28CA    |
