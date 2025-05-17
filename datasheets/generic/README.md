@@ -17,3 +17,4 @@ The following website is a great source: https://smd.yooneed.one/
 |  Q  | SB05-03Q     |
 | 8C  | UN2213       |
 | HQ  | 2SA1577-Q    |
+| CQ  | 2SC2411K     |
