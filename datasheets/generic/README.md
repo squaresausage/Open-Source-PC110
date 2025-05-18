@@ -21,3 +21,4 @@ The following website is a great source: https://smd.yooneed.one/
 | CQ  | 2SC2411K     |
 | QC01| RN5VD28CA    |
 | IS6 | 2SA1881-6    |
+| 3E00| RN5VD43CA    |
