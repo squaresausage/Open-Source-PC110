@@ -15,6 +15,7 @@ The following website is a great source: https://smd.yooneed.one/
 | 3^9 | MAZ8039GHL   | 
 |  K  | DA204K       |
 |  Q  | SB05-03Q     |
+|  N  | DAN202K      |
 | 8C  | UN2213       |
 | HQ  | 2SA1577-Q    |
 | CQ  | 2SC2411K     |
