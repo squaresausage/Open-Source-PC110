@@ -23,4 +23,4 @@ The following website is a great source: https://smd.yooneed.one/
 | IS6 | 2SA1881-6    |
 | 3E00| RN5VD43CA    |
 | YQ  | 2SD1949-Q    |
-| 574 | XC6502332P   |
+| 582 | XC6502332P   |
