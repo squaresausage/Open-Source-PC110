@@ -24,3 +24,4 @@ The following website is a great source: https://smd.yooneed.one/
 | 3E00| RN5VD43CA    |
 | YQ  | 2SD1949-Q    |
 | B74 | RT9169/H     |
+| 8B  | UNR2212      |
