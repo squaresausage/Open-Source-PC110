@@ -8,17 +8,6 @@
 		(title "PC110 Motherboard")
 	)
 	(lib_symbols)
-	(text "TODO - Schematic:\n- update all the schematics to be compatible with the PC110\n"
-		(exclude_from_sim no)
-		(at 152.4 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9fdab0b-0971-4c0c-831c-cda73093deb5")
-	)
 	(sheet
 		(at 25.4 25.4)
 		(size 25.4 12.7)
@@ -62,7 +51,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 100.33)
+		(at 63.5 78.74)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78,7 +67,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000638712fb")
 		(property "Sheetname" "Power"
-			(at 25.4 99.6184 0)
+			(at 63.5 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 25.4 113.6146 0)
+			(at 63.5 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,13 +87,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 64.77 100.33)
+		(at 101.6 78.74)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +109,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000639b00c7")
 		(property "Sheetname" "PCMCIA"
-			(at 64.77 99.6184 0)
+			(at 101.6 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "PCMCIA.kicad_sch"
-			(at 64.77 113.6146 0)
+			(at 101.6 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +129,7 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
@@ -182,13 +171,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 25.4 76.2)
+		(at 63.5 25.4)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -204,7 +193,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000064106181")
 		(property "Sheetname" "Chipset"
-			(at 25.4 75.4884 0)
+			(at 63.5 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +202,7 @@
 			)
 		)
 		(property "Sheetfile" "Chipset.kicad_sch"
-			(at 25.4 89.4846 0)
+			(at 63.5 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,13 +213,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "5")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 64.77 25.4)
+		(at 101.6 52.07)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,8 +234,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-000064523075")
-		(property "Sheetname" "Buffers"
-			(at 64.77 24.6884 0)
+		(property "Sheetname" "ASIC"
+			(at 101.6 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,8 +243,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Buffers.kicad_sch"
-			(at 64.77 38.6846 0)
+		(property "Sheetfile" "ASIC.kicad_sch"
+			(at 101.6 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,13 +255,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "9")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 64.77 52.07)
+		(at 101.6 101.6)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -287,8 +276,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-0000655ddd04")
-		(property "Sheetname" "Keyboard and BIOS"
-			(at 64.77 51.3584 0)
+		(property "Sheetname" "Keyboard and Trackpoint"
+			(at 101.6 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,92 +285,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Keyboard_BIOS.kicad_sch"
-			(at 64.77 65.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 64.77 76.2)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000066b27913")
-		(property "Sheetname" "VGA Controller"
-			(at 64.77 75.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VGA.kicad_sch"
-			(at 64.77 89.4846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 101.6 100.33)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00006bbfee6b")
-		(property "Sheetname" "Super I/O"
-			(at 101.6 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Super_IO.kicad_sch"
-			(at 101.6 113.6146 0)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 101.6 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,8 +317,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00000000-0000-0000-0000-00006e2d8c88")
-		(property "Sheetname" "Local Bus IDE"
+		(uuid "00000000-0000-0000-0000-000066b27913")
+		(property "Sheetname" "VGA Controller"
 			(at 101.6 24.6884 0)
 			(effects
 				(font
@@ -422,7 +327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VLB_IDE.kicad_sch"
+		(property "Sheetfile" "VGA.kicad_sch"
 			(at 101.6 38.6846 0)
 			(effects
 				(font
@@ -434,13 +339,97 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "14")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 101.6 52.07)
+		(at 25.4 78.74)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006bbfee6b")
+		(property "Sheetname" "Super I/O"
+			(at 25.4 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Super_IO.kicad_sch"
+			(at 25.4 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 101.6)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006e2d8c88")
+		(property "Sheetname" "Storage"
+			(at 63.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Storage.kicad_sch"
+			(at 63.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 101.6)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -455,8 +444,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00006ffe9bec")
-		(property "Sheetname" "Audio Controller"
-			(at 101.6 51.3584 0)
+		(property "Sheetname" "Audio"
+			(at 25.4 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +454,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
-			(at 101.6 65.3546 0)
+			(at 25.4 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,13 +465,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "16")
+					(page "11")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 101.6 76.2)
+		(at 63.5 52.07)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -497,8 +486,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "29aeee43-2869-4080-920c-a693b0bc5770")
-		(property "Sheetname" "Decoupling Dapacitors"
-			(at 101.6 75.4884 0)
+		(property "Sheetname" "ROM"
+			(at 63.5 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,8 +495,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Decoup_caps.kicad_sch"
-			(at 101.6 89.4846 0)
+		(property "Sheetfile" "ROM.kicad_sch"
+			(at 63.5 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +507,7 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "17")
+					(page "6")
 				)
 			)
 		)
