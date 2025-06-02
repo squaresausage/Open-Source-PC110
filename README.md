@@ -37,6 +37,8 @@ Help with finding missing datasheets
 Please help us fund the next iteration of PCBA to test the recreated motherboard:
 https://gofund.me/716b7dae
 
+# Hack-A-Day Article
+https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/
 
 # License
 
