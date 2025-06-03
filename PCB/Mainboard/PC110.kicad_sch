@@ -512,6 +512,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 54.61 152.4)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6dbc8bfb-047e-469c-b9e0-4e168250e555")
+		(property "Sheetname" "Docking Station"
+			(at 54.61 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DockStation.kicad_sch"
+			(at 54.61 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "14")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

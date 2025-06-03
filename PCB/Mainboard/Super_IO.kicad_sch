@@ -1880,6 +1880,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 62.23 137.16) (xy 88.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0221f7-4b11-454b-bf13-0c26ee97df9a")
+	)
+	(label "PWRGD"
+		(at 71.12 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b17431b0-17f9-422b-9ac4-e7a6f7a5b148")
+	)
 	(symbol
 		(lib_id "PC110:FDC37C665IR")
 		(at 143.51 90.17 0)
@@ -1888,10 +1908,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98f3f047-c480-4f24-b246-04604ead529b")
 		(property "Reference" "U22"
-			(at 149.4633 29.21 0)
+			(at 179.832 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1919,7 @@
 			)
 		)
 		(property "Value" "FDC37C665IR"
-			(at 149.4633 31.75 0)
+			(at 179.324 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
