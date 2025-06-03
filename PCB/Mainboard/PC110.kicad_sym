@@ -21585,10 +21585,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -34.29 -5.08 0)
 				(length 2.54)
-				(name "VREF"
+				(name "P61"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21603,10 +21603,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -34.29 -7.62 0)
 				(length 2.54)
-				(name "AVSS"
+				(name "PC60"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21624,7 +21624,7 @@
 			(pin bidirectional line
 				(at -34.29 -10.16 0)
 				(length 2.54)
-				(name "P67/AN7"
+				(name "DQ7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21642,7 +21642,7 @@
 			(pin bidirectional line
 				(at -34.29 -12.7 0)
 				(length 2.54)
-				(name "P66/AN6"
+				(name "DQ6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21660,7 +21660,7 @@
 			(pin bidirectional line
 				(at -34.29 -15.24 0)
 				(length 2.54)
-				(name "P65/AN5"
+				(name "DQ5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21678,7 +21678,7 @@
 			(pin bidirectional line
 				(at -34.29 -17.78 0)
 				(length 2.54)
-				(name "P64/AN4"
+				(name "DQ4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21696,7 +21696,7 @@
 			(pin bidirectional line
 				(at -34.29 -20.32 0)
 				(length 2.54)
-				(name "P63/AN3"
+				(name "DQ3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21732,7 +21732,7 @@
 			(pin bidirectional line
 				(at -19.05 -34.29 90)
 				(length 2.54)
-				(name "P62/AN2"
+				(name "DQ2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21768,7 +21768,7 @@
 			(pin bidirectional line
 				(at -16.51 -34.29 90)
 				(length 2.54)
-				(name "P61/AN1"
+				(name "DQ1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21804,7 +21804,7 @@
 			(pin bidirectional line
 				(at -13.97 -34.29 90)
 				(length 2.54)
-				(name "P60/AN0"
+				(name "DQ0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21840,7 +21840,7 @@
 			(pin bidirectional line
 				(at -11.43 -34.29 90)
 				(length 2.54)
-				(name "P57/INT3"
+				(name "W#"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21876,7 +21876,7 @@
 			(pin bidirectional line
 				(at -8.89 -34.29 90)
 				(length 2.54)
-				(name "P56/PWM"
+				(name "R#"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21912,7 +21912,7 @@
 			(pin bidirectional line
 				(at -6.35 -34.29 90)
 				(length 2.54)
-				(name "P55/CNTR1"
+				(name "S#"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21948,7 +21948,7 @@
 			(pin bidirectional line
 				(at -3.81 -34.29 90)
 				(length 2.54)
-				(name "P54/CNTR0"
+				(name "A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -28727,7 +28727,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 55.88 0)
+				(at 43.18 55.88 180)
 				(length 2.54)
 				(name "FF_D0"
 					(effects
@@ -28745,7 +28745,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 53.34 0)
+				(at 43.18 53.34 180)
 				(length 2.54)
 				(name "FF_2D"
 					(effects
@@ -28763,7 +28763,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 50.8 0)
+				(at 43.18 50.8 180)
 				(length 2.54)
 				(name "FF_2CLK"
 					(effects
@@ -28781,7 +28781,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 48.26 0)
+				(at 43.18 48.26 180)
 				(length 2.54)
 				(name "FF_1CLK"
 					(effects
@@ -28799,7 +28799,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 45.72 0)
+				(at 43.18 45.72 180)
 				(length 2.54)
 				(name "FF_1A"
 					(effects
@@ -28817,7 +28817,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 43.18 0)
+				(at 43.18 43.18 180)
 				(length 2.54)
 				(name "FF_1A"
 					(effects
@@ -28835,7 +28835,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 40.64 0)
+				(at 43.18 40.64 180)
 				(length 2.54)
 				(name "FF_1Q"
 					(effects
@@ -28853,7 +28853,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 38.1 0)
+				(at 43.18 38.1 180)
 				(length 2.54)
 				(name "FF_2Q"
 					(effects
@@ -28871,7 +28871,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 35.56 0)
+				(at 43.18 35.56 180)
 				(length 2.54)
 				(name "FF_2Q#"
 					(effects
@@ -28889,7 +28889,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 30.48 0)
+				(at 43.18 30.48 180)
 				(length 2.54)
 				(name "CF_CD2#"
 					(effects
@@ -28907,7 +28907,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 27.94 0)
+				(at 43.18 27.94 180)
 				(length 2.54)
 				(name "CF_CD1#"
 					(effects
@@ -28925,7 +28925,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 24.13 0)
+				(at 43.18 24.13 180)
 				(length 2.54)
 				(name "Dock_IO1"
 					(effects
@@ -28943,7 +28943,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 21.59 0)
+				(at 43.18 21.59 180)
 				(length 2.54)
 				(name "Dock_IO2"
 					(effects
@@ -28961,7 +28961,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 19.05 0)
+				(at 43.18 19.05 180)
 				(length 2.54)
 				(name "Dock_IO3"
 					(effects
@@ -28979,7 +28979,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 15.24 0)
+				(at 43.18 15.24 180)
 				(length 2.54)
 				(name "RAM_ID0"
 					(effects
@@ -28997,7 +28997,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 12.7 0)
+				(at 43.18 12.7 180)
 				(length 2.54)
 				(name "RAM_ID1"
 					(effects
@@ -29015,7 +29015,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 8.89 0)
+				(at 43.18 8.89 180)
 				(length 2.54)
 				(name "IRDA_O"
 					(effects
@@ -29033,7 +29033,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 6.35 0)
+				(at 43.18 6.35 180)
 				(length 2.54)
 				(name "IRDA_EN"
 					(effects
@@ -29051,7 +29051,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 2.54 0)
+				(at 43.18 2.54 180)
 				(length 2.54)
 				(name "PWR_ON_SENSE"
 					(effects
@@ -29069,7 +29069,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -1.27 0)
+				(at 43.18 -1.27 180)
 				(length 2.54)
 				(name "Bowman_IO1"
 					(effects
@@ -29087,7 +29087,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -3.81 0)
+				(at 43.18 -3.81 180)
 				(length 2.54)
 				(name "Bowman_IO2"
 					(effects
@@ -29105,7 +29105,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -7.62 0)
+				(at 43.18 -7.62 180)
 				(length 2.54)
 				(name "BIOS_WR_EN"
 					(effects
@@ -29123,7 +29123,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -10.16 0)
+				(at 43.18 -10.16 180)
 				(length 2.54)
 				(name "BIOS_SA17"
 					(effects
@@ -29141,7 +29141,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -13.97 0)
+				(at 43.18 -13.97 180)
 				(length 2.54)
 				(name "Pluto_54"
 					(effects
@@ -29159,7 +29159,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -16.51 0)
+				(at 43.18 -16.51 180)
 				(length 2.54)
 				(name "Pluto_55"
 					(effects
@@ -29177,7 +29177,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -19.05 0)
+				(at 43.18 -19.05 180)
 				(length 2.54)
 				(name "Pluto_56"
 					(effects
@@ -29195,7 +29195,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -21.59 0)
+				(at 43.18 -21.59 180)
 				(length 2.54)
 				(name "Pluto_57"
 					(effects
@@ -29213,7 +29213,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -25.4 0)
+				(at 43.18 -25.4 180)
 				(length 2.54)
 				(name "Pluto_IOW"
 					(effects
@@ -29231,7 +29231,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -29.21 0)
+				(at 43.18 -29.21 180)
 				(length 2.54)
 				(name "PNET7_SENSE"
 					(effects
@@ -29249,7 +29249,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -33.02 0)
+				(at 43.18 -33.02 180)
 				(length 2.54)
 				(name "NM192_VDSA#"
 					(effects
@@ -29267,7 +29267,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -36.83 0)
+				(at 43.18 -36.83 180)
 				(length 2.54)
 				(name "Dev_OE"
 					(effects
@@ -29285,7 +29285,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -40.64 0)
+				(at 43.18 -40.64 180)
 				(length 2.54)
 				(name "FDC_O"
 					(effects
@@ -29303,7 +29303,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -45.72 0)
+				(at 43.18 -45.72 180)
 				(length 2.54)
 				(name "PSU_IO"
 					(effects
@@ -29321,7 +29321,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -49.53 0)
+				(at 43.18 -49.53 180)
 				(length 2.54)
 				(name "LCD_IO"
 					(effects
@@ -29339,7 +29339,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -53.34 0)
+				(at 43.18 -53.34 180)
 				(length 2.54)
 				(name "LCD_STNDBY"
 					(effects
