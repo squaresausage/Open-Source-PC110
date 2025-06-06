@@ -26,3 +26,4 @@ The following website is a great source: https://smd.yooneed.one/
 | B74 | RT9169/H     |
 | 8B  | UNR2212      |
 | BH  | 2SB1125      |
+| 7C  | UN2123       |
