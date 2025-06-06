@@ -6846,6 +6846,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 358.14) (xy 160.02 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b69cc9-248b-473f-99ca-6a2462d7ed14")
+	)
+	(wire
+		(pts
 			(xy 152.4 344.17) (xy 152.4 337.82)
 		)
 		(stroke
@@ -7083,6 +7093,16 @@
 			(type default)
 		)
 		(uuid "2a98f86b-267e-4c8d-987a-c1ba6b57544e")
+	)
+	(wire
+		(pts
+			(xy 143.51 360.68) (xy 160.02 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0904ce-1848-4512-8e71-1bbf36e5a38f")
 	)
 	(wire
 		(pts
@@ -7413,6 +7433,16 @@
 			(type default)
 		)
 		(uuid "9195eb2f-df20-4af0-872a-fc2c7d25a536")
+	)
+	(wire
+		(pts
+			(xy 93.98 358.14) (xy 114.3 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a8413d-89a4-47a2-89f3-710d4ddc0f11")
 	)
 	(wire
 		(pts
@@ -7884,6 +7914,26 @@
 		)
 		(uuid "01e2b67c-7cd7-4db5-9a59-1de030341a81")
 	)
+	(label "KB_SRDY#_shift"
+		(at 95.25 358.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04b6b5f4-3c3f-4546-80e7-9f5a1918d3b9")
+	)
+	(label "KB_SRDY#"
+		(at 149.86 358.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a9438cb-edc9-4b92-b6f0-f73e489c46f7")
+	)
 	(label "U61_RTCBAT_470K"
 		(at 187.96 260.35 0)
 		(effects
@@ -8093,6 +8143,16 @@
 			(justify right bottom)
 		)
 		(uuid "f6c31412-f445-48f8-888b-19d90b72dcbf")
+	)
+	(label "KB_SCLK#"
+		(at 149.86 360.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8c275ec-11b0-4c59-84d9-c5db1d609b92")
 	)
 	(label "Bowman2"
 		(at 201.93 237.49 180)
