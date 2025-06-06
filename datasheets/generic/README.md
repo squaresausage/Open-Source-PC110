@@ -25,4 +25,4 @@ The following website is a great source: https://smd.yooneed.one/
 | YQ  | 2SD1949-Q    |
 | B74 | RT9169/H     |
 | 8B  | UNR2212      |
-| BH  | BCX56        |
+| BH  | 2SB1125      |
