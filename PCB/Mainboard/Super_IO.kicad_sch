@@ -8,209 +8,6 @@
 		(title "PC110")
 	)
 	(lib_symbols
-		(symbol "D_Dual_CommonCathode_AKA_2"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D30"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AKA_2_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AKA_2_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -325,6 +122,209 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PC110:D3_PC110"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D22"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3D"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual diode, common cathode on pin 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D3_PC110_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D3_PC110_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2633,6 +2633,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 77.47) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b5f50b-7fe1-49f1-92b9-322dd976373b")
+	)
+	(wire
+		(pts
 			(xy 120.65 213.36) (xy 120.65 219.71)
 		)
 		(stroke
@@ -2720,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "2e8cdd2d-c6b0-46e4-b375-1a85dd30ff5e")
+	)
+	(wire
+		(pts
+			(xy 62.23 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4dc34d-1e04-4fff-82c0-7b5db7e70da2")
 	)
 	(wire
 		(pts
@@ -2880,6 +2900,16 @@
 			(type default)
 		)
 		(uuid "4dc96df0-c98e-43f8-8eb8-e0b41d3a6340")
+	)
+	(wire
+		(pts
+			(xy 199.39 138.43) (xy 220.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8ebe8f-773d-45fe-84ef-8dee312eff77")
 	)
 	(wire
 		(pts
@@ -3063,6 +3093,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 80.01) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b325dd-9983-440e-ace3-a2b224e0b361")
+	)
+	(wire
+		(pts
 			(xy 148.59 177.8) (xy 148.59 219.71)
 		)
 		(stroke
@@ -3163,16 +3203,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 153.67) (xy 88.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4fb434-0a51-484c-aeac-6ae96dd5b0d9")
-	)
-	(wire
-		(pts
 			(xy 199.39 102.87) (xy 280.67 102.87)
 		)
 		(stroke
@@ -3250,6 +3280,16 @@
 			(type default)
 		)
 		(uuid "a2633033-b74b-4706-a4dc-b45e83c95872")
+	)
+	(wire
+		(pts
+			(xy 62.23 74.93) (xy 88.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52484f3-2fa8-4b83-92b2-2e5f5c887adf")
 	)
 	(wire
 		(pts
@@ -3470,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "d591a463-32a5-4403-ba5e-0c6f8e07326e")
+	)
+	(wire
+		(pts
+			(xy 199.39 135.89) (xy 220.98 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d664c3ba-06f3-425c-be1f-82e06c200c57")
 	)
 	(wire
 		(pts
@@ -3723,6 +3773,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 153.67) (xy 88.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd5e100-422d-4024-8655-3f6636831383")
+	)
+	(wire
+		(pts
 			(xy 326.39 85.09) (xy 326.39 95.25)
 		)
 		(stroke
@@ -3811,6 +3871,16 @@
 		)
 		(uuid "24345502-c717-43b3-b430-9727cf3b5e4e")
 	)
+	(label "SA2"
+		(at 63.5 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "244be578-f13b-45a2-9442-b9062099c0a3")
+	)
 	(label "FDC_CTS2#"
 		(at 209.55 146.05 0)
 		(effects
@@ -3820,6 +3890,16 @@
 			(justify left bottom)
 		)
 		(uuid "2a0dde57-6298-4e0a-854d-c88a6e284af6")
+	)
+	(label "FCS_IOCHRDY"
+		(at 63.5 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bab6bcc-2a6f-4005-8661-c4a822fb01e6")
 	)
 	(label "FDC_DSR1"
 		(at 209.55 118.11 0)
@@ -3860,6 +3940,16 @@
 			(justify left bottom)
 		)
 		(uuid "3d28c077-c6f7-4ea7-92ac-8041bebb6631")
+	)
+	(label "SA0"
+		(at 63.5 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4275f3ee-c64d-486f-9b15-b7978081544e")
 	)
 	(label "FDC_PD3"
 		(at 212.09 73.66 0)
@@ -4001,6 +4091,16 @@
 		)
 		(uuid "9647d193-a96a-4f91-b34d-059c79605831")
 	)
+	(label "FDC_IRTX_TXD2"
+		(at 205.74 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9856e55c-bd95-4b74-83d6-595c03fc588f")
+	)
 	(label "FDC_RTS1#"
 		(at 209.55 120.65 0)
 		(effects
@@ -4022,7 +4122,7 @@
 		(uuid "a9015cce-ca6d-4c5a-86af-4058c776f351")
 	)
 	(label "PWRGD"
-		(at 71.12 165.1 180)
+		(at 69.85 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4030,6 +4130,16 @@
 			(justify right bottom)
 		)
 		(uuid "b17431b0-17f9-422b-9ac4-e7a6f7a5b148")
+	)
+	(label "FDC_IRRX_RXD2"
+		(at 205.74 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1dd78c9-68e8-44c0-bfbf-fe6f3825a611")
 	)
 	(label "FDC_CTS1#"
 		(at 209.55 123.19 0)
@@ -4121,6 +4231,16 @@
 		)
 		(uuid "e438e1f6-8f26-4c3c-900d-112c8f3caf77")
 	)
+	(label "SA1"
+		(at 63.5 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5085166-8f78-4a57-87fa-0faf240bf4fc")
+	)
 	(label "FDC_DIR#"
 		(at 156.21 218.44 90)
 		(effects
@@ -4140,6 +4260,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9375c5c-2334-40f4-8270-7baac3cec110")
+	)
+	(label "FDC_CLK"
+		(at 63.5 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eedd1dce-0098-4d1e-855f-0eafd5021c3e")
 	)
 	(label "FDC_PD1"
 		(at 212.09 68.58 0)
@@ -4210,6 +4340,77 @@
 			(justify left bottom)
 		)
 		(uuid "fc2cb82a-bda7-4e5d-8491-9bb5cb073d8f")
+	)
+	(symbol
+		(lib_id "PC110:D3_PC110")
+		(at 285.75 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d58e018-81d2-4e98-9719-d7920bd0ecfa")
+		(property "Reference" "D24"
+			(at 285.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3D"
+			(at 285.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common cathode on pin 2"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff627232-c1c0-49b8-894d-5eed9b467886")
+		)
+		(pin "2"
+			(uuid "55093de5-ad9c-4249-bf83-f1401df38683")
+		)
+		(pin "3"
+			(uuid "3c2078b8-8472-4f5a-9ffb-8db22fa2be5b")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4422,18 +4623,17 @@
 		)
 	)
 	(symbol
-		(lib_name "D_Dual_CommonCathode_AKA_2")
-		(lib_id "Device:D_Dual_CommonCathode_AKA")
-		(at 285.75 60.96 0)
-		(mirror y)
+		(lib_id "PC110:D3_PC110")
+		(at 336.55 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55aa8add-24cb-4537-9490-b4b12a388a10")
-		(property "Reference" "D24"
-			(at 285.75 54.61 0)
+		(fields_autoplaced yes)
+		(uuid "4913fae6-5dc9-46b1-8221-83dafde1ec38")
+		(property "Reference" "D25"
+			(at 336.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4641,7 @@
 			)
 		)
 		(property "Value" "3D"
-			(at 285.75 57.15 0)
+			(at 336.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 60.96 0)
+			(at 336.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 60.96 0)
+			(at 336.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4667,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 285.75 60.96 0)
+			(at 336.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,18 +4676,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d87936fa-2bc0-4e97-93ad-76cd9fe10d74")
-		)
-		(pin "3"
-			(uuid "bf368029-9500-499f-be28-dd44f6567007")
+			(uuid "2640ef99-6cb8-4dcd-a62f-cad1648f8fb7")
 		)
 		(pin "2"
-			(uuid "1e775a16-dcb6-4298-b585-01bc32dfd02a")
+			(uuid "16401186-4c0a-4a6a-a535-885d81654662")
+		)
+		(pin "3"
+			(uuid "745ed3a1-baef-4c5d-b5a1-23b6cf38137a")
 		)
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4966,74 +5166,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
 					(reference "R141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94a53fe0-9a2a-4ccf-92f7-30cee2c22846")
-		(property "Reference" "R332"
-			(at 66.04 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 66.04 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c55824b-c250-41fe-a29a-d5f4fd6d9fa7")
-		)
-		(pin "1"
-			(uuid "0bba2014-3b9e-4f22-b980-dcb6c137857b")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
-					(reference "R332")
 					(unit 1)
 				)
 			)
@@ -5805,78 +5937,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
 					(reference "R132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "D_Dual_CommonCathode_AKA_2")
-		(lib_id "Device:D_Dual_CommonCathode_AKA")
-		(at 336.55 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2fd44ea-77b0-4612-b881-452fb45f6472")
-		(property "Reference" "D25"
-			(at 336.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3D"
-			(at 336.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 336.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cfbb419-f9d0-4609-ac3e-749b85525b9c")
-		)
-		(pin "3"
-			(uuid "2f1d2097-5421-445c-947a-97254e2cd547")
-		)
-		(pin "2"
-			(uuid "b6c8b61c-7e97-4743-bba8-67ed54bc83e1")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
-					(reference "D25")
 					(unit 1)
 				)
 			)

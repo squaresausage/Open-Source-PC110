@@ -9,7 +9,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 54.61 48.26)
+		(at 100.33 41.91)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +25,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000061ddbbe3")
 		(property "Sheetname" "Processor"
-			(at 54.61 47.5484 0)
+			(at 100.33 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,175 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "Processor.kicad_sch"
-			(at 54.61 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 100.33)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-0000638712fb")
-		(property "Sheetname" "Power"
-			(at 93.98 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 93.98 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 132.08 100.33)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-0000639b00c7")
-		(property "Sheetname" "PCMCIA"
-			(at 132.08 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PCMCIA.kicad_sch"
-			(at 132.08 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 54.61 73.66)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-0000640ab57c")
-		(property "Sheetname" "Memory"
-			(at 54.61 72.9484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Memory.kicad_sch"
-			(at 54.61 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 48.26)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000064106181")
-		(property "Sheetname" "Chipset"
-			(at 93.98 47.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Chipset.kicad_sch"
-			(at 93.98 61.5446 0)
+			(at 100.33 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +51,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 73.66)
+		(at 151.13 93.98)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -233,9 +65,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00000000-0000-0000-0000-000064523075")
-		(property "Sheetname" "ASIC"
-			(at 132.08 72.9484 0)
+		(uuid "00000000-0000-0000-0000-0000638712fb")
+		(property "Sheetname" "Power"
+			(at 151.13 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,8 +75,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ASIC.kicad_sch"
-			(at 132.08 86.9446 0)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 151.13 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,13 +87,13 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 132.08 125.73)
+		(at 52.07 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -275,9 +107,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00000000-0000-0000-0000-0000655ddd04")
-		(property "Sheetname" "Keyboard and Trackpoint"
-			(at 132.08 125.0184 0)
+		(uuid "00000000-0000-0000-0000-0000639b00c7")
+		(property "Sheetname" "PCMCIA"
+			(at 52.07 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,176 +117,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Keyboard.kicad_sch"
-			(at 132.08 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 132.08 48.26)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000066b27913")
-		(property "Sheetname" "VGA Controller"
-			(at 132.08 47.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VGA.kicad_sch"
-			(at 132.08 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 54.61 100.33)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00006bbfee6b")
-		(property "Sheetname" "Super I/O"
-			(at 54.61 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Super_IO.kicad_sch"
-			(at 54.61 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 125.73)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00006e2d8c88")
-		(property "Sheetname" "Storage"
-			(at 93.98 125.0184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Storage.kicad_sch"
-			(at 93.98 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 54.61 125.73)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00006ffe9bec")
-		(property "Sheetname" "Audio"
-			(at 54.61 125.0184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Audio.kicad_sch"
-			(at 54.61 139.0146 0)
+		(property "Sheetfile" "PCMCIA.kicad_sch"
+			(at 52.07 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +135,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 73.66)
+		(at 100.33 67.31)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -479,15 +143,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "29aeee43-2869-4080-920c-a693b0bc5770")
-		(property "Sheetname" "ROM"
-			(at 93.98 72.9484 0)
+		(uuid "00000000-0000-0000-0000-0000640ab57c")
+		(property "Sheetname" "Memory"
+			(at 100.33 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,8 +159,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ROM.kicad_sch"
-			(at 93.98 86.9446 0)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 100.33 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +177,343 @@
 		)
 	)
 	(sheet
-		(at 54.61 152.4)
+		(at 151.13 41.91)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000064106181")
+		(property "Sheetname" "Chipset"
+			(at 151.13 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Chipset.kicad_sch"
+			(at 151.13 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 93.98)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000064523075")
+		(property "Sheetname" "ASIC"
+			(at 52.07 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ASIC.kicad_sch"
+			(at 52.07 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 146.05)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000655ddd04")
+		(property "Sheetname" "Keyboard and Trackpoint"
+			(at 52.07 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 52.07 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 67.31)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000066b27913")
+		(property "Sheetname" "VGA Controller"
+			(at 52.07 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VGA.kicad_sch"
+			(at 52.07 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 93.98)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006bbfee6b")
+		(property "Sheetname" "Super I/O"
+			(at 100.33 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Super_IO.kicad_sch"
+			(at 100.33 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 120.65)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006e2d8c88")
+		(property "Sheetname" "Storage"
+			(at 151.13 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Storage.kicad_sch"
+			(at 151.13 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 120.65)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006ffe9bec")
+		(property "Sheetname" "Audio"
+			(at 100.33 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 100.33 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 67.31)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29aeee43-2869-4080-920c-a693b0bc5770")
+		(property "Sheetname" "ROM"
+			(at 151.13 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ROM.kicad_sch"
+			(at 151.13 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 146.05)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -529,7 +529,7 @@
 		)
 		(uuid "6dbc8bfb-047e-469c-b9e0-4e168250e555")
 		(property "Sheetname" "Docking Station and Modem"
-			(at 54.61 151.6884 0)
+			(at 100.33 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +538,7 @@
 			)
 		)
 		(property "Sheetfile" "DockStation.kicad_sch"
-			(at 54.61 165.6846 0)
+			(at 100.33 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +549,49 @@
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
-					(page "14")
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 41.91)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c702c69-d3f6-4026-9af8-e972f7ced597")
+		(property "Sheetname" "Clock"
+			(at 52.07 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clock.kicad_sch"
+			(at 52.07 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944"
+					(page "2")
 				)
 			)
 		)
