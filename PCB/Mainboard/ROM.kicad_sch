@@ -3328,6 +3328,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 134.62) (xy 394.97 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4281430d-3030-4334-b63a-3246da5a1654")
+	)
+	(wire
+		(pts
 			(xy 72.39 128.27) (xy 88.9 128.27)
 		)
 		(stroke
@@ -3398,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 137.16) (xy 334.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f22595-00e7-4f3b-b77a-939fb33d2d08")
+	)
+	(wire
+		(pts
 			(xy 274.32 109.22) (xy 274.32 114.3)
 		)
 		(stroke
@@ -3415,6 +3435,16 @@
 			(type default)
 		)
 		(uuid "74d293d3-929a-44b0-af18-3aa71b13e116")
+	)
+	(wire
+		(pts
+			(xy 361.95 139.7) (xy 394.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7590b528-9632-40bf-b729-2fb5e5d0d735")
 	)
 	(wire
 		(pts
@@ -3558,6 +3588,26 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 124.46) (xy 346.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaaefc6-5891-4bd6-b2c1-2d024ca085b7")
+	)
+	(wire
+		(pts
+			(xy 287.02 134.62) (xy 311.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c4e072-9688-41c5-8332-214c98c4cc26")
+	)
+	(wire
+		(pts
 			(xy 274.32 101.6) (xy 274.32 93.98)
 		)
 		(stroke
@@ -3638,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 147.32) (xy 346.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cffd0a-dc37-4d09-86e2-55390b2d3ec3")
+	)
+	(wire
+		(pts
 			(xy 269.24 87.63) (xy 269.24 93.98)
 		)
 		(stroke
@@ -3655,6 +3715,16 @@
 			(type default)
 		)
 		(uuid "fab03389-71d0-4ee6-86ac-f937341321b7")
+	)
+	(label "MEMW#"
+		(at 387.35 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0653a0f3-e0b9-4cce-9268-52b067f7a1cf")
 	)
 	(label "SA1"
 		(at 210.82 134.62 0)
@@ -3685,6 +3755,16 @@
 			(justify right bottom)
 		)
 		(uuid "4dbdbd79-2050-4251-9fa8-c636fa430952")
+	)
+	(label "MEMR#"
+		(at 303.53 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "573659b0-e0ce-41dd-8043-aa881eddbca1")
 	)
 	(label "Bowman5_Buff"
 		(at 379.73 95.25 0)
@@ -4090,7 +4170,7 @@
 		(dnp no)
 		(uuid "2e4a3827-aac3-4893-95a9-ab6604ad27b0")
 		(property "Reference" "U60"
-			(at 334.01 91.3698 0)
+			(at 350.52 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4178,7 @@
 			)
 		)
 		(property "Value" "E3"
-			(at 334.01 93.9098 0)
+			(at 350.52 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,6 +4625,71 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
 					(reference "R320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 346.71 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55ea0cfc-ca8f-44fc-ada3-eb07963354b1")
+		(property "Reference" "#PWR0359"
+			(at 346.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNET5"
+			(at 346.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a415e3c-45a6-4337-8aee-6f105df2df82")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
@@ -5253,6 +5398,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 346.71 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad853155-8d52-48ab-bc68-4a64133f4480")
+		(property "Reference" "#PWR0360"
+			(at 346.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd374f70-6b3f-4a04-bd3a-c5e7feafb8cb")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
+					(reference "#PWR0360")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 346.71 110.49 0)
 		(mirror y)
 		(unit 1)
@@ -5260,7 +5471,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8eacb90-8883-45ec-88b0-5f38444b3e2c")
 		(property "Reference" "#PWR0193"
 			(at 346.71 116.84 0)
@@ -5272,7 +5482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.71 115.57 0)
+			(at 346.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5536,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c72cd265-a025-4b56-9dde-9eca7dc0fc70")
 		(property "Reference" "#PWR0192"
 			(at 346.71 88.9 0)
@@ -5338,7 +5547,7 @@
 			)
 		)
 		(property "Value" "PNET5"
-			(at 346.71 80.01 0)
+			(at 346.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,6 +5725,83 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
 					(reference "R327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUP1G02")
+		(at 346.71 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f62f7b6b-89bc-4d33-9a8e-0fd727774fc7")
+		(property "Reference" "U24"
+			(at 350.52 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "E4"
+			(at 350.52 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74aup1g02.pdf"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c54317e-ddf3-4a13-854d-b1df4c7f0f8e")
+		)
+		(pin "3"
+			(uuid "aa3dba3d-cb82-45ab-b0b1-08f2fd3ff038")
+		)
+		(pin "4"
+			(uuid "267f90ee-46df-4899-8054-ee7e6353ace0")
+		)
+		(pin "1"
+			(uuid "313421de-745f-4900-89bd-04ea6d8583d7")
+		)
+		(pin "5"
+			(uuid "2305e6d6-5001-4ea2-a3e7-d8ee63db463e")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
+					(reference "U24")
 					(unit 1)
 				)
 			)

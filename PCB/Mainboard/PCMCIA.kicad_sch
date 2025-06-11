@@ -8483,6 +8483,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 293.37) (xy 161.29 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51825fff-abee-4fb2-a4c9-d5890ce8f523")
+	)
+	(wire
+		(pts
 			(xy 132.08 227.33) (xy 161.29 227.33)
 		)
 		(stroke
@@ -8533,6 +8543,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 354.33) (xy 161.29 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fca770-0360-492b-992d-6f73783fcee4")
+	)
+	(wire
+		(pts
 			(xy 97.79 372.11) (xy 104.14 372.11)
 		)
 		(stroke
@@ -8573,6 +8593,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 359.41) (xy 161.29 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ec8c58-9c71-4373-bfe0-efb66703e277")
+	)
+	(wire
+		(pts
 			(xy 132.08 367.03) (xy 161.29 367.03)
 		)
 		(stroke
@@ -8590,6 +8620,26 @@
 			(type default)
 		)
 		(uuid "f3b2a740-4d61-406e-8db5-3531ea6dc362")
+	)
+	(wire
+		(pts
+			(xy 132.08 351.79) (xy 161.29 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65ded5a-8c9f-41fa-893c-0a7ff0735961")
+	)
+	(wire
+		(pts
+			(xy 132.08 219.71) (xy 161.29 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b10f67-1fbe-43b5-bac0-29cb818a5d40")
 	)
 	(wire
 		(pts
@@ -8651,6 +8701,26 @@
 		)
 		(uuid "803943d1-362f-4add-8946-6e0337b3ab5e")
 	)
+	(label "MEMR#"
+		(at 133.35 351.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cedda5e-d8e0-4946-898f-d2384aafd543")
+	)
+	(label "AEN"
+		(at 133.35 293.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a005ee66-8834-4d5f-8147-e29b04353257")
+	)
 	(label "FCS_IOCHRDY"
 		(at 133.35 367.03 0)
 		(effects
@@ -8661,6 +8731,16 @@
 		)
 		(uuid "a9985912-cab6-4ffd-8771-613e0202766c")
 	)
+	(label "MEMW#"
+		(at 133.35 354.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf38712-1988-4d53-b411-18c8ab1569a6")
+	)
 	(label "RIOUT#"
 		(at 133.35 152.4 0)
 		(effects
@@ -8670,6 +8750,26 @@
 			(justify left bottom)
 		)
 		(uuid "d2addc39-780d-4205-980e-ae1e2a69b21c")
+	)
+	(label "IOCS16#"
+		(at 133.35 359.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d395a44e-94d0-4362-84a8-f86f61ab4b73")
+	)
+	(label "IRQ14"
+		(at 133.35 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9c15594-c826-45f9-9a66-c5de4d8be55d")
 	)
 	(symbol
 		(lib_id "PC110:TPS2201")
