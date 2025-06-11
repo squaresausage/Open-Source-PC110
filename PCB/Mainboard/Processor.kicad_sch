@@ -9544,7 +9544,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 203.2) (xy 360.68 203.2)
+			(xy 330.2 207.01) (xy 360.68 207.01)
 		)
 		(stroke
 			(width 0)
@@ -10394,7 +10394,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 195.58) (xy 314.96 195.58)
+			(xy 322.58 199.39) (xy 314.96 199.39)
 		)
 		(stroke
 			(width 0)
@@ -10534,7 +10534,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 195.58) (xy 360.68 195.58)
+			(xy 330.2 199.39) (xy 360.68 199.39)
 		)
 		(stroke
 			(width 0)
@@ -10614,7 +10614,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 203.2) (xy 318.77 203.2)
+			(xy 314.96 207.01) (xy 322.58 207.01)
 		)
 		(stroke
 			(width 0)
@@ -11074,7 +11074,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 195.58) (xy 314.96 203.2)
+			(xy 314.96 199.39) (xy 314.96 203.2)
 		)
 		(stroke
 			(width 0)
@@ -11854,6 +11854,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 207.01) (xy 314.96 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6b2997-c62b-4fe6-9a9e-aaa845fe50f2")
+	)
+	(wire
+		(pts
 			(xy 207.01 36.83) (xy 207.01 50.8)
 		)
 		(stroke
@@ -12313,7 +12323,7 @@
 		(uuid "7403b6a8-d599-424d-b991-7b81caef2e57")
 	)
 	(label "Chipset_CPU_CLK_Sense"
-		(at 336.55 195.58 0)
+		(at 336.55 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12683,7 +12693,7 @@
 		(uuid "d5909857-9c46-439a-a4c9-2bdaa92df07c")
 	)
 	(label "Chipset_CPU_CLK"
-		(at 342.9 203.2 0)
+		(at 342.9 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12884,7 +12894,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 322.58 195.58 90)
+		(at 326.39 199.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12892,7 +12902,7 @@
 		(dnp no)
 		(uuid "05ee6b5c-df9e-4005-aa1e-b0b9a2a002aa")
 		(property "Reference" "R253"
-			(at 324.612 191.77 90)
+			(at 328.422 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +12911,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 324.104 193.548 90)
+			(at 327.914 197.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12910,7 +12920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 197.358 90)
+			(at 326.39 201.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12919,7 +12929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 195.58 0)
+			(at 326.39 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12928,7 +12938,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 322.58 195.58 0)
+			(at 326.39 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +14239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 322.58 203.2 90)
+		(at 326.39 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14237,7 +14247,7 @@
 		(dnp no)
 		(uuid "db18fd34-8fe5-4feb-ac42-a84c3b8b47ba")
 		(property "Reference" "R252"
-			(at 324.612 199.39 90)
+			(at 328.422 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14256,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 324.104 201.168 90)
+			(at 327.914 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,7 +14265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 204.978 90)
+			(at 326.39 208.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +14274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 203.2 0)
+			(at 326.39 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14273,7 +14283,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 322.58 203.2 0)
+			(at 326.39 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

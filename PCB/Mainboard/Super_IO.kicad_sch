@@ -3033,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 113.03) (xy 36.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6414b147-5790-4aba-b11b-3c1aea0074fd")
+	)
+	(wire
+		(pts
 			(xy 269.24 73.66) (xy 280.67 73.66)
 		)
 		(stroke
@@ -3090,6 +3100,16 @@
 			(type default)
 		)
 		(uuid "70dd7922-e65e-42ba-98fc-e6615a43b5d1")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716162ef-a42d-4462-b815-b87da5a05f05")
 	)
 	(wire
 		(pts
@@ -3220,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "9339c5e4-9bd6-4411-bea1-66a7e9ab906c")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b128d3-9396-471d-b086-0ef1ef204a63")
 	)
 	(wire
 		(pts
@@ -3500,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "ce77d9dd-6615-4e38-88e0-3260eb23924f")
+	)
+	(wire
+		(pts
+			(xy 62.23 147.32) (xy 88.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d264b65d-c4be-47ac-91a0-e2ab7afc79d4")
 	)
 	(wire
 		(pts
@@ -4221,6 +4261,16 @@
 		)
 		(uuid "dcc2055b-1248-4280-86d7-2f6346a6180a")
 	)
+	(label "FDC_DACK#"
+		(at 63.5 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1223698-96f5-49ac-97f7-374dcd48e390")
+	)
 	(label "FDC_DSR2#"
 		(at 209.55 140.97 0)
 		(effects
@@ -4301,6 +4351,16 @@
 		)
 		(uuid "f57ae445-a469-43cb-89bf-d0f05af6156e")
 	)
+	(label "FDC_DS3"
+		(at 63.5 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f684b2b5-e700-4606-9732-07cac46b8ccd")
+	)
 	(label "FDC_WDATA#"
 		(at 179.07 218.44 90)
 		(effects
@@ -4340,6 +4400,76 @@
 			(justify left bottom)
 		)
 		(uuid "fc2cb82a-bda7-4e5d-8491-9bb5cb073d8f")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d580df-ead5-4d2b-a051-279a7c016722")
+		(property "Reference" "R118"
+			(at 39.37 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 39.37 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.052 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2115a305-8a95-4564-8a70-322c7f365d7d")
+		)
+		(pin "1"
+			(uuid "3c536395-bd00-4806-8099-0b4ace4559a3")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PC110:D3_PC110")
@@ -5096,6 +5226,72 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
 					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 36.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c6fe30e-57d8-4d46-a38c-95abc7cfb45e")
+		(property "Reference" "#PWR0358"
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNET1"
+			(at 36.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4cd7922-dd63-4384-8e48-c94e7fe0befd")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
+					(reference "#PWR0358")
 					(unit 1)
 				)
 			)
