@@ -6247,6 +6247,12 @@
 		(uuid "9668be5f-705e-4256-b8d5-9182c76c8dff")
 	)
 	(junction
+		(at 41.91 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a032d8c3-eb27-4ab7-8690-33af4eb3fef2")
+	)
+	(junction
 		(at 273.05 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6362,6 +6368,15 @@
 			(type default)
 		)
 		(uuid "0aa2bddc-fcc9-4225-aa70-f6f6c2679f44")
+	)
+	(bus_entry
+		(at 88.9 181.61)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6828b641-43d2-4720-8118-663ca29fcd3d")
 	)
 	(bus_entry
 		(at 41.91 162.56)
@@ -6528,7 +6543,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 153.67) (xy 91.44 176.53)
+			(xy 91.44 153.67) (xy 91.44 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6618,7 +6633,7 @@
 	)
 	(bus
 		(pts
-			(xy 41.91 137.16) (xy 41.91 157.48)
+			(xy 41.91 137.16) (xy 41.91 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7606,6 +7621,16 @@
 		)
 		(uuid "5395986d-6aa0-4885-bfed-433124c395c1")
 	)
+	(bus
+		(pts
+			(xy 21.59 146.05) (xy 41.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ce50a7-8695-4473-ba40-7402499f2b6a")
+	)
 	(wire
 		(pts
 			(xy 334.01 105.41) (xy 334.01 139.7)
@@ -8246,6 +8271,16 @@
 		)
 		(uuid "873badff-c834-445d-b784-366afdb56104")
 	)
+	(bus
+		(pts
+			(xy 41.91 146.05) (xy 41.91 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b55f68-9826-4333-b298-31363c098b13")
+	)
 	(wire
 		(pts
 			(xy 127 199.39) (xy 127 201.93)
@@ -8385,6 +8420,16 @@
 			(type default)
 		)
 		(uuid "93fd4591-2f52-46d6-aca4-ac356bd92756")
+	)
+	(bus
+		(pts
+			(xy 58.42 181.61) (xy 88.9 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f046f4-7256-4d1e-8267-445e75df87c5")
 	)
 	(wire
 		(pts
@@ -10266,6 +10311,16 @@
 		)
 		(uuid "638a62a2-c2f7-4676-bafc-e65ae699802e")
 	)
+	(label "Device_Data_BUS"
+		(at 22.86 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64d93100-5d62-4480-8061-287d9afda7bc")
+	)
 	(label "D171_P1A2"
 		(at 358.14 129.54 0)
 		(effects
@@ -11075,6 +11130,16 @@
 			(justify left bottom)
 		)
 		(uuid "e950bb96-381b-49c2-a1d9-481753033238")
+	)
+	(label "Device_Address_BUS"
+		(at 59.69 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb20c095-8581-4c64-8db4-24181cb8a1f7")
 	)
 	(label "SD6_Bus"
 		(at 55.88 132.08 180)
