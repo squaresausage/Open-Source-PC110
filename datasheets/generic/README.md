@@ -28,3 +28,4 @@ The following website is a great source: https://smd.yooneed.one/
 | BH  | 2SB1125      |
 | 7C  | UN2123       |
 | 6D  | UN2114       |
+| ST3 | 2SC4453      |
