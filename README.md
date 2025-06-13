@@ -24,7 +24,9 @@ Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
 Flash dump of M38224M6HP and M38813E4HP.
 
-Schematic in development
+Schematic for the motherboard.
+
+Schematic for other modules is in development.
 
 # How can you help?
 
