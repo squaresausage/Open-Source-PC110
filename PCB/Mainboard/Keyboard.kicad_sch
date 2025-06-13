@@ -6109,6 +6109,12 @@
 		(uuid "0a621a27-a39e-4ba7-ba9f-3c0e9a71f799")
 	)
 	(junction
+		(at 257.81 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a67c81e-b598-486c-9ce8-a60a8e05a153")
+	)
+	(junction
 		(at 85.09 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8283,6 +8289,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 217.17) (xy 257.81 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcde0c8-557e-4a47-9ee9-71a5479d6da4")
+	)
+	(wire
+		(pts
 			(xy 130.81 134.62) (xy 157.48 134.62)
 		)
 		(stroke
@@ -9593,6 +9609,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 231.14) (xy 257.81 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5f2772-7aac-400e-97a4-3f4a2718a0ff")
+	)
+	(wire
+		(pts
 			(xy 52.07 39.37) (xy 52.07 54.61)
 		)
 		(stroke
@@ -10340,6 +10366,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c876852-8e77-439e-8332-d3d25701d6af")
+	)
+	(label "Bowman_ESS_DACK1#"
+		(at 236.22 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74e1bac1-7fb7-4c6c-8f44-06c1adf495c4")
 	)
 	(label "D171_P0B1"
 		(at 205.74 124.46 0)
