@@ -3181,6 +3181,10 @@
 		(uuid "3b796848-0f46-4595-b2b6-d4d50428fd5e")
 	)
 	(no_connect
+		(at 290.83 146.05)
+		(uuid "4d26f1b7-3458-4748-843f-cf77023ae504")
+	)
+	(no_connect
 		(at 109.22 185.42)
 		(uuid "50ad6918-9d56-4fef-99b7-b321d002de67")
 	)
@@ -3359,6 +3363,16 @@
 			(type default)
 		)
 		(uuid "d44f9169-0e0a-4786-bd1b-d05d457b1685")
+	)
+	(wire
+		(pts
+			(xy 210.82 172.72) (xy 234.95 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003f545a-5e86-498d-a989-0cb301b9a566")
 	)
 	(wire
 		(pts
@@ -3639,6 +3653,26 @@
 			(type default)
 		)
 		(uuid "5b7f65f6-ea26-454c-bc03-158f736ef97d")
+	)
+	(wire
+		(pts
+			(xy 287.02 146.05) (xy 290.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d35957a-3ba2-40c9-ab6e-68d0f9a5be1c")
+	)
+	(wire
+		(pts
+			(xy 210.82 175.26) (xy 234.95 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2ab3e-9b4f-4a4d-9b43-1885842e9d63")
 	)
 	(wire
 		(pts
@@ -4152,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 142.24) (xy 311.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91628b9-71e5-46dc-910b-ee4e114aa96c")
+	)
+	(wire
+		(pts
 			(xy 346.71 147.32) (xy 346.71 149.86)
 		)
 		(stroke
@@ -4199,6 +4243,16 @@
 			(justify left bottom)
 		)
 		(uuid "0b8ef7ee-ee33-467b-ae24-1a5dbf812162")
+	)
+	(label "Chipset_BIOS_CE#"
+		(at 293.37 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fc2a4db-1b28-430d-b5d3-d9e2383f5d72")
 	)
 	(label "SA1"
 		(at 210.82 134.62 0)
@@ -4280,6 +4334,16 @@
 		)
 		(uuid "573659b0-e0ce-41dd-8043-aa881eddbca1")
 	)
+	(label "BIOS_SA17"
+		(at 212.09 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c67d307-94e6-478f-9cf3-15b1a1bb1469")
+	)
 	(label "SD10_Bus"
 		(at 134.62 153.67 0)
 		(effects
@@ -4309,6 +4373,16 @@
 			(justify left bottom)
 		)
 		(uuid "80283930-cf2b-4940-b1c3-561cebe43794")
+	)
+	(label "Chipset_SA16"
+		(at 212.09 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88b1391c-0afb-46b3-a1f9-4220f1faad87")
 	)
 	(label "SD7_Bus"
 		(at 135.89 146.05 0)

@@ -10479,6 +10479,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 142.24) (xy 309.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabc8d60-4d54-42a1-9436-c1a36aec7bd2")
+	)
+	(wire
+		(pts
 			(xy 240.03 36.83) (xy 240.03 50.8)
 		)
 		(stroke
@@ -11967,6 +11977,16 @@
 		)
 		(uuid "0d2568e0-157f-41ba-b9f2-94a63fa91149")
 	)
+	(label "CPU_SRESET"
+		(at 379.73 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0db06b4d-4247-4704-b6e0-5082faec46c9")
+	)
 	(label "CPU_BE2#"
 		(at 299.72 88.9 0)
 		(effects
@@ -12177,8 +12197,8 @@
 		)
 		(uuid "3f12abe2-0108-4ac1-bdaf-44832af2a76e")
 	)
-	(label "SRESET"
-		(at 300.99 208.28 0)
+	(label "CPU_SRESET"
+		(at 297.18 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12306,6 +12326,16 @@
 			(justify left bottom)
 		)
 		(uuid "57f8cb30-94ce-45d3-9b44-71d3ae6bbbf5")
+	)
+	(label "CPU_RDY#"
+		(at 299.72 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58a4da16-38eb-457f-9f65-1c0124092b58")
 	)
 	(label "CPU_D19"
 		(at 67.31 113.03 0)
@@ -12646,16 +12676,6 @@
 			(justify left bottom)
 		)
 		(uuid "b590804d-df0f-494a-a8fe-2686ed8d0044")
-	)
-	(label "CPU_SRESET#"
-		(at 378.46 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5cbf491-68ef-4dc7-a832-1f7432d70214")
 	)
 	(label "CPU_BLAST#"
 		(at 340.36 142.24 0)
@@ -14152,10 +14172,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "859f300f-d3b7-42ef-983d-1d71ee8006f8")
 		(property "Reference" "J9"
-			(at 365.76 106.68 0)
+			(at 365.76 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)

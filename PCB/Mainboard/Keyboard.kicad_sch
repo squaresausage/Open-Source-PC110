@@ -7123,13 +7123,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 124.46) (xy 31.75 124.46)
+			(xy 24.13 124.46) (xy 60.96 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3092482e-92be-4db9-bb68-449cd2460a48")
+		(uuid "306fcd41-01ef-44af-912c-b020be08d0bf")
 	)
 	(wire
 		(pts
@@ -7460,16 +7460,6 @@
 			(type default)
 		)
 		(uuid "45c7ab8e-3cc8-413f-968b-5230ddffa27f")
-	)
-	(wire
-		(pts
-			(xy 39.37 124.46) (xy 60.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b0c194-4bf0-4edf-a794-1d58987e8b5e")
 	)
 	(wire
 		(pts
@@ -10521,8 +10511,8 @@
 		)
 		(uuid "93b38ee5-c665-4889-b8cc-fcc1fa7b3562")
 	)
-	(label "KB_INT5"
-		(at 55.88 124.46 180)
+	(label "KB_Sound"
+		(at 34.29 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11000,16 +10990,6 @@
 			(justify right bottom)
 		)
 		(uuid "db4eaece-a919-448c-a8da-f42e9c3cd1d5")
-	)
-	(label "KB_SOUND"
-		(at 29.21 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db7a107c-2a2b-470f-9177-425874fe66fd")
 	)
 	(label "D171_P0B2"
 		(at 269.24 53.34 90)
@@ -15941,74 +15921,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000655ddd04"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f60e13e8-98ce-4068-9ba9-103521436ff7")
-		(property "Reference" "R78"
-			(at 35.56 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 35.56 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "043fa47e-791e-467b-9225-ba8dc79ba905")
-		)
-		(pin "2"
-			(uuid "30ad9a89-4f1a-454b-aaaa-ff559e6e78fa")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000655ddd04"
-					(reference "R78")
 					(unit 1)
 				)
 			)
