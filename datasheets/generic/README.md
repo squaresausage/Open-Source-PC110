@@ -31,4 +31,5 @@ The following website is a great source: https://smd.yooneed.one/
 | ST3 | 2SC4453      |
 | H15 | 2SJ204       |
 | G16 | 2SK1590      |
+| 8L  | UNR2210      |
 
