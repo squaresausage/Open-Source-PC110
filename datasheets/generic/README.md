@@ -29,5 +29,4 @@ The following website is a great source: https://smd.yooneed.one/
 | 7C  | UN2123       |
 | 6D  | UN2114       |
 | ST3 | 2SC4453      |
-| 6LS | DTA124XET1   |
 
