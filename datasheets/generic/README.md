@@ -30,4 +30,4 @@ The following website is a great source: https://smd.yooneed.one/
 | 6D  | UN2114       |
 | ST3 | 2SC4453      |
 | 6LS | DTA124XET1   |
-| M2P | BFR31        |
+
