@@ -30,4 +30,5 @@ The following website is a great source: https://smd.yooneed.one/
 | 6D  | UN2114       |
 | ST3 | 2SC4453      |
 | H15 | 2SJ204       |
+| G16 | 2SK1590      |
 
