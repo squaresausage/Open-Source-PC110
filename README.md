@@ -24,7 +24,7 @@ Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
 Flash dump of M38224M6HP and M38813E4HP.
 
-Schematic for the motherboard and PSU module.
+Schematic for the motherboard, PSU module, and Docking Station.
 
 Schematic for other modules is in progress.
 
