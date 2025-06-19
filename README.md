@@ -6,25 +6,23 @@ A repository for all the technical details of the PC110
 
 What it includes:
 
-PCB layout of the motherboard (based on KiCad)
+Schematic and PCB layout of the motherboard (based on KiCad)
 
-PCB layout of the PSU module (based on KiCad)
+Schematic and PCB layout of the PSU module (based on KiCad)
 
-PCB layout of the Docking Station (based on KiCad)
+Schematic and PCB layout of the Docking Station (based on KiCad)
 
-PCB layout of the Modem (based on KiCad)
+Schematic and PCB layout of the Modem (based on KiCad)
 
-PCB layout of the 16MB RAM Module (based on KiCad)
+Schematic and PCB layout of the 16MB RAM Module (based on KiCad)
 
-Flex PCB and PET layout of the Keyboard Membrane (based on KiCad)
+Flex PCB and PET Schematic and layout of the Keyboard Membrane (based on KiCad)
 
 Optical scans, X-ray images from different PCBs, layers, and chips.
 
 Flash dump of the BIOS and the AT29LV512 (available in only a few models).
 
 Flash dump of M38224M6HP and M38813E4HP.
-
-Schematic for the motherboard, PSU module, internal modem, Docking Station, 16MB RAM module, and the keyboard membrane.
 
 # How can you help?
 
