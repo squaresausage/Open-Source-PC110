@@ -28,7 +28,7 @@ Flash dump of M38224M6HP and M38813E4HP.
 
 Help by reviewing Schematics and PCB layouts to report potential bugs, errors, and issues.
 
-Help with verifying the layout and schematic.
+Help to verify the layout and schematic.
 
 Help with finding missing datasheets
 
@@ -36,7 +36,7 @@ Please help us [fund](https://gofund.me/716b7dae) the next iteration of PCBA to 
 
 
 # HackADay Article
-Here is a [link to the HackADay article](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) about this project:
+Here is a [link to the HackADay article](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) about this project.
 
 # License
 
