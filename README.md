@@ -26,9 +26,9 @@ Flash dump of M38224M6HP and M38813E4HP.
 
 # How can you help?
 
-Help by reviewing the PCB layout and reporting bugs/issues
+Help by reviewing Schematics and PCB layouts to report potential bugs, errors, and issues.
 
-Help with verification of the layout and schematic
+Assistance with verifying the layout and schematic.
 
 Help with finding missing datasheets
 
