@@ -28,12 +28,12 @@ Flash dump of M38224M6HP and M38813E4HP.
 
 Help by reviewing Schematics and PCB layouts to report potential bugs, errors, and issues.
 
-Assistance with verifying the layout and schematic.
+Help with verifying the layout and schematic.
 
 Help with finding missing datasheets
 
-Please help us fund the next iteration of PCBA to test the recreated motherboard:
-https://gofund.me/716b7dae
+Please help us [fund](https://gofund.me/716b7dae) the next iteration of PCBA to test the recreated motherboard.
+
 
 # HackADay Article
 Here is a link to the HackADay article about this project:
