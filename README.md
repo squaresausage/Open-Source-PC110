@@ -36,9 +36,7 @@ Please help us [fund](https://gofund.me/716b7dae) the next iteration of PCBA to 
 
 
 # HackADay Article
-Here is a link to the HackADay article about this project:
-
-https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/
+Here is a [link to the HackADay article](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) about this project:
 
 # License
 
