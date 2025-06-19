@@ -17,6 +17,12 @@ Here are some 3D renders of the PCBs
 
 ### Mother Board:
 
+- Schematic
+
+<img width="756" alt="Screenshot 2025-06-19 at 7 54 10 AM" src="https://github.com/user-attachments/assets/9c982810-b3e1-4d82-ad55-4d1de2c18353" />
+
+- Layout
+
 <img width="753" alt="motherboard" src="https://github.com/user-attachments/assets/24e71d16-02dd-4cf2-a335-273538d7219c" />
 
 ### Power Supply:
