@@ -455,6 +455,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Dual_CommonCathode_AKA"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Dual_CommonCathode_AKA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Schottky diode, common cathode on pin 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Dual_CommonCathode_AKA_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -569,209 +818,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PC110:D3_PC110"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D22"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D3_PC110_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D3_PC110_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5135,37 +5181,37 @@
 		(uuid "ff4ec0d7-ead7-4353-8ff9-71223de3a2f6")
 	)
 	(label "FDC_ACK#"
-		(at 368.3 127 0)
+		(at 382.27 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "01ffde6a-09ab-4c58-8976-9ec5cec70b79")
 	)
 	(label "FDC_AUTOFD#"
-		(at 368.3 137.16 0)
+		(at 382.27 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0350b969-0803-4e8e-928c-c1c11e60a424")
 	)
 	(label "FDC_DCD1#"
-		(at 210.82 160.02 0)
+		(at 222.25 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0c0fd4a9-fcd6-4c09-8229-d39a9c5fce31")
 	)
 	(label "FDD_MOTEN"
-		(at 139.7 247.65 90)
+		(at 139.7 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5175,7 +5221,7 @@
 		(uuid "0c2e24ba-633b-440e-abf5-0b2c9913309f")
 	)
 	(label "FDC_FINTR"
-		(at 64.77 168.91 0)
+		(at 63.5 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5231,7 @@
 		(uuid "14ec8601-fb8c-42dd-8a5e-cd71e9f523ab")
 	)
 	(label "AEN"
-		(at 64.77 100.33 0)
+		(at 63.5 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5195,27 +5241,27 @@
 		(uuid "16d79c67-736c-4b87-8cd5-0a0ae5798b26")
 	)
 	(label "FDC_PD5"
-		(at 213.36 107.95 0)
+		(at 222.25 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1b2b01cb-a628-4824-97cb-e9f47b5fc480")
 	)
 	(label "FDC_PE"
-		(at 368.3 121.92 0)
+		(at 382.27 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1c4e153f-1252-4af5-8226-a51387a01b08")
 	)
 	(label "IRQ5"
-		(at 64.77 190.5 0)
+		(at 63.5 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5225,17 +5271,17 @@
 		(uuid "1fce0f73-f6f9-46e9-a3c6-5cfd3819fa20")
 	)
 	(label "FDC_HDCS1#"
-		(at 209.55 198.12 0)
+		(at 222.25 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1fd4cca5-044b-40a4-b1de-806fbccc046b")
 	)
 	(label "FDC_TRK0#"
-		(at 170.18 247.65 90)
+		(at 170.18 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,7 +5291,7 @@
 		(uuid "20806816-7d9f-4d62-8d8a-e9e7c0737102")
 	)
 	(label "FDC_WRTPRT#"
-		(at 165.1 247.65 90)
+		(at 165.1 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5255,17 +5301,17 @@
 		(uuid "24345502-c717-43b3-b430-9727cf3b5e4e")
 	)
 	(label "FDC_CTS2#"
-		(at 210.82 175.26 0)
+		(at 222.25 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2a0dde57-6298-4e0a-854d-c88a6e284af6")
 	)
 	(label "FCS_IOCHRDY"
-		(at 64.77 173.99 0)
+		(at 63.5 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5275,32 +5321,32 @@
 		(uuid "2bab6bcc-2a6f-4005-8661-c4a822fb01e6")
 	)
 	(label "FDC_DSR1"
-		(at 210.82 147.32 0)
+		(at 222.25 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2cffbd89-ff33-45c6-af41-82ff8204eac1")
 	)
 	(label "FDC_PD4"
-		(at 213.36 105.41 0)
+		(at 222.25 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2d7f8d5f-b2a0-463b-9683-1000b4d6b793")
 	)
 	(label "IOCS16#"
-		(at 213.36 200.66 0)
+		(at 222.25 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "396fac9d-0d01-4c80-be52-8521e4b111db")
 	)
@@ -5315,7 +5361,7 @@
 		(uuid "399b2118-6009-4f1f-b31a-186a81878c78")
 	)
 	(label "FDC_DRATE1"
-		(at 152.4 247.65 90)
+		(at 152.4 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,17 +5381,17 @@
 		(uuid "3cac19fd-1318-4ecb-8d74-922275d8c02d")
 	)
 	(label "FDC_STROBE#"
-		(at 368.3 129.54 0)
+		(at 382.27 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3d28c077-c6f7-4ea7-92ac-8041bebb6631")
 	)
 	(label "IRQ4"
-		(at 64.77 163.83 0)
+		(at 63.5 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5355,12 +5401,12 @@
 		(uuid "42e7b34d-1084-48b5-bb05-d0ba0a9a17ea")
 	)
 	(label "FDC_PD3"
-		(at 213.36 102.87 0)
+		(at 222.25 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "43e6d87e-6729-493f-be27-ecf1c5e838fa")
 	)
@@ -5385,7 +5431,7 @@
 		(uuid "47141718-2ccf-45a9-b7e2-4e5bb3294bc7")
 	)
 	(label "FDC_FDRQ"
-		(at 64.77 153.67 0)
+		(at 63.5 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5395,12 +5441,12 @@
 		(uuid "47cfcb8b-bb4e-45e2-917f-2c1ddd551e2f")
 	)
 	(label "FDC_IDE7"
-		(at 212.09 193.04 0)
+		(at 222.25 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4a41eac8-0263-47c6-8d67-2fde1a86d01c")
 	)
@@ -5415,17 +5461,17 @@
 		(uuid "4c287514-061d-4ab3-a566-fff304f05055")
 	)
 	(label "FDC_DTR1#"
-		(at 210.82 154.94 0)
+		(at 222.25 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "51764085-22dd-4178-b268-e529a686d8fe")
 	)
 	(label "FDC_MTR3#"
-		(at 93.98 246.38 0)
+		(at 92.71 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5435,22 +5481,22 @@
 		(uuid "5c7d8e23-1ca1-407b-b074-7f6b0b374026")
 	)
 	(label "FDC_IOW"
-		(at 180.34 45.72 0)
+		(at 189.23 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5d164883-3351-4b0c-85d7-9009b909aa6d")
 	)
 	(label "FDC_RI2#"
-		(at 210.82 180.34 0)
+		(at 222.25 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5f0a21d9-62a9-48c4-abf4-b73784b39193")
 	)
@@ -5475,77 +5521,77 @@
 		(uuid "6189cefe-6a85-495d-8b6c-623997414799")
 	)
 	(label "FDC_RI1#"
-		(at 210.82 157.48 0)
+		(at 222.25 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "63cc2e3f-058b-4d99-a1f6-dacedd50322f")
 	)
 	(label "FDC_PD0"
-		(at 213.36 95.25 0)
+		(at 222.25 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "65bd98a3-c53c-4d0e-a4b3-2cf9ec6a446e")
 	)
 	(label "FDC_DTR2#"
-		(at 210.82 177.8 0)
+		(at 222.25 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6a3a833a-8875-4e08-b50b-d0c315a2109c")
 	)
 	(label "FDC_DCD2#"
-		(at 210.82 182.88 0)
+		(at 222.25 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "775fecb7-6e57-45a0-b47a-a5418827501f")
 	)
 	(label "FDC_TXD1"
-		(at 210.82 142.24 0)
+		(at 222.25 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7939b3fb-293d-4cf6-af95-e0a768ea6bfd")
 	)
 	(label "FDC_RTS2#"
-		(at 210.82 172.72 0)
+		(at 222.25 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7d41758d-848d-41dc-97a2-b36e29d39818")
 	)
 	(label "IOW#"
-		(at 125.73 50.8 0)
+		(at 130.81 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7f28ff75-5a47-474c-9c3f-8cfce5f96c1e")
 	)
 	(label "IRQ3"
-		(at 64.77 161.29 0)
+		(at 63.5 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5575,7 +5621,7 @@
 		(uuid "8776ba89-ed3c-46c5-9bd0-3507e7b6d70c")
 	)
 	(label "FDD_INDEX#"
-		(at 172.72 247.65 90)
+		(at 172.72 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,7 +5631,7 @@
 		(uuid "878c15ac-d504-46fe-a22d-17c6dfb59ad8")
 	)
 	(label "FDC_DSKCHG#"
-		(at 167.64 247.65 90)
+		(at 167.64 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5595,12 +5641,12 @@
 		(uuid "8b2149be-21d9-43eb-8eba-ab3fe6b8e3e2")
 	)
 	(label "FDC_SLCTIN#"
-		(at 368.3 132.08 0)
+		(at 382.27 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "917a1732-25db-4e0b-b4df-0317ff3f2567")
 	)
@@ -5615,47 +5661,47 @@
 		(uuid "95722654-6ea8-401a-8fec-4349e18b3d28")
 	)
 	(label "FDC_INIT#"
-		(at 368.3 134.62 0)
+		(at 382.27 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9647d193-a96a-4f91-b34d-059c79605831")
 	)
 	(label "FDC_IRTX_TXD2"
-		(at 207.01 165.1 0)
+		(at 222.25 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9856e55c-bd95-4b74-83d6-595c03fc588f")
 	)
 	(label "FDC_RTS1#"
-		(at 210.82 149.86 0)
+		(at 222.25 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9b64ddfa-4016-4d16-ac04-f8e76a10e23f")
 	)
 	(label "FDC_HDCS0#"
-		(at 209.55 195.58 0)
+		(at 222.25 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f52a687-649e-456e-bd07-7001207a1094")
 	)
 	(label "Chipset_FDC_TC"
-		(at 64.77 158.75 0)
+		(at 63.5 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5665,7 +5711,7 @@
 		(uuid "a026d6c4-5652-4f8a-9e4d-1da4d577453b")
 	)
 	(label "FDC_RDATA#"
-		(at 177.8 247.65 90)
+		(at 177.8 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,7 +5731,7 @@
 		(uuid "aa5ef997-9cb4-4689-9150-9a382c93c189")
 	)
 	(label "RESET"
-		(at 64.77 171.45 0)
+		(at 63.5 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,12 +5741,12 @@
 		(uuid "af92487f-f681-4891-bac9-4b2358cb8795")
 	)
 	(label "PWRGD"
-		(at 71.12 194.31 180)
+		(at 63.5 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b17431b0-17f9-422b-9ac4-e7a6f7a5b148")
 	)
@@ -5715,12 +5761,12 @@
 		(uuid "b1c354c0-0414-4ea2-990a-4501081f8d71")
 	)
 	(label "FDC_IRRX_RXD2"
-		(at 207.01 167.64 0)
+		(at 222.25 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b1dd78c9-68e8-44c0-bfbf-fe6f3825a611")
 	)
@@ -5735,27 +5781,27 @@
 		(uuid "b48eba44-5abe-43dc-8d51-ee9e0cfce33c")
 	)
 	(label "FDC_CTS1#"
-		(at 210.82 152.4 0)
+		(at 222.25 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b69be7c2-2780-4486-9d93-8c2ef81205f5")
 	)
 	(label "FDC_PD6"
-		(at 213.36 110.49 0)
+		(at 222.25 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bb945e69-34cd-493c-bd7d-1edb809e7d34")
 	)
 	(label "FDC_WGATE#"
-		(at 162.56 247.65 90)
+		(at 162.56 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,12 +5811,12 @@
 		(uuid "bc599436-6029-4afb-b66d-05b1134f8c06")
 	)
 	(label "FDC_BUSY"
-		(at 368.3 116.84 0)
+		(at 382.27 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "be8a187d-df8b-4cef-bd8b-520e4fe7bee3")
 	)
@@ -5795,12 +5841,12 @@
 		(uuid "cd6397aa-1ed6-434a-96cb-eeed19b3fc30")
 	)
 	(label "FDC_PD7"
-		(at 213.36 113.03 0)
+		(at 222.25 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cee7c912-a93e-4506-991f-c5850ba5de34")
 	)
@@ -5835,7 +5881,7 @@
 		(uuid "d68245da-cd79-4a8a-babb-e86950d42ed3")
 	)
 	(label "IOR#"
-		(at 64.77 95.25 0)
+		(at 63.5 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5845,7 +5891,7 @@
 		(uuid "d83a5d34-e24d-4b65-830d-e9b39ef31759")
 	)
 	(label "FDC_STEP#"
-		(at 154.94 247.65 90)
+		(at 154.94 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5865,17 +5911,17 @@
 		(uuid "dc47b484-ed73-41aa-a9b8-7ecb34fe016b")
 	)
 	(label "FDC_PD2"
-		(at 213.36 100.33 0)
+		(at 222.25 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dc5cb684-7adf-49af-b87b-7d3b66a7f42e")
 	)
 	(label "FDC_HDSEL#"
-		(at 147.32 247.65 90)
+		(at 147.32 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5885,7 +5931,7 @@
 		(uuid "dcc2055b-1248-4280-86d7-2f6346a6180a")
 	)
 	(label "FDC_DACK#"
-		(at 64.77 156.21 0)
+		(at 63.5 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5895,7 +5941,7 @@
 		(uuid "e1223698-96f5-49ac-97f7-374dcd48e390")
 	)
 	(label "IRQ7"
-		(at 64.77 166.37 0)
+		(at 63.5 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5905,17 +5951,17 @@
 		(uuid "e2469f7f-276f-4b3e-8023-1a741699e587")
 	)
 	(label "FDC_DSR2#"
-		(at 210.82 170.18 0)
+		(at 222.25 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e438e1f6-8f26-4c3c-900d-112c8f3caf77")
 	)
 	(label "FDC_DIR#"
-		(at 157.48 247.65 90)
+		(at 157.48 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5925,12 +5971,12 @@
 		(uuid "e540a900-a2a4-4b75-951f-9ebd97baa6d2")
 	)
 	(label "FDC_ERROR#"
-		(at 368.3 124.46 0)
+		(at 382.27 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e9375c5c-2334-40f4-8270-7baac3cec110")
 	)
@@ -5945,7 +5991,7 @@
 		(uuid "ed809436-68d3-4f59-80bd-091e2b7139ca")
 	)
 	(label "FDC_CLK"
-		(at 64.77 182.88 0)
+		(at 63.5 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5955,27 +6001,27 @@
 		(uuid "eedd1dce-0098-4d1e-855f-0eafd5021c3e")
 	)
 	(label "FDC_PD1"
-		(at 213.36 97.79 0)
+		(at 222.25 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f2e35f1c-afa4-4b67-ac5f-c3204b4a9878")
 	)
 	(label "FDC_SLCT"
-		(at 368.3 119.38 0)
+		(at 382.27 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f4faae72-751e-47d3-9c41-ddcec5ef7c8b")
 	)
 	(label "FDD_DRSEL"
-		(at 144.78 247.65 90)
+		(at 144.78 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5985,7 +6031,7 @@
 		(uuid "f57ae445-a469-43cb-89bf-d0f05af6156e")
 	)
 	(label "FDC_DS3"
-		(at 64.77 176.53 0)
+		(at 63.5 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5995,7 +6041,7 @@
 		(uuid "f684b2b5-e700-4606-9732-07cac46b8ccd")
 	)
 	(label "FDC_WDATA#"
-		(at 180.34 247.65 90)
+		(at 180.34 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6005,7 +6051,7 @@
 		(uuid "f854f168-6f69-4731-a908-5b96acd51f3a")
 	)
 	(label "FDC_DRATE0"
-		(at 149.86 247.65 90)
+		(at 149.86 248.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6015,7 +6061,7 @@
 		(uuid "f9648301-efb2-48bb-bced-c5288292972b")
 	)
 	(label "FDC_MTR2#"
-		(at 93.98 248.92 0)
+		(at 92.71 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6025,12 +6071,12 @@
 		(uuid "fa26062b-f698-408e-8aa8-b1df43f38e30")
 	)
 	(label "FDC_RXD1"
-		(at 210.82 144.78 0)
+		(at 222.25 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fc2cb82a-bda7-4e5d-8491-9bb5cb073d8f")
 	)
@@ -6176,77 +6222,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
 					(reference "R118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PC110:D3_PC110")
-		(at 287.02 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d58e018-81d2-4e98-9719-d7920bd0ecfa")
-		(property "Reference" "D24"
-			(at 287.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3D"
-			(at 287.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 287.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 287.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff627232-c1c0-49b8-894d-5eed9b467886")
-		)
-		(pin "2"
-			(uuid "55093de5-ad9c-4249-bf83-f1401df38683")
-		)
-		(pin "3"
-			(uuid "3c2078b8-8472-4f5a-9ffb-8db22fa2be5b")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
-					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6463,15 +6438,14 @@
 		)
 	)
 	(symbol
-		(lib_id "PC110:D3_PC110")
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA")
 		(at 337.82 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4913fae6-5dc9-46b1-8221-83dafde1ec38")
+		(uuid "3701bee4-c8ad-4a57-bb11-4d956123d3ab")
 		(property "Reference" "D25"
 			(at 337.82 83.82 0)
 			(effects
@@ -6480,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Value" "3D"
+		(property "Value" "RB715F"
 			(at 337.82 86.36 0)
 			(effects
 				(font
@@ -6506,7 +6480,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 2"
+		(property "Description" "Dual Schottky diode, common cathode on pin 2"
+			(at 337.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "3D"
 			(at 337.82 90.17 0)
 			(effects
 				(font
@@ -6516,18 +6499,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "2640ef99-6cb8-4dcd-a62f-cad1648f8fb7")
-		)
-		(pin "2"
-			(uuid "16401186-4c0a-4a6a-a535-885d81654662")
+			(uuid "8e5ff5a7-237f-4fdf-a7f7-3fd0d343544e")
 		)
 		(pin "3"
-			(uuid "745ed3a1-baef-4c5d-b5a1-23b6cf38137a")
+			(uuid "7eb9bcef-40b1-4d09-b81f-4451a87bab73")
+		)
+		(pin "2"
+			(uuid "28b81f8a-a450-4ddd-9d46-b9ca17ff1941")
 		)
 		(instances
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA")
+		(at 287.02 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "529f6dd8-adbd-4819-8aa9-8112a695e8b7")
+		(property "Reference" "D24"
+			(at 287.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB715F"
+			(at 287.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, common cathode on pin 2"
+			(at 287.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "3D"
+			(at 287.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775e3d80-0bb9-40a3-b325-24a65bb1b78c")
+		)
+		(pin "3"
+			(uuid "dcabf5f5-04f9-479c-852d-283cfd727e2d")
+		)
+		(pin "2"
+			(uuid "b48f7490-714f-4f45-8a2b-66fd6a62411b")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006bbfee6b"
+					(reference "D24")
 					(unit 1)
 				)
 			)

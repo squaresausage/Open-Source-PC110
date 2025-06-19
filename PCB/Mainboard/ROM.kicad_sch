@@ -253,7 +253,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_CommonCathode_AKA"
+		(symbol "Device:D_Schottky_Dual_CommonCathode_AKA"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -269,7 +269,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Dual_CommonCathode_AKA"
+			(property "Value" "D_Schottky_Dual_CommonCathode_AKA"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -295,7 +295,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual diode, common cathode on pin 2"
+			(property "Description" "Dual Schottky diode, common cathode on pin 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -313,7 +313,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Dual_CommonCathode_AKA_0_1"
+			(symbol "D_Schottky_Dual_CommonCathode_AKA_0_1"
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
@@ -328,7 +328,31 @@
 				)
 				(polyline
 					(pts
+						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016) (xy -0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -363,7 +387,31 @@
 				)
 				(polyline
 					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -1.016) (xy 1.778 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -5868,7 +5916,7 @@
 		(uuid "ffd85551-c80a-4f2d-8f06-ca73b9aef7c9")
 	)
 	(label "Pluto_BIOS_WR_EN"
-		(at 349.25 195.58 0)
+		(at 347.98 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5898,12 +5946,12 @@
 		(uuid "04d4699a-bd58-4bfc-920e-cfd825aaac86")
 	)
 	(label "MEMW#"
-		(at 378.46 139.7 0)
+		(at 386.08 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0653a0f3-e0b9-4cce-9268-52b067f7a1cf")
 	)
@@ -5948,12 +5996,12 @@
 		(uuid "0d1c2d7f-8692-4fd4-aa5b-1de9fee2c4df")
 	)
 	(label "Chipset_BIOS_CE#"
-		(at 284.48 147.32 0)
+		(at 302.26 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0fc2a4db-1b28-430d-b5d3-d9e2383f5d72")
 	)
@@ -6068,7 +6116,7 @@
 		(uuid "4d22174d-2a66-408e-bf63-8583a7569b6e")
 	)
 	(label "PWRGD_shift_buff"
-		(at 384.81 105.41 180)
+		(at 386.08 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6098,12 +6146,12 @@
 		(uuid "54aeca0c-02b1-4cfa-bd85-c270e0e3f3fc")
 	)
 	(label "MEMR#"
-		(at 294.64 139.7 0)
+		(at 302.26 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "573659b0-e0ce-41dd-8043-aa881eddbca1")
 	)
@@ -6138,7 +6186,7 @@
 		(uuid "6535cc99-7f3c-46c1-9165-eb936c847200")
 	)
 	(label "BIOS_SA17"
-		(at 203.2 180.34 0)
+		(at 201.93 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,12 +6246,12 @@
 		(uuid "802447c2-ddd4-42f7-9b6e-52a48b8d0786")
 	)
 	(label "Bowman5_Buff"
-		(at 370.84 100.33 0)
+		(at 386.08 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "80283930-cf2b-4940-b1c3-561cebe43794")
 	)
@@ -6218,12 +6266,12 @@
 		(uuid "81a01944-7651-4514-bca0-fad97fb53cd1")
 	)
 	(label "OKI_CE#"
-		(at 125.73 176.53 0)
+		(at 135.89 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "84573c63-a641-4bae-a4b3-bd1c8604a994")
 	)
@@ -6238,7 +6286,7 @@
 		(uuid "88977556-3477-437b-a816-7973513784de")
 	)
 	(label "Chipset_SA16"
-		(at 203.2 177.8 0)
+		(at 201.93 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6288,17 +6336,17 @@
 		(uuid "9e34e385-c8dc-4078-a57f-fb850af44d12")
 	)
 	(label "MEMR#"
-		(at 125.73 179.07 0)
+		(at 135.89 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a5174b5f-6b9b-4177-bb43-ad1d789744da")
 	)
 	(label "D28_1"
-		(at 246.38 73.66 0)
+		(at 245.11 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,7 +6596,7 @@
 		(uuid "e9a5a6e5-b5ab-4ef5-8ce8-7981e39db0ef")
 	)
 	(label "PWRGD"
-		(at 207.01 99.06 0)
+		(at 204.47 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +7004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AKA")
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA")
 		(at 245.11 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -6964,7 +7012,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26e9e550-259e-4953-9737-3a64e631e1f3")
+		(uuid "27b470b9-2911-44fe-8646-9a6c8fcf6268")
 		(property "Reference" "D20"
 			(at 245.11 92.71 0)
 			(effects
@@ -6973,7 +7021,7 @@
 				)
 			)
 		)
-		(property "Value" "3D"
+		(property "Value" "RB715F"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -6999,7 +7047,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 2"
+		(property "Description" "Dual Schottky diode, common cathode on pin 2"
+			(at 245.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "3D"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -7009,13 +7066,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3256c2c-449b-4a8f-91bd-4f2ae106d558")
+			(uuid "ec876829-6150-4c4d-be62-a0aec8128fd3")
 		)
 		(pin "3"
-			(uuid "cdcab985-9455-4d7a-ad7c-b0ca8f2563c0")
+			(uuid "183b66d2-440d-4f53-be66-1a1fcec1a241")
 		)
 		(pin "2"
-			(uuid "cc77f16e-d483-45fb-8bb1-f4c1e22e7e1c")
+			(uuid "4f7b532f-db15-40bd-abb0-7445c2ba05ab")
 		)
 		(instances
 			(project "PC110"
@@ -8699,8 +8756,8 @@
 				)
 			)
 		)
-		(property "Value" "N"
-			(at 379.73 196.342 90)
+		(property "Value" "DAN222"
+			(at 381.508 196.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,6 +8789,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Topmark" "N"
+			(at 375.92 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"

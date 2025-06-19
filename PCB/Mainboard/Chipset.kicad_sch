@@ -1227,207 +1227,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_CommonCathode_AKA"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Dual_CommonCathode_AKA"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AKA_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Dual_Series_KAC"
 			(pin_names
 				(offset 0.762)
@@ -1619,6 +1418,255 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_Dual_CommonCathode_AKA"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Dual_CommonCathode_AKA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Schottky diode, common cathode on pin 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Dual_CommonCathode_AKA_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9045,7 +9093,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 115.57) (xy 486.41 115.57)
+			(xy 464.82 115.57) (xy 485.14 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9775,7 +9823,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 95.25) (xy 486.41 95.25)
+			(xy 464.82 95.25) (xy 485.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9905,7 +9953,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 118.11) (xy 486.41 118.11)
+			(xy 464.82 118.11) (xy 485.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10835,7 +10883,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 105.41) (xy 486.41 105.41)
+			(xy 464.82 105.41) (xy 485.14 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11215,7 +11263,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 107.95) (xy 486.41 107.95)
+			(xy 464.82 107.95) (xy 485.14 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11825,7 +11873,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 102.87) (xy 486.41 102.87)
+			(xy 464.82 102.87) (xy 485.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -12665,7 +12713,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 120.65) (xy 486.41 120.65)
+			(xy 464.82 120.65) (xy 485.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12695,7 +12743,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 97.79) (xy 486.41 97.79)
+			(xy 464.82 97.79) (xy 485.14 97.79)
 		)
 		(stroke
 			(width 0)
@@ -12995,7 +13043,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 113.03) (xy 486.41 113.03)
+			(xy 464.82 113.03) (xy 485.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13055,7 +13103,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 100.33) (xy 486.41 100.33)
+			(xy 464.82 100.33) (xy 485.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -13695,7 +13743,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 110.49) (xy 486.41 110.49)
+			(xy 464.82 110.49) (xy 485.14 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13854,27 +13902,27 @@
 		(uuid "000e9e3d-009d-45b6-ae68-e1d551148f79")
 	)
 	(label "CPU_SRESET"
-		(at 473.71 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "015045fc-1542-4c25-bd24-8c412295e382")
-	)
-	(label "Bowman5"
-		(at 205.74 217.17 180)
+		(at 485.14 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+		(uuid "015045fc-1542-4c25-bd24-8c412295e382")
+	)
+	(label "Bowman5"
+		(at 195.58 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "01745913-89d9-474f-8c4b-2017e50700b2")
 	)
 	(label "MEMR#"
-		(at 156.21 292.1 0)
+		(at 154.94 292.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13884,12 +13932,12 @@
 		(uuid "01746c46-1878-4997-9f98-4b85a0c59489")
 	)
 	(label "UNKNOWN1"
-		(at 139.7 322.58 0)
+		(at 151.13 322.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "01e2b67c-7cd7-4db5-9a59-1de030341a81")
 	)
@@ -13944,7 +13992,7 @@
 		(uuid "0415daea-ff6c-4f29-838a-2d3af13bb3bd")
 	)
 	(label "KB_SRDY#_shift"
-		(at 86.36 330.2 0)
+		(at 85.09 330.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13974,22 +14022,22 @@
 		(uuid "06845a52-d42a-4f52-ade6-c247c5097b67")
 	)
 	(label "FCS_RESET"
-		(at 257.81 330.2 0)
+		(at 269.24 330.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0695fbd0-f1eb-4802-a38c-ed256f6609b3")
 	)
 	(label "KB_SRDY#"
-		(at 140.97 330.2 0)
+		(at 151.13 330.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0a9438cb-edc9-4b92-b6f0-f73e489c46f7")
 	)
@@ -14004,12 +14052,12 @@
 		(uuid "0c8b921e-a9e6-4d69-9262-fe31a639a99e")
 	)
 	(label "CPU_RDY#"
-		(at 474.98 69.85 0)
+		(at 485.14 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0d31f721-de36-4590-8a1c-6fcb1265ab75")
 	)
@@ -14044,12 +14092,12 @@
 		(uuid "0f66f9ae-dd76-4225-b2ab-ef2054248652")
 	)
 	(label "CPU_BLAST#"
-		(at 472.44 82.55 0)
+		(at 485.14 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "100448b6-d253-452e-b889-ead7f2ce3c64")
 	)
@@ -14064,17 +14112,17 @@
 		(uuid "1043238a-c00e-47c8-b911-d3b917920fec")
 	)
 	(label "RAM_RAS3"
-		(at 473.71 214.63 0)
+		(at 486.41 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "120349f7-504e-44cd-a7fd-41334c3fa879")
 	)
 	(label "IOW#"
-		(at 173.99 223.52 0)
+		(at 172.72 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14094,12 +14142,12 @@
 		(uuid "145a8f79-c812-49aa-b423-a58d0096baaf")
 	)
 	(label "CPU_SMIACT#"
-		(at 472.44 100.33 0)
+		(at 485.14 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "14d30a98-9c99-4370-b826-0357488bdc40")
 	)
@@ -14114,22 +14162,22 @@
 		(uuid "15375c9c-00a3-4656-82a4-c66b0645e889")
 	)
 	(label "CPU_EADS#"
-		(at 473.71 87.63 0)
+		(at 485.14 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "180ff1d5-0686-4464-be7f-cc41a56ed82b")
 	)
 	(label "CPU_HOLD"
-		(at 476.25 118.11 0)
+		(at 485.14 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "185601b9-d905-434d-8704-dd269faf5724")
 	)
@@ -14174,12 +14222,12 @@
 		(uuid "1d3453ae-90dd-4937-a421-0131affd473e")
 	)
 	(label "PCMCIA_CS"
-		(at 474.98 266.7 0)
+		(at 486.41 266.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1e7480af-cf4d-4353-9a17-b71859beff65")
 	)
@@ -14204,17 +14252,17 @@
 		(uuid "20038e58-0b73-49d9-bf4f-655c0e56b401")
 	)
 	(label "CPU_RESET"
-		(at 474.98 107.95 0)
+		(at 485.14 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "208518e5-750d-4d09-8f81-f2696ed80d64")
 	)
 	(label "MEMW#"
-		(at 156.21 294.64 0)
+		(at 154.94 294.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14264,22 +14312,22 @@
 		(uuid "28c261f5-b25c-492e-9a24-577a19eb3334")
 	)
 	(label "KB_RESET#"
-		(at 474.98 280.67 0)
+		(at 486.41 280.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2a64388f-733f-4fa2-9b28-4ebc47eeddee")
 	)
 	(label "CPU_DC#"
-		(at 474.98 80.01 0)
+		(at 485.14 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2b46d6ce-6e76-4ffc-b1c9-28842834fbe8")
 	)
@@ -14294,12 +14342,12 @@
 		(uuid "2c30192c-90fa-44fc-a93b-c6833cd0758a")
 	)
 	(label "Bowman5"
-		(at 140.97 320.04 0)
+		(at 151.13 320.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2e1e94ff-51d2-411b-ac0d-3423a80f125f")
 	)
@@ -14314,22 +14362,22 @@
 		(uuid "2e5ef4db-b4a7-48e0-821d-70c69dc7fb17")
 	)
 	(label "CPU_MIO#"
-		(at 474.98 92.71 0)
+		(at 485.14 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2ef8d183-cef8-4e3e-af2f-38cff229f03a")
 	)
 	(label "CPU_FLUSH#"
-		(at 473.71 95.25 0)
+		(at 485.14 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2feaee14-57f0-479f-8eb8-65d1e3372f57")
 	)
@@ -14354,12 +14402,12 @@
 		(uuid "35956144-ee58-4da6-a670-ded53df7bf5c")
 	)
 	(label "Bowman1"
-		(at 205.74 207.01 180)
+		(at 195.58 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3771cc99-c2de-4c38-9613-fb103de03f7e")
 	)
@@ -14374,7 +14422,7 @@
 		(uuid "38d32c8f-eb8b-4903-88ef-f6946f2014c1")
 	)
 	(label "LA18"
-		(at 194.31 190.5 0)
+		(at 193.04 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14404,7 +14452,7 @@
 		(uuid "398a3a42-83a0-43d6-b570-e3cafdd968ee")
 	)
 	(label "U71_OR1_IN2"
-		(at 99.06 327.66 180)
+		(at 97.79 327.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14414,7 +14462,7 @@
 		(uuid "39a9053d-0152-4eb7-a0c3-b5edadbd80bd")
 	)
 	(label "LA23"
-		(at 194.31 203.2 0)
+		(at 193.04 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14454,7 +14502,7 @@
 		(uuid "3c9bca80-abbd-400e-8ff5-46a6789de0a6")
 	)
 	(label "PWRGD_shift"
-		(at 86.36 335.28 0)
+		(at 85.09 335.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14464,12 +14512,12 @@
 		(uuid "3dc5e7b6-91af-44ae-999f-74c5c59847be")
 	)
 	(label "CPU_KEN#"
-		(at 474.98 72.39 0)
+		(at 485.14 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3f89337b-36ab-4f9d-8bf2-4e7fc343681c")
 	)
@@ -14514,42 +14562,42 @@
 		(uuid "49111c9e-6008-4b31-b2c5-044a29c2917c")
 	)
 	(label "UNKNOWN1"
-		(at 207.01 245.11 180)
+		(at 195.58 245.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4a05a911-4778-494f-ba92-a926487bc521")
 	)
 	(label "Bowman3"
-		(at 205.74 212.09 180)
+		(at 195.58 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a7d9021-5ccd-40a5-bd91-a71a8a6782a4")
+	)
+	(label "RAM_LCASU#"
+		(at 486.41 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4a7d9021-5ccd-40a5-bd91-a71a8a6782a4")
-	)
-	(label "RAM_LCASU#"
-		(at 473.71 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "4a8ca03d-8a41-4329-90b9-254311876c15")
 	)
 	(label "RAM_UCASL#"
-		(at 473.71 226.06 0)
+		(at 486.41 226.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4ae5478a-98f1-4810-9540-c1f9ea47097a")
 	)
@@ -14594,12 +14642,12 @@
 		(uuid "5691ae0b-401a-4a32-b750-52fe8921111b")
 	)
 	(label "CPU_ADS#"
-		(at 474.98 85.09 0)
+		(at 485.14 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "587cec7a-e852-4b48-a706-f7be5f14b8d5")
 	)
@@ -14624,7 +14672,7 @@
 		(uuid "5a8c2cda-a6d5-4bd3-9c14-919afd513ac7")
 	)
 	(label "IOCS16#"
-		(at 196.85 228.6 0)
+		(at 195.58 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14664,7 +14712,7 @@
 		(uuid "5eccb1b6-09a3-4823-870a-b3898bc72f4f")
 	)
 	(label "KB_SCLK_shift"
-		(at 86.36 332.74 0)
+		(at 85.09 332.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14684,7 +14732,7 @@
 		(uuid "659a71ab-7f53-4c9c-b0b6-c12569aaaf5c")
 	)
 	(label "LA20"
-		(at 194.31 195.58 0)
+		(at 193.04 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14714,17 +14762,17 @@
 		(uuid "6a463094-6cf3-47ba-9a70-0e2faa4a329c")
 	)
 	(label "SA0"
-		(at 147.32 340.36 0)
+		(at 151.13 340.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ab74f86-60d1-4004-a487-bf21f01c8dca")
 	)
 	(label "LA22"
-		(at 194.31 200.66 0)
+		(at 193.04 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14784,12 +14832,12 @@
 		(uuid "72e690c0-fc39-426c-8d05-82a38bf74abd")
 	)
 	(label "RAM_LCASL#"
-		(at 473.71 220.98 0)
+		(at 486.41 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "77121574-2784-4b21-9ca4-068a3d638eff")
 	)
@@ -14824,7 +14872,7 @@
 		(uuid "791b5e83-a177-469a-ad99-35ffab113697")
 	)
 	(label "YMF_SA0_A0"
-		(at 86.36 340.36 0)
+		(at 85.09 340.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14844,17 +14892,17 @@
 		(uuid "7af322bf-cb5b-4226-8d59-7862b5b09ef1")
 	)
 	(label "Bowman4"
-		(at 205.74 214.63 180)
+		(at 195.58 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7b99ee60-b963-452c-a30e-28b7d62937be")
 	)
 	(label "MEMCS16#"
-		(at 196.85 220.98 0)
+		(at 195.58 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14864,42 +14912,42 @@
 		(uuid "7c68a628-98bf-4cbe-8be6-46a0ce9a0358")
 	)
 	(label "CPU_BRDY#"
-		(at 473.71 74.93 0)
+		(at 485.14 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7e1558cc-728a-49ca-b835-43dd9f61099d")
 	)
 	(label "PWRGD"
-		(at 143.51 335.28 0)
+		(at 151.13 335.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "805fb17f-8f6c-4d42-8c3b-d49c62da729d")
 	)
 	(label "CPU_BE2#"
-		(at 474.98 62.23 0)
+		(at 485.14 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "84614099-509e-4a42-9826-8b02af02e4dc")
 	)
 	(label "CPU_BE0#"
-		(at 474.98 57.15 0)
+		(at 485.14 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "85e518f7-e641-4b07-8662-3325a55ef5a1")
 	)
@@ -14924,7 +14972,7 @@
 		(uuid "88977756-a383-4674-8ec9-c46eed1266e9")
 	)
 	(label "LA19"
-		(at 194.31 193.04 0)
+		(at 193.04 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14954,17 +15002,17 @@
 		(uuid "8c28075d-6e5e-42ce-b907-c326d7b3c926")
 	)
 	(label "CPU_NMI"
-		(at 477.52 110.49 0)
+		(at 485.14 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8ca5aa44-d46f-4047-a85c-d883e1fb7d72")
 	)
 	(label "LA21"
-		(at 194.31 198.12 0)
+		(at 193.04 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14984,17 +15032,17 @@
 		(uuid "8e6c87c4-db65-4327-b103-54c79562ee8f")
 	)
 	(label "RAM_RAS2"
-		(at 473.71 212.09 0)
+		(at 486.41 212.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8ec6c03d-536b-4423-99fe-656d98b61991")
 	)
 	(label "LA17"
-		(at 194.31 187.96 0)
+		(at 193.04 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15004,12 +15052,12 @@
 		(uuid "90c7cec8-f618-4474-b2e4-dfe0bbe95d15")
 	)
 	(label "PCMCIA_ZEROWS#"
-		(at 469.9 293.37 0)
+		(at 486.41 293.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9158d6db-7815-4b80-86e1-be1d64f6690d")
 	)
@@ -15044,12 +15092,12 @@
 		(uuid "957564cd-ad63-4099-908d-51f4b37dd3f8")
 	)
 	(label "CPU_BE1#"
-		(at 474.98 59.69 0)
+		(at 485.14 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "95d330f6-9867-474a-963a-911f9c002c78")
 	)
@@ -15064,22 +15112,22 @@
 		(uuid "96983526-2e38-4105-b700-6286e50b01f4")
 	)
 	(label "Pluto_EN_IRDA"
-		(at 137.16 337.82 0)
+		(at 151.13 337.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9792ef9f-9008-4dd3-a054-127e8780e982")
 	)
 	(label "CMOS_BATT_Sense"
-		(at 33.02 209.55 0)
+		(at 50.8 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "982b7955-84c8-4b0a-83fe-893cbaccc917")
 	)
@@ -15124,7 +15172,7 @@
 		(uuid "9a08e372-ea8e-48cb-a486-efd53c5af10c")
 	)
 	(label "Enable_IRDA_Buf"
-		(at 86.36 337.82 0)
+		(at 85.09 337.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15134,22 +15182,22 @@
 		(uuid "9a2cf13f-41e0-4cc5-ba4d-f5d71a2a145d")
 	)
 	(label "RAM_RAMWE#"
-		(at 473.71 217.17 0)
+		(at 486.41 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9ad0b737-e76a-46eb-8581-e11749c09e93")
 	)
 	(label "CPU_LDEV#"
-		(at 473.71 77.47 0)
+		(at 485.14 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f91d587-c106-45ce-a255-ca009aae6f89")
 	)
@@ -15164,12 +15212,12 @@
 		(uuid "a05e974b-6740-43d8-aa21-316b686d7bd3")
 	)
 	(label "UNKNOWN2"
-		(at 207.01 247.65 180)
+		(at 195.58 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a0dbf54b-59d5-4b59-b58e-f76dc4a52af0")
 	)
@@ -15254,17 +15302,17 @@
 		(uuid "a8fa0b1d-8e7f-42a8-8bae-702290e1ac60")
 	)
 	(label "PWRGD"
-		(at 102.87 276.86 180)
+		(at 93.98 276.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "afcba329-92ff-42c9-b859-9eb3bb4451f5")
 	)
 	(label "YMF_VSS_Res"
-		(at 485.14 269.24 180)
+		(at 486.41 269.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15334,12 +15382,12 @@
 		(uuid "b9596554-316d-4980-8018-d10752c8c52a")
 	)
 	(label "CPU_WR#"
-		(at 474.98 67.31 0)
+		(at 485.14 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b986d31a-0827-4bd3-858a-dcfc4b2f6607")
 	)
@@ -15374,22 +15422,22 @@
 		(uuid "bd875cea-ba9c-4c41-ae0a-88ac3b3e64f0")
 	)
 	(label "CPU_AHOLD"
-		(at 474.98 115.57 0)
+		(at 485.14 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bf6edae5-9af9-419b-a2f6-142948ec14ac")
 	)
 	(label "CPU_HLDA"
-		(at 476.25 120.65 0)
+		(at 485.14 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c09d4d3b-0a58-44cd-ad91-9a7e15ebe13c")
 	)
@@ -15414,12 +15462,12 @@
 		(uuid "c56cc1db-912d-4328-961a-b147932f0af0")
 	)
 	(label "RAM_UCASU#"
-		(at 473.71 228.6 0)
+		(at 486.41 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c7a3057b-1613-4d45-88e3-5ddf9244fb54")
 	)
@@ -15454,32 +15502,32 @@
 		(uuid "cb8a48be-a420-450b-a494-26e2d6956266")
 	)
 	(label "CPU_SMI#"
-		(at 476.25 102.87 0)
+		(at 485.14 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cd5ce1f9-f10f-4799-95c5-7c9032921ac9")
 	)
 	(label "CPU_STPCLK#"
-		(at 472.44 97.79 0)
+		(at 485.14 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cef537a3-e85e-4082-9df1-f9647de8e2ee")
 	)
 	(label "CPU_A20M#"
-		(at 473.71 90.17 0)
+		(at 485.14 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d04d8271-a22c-4809-b49d-eca5a675c177")
 	)
@@ -15514,27 +15562,27 @@
 		(uuid "d3491889-94fb-42e6-88d8-6a9211f1210e")
 	)
 	(label "Chipset_Sound"
-		(at 471.17 275.59 0)
+		(at 486.41 275.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d57c2d66-c9c4-4b8b-bdbc-1371429437bb")
 	)
 	(label "FCS_IOCHRDY"
-		(at 472.44 290.83 0)
+		(at 486.41 290.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d59e6115-42de-4c99-ab9b-66c327a0d48a")
 	)
 	(label "IOR#"
-		(at 173.99 226.06 0)
+		(at 172.72 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15554,7 +15602,7 @@
 		(uuid "d98e2814-fc76-48d4-a38f-b4d14f44291c")
 	)
 	(label "Bowman5_Buff"
-		(at 86.36 320.04 0)
+		(at 85.09 320.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15564,12 +15612,12 @@
 		(uuid "de7f8c6a-50e7-4b61-8ceb-3a1ee976b5a3")
 	)
 	(label "RAM_RAS1"
-		(at 473.71 209.55 0)
+		(at 486.41 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e4e9ea54-2802-4ea7-87f2-f473c0635d64")
 	)
@@ -15594,22 +15642,22 @@
 		(uuid "e7eebfab-6eaf-494d-b91d-e1e81d053a52")
 	)
 	(label "Chipset_32KHz"
-		(at 471.17 273.05 0)
+		(at 486.41 273.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ea70a684-0803-40f7-9ee1-6a25789d9c2c")
 	)
 	(label "UNKNOWN2"
-		(at 139.7 325.12 0)
+		(at 151.13 325.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eb5bdd99-c3ba-4593-904f-ee221c9009e2")
 	)
@@ -15624,22 +15672,22 @@
 		(uuid "ebeb9211-f589-401a-a9bf-a244ab236951")
 	)
 	(label "CPU_BE3#"
-		(at 474.98 64.77 0)
+		(at 485.14 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eebc1eb4-ff87-44ad-8edb-68223b3a2c69")
 	)
 	(label "PCMCIA_BALE"
-		(at 472.44 264.16 0)
+		(at 486.41 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ef08e141-6223-466b-bb05-340e6674d62d")
 	)
@@ -15674,12 +15722,12 @@
 		(uuid "f14e387a-4af9-4483-883c-37bbc6c51555")
 	)
 	(label "Chipset_SA16"
-		(at 472.44 287.02 0)
+		(at 486.41 287.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f2ffa93c-cdfe-48c8-a673-c86590799ea4")
 	)
@@ -15694,22 +15742,22 @@
 		(uuid "f6c31412-f445-48f8-888b-19d90b72dcbf")
 	)
 	(label "KB_SCLK#"
-		(at 140.97 332.74 0)
+		(at 151.13 332.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f8c275ec-11b0-4c59-84d9-c5db1d609b92")
 	)
 	(label "KB_SPKDN"
-		(at 474.98 278.13 0)
+		(at 486.41 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f8dc40b6-ea01-4f48-be9a-004a764b85c1")
 	)
@@ -15734,12 +15782,12 @@
 		(uuid "fa45424e-3aaa-4ecc-b019-eacbbdeabbfe")
 	)
 	(label "Bowman2"
-		(at 205.74 209.55 180)
+		(at 195.58 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fd2b4c90-0c1f-4fea-89d7-a36342717e67")
 	)
@@ -15754,12 +15802,12 @@
 		(uuid "fd79faaa-d52f-4572-b27f-53adcacb1ab0")
 	)
 	(label "CPU_INTR"
-		(at 476.25 113.03 0)
+		(at 485.14 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fe782235-ae0b-493d-9d09-e0b3584b69e0")
 	)
@@ -17526,7 +17574,7 @@
 				)
 			)
 		)
-		(property "Value" "K"
+		(property "Value" "DA204U"
 			(at 124.46 208.28 0)
 			(effects
 				(font
@@ -17553,6 +17601,15 @@
 			)
 		)
 		(property "Description" "Dual diode, cathode/anode/center"
+			(at 124.46 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "K"
 			(at 124.46 212.09 0)
 			(effects
 				(font
@@ -21602,77 +21659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AKA")
-		(at 88.9 212.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca04ea6e-75dd-4c78-9d99-f1fd36a56b58")
-		(property "Reference" "D21"
-			(at 88.9 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3D"
-			(at 88.9 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 88.9 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a422d8e-37b4-4a86-b9f2-44160b432730")
-		)
-		(pin "3"
-			(uuid "f30ecc37-c004-4ee1-b6c1-d56824b650f2")
-		)
-		(pin "2"
-			(uuid "3443a060-8c30-4f9d-a221-3e0179d97724")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064106181"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 534.67 314.96 180)
 		(unit 1)
@@ -21803,6 +21789,86 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064106181"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA")
+		(at 88.9 212.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ac99d0-40d0-45df-a83a-0807d74b7188")
+		(property "Reference" "D21"
+			(at 88.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB715F"
+			(at 88.9 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, common cathode on pin 2"
+			(at 88.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "3D"
+			(at 88.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d083e6a-1ea6-46f5-846b-dfceba601841")
+		)
+		(pin "3"
+			(uuid "e3e0a731-a419-427b-9e3a-bde7c455a555")
+		)
+		(pin "2"
+			(uuid "437402d2-528a-428b-8b9e-365fe89e3efd")
+		)
+		(instances
+			(project ""
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064106181"
+					(reference "D21")
 					(unit 1)
 				)
 			)
