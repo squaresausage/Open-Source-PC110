@@ -6514,9 +6514,9 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -39.37 180)
+					(at 121.92 -38.1 180)
 					(length 2.54)
-					(name "RAS1"
+					(name "RAS0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6532,7 +6532,25 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -41.91 180)
+					(at 121.92 -40.64 180)
+					(length 2.54)
+					(name "RAS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 121.92 -43.18 180)
 					(length 2.54)
 					(name "RAS2"
 						(effects
@@ -6550,7 +6568,7 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -44.45 180)
+					(at 121.92 -45.72 180)
 					(length 2.54)
 					(name "RAS3"
 						(effects
@@ -6560,24 +6578,6 @@
 						)
 					)
 					(number "A13"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 121.92 -46.99 180)
-					(length 2.54)
-					(name "RAS4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D12"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -8001,7 +8001,7 @@
 		(uuid "d0ca9e8e-d83d-4430-96df-26a3cf146ca7")
 	)
 	(no_connect
-		(at 468.63 215.9)
+		(at 468.63 209.55)
 		(uuid "d561ca9d-f2bf-42bc-9d21-e00f4cbe79f4")
 	)
 	(no_connect
@@ -10987,7 +10987,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 208.28) (xy 486.41 208.28)
+			(xy 464.82 207.01) (xy 486.41 207.01)
 		)
 		(stroke
 			(width 0)
@@ -12057,7 +12057,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 213.36) (xy 486.41 213.36)
+			(xy 464.82 214.63) (xy 486.41 214.63)
 		)
 		(stroke
 			(width 0)
@@ -12757,7 +12757,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 210.82) (xy 486.41 210.82)
+			(xy 464.82 212.09) (xy 486.41 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13067,7 +13067,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 215.9) (xy 468.63 215.9)
+			(xy 464.82 209.55) (xy 468.63 209.55)
 		)
 		(stroke
 			(width 0)
@@ -14126,7 +14126,7 @@
 		(uuid "1043238a-c00e-47c8-b911-d3b917920fec")
 	)
 	(label "RAM_RAS3"
-		(at 486.41 213.36 180)
+		(at 486.41 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15046,7 +15046,7 @@
 		(uuid "8e6c87c4-db65-4327-b103-54c79562ee8f")
 	)
 	(label "RAM_RAS2"
-		(at 486.41 210.82 180)
+		(at 486.41 212.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15625,8 +15625,8 @@
 		)
 		(uuid "de7f8c6a-50e7-4b61-8ceb-3a1ee976b5a3")
 	)
-	(label "RAM_RAS1"
-		(at 486.41 208.28 180)
+	(label "RAM_RAS0"
+		(at 486.41 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
