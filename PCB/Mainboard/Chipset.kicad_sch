@@ -4066,24 +4066,6 @@
 					)
 				)
 				(pin no_connect line
-					(at -96.52 119.38 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M9"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at -96.52 -132.08 90)
 					(length 2.54)
 					(name ""
@@ -4111,7 +4093,7 @@
 							)
 						)
 					)
-					(number "M8"
+					(number "M9"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -4147,7 +4129,7 @@
 							)
 						)
 					)
-					(number "M7"
+					(number "M8"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -4183,7 +4165,7 @@
 							)
 						)
 					)
-					(number "N10"
+					(number "M7"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -4219,7 +4201,7 @@
 							)
 						)
 					)
-					(number "K16"
+					(number "N10"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -4255,7 +4237,7 @@
 							)
 						)
 					)
-					(number "D12"
+					(number "K16"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -6532,7 +6514,7 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -40.64 180)
+					(at 121.92 -39.37 180)
 					(length 2.54)
 					(name "RAS1"
 						(effects
@@ -6550,7 +6532,7 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -43.18 180)
+					(at 121.92 -41.91 180)
 					(length 2.54)
 					(name "RAS2"
 						(effects
@@ -6568,7 +6550,7 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -45.72 180)
+					(at 121.92 -44.45 180)
 					(length 2.54)
 					(name "RAS3"
 						(effects
@@ -6586,7 +6568,25 @@
 					)
 				)
 				(pin output line
-					(at 121.92 -48.26 180)
+					(at 121.92 -46.99 180)
+					(length 2.54)
+					(name "RAS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 121.92 -49.53 180)
 					(length 2.54)
 					(name "RAMWE#"
 						(effects
@@ -8001,6 +8001,10 @@
 		(uuid "d0ca9e8e-d83d-4430-96df-26a3cf146ca7")
 	)
 	(no_connect
+		(at 468.63 215.9)
+		(uuid "d561ca9d-f2bf-42bc-9d21-e00f4cbe79f4")
+	)
+	(no_connect
 		(at 304.8 300.99)
 		(uuid "d605cb27-04ae-4b55-8c0d-46e3c708c138")
 	)
@@ -9353,7 +9357,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 217.17) (xy 486.41 217.17)
+			(xy 464.82 218.44) (xy 486.41 218.44)
 		)
 		(stroke
 			(width 0)
@@ -10983,7 +10987,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 209.55) (xy 486.41 209.55)
+			(xy 464.82 208.28) (xy 486.41 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12053,7 +12057,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 214.63) (xy 486.41 214.63)
+			(xy 464.82 213.36) (xy 486.41 213.36)
 		)
 		(stroke
 			(width 0)
@@ -12753,7 +12757,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 212.09) (xy 486.41 212.09)
+			(xy 464.82 210.82) (xy 486.41 210.82)
 		)
 		(stroke
 			(width 0)
@@ -13060,6 +13064,16 @@
 			(type default)
 		)
 		(uuid "d87aa16c-cb15-4e73-951b-1aecfee054ac")
+	)
+	(wire
+		(pts
+			(xy 464.82 215.9) (xy 468.63 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bb922c-51d2-415f-8e80-7a8d12ce9356")
 	)
 	(wire
 		(pts
@@ -14112,7 +14126,7 @@
 		(uuid "1043238a-c00e-47c8-b911-d3b917920fec")
 	)
 	(label "RAM_RAS3"
-		(at 486.41 214.63 180)
+		(at 486.41 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15032,7 +15046,7 @@
 		(uuid "8e6c87c4-db65-4327-b103-54c79562ee8f")
 	)
 	(label "RAM_RAS2"
-		(at 486.41 212.09 180)
+		(at 486.41 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15182,7 +15196,7 @@
 		(uuid "9a2cf13f-41e0-4cc5-ba4d-f5d71a2a145d")
 	)
 	(label "RAM_RAMWE#"
-		(at 486.41 217.17 180)
+		(at 486.41 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15612,7 +15626,7 @@
 		(uuid "de7f8c6a-50e7-4b61-8ceb-3a1ee976b5a3")
 	)
 	(label "RAM_RAS1"
-		(at 486.41 209.55 180)
+		(at 486.41 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
