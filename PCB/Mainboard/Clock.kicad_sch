@@ -5134,105 +5134,225 @@
 		)
 		(uuid "fffc14dd-64f4-45a5-ab2a-fa8152cc7f83")
 	)
-	(label "Bowman_CLK"
-		(at 280.67 167.64 180)
+	(global_label "RESET"
+		(shape input)
+		(at 154.94 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "10db9782-86ad-49fd-99b9-b60d441d5331")
+		(uuid "08231b0b-cadc-4130-a618-b36b48472de8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.2097 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "ESS_CLK"
-		(at 280.67 185.42 180)
+	(global_label "VGA_CLK"
+		(shape input)
+		(at 280.67 212.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "114569a2-7155-4aee-b135-6abfd850e9a5")
+		(uuid "19eadffc-c9fc-401f-a7f6-f8b85ff55547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.6381 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "FDC_CLK"
-		(at 280.67 158.75 180)
+	(global_label "YMF_CLK"
+		(shape input)
+		(at 280.67 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "2f7a1ea4-ec69-4998-8c2c-f147e6bd8d67")
+		(uuid "299a30cc-f6ff-46cf-a328-d28a800f75ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.8195 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "PWRGD"
-		(at 154.94 53.34 0)
+	(global_label "Bowman_CLK"
+		(shape input)
+		(at 280.67 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "45853ccc-3a02-4280-b508-69f772b403ed")
+		(uuid "3224ed9a-427c-4402-bb57-3fd20e2c5a1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.9317 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VGA_CLK"
-		(at 280.67 212.09 180)
+	(global_label "PWRGD"
+		(shape input)
+		(at 154.94 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "4832e6b4-2f1c-4fcc-bb89-5d8150ed0c2f")
+		(uuid "59863f89-354f-4b8c-a994-fe774880d99f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4234 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "RESET"
-		(at 154.94 48.26 0)
+	(global_label "Chipset_2XCPU_CLK"
+		(shape input)
+		(at 280.67 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "76a40521-e2e0-450d-a434-7ffd79857837")
+		(uuid "8762c9c5-88b1-4b63-b459-706458c2f591")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.4632 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "Chipset_CLK"
-		(at 280.67 203.2 180)
+	(global_label "FDC_CLK"
+		(shape input)
+		(at 280.67 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "7f317d5c-16dd-43ff-b40e-95902aed4d02")
+		(uuid "bcfa05de-f4d8-43cb-a23f-80999a62b647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.8195 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "YMF_CLK"
-		(at 280.67 176.53 180)
+	(global_label "Pluto_CLK"
+		(shape input)
+		(at 280.67 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "a2d5ade2-5b12-4350-b08c-5f4360b44f46")
+		(uuid "c9477ec9-97e3-4d90-9ad2-6205a770e833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.1498 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "Pluto_CLK"
-		(at 280.67 194.31 180)
+	(global_label "ESS_CLK"
+		(shape input)
+		(at 280.67 185.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "dec6c084-e059-4f66-8dc3-fd866c27eef1")
+		(uuid "c9d02147-7644-43dd-b975-b243653f42a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.7589 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "Chipset_2XCPU_CLK"
-		(at 280.67 151.13 180)
+	(global_label "Chipset_CLK"
+		(shape input)
+		(at 280.67 203.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "fd464a37-dbae-439b-a401-4636f5c8e49f")
+		(uuid "d8a85825-84bb-449b-8f9d-9b0c00cd50d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.2061 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
