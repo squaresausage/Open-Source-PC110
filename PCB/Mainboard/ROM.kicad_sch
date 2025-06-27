@@ -3387,6 +3387,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Device_Data_BUS"
+		(exclude_from_sim no)
+		(at 153.162 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "501328e9-085b-48bb-8bd7-6a0e0a4dd323")
+	)
+	(text "Device_Address_BUS"
+		(exclude_from_sim no)
+		(at 188.976 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78013cec-93b7-4a9d-83e7-4b03c430a13c")
+	)
+	(text "Device_Data_BUS"
+		(exclude_from_sim no)
+		(at 317.246 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83fa7617-88a1-4803-a7a4-43f439ab6d59")
+	)
+	(text "Device_Address_BUS"
+		(exclude_from_sim no)
+		(at 49.276 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2cf006b-4374-4858-8df7-fdbdb527a692")
+	)
+	(text "OKI_Extra_Address"
+		(exclude_from_sim no)
+		(at 47.752 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d21becdc-b598-431d-93d1-b99d32fbf529")
+	)
 	(junction
 		(at 246.38 189.23)
 		(diameter 0)
@@ -3442,48 +3492,8 @@
 		(uuid "fd19a27a-ff65-4280-aa75-ecf04596897c")
 	)
 	(no_connect
-		(at 259.08 186.69)
-		(uuid "3b796848-0f46-4595-b2b6-d4d50428fd5e")
-	)
-	(no_connect
 		(at 281.94 151.13)
 		(uuid "4d26f1b7-3458-4748-843f-cf77023ae504")
-	)
-	(no_connect
-		(at 100.33 190.5)
-		(uuid "50ad6918-9d56-4fef-99b7-b321d002de67")
-	)
-	(no_connect
-		(at 107.95 190.5)
-		(uuid "6a051cf3-e39d-4bbf-bbcf-c0115aa2202c")
-	)
-	(no_connect
-		(at 102.87 190.5)
-		(uuid "6ab0fd3a-1de4-498a-a5ee-cfa047a07959")
-	)
-	(no_connect
-		(at 97.79 190.5)
-		(uuid "b15a3f7f-7ecc-46ad-b773-1be566c22ff4")
-	)
-	(no_connect
-		(at 261.62 186.69)
-		(uuid "b295ec05-2bba-4c88-ae5b-b336cc19f565")
-	)
-	(no_connect
-		(at 256.54 186.69)
-		(uuid "b5bcd114-affe-4a9f-be8c-ec823504b473")
-	)
-	(no_connect
-		(at 105.41 190.5)
-		(uuid "cd58c909-04fe-4e95-8c04-f5b032637e63")
-	)
-	(no_connect
-		(at 110.49 190.5)
-		(uuid "d0103b95-28e6-44b0-9f17-2f9d746f3dae")
-	)
-	(no_connect
-		(at 254 186.69)
-		(uuid "fa4278e6-0583-461d-b821-f05d78aa747a")
 	)
 	(bus_entry
 		(at 60.96 166.37)
@@ -4217,7 +4227,7 @@
 	)
 	(bus
 		(pts
-			(xy 308.61 156.21) (xy 303.53 156.21)
+			(xy 314.96 156.21) (xy 303.53 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4467,7 +4477,7 @@
 	)
 	(bus
 		(pts
-			(xy 55.88 129.54) (xy 60.96 129.54)
+			(xy 50.8 129.54) (xy 60.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5267,7 @@
 	)
 	(bus
 		(pts
-			(xy 138.43 129.54) (xy 143.51 129.54)
+			(xy 138.43 129.54) (xy 149.86 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5727,7 +5737,7 @@
 	)
 	(bus
 		(pts
-			(xy 195.58 133.35) (xy 200.66 133.35)
+			(xy 190.5 133.35) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5965,7 +5975,7 @@
 		)
 		(uuid "04d4699a-bd58-4bfc-920e-cfd825aaac86")
 	)
-	(label "SD2_Bus"
+	(label "SD2"
 		(at 292.1 165.1 0)
 		(effects
 			(font
@@ -5975,7 +5985,7 @@
 		)
 		(uuid "06c102d8-2289-4b1b-833f-052411629f66")
 	)
-	(label "SD4_Bus"
+	(label "SD4"
 		(at 127 143.51 0)
 		(effects
 			(font
@@ -5995,7 +6005,7 @@
 		)
 		(uuid "0c9bd9f6-c07c-4ba5-a03d-b04a41640296")
 	)
-	(label "SD3_Bus"
+	(label "SD3"
 		(at 292.1 167.64 0)
 		(effects
 			(font
@@ -6005,7 +6015,7 @@
 		)
 		(uuid "0d1c2d7f-8692-4fd4-aa5b-1de9fee2c4df")
 	)
-	(label "SD7_Bus"
+	(label "SD7"
 		(at 292.1 177.8 0)
 		(effects
 			(font
@@ -6035,7 +6045,7 @@
 		)
 		(uuid "2f158795-e7a1-4ee6-8ebf-0fdacfd774fa")
 	)
-	(label "SD3_Bus"
+	(label "SD3"
 		(at 127 140.97 0)
 		(effects
 			(font
@@ -6075,7 +6085,7 @@
 		)
 		(uuid "3f905c38-92dd-4fd7-b183-ee9741ed6960")
 	)
-	(label "SD13_Bus"
+	(label "SD13"
 		(at 125.73 166.37 0)
 		(effects
 			(font
@@ -6095,7 +6105,7 @@
 		)
 		(uuid "4d22174d-2a66-408e-bf63-8583a7569b6e")
 	)
-	(label "SD9_Bus"
+	(label "SD9"
 		(at 127 156.21 0)
 		(effects
 			(font
@@ -6105,7 +6115,7 @@
 		)
 		(uuid "53440f35-16d0-43a1-a900-ed2982e2fa4c")
 	)
-	(label "SD8_Bus"
+	(label "SD8"
 		(at 127 153.67 0)
 		(effects
 			(font
@@ -6125,7 +6135,7 @@
 		)
 		(uuid "5824b864-5e28-44b0-8aae-705104203824")
 	)
-	(label "SD6_Bus"
+	(label "SD6"
 		(at 292.1 175.26 0)
 		(effects
 			(font
@@ -6155,7 +6165,7 @@
 		)
 		(uuid "72dad9ee-5715-420d-a1b8-29fd5890750a")
 	)
-	(label "SD10_Bus"
+	(label "SD10"
 		(at 125.73 158.75 0)
 		(effects
 			(font
@@ -6165,7 +6175,7 @@
 		)
 		(uuid "79596361-f0d6-4eed-ad27-7b8a75184f69")
 	)
-	(label "SD15_Bus"
+	(label "SD14"
 		(at 125.73 168.91 0)
 		(effects
 			(font
@@ -6215,7 +6225,7 @@
 		)
 		(uuid "88977556-3477-437b-a816-7973513784de")
 	)
-	(label "SD7_Bus"
+	(label "SD7"
 		(at 127 151.13 0)
 		(effects
 			(font
@@ -6235,7 +6245,7 @@
 		)
 		(uuid "8fe737d2-f0da-42aa-8579-c9efc9a725a3")
 	)
-	(label "SD6_Bus"
+	(label "SD6"
 		(at 127 148.59 0)
 		(effects
 			(font
@@ -6275,7 +6285,7 @@
 		)
 		(uuid "afbb2f16-d645-4943-abce-e8e6d626c928")
 	)
-	(label "SD5_Bus"
+	(label "SD5"
 		(at 127.1649 146.05 0)
 		(effects
 			(font
@@ -6295,7 +6305,7 @@
 		)
 		(uuid "b9542147-cee2-4f55-a1ea-76c589156c36")
 	)
-	(label "SD0_Bus"
+	(label "SD0"
 		(at 127 133.35 0)
 		(effects
 			(font
@@ -6325,7 +6335,7 @@
 		)
 		(uuid "c0826cb9-1f66-4ffa-b39c-e741463fcf26")
 	)
-	(label "SD2_Bus"
+	(label "SD2"
 		(at 127 138.43 0)
 		(effects
 			(font
@@ -6335,7 +6345,7 @@
 		)
 		(uuid "c74ed85a-1d51-4437-bbd3-31485b0ffc7e")
 	)
-	(label "SD11_Bus"
+	(label "SD11"
 		(at 125.73 161.29 0)
 		(effects
 			(font
@@ -6375,7 +6385,7 @@
 		)
 		(uuid "d1e09c1e-a0d7-4526-81d8-2fdb1f4f9e89")
 	)
-	(label "SD1_Bus"
+	(label "SD1"
 		(at 127 135.89 0)
 		(effects
 			(font
@@ -6385,7 +6395,7 @@
 		)
 		(uuid "d34874a7-863f-45b8-aa2b-8798866757c5")
 	)
-	(label "SD1_Bus"
+	(label "SD1"
 		(at 292.1 162.56 0)
 		(effects
 			(font
@@ -6395,7 +6405,7 @@
 		)
 		(uuid "d9598a4c-b39a-400c-b5a2-3ef2f4f77c3b")
 	)
-	(label "SD12_Bus"
+	(label "SD12"
 		(at 125.73 163.83 0)
 		(effects
 			(font
@@ -6445,7 +6455,7 @@
 		)
 		(uuid "e6414ba9-f5da-48c9-9824-07103e882077")
 	)
-	(label "SD0_Bus"
+	(label "SD0"
 		(at 292.1 160.02 0)
 		(effects
 			(font
@@ -6515,7 +6525,7 @@
 		)
 		(uuid "f7c87466-ca9a-4349-b870-b1abb786daed")
 	)
-	(label "SD5_Bus"
+	(label "SD5"
 		(at 292.2649 172.72 0)
 		(effects
 			(font
@@ -6525,7 +6535,7 @@
 		)
 		(uuid "f9fc1260-99d7-433f-9ad1-9093060d650a")
 	)
-	(label "SD15_Bus"
+	(label "SD15"
 		(at 125.73 171.45 0)
 		(effects
 			(font
@@ -6535,7 +6545,7 @@
 		)
 		(uuid "fa02a276-8735-4a7f-aae0-d8626a441790")
 	)
-	(label "SD4_Bus"
+	(label "SD4"
 		(at 292.1 170.18 0)
 		(effects
 			(font
@@ -6577,9 +6587,9 @@
 			)
 		)
 	)
-	(global_label "Device_Address_BUS"
+	(global_label "SA[0..15]"
 		(shape input)
-		(at 55.88 129.54 180)
+		(at 50.8 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6589,7 +6599,7 @@
 		)
 		(uuid "3318393b-8ab8-4317-929d-e05b9ebe2318")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.7238 129.54 0)
+			(at 38.9852 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,9 +6631,9 @@
 			)
 		)
 	)
-	(global_label "Device_Data_BUS"
+	(global_label "SD[0..15]"
 		(shape input)
-		(at 308.61 156.21 0)
+		(at 314.96 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6633,7 +6643,7 @@
 		)
 		(uuid "48c2bc09-a03d-47fe-9b95-77128a14e4d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.7423 156.21 0)
+			(at 326.9562 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,9 +6653,9 @@
 			)
 		)
 	)
-	(global_label "Device_Address_BUS"
+	(global_label "SA[0..15]"
 		(shape input)
-		(at 195.58 133.35 180)
+		(at 190.5 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,7 +6665,7 @@
 		)
 		(uuid "4c668d2a-582c-480f-bbe8-e48c71959b7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.4238 133.35 0)
+			(at 178.6852 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6785,7 @@
 			)
 		)
 	)
-	(global_label "OKI_Extra_Address"
+	(global_label "OKI_SA[12..19]"
 		(shape input)
 		(at 55.88 160.02 180)
 		(fields_autoplaced yes)
@@ -6787,7 +6797,7 @@
 		)
 		(uuid "d3b13058-af34-4a4e-8ea9-a63a74a87c06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5987 160.02 0)
+			(at 38.6828 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,9 +6873,9 @@
 			)
 		)
 	)
-	(global_label "Device_Data_BUS"
+	(global_label "SD[0..15]"
 		(shape input)
-		(at 143.51 129.54 0)
+		(at 149.86 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6875,7 +6885,7 @@
 		)
 		(uuid "f105b7d8-9507-4647-a49f-24953a184a47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6423 129.54 0)
+			(at 161.8562 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
