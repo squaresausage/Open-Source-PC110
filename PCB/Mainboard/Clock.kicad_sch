@@ -2474,7 +2474,7 @@
 						(color 255 255 194 1)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -2492,7 +2492,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -2528,7 +2528,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -2546,7 +2546,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -3527,10 +3527,6 @@
 		(uuid "055ee7d8-f244-4607-8004-26a89cd2d0c0")
 	)
 	(no_connect
-		(at 255.27 114.3)
-		(uuid "7f633361-b818-4a1a-853f-5f6829e63e3c")
-	)
-	(no_connect
 		(at 152.4 97.79)
 		(uuid "8a06c175-1bdd-4fdb-93f1-65af51b1cac0")
 	)
@@ -4003,16 +3999,6 @@
 			(type default)
 		)
 		(uuid "5dcdd7c3-1707-485a-9e1e-03e0ca5a9b19")
-	)
-	(wire
-		(pts
-			(xy 255.27 114.3) (xy 252.73 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e411fd8-926b-453a-b965-90f893de7c2a")
 	)
 	(wire
 		(pts
@@ -6265,7 +6251,7 @@
 				)
 			)
 		)
-		(property "Value" "BD53E31? QC01"
+		(property "Value" "BD53E31"
 			(at 244.094 104.14 0)
 			(effects
 				(font
@@ -6291,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "QC01"
 			(at 242.57 110.49 0)
 			(effects
 				(font

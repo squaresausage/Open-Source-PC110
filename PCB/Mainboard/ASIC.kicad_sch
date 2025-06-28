@@ -3699,7 +3699,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 21.59 0)
 					(length 2.54)
 					(name "SA0"
@@ -3717,7 +3717,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 19.05 0)
 					(length 2.54)
 					(name "SA1"
@@ -3735,7 +3735,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 16.51 0)
 					(length 2.54)
 					(name "SA2"
@@ -3753,7 +3753,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 13.97 0)
 					(length 2.54)
 					(name "SA3"
@@ -3771,7 +3771,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 11.43 0)
 					(length 2.54)
 					(name "SA4"
@@ -3789,7 +3789,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 8.89 0)
 					(length 2.54)
 					(name "SA5"
@@ -3807,7 +3807,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 6.35 0)
 					(length 2.54)
 					(name "SA6"
@@ -3825,7 +3825,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 3.81 0)
 					(length 2.54)
 					(name "SA7"
@@ -3843,7 +3843,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 1.27 0)
 					(length 2.54)
 					(name "SA8"
@@ -3861,7 +3861,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -1.27 0)
 					(length 2.54)
 					(name "SA9"
@@ -3879,7 +3879,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -3.81 0)
 					(length 2.54)
 					(name "SA10"
@@ -3897,7 +3897,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -6.35 0)
 					(length 2.54)
 					(name "SA11"
@@ -3915,7 +3915,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -8.89 0)
 					(length 2.54)
 					(name "SA12"
@@ -3933,7 +3933,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -11.43 0)
 					(length 2.54)
 					(name "SA13"
@@ -3951,7 +3951,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -13.97 0)
 					(length 2.54)
 					(name "SA14"
@@ -3969,7 +3969,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -48.26 -16.51 0)
 					(length 2.54)
 					(name "SA15"
@@ -5319,7 +5319,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 49.53 5.08 180)
 					(length 2.54)
 					(name "ADDHI"
@@ -5499,7 +5499,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 49.53 -22.86 180)
 					(length 2.54)
 					(name "DS3#"
@@ -9009,6 +9009,12 @@
 		(uuid "62bda34a-2ba7-47ab-b1cc-c80273841251")
 	)
 	(junction
+		(at 457.2 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667e9b9c-1223-4564-a70a-13f33838b3ba")
+	)
+	(junction
 		(at 497.84 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10009,7 +10015,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 345.44) (xy 497.84 345.44)
+			(xy 363.22 345.44) (xy 457.2 345.44)
 		)
 		(stroke
 			(width 0)
@@ -10156,6 +10162,16 @@
 			(type default)
 		)
 		(uuid "08ca4176-c12f-4bdd-b714-d9187c6505e1")
+	)
+	(wire
+		(pts
+			(xy 457.2 345.44) (xy 497.84 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09837e3f-2551-486e-9654-598645ec0af1")
 	)
 	(wire
 		(pts
@@ -12086,6 +12102,16 @@
 			(type default)
 		)
 		(uuid "55387b47-2629-4bd1-9cbc-0117746f63e2")
+	)
+	(wire
+		(pts
+			(xy 457.2 353.06) (xy 457.2 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553f58a2-849d-4113-a8b7-fb8eea41f27e")
 	)
 	(wire
 		(pts
@@ -15236,6 +15262,16 @@
 			(type default)
 		)
 		(uuid "d92d6810-2f39-4316-8be3-5cbd39258f61")
+	)
+	(wire
+		(pts
+			(xy 466.09 353.06) (xy 457.2 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9432cc2-6562-4617-9c22-75191c48a7c9")
 	)
 	(wire
 		(pts
@@ -19334,6 +19370,28 @@
 		(uuid "edc813ae-59fd-4904-98f5-ff5a44c583ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.5742 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDC_UART1_EN"
+		(shape input)
+		(at 466.09 353.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efa8e016-2c01-4071-bd46-fd0df36aa269")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 482.9847 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

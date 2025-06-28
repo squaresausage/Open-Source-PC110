@@ -5500,209 +5500,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PC110:D3_PC110"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D22"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D3_PC110_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D3_PC110_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PC110:DS1669"
 			(pin_names
 				(offset 0.762)
@@ -7805,7 +7602,7 @@
 						(color 255 255 194 1)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -7823,7 +7620,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -7859,7 +7656,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -7877,7 +7674,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -8415,7 +8212,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "AO"
@@ -8613,7 +8410,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 11.43 7.62 180)
 					(length 2.54)
 					(name "SY"
@@ -8631,7 +8428,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 11.43 5.08 180)
 					(length 2.54)
 					(name "SH"
@@ -9305,6 +9102,159 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "QC01_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QC01_1_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -10476,10 +10426,6 @@
 		(uuid "4bad71ee-1d51-442b-8234-8f06eccde0f4")
 	)
 	(no_connect
-		(at 166.37 43.18)
-		(uuid "5ebd3f73-1787-410a-b87d-86f129fd0c2a")
-	)
-	(no_connect
 		(at 267.97 96.52)
 		(uuid "714ad22e-409a-4f1c-a514-a51ddf97ce71")
 	)
@@ -10490,10 +10436,6 @@
 	(no_connect
 		(at 90.17 353.06)
 		(uuid "befcb14d-a430-4e7f-93fd-84c4a472b103")
-	)
-	(no_connect
-		(at 434.34 248.92)
-		(uuid "cdad77b6-034d-4e2d-b002-df861fad171c")
 	)
 	(bus_entry
 		(at 293.37 194.31)
@@ -12387,16 +12329,6 @@
 			(type default)
 		)
 		(uuid "41e0f788-f72f-40a6-90a9-4d248188cbea")
-	)
-	(wire
-		(pts
-			(xy 434.34 248.92) (xy 436.88 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d9e63c-d8d9-46be-ab86-df29a83b9992")
 	)
 	(wire
 		(pts
@@ -16910,16 +16842,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 43.18) (xy 167.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ee99d8-3cf6-466a-a675-9a3e47046bf7")
-	)
-	(wire
-		(pts
 			(xy 179.07 46.99) (xy 179.07 48.26)
 		)
 		(stroke
@@ -19349,6 +19271,86 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006ffe9bec"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA")
+		(at 125.73 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "178beafc-796c-4917-ab07-176a5510f780")
+		(property "Reference" "D34"
+			(at 125.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 125.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky diode, common cathode on pin 2"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topmark" "3D"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e1ad1c-538e-480f-9cd3-07267e76852b")
+		)
+		(pin "3"
+			(uuid "1f59c589-c9e3-486a-97ea-4876987e78f5")
+		)
+		(pin "2"
+			(uuid "13c72267-298c-4345-b36e-9eebd5bafe14")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006ffe9bec"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -26290,6 +26292,7 @@
 		)
 	)
 	(symbol
+		(lib_name "QC01_1")
 		(lib_id "PC110:QC01")
 		(at 447.04 245.11 0)
 		(unit 1)
@@ -27843,7 +27846,7 @@
 				)
 			)
 		)
-		(property "Value" "RN5VD? 3F"
+		(property "Value" "RN5VD"
 			(at 177.8 31.75 0)
 			(effects
 				(font
@@ -33955,79 +33958,6 @@
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006ffe9bec"
 					(reference "U34")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PC110:D3_PC110")
-		(at 125.73 48.26 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec1ae33b-bd4d-472e-8709-bf06c9bbec38")
-		(property "Reference" "D34"
-			(at 124.4599 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 126.9999 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 125.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "535742d8-19ab-4775-9c88-9d53176c47d4")
-		)
-		(pin "2"
-			(uuid "e188258d-22f7-413e-8e86-39f01c5378b3")
-		)
-		(pin "3"
-			(uuid "4bad1496-93ec-4cb8-9a61-8f3a670e1073")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006ffe9bec"
-					(reference "D34")
-					(unit 1)
 				)
 			)
 		)

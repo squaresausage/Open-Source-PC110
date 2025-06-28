@@ -6748,7 +6748,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -34.29 -1.27 0)
 					(length 2.54)
 					(name "P27"
@@ -6892,7 +6892,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -34.29 -21.59 0)
 					(length 2.54)
 					(name "P17"
@@ -6946,7 +6946,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -24.13 -33.02 90)
 					(length 2.54)
 					(name "P15"
@@ -6982,7 +6982,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -21.59 -33.02 90)
 					(length 2.54)
 					(name "P14"
@@ -8071,7 +8071,7 @@
 						(color 255 255 194 1)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -8089,7 +8089,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -8125,7 +8125,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -8143,7 +8143,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -10906,6 +10906,17 @@
 		)
 		(uuid "864ad333-26ca-4aaf-8c1c-cd82b2005462")
 	)
+	(text "YellowWire1"
+		(exclude_from_sim no)
+		(at 203.2 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf8df7c2-5c95-4fe2-889a-8df5b9e07812")
+	)
 	(text "U103_NAND_of_U53_1CLK_and_U53_1Q#"
 		(exclude_from_sim no)
 		(at 228.092 526.034 0)
@@ -11326,6 +11337,12 @@
 		(uuid "944570bb-cf77-4e9b-95ee-7224d1697ab4")
 	)
 	(junction
+		(at 393.7 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bf1e3c-d85c-49bb-9d7c-29a19916b071")
+	)
+	(junction
 		(at 552.45 373.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11638,10 +11655,6 @@
 	(no_connect
 		(at 125.73 464.82)
 		(uuid "7194c763-0327-4845-800b-e84948129a61")
-	)
-	(no_connect
-		(at 581.66 181.61)
-		(uuid "a698a741-ba93-420b-964f-07bd6374a9aa")
 	)
 	(no_connect
 		(at 651.51 344.17)
@@ -12365,16 +12378,6 @@
 	)
 	(wire
 		(pts
-			(xy 581.66 181.61) (xy 584.2 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14379f35-2928-4f75-aa23-09f2d62eb9af")
-	)
-	(wire
-		(pts
 			(xy 198.12 224.79) (xy 203.2 224.79)
 		)
 		(stroke
@@ -12885,6 +12888,16 @@
 	)
 	(wire
 		(pts
+			(xy 403.86 146.05) (xy 393.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252be3f2-6ed8-48f0-ba7e-ff61e69ad25c")
+	)
+	(wire
+		(pts
 			(xy 740.41 392.43) (xy 759.46 392.43)
 		)
 		(stroke
@@ -13002,16 +13015,6 @@
 			(type default)
 		)
 		(uuid "27f36e6a-9d1f-4571-ba4a-b38f518b4b02")
-	)
-	(wire
-		(pts
-			(xy 396.24 74.93) (xy 396.24 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28603837-a2de-433c-bbb4-df0fb2374da7")
 	)
 	(wire
 		(pts
@@ -13652,6 +13655,16 @@
 			(type default)
 		)
 		(uuid "3e1c69d1-6eff-4887-b386-d65f778f73d3")
+	)
+	(wire
+		(pts
+			(xy 393.7 74.93) (xy 393.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e777aa8-b460-4b6c-a719-603b4ee9beec")
 	)
 	(wire
 		(pts
@@ -15435,7 +15448,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 396.24 74.93)
+			(xy 53.34 74.93) (xy 393.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -15995,6 +16008,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 146.05) (xy 387.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878b7fd5-e4a0-45ed-84fb-093bf99673f9")
+	)
+	(wire
+		(pts
 			(xy 176.53 222.25) (xy 182.88 222.25)
 		)
 		(stroke
@@ -16282,16 +16305,6 @@
 			(type default)
 		)
 		(uuid "8ece34ad-1606-42dc-aa6b-da58090f4603")
-	)
-	(wire
-		(pts
-			(xy 387.35 146.05) (xy 396.24 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed1d11f-84a7-43ec-b5f3-101de10b83c2")
 	)
 	(wire
 		(pts
@@ -19923,16 +19936,6 @@
 		)
 		(uuid "2deddc6c-7ba1-4558-bf7e-a41b2adbeccd")
 	)
-	(label "YellowWire1"
-		(at 203.2 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3364eb9b-447a-46ca-abb5-d7d814508fc9")
-	)
 	(label "M38_SEG9"
 		(at 740.41 392.43 0)
 		(effects
@@ -21657,6 +21660,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "YellowWire1_2"
+		(shape input)
+		(at 403.86 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9db5dec7-2c4f-41c1-833f-7644022797d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 420.1499 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -43042,7 +43067,7 @@
 				)
 			)
 		)
-		(property "Value" "RN5VD? 8C01"
+		(property "Value" "RN5VD"
 			(at 594.36 170.18 0)
 			(effects
 				(font
@@ -43068,7 +43093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8C01"
 			(at 594.36 177.8 0)
 			(effects
 				(font
