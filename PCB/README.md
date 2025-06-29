@@ -1,7 +1,7 @@
 ## PC110 Recreated PCBs
 
 
-Here you can find the recreated [Schematics]([https://github.com/ahmadexp/Open-Source-PC110/blob/main/PCB/PC110_Schematic.pdf](https://github.com/ahmadexp/Open-Source-PC110/blob/main/PCB/PC110-Schematics-Combined.pdf)) and PCB layouts for different parts of the PC110 based on KiCad 9.0
+Here you can find the recreated [Schematics](https://github.com/ahmadexp/Open-Source-PC110/blob/main/PCB/PC110_Schematic.pdf](https://github.com/ahmadexp/Open-Source-PC110/blob/main/PCB/PC110-Schematics-Combined.pdf) and PCB layouts for different parts of the PC110 based on KiCad 9.0
 Here is a description of each folder:
 
 | Index | Folder         | Description        | Number of Layers |
