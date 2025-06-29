@@ -45,6 +45,13 @@ Real picture:
 
 <img width="753" alt="Screenshot 2025-03-01 at 8 22 09 AM" src="https://github.com/user-attachments/assets/d8d5141f-493d-4d2e-96a1-e3b77a2a9792" />
 
+Schematic Organization
+-----
+Here is a view of the schematic hierarchy:
+
+<img width="969" alt="Screenshot 2025-06-28 at 11 49 18 PM" src="https://github.com/user-attachments/assets/aaa84bd1-ac3c-4935-8697-59380e3e1548" />
+
+
 PCB statistics report
 =====================
 
