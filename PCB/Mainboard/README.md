@@ -51,6 +51,25 @@ Here is a view of the schematic hierarchy:
 
 <img width="969" alt="Screenshot 2025-06-28 at 11 49 18 PM" src="https://github.com/user-attachments/assets/aaa84bd1-ac3c-4935-8697-59380e3e1548" />
 
+Description of each schematic sheet
+
+| Page | Sheet Name | Description  |
+| ---- | ---------- | ------------ |
+| 1     | Root      | Index of all sheets  |
+| 2     | Clock | Local Oscillator and Clock Distribution Tree |
+| 3     | Processor  | CPU and Debug pins |
+| 4     | Chipset  | SCAMP IV chipset North Bridge |
+| 5     | VGA | Video Controller and Video RAM       |
+| 6     | Memory  | Internal Memory Back and RAM Expansion Connector |
+| 7     | ROM | BIOS and Font Maskrom |
+| 8     | ASIC | Bowman and Pluto, South Bridge |
+| 9     | Super IO | FDD, Parallel and Serial ports |
+| 10    | Power | Power Controller, PSU Connector, Status LCD, and Touchpad |
+| 11    | PCMICA  | PCMCIA Controller and Related Power Controller |
+| 12    | Audio | Sound Controller, FM Synthesizer and related analogue AMP |
+| 13    | Storage | Internal Flash memory, CF card interface |
+| 14    | Keyboard | Keyboard controller, Trackpoint controller |
+| 15    | Docking | Docking Station, Internal Modem Connector |
 
 PCB statistics report
 =====================
