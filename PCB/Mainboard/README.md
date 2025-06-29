@@ -77,6 +77,19 @@ Here is a combined schematic on a single page, just for the appreciation of its 
 
 ![PC110-Motherboard-Flat](https://github.com/user-attachments/assets/c5fadc1b-a60b-4648-ba51-807372080b42)
 
+Aside from the fun aspect of combining all the sheets on a single one, there is a practical use that is related to the recreation of the schematic from a given PCB. On KiCad, you cannot select components from different sheets simultaneously. Therefore, you cannot highlight all the components on your schematic at once to see if there is still any component on the layout that is not mapped. However, with a single sheet compilation, you can do that (as it is shown below) and you can go back to the layout and see if there is still any component that is left behind. Below you can see that, on the layout for both top and bottom layers, all the components are highlighted.
+
+All components selected on the schematic
+<img width="745" alt="Screenshot 2025-06-29 at 9 31 57 AM" src="https://github.com/user-attachments/assets/c9daa48f-d929-412e-8669-80e893900fd4" />
+
+Highlighted components on the top layer
+
+![PHOTO-2025-06-28-23-33-13](https://github.com/user-attachments/assets/12d72b1f-18ab-41fc-ae15-e1fb0e3804bb)
+
+Highlighted components on the bottom layer
+
+![PHOTO-2025-06-28-23-32-53](https://github.com/user-attachments/assets/81a08039-c5af-4830-a8ac-0693d4b1b803)
+
 
 PCB statistics report
 =====================
