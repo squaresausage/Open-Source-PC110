@@ -71,6 +71,13 @@ Description of each schematic sheet
 | 14    | Keyboard | Keyboard controller, Trackpoint controller |
 | 15    | Docking | Docking Station, Internal Modem Connector |
 
+Combined Schematic on one page
+-----
+Here is a combined schematic on a single page, just for the appreciation of its complexity.
+
+![PC110-Motherboard-Flat](https://github.com/user-attachments/assets/c5fadc1b-a60b-4648-ba51-807372080b42)
+
+
 PCB statistics report
 =====================
 
