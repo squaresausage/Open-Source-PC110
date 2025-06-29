@@ -90,6 +90,7 @@ Highlighted components on the bottom layer
 
 ![PHOTO-2025-06-28-23-32-53](https://github.com/user-attachments/assets/81a08039-c5af-4830-a8ac-0693d4b1b803)
 
+And here is the SVG version of the single-sheet [schemati](https://drive.google.com/file/d/18CVSU7gRzODHXLN1vmV7egy4e2-WGHxe/view?usp=drive_link).
 
 PCB statistics report
 =====================
