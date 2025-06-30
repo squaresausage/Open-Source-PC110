@@ -15092,7 +15092,7 @@
 			)
 		)
 	)
-	(global_label "RAM_RAMWE#"
+	(global_label "U61_RAM_RAMWE#"
 		(shape input)
 		(at 468.63 217.17 0)
 		(fields_autoplaced yes)
@@ -15104,7 +15104,7 @@
 		)
 		(uuid "189bca3e-f023-4db2-a12b-30f58093d1c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 484.0732 217.17 0)
+			(at 488.7903 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15356,7 +15356,7 @@
 			)
 		)
 	)
-	(global_label "RAM_RAS2"
+	(global_label "U61_RAM_RAS2"
 		(shape input)
 		(at 468.63 210.82 0)
 		(fields_autoplaced yes)
@@ -15368,7 +15368,7 @@
 		)
 		(uuid "37574eac-284e-40ec-9d01-fef442776ea1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.1704 210.82 0)
+			(at 485.8875 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,7 +15554,7 @@
 			)
 		)
 	)
-	(global_label "RAM_LCASL#"
+	(global_label "U61_RAM_LCASL#"
 		(shape input)
 		(at 468.63 219.71 0)
 		(fields_autoplaced yes)
@@ -15566,7 +15566,7 @@
 		)
 		(uuid "561eef85-6332-4299-9d4f-de4f662b5345")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.2871 219.71 0)
+			(at 488.0042 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15620,7 @@
 			)
 		)
 	)
-	(global_label "RAM_RAS0"
+	(global_label "U61_RAM_RAS0"
 		(shape input)
 		(at 468.63 205.74 0)
 		(fields_autoplaced yes)
@@ -15632,7 +15632,7 @@
 		)
 		(uuid "5e8d87c1-80bb-4841-8ff0-7788f15fe7de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.1704 205.74 0)
+			(at 485.8875 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +16302,7 @@
 			)
 		)
 	)
-	(global_label "RAM_UCASL#"
+	(global_label "U61_RAM_UCASL#"
 		(shape input)
 		(at 468.63 224.79 0)
 		(fields_autoplaced yes)
@@ -16314,7 +16314,7 @@
 		)
 		(uuid "b7e1a01b-857f-4b0f-8760-c25feafdc99f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.5895 224.79 0)
+			(at 488.3066 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16632,7 +16632,7 @@
 			)
 		)
 	)
-	(global_label "RAM_LCASU#"
+	(global_label "U61_RAM_LCASU#"
 		(shape input)
 		(at 468.63 222.25 0)
 		(fields_autoplaced yes)
@@ -16644,7 +16644,7 @@
 		)
 		(uuid "d389b950-78a8-435c-a49f-78877372c03f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.5895 222.25 0)
+			(at 488.3066 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16808,7 +16808,7 @@
 			)
 		)
 	)
-	(global_label "RAM_UCASU#"
+	(global_label "U61_RAM_UCASU#"
 		(shape input)
 		(at 468.63 227.33 0)
 		(fields_autoplaced yes)
@@ -16820,7 +16820,7 @@
 		)
 		(uuid "e3f54ef3-72d8-4141-9828-f5e388f741cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.8919 227.33 0)
+			(at 488.609 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16830,7 +16830,7 @@
 			)
 		)
 	)
-	(global_label "RAM_RAS3"
+	(global_label "U61_RAM_RAS3"
 		(shape input)
 		(at 468.63 213.36 0)
 		(fields_autoplaced yes)
@@ -16842,7 +16842,7 @@
 		)
 		(uuid "e406cb4e-9eaa-461b-922f-d5f1d0c5b4a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 481.1704 213.36 0)
+			(at 485.8875 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17970,7 +17970,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 532.13 289.56 90)
+		(at 532.13 289.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17978,7 +17979,7 @@
 		(dnp no)
 		(uuid "2b50d068-3cee-4bb2-b69c-832410961543")
 		(property "Reference" "R335"
-			(at 534.67 285.242 90)
+			(at 529.59 285.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17987,7 +17988,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 533.3999 287.02 90)
+			(at 530.8601 287.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
