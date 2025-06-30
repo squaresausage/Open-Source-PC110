@@ -20757,7 +20757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 182.88 312.928 90)
 			(effects
 				(font
@@ -20827,7 +20827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 114.808 317.5 90)
 			(effects
 				(font
@@ -21026,7 +21026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 516.382 31.75 90)
 			(effects
 				(font
@@ -21225,7 +21225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 532.892 58.42 90)
 			(effects
 				(font
@@ -21359,7 +21359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-30_6.1x9.7mm_P0.65mm"
 			(at 86.36 63.5 0)
 			(effects
 				(font
@@ -21513,7 +21513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 184.15 90)
 			(effects
 				(font
@@ -21647,7 +21647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:BGA-256"
 			(at 334.01 213.36 0)
 			(effects
 				(font
@@ -22545,7 +22545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 271.78 90)
 			(effects
 				(font
@@ -22615,7 +22615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 204.47 90)
 			(effects
 				(font
@@ -23182,6 +23182,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 485.14 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23189,7 +23190,7 @@
 		(dnp no)
 		(uuid "375a7f8c-eb4d-48a6-864e-8c1129bd9391")
 		(property "Reference" "R172"
-			(at 486.918 30.734 0)
+			(at 486.918 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23198,7 +23199,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 487.934 32.766 0)
+			(at 487.934 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,7 +23207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 483.362 31.75 90)
 			(effects
 				(font
@@ -23276,7 +23277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -23362,7 +23363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:sso-8"
 			(at 180.34 321.31 0)
 			(effects
 				(font
@@ -23579,7 +23580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 516.382 58.42 90)
 			(effects
 				(font
@@ -23623,7 +23624,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 541.02 96.52 180)
+		(at 541.02 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23631,7 +23633,7 @@
 		(dnp no)
 		(uuid "3c7fc441-d12f-4796-842c-9fc1cdeee960")
 		(property "Reference" "C119"
-			(at 546.608 95.25 0)
+			(at 546.608 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23639,15 +23641,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 546.862 97.536 0)
+			(at 546.862 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 540.0548 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 540.0548 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23756,6 +23758,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 485.14 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23763,7 +23766,7 @@
 		(dnp no)
 		(uuid "3dfa3b41-ee74-4005-acd7-9ea9f19b28e2")
 		(property "Reference" "R165"
-			(at 486.918 57.404 0)
+			(at 486.918 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23772,7 +23775,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 487.934 59.436 0)
+			(at 487.934 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23780,7 +23783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 483.362 58.42 90)
 			(effects
 				(font
@@ -23914,7 +23917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 433.832 31.75 90)
 			(effects
 				(font
@@ -24049,7 +24052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 384.302 31.75 90)
 			(effects
 				(font
@@ -24182,7 +24185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.3348 30.48 0)
 			(effects
 				(font
@@ -24512,7 +24515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 226.06 90)
 			(effects
 				(font
@@ -24581,7 +24584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 417.322 31.75 90)
 			(effects
 				(font
@@ -24649,7 +24652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 297.4848 40.64 0)
 			(effects
 				(font
@@ -24889,6 +24892,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 118.11 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24896,7 +24900,7 @@
 		(dnp no)
 		(uuid "78131efe-afd0-40ac-a803-429cbbe7b904")
 		(property "Reference" "C124"
-			(at 122.428 57.15 0)
+			(at 122.428 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24905,7 +24909,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 122.174 59.436 0)
+			(at 122.174 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24913,7 +24917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 58.42 0)
 			(effects
 				(font
@@ -24941,7 +24945,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 116.84 55.245 0)
+			(at 116.84 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24950,7 +24954,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 117.475 61.595 0)
+			(at 117.475 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25001,7 +25005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -25089,7 +25093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 466.852 31.75 90)
 			(effects
 				(font
@@ -25483,7 +25487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -25570,7 +25574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.7048 40.64 0)
 			(effects
 				(font
@@ -25771,7 +25775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:PCMCIA"
 			(at 524.51 199.39 0)
 			(effects
 				(font
@@ -26319,7 +26323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 367.792 31.75 90)
 			(effects
 				(font
@@ -26364,6 +26368,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 551.18 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26371,7 +26376,7 @@
 		(dnp no)
 		(uuid "925674b8-d46f-4ecd-88ee-8081426666a0")
 		(property "Reference" "R175"
-			(at 552.958 30.734 0)
+			(at 552.958 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26380,7 +26385,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 553.974 32.766 0)
+			(at 553.974 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26388,7 +26393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 549.402 31.75 90)
 			(effects
 				(font
@@ -26458,7 +26463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 161.29 90)
 			(effects
 				(font
@@ -26527,7 +26532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 499.872 31.75 90)
 			(effects
 				(font
@@ -26702,6 +26707,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 501.65 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26709,7 +26715,7 @@
 		(dnp no)
 		(uuid "a7def0f1-1aa6-49c5-a6ca-e079bf64c4c3")
 		(property "Reference" "R178"
-			(at 503.428 57.404 0)
+			(at 503.428 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26718,7 +26724,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 504.444 59.436 0)
+			(at 504.444 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26726,7 +26732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 499.872 58.42 90)
 			(effects
 				(font
@@ -26795,7 +26801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 450.342 31.75 90)
 			(effects
 				(font
@@ -27191,7 +27197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -27255,7 +27261,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 194.31 341.63 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27263,7 +27268,7 @@
 		(dnp no)
 		(uuid "c0e21288-0e6b-4ee2-ac0a-f742f82e5dcb")
 		(property "Reference" "R317"
-			(at 191.77 340.3599 0)
+			(at 191.77 342.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27272,7 +27277,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 191.77 342.8999 0)
+			(at 191.77 340.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27280,7 +27285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 192.532 341.63 90)
 			(effects
 				(font
@@ -27414,7 +27419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 400.812 31.75 90)
 			(effects
 				(font
@@ -27458,7 +27463,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 508 96.52 180)
+		(at 508 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27466,7 +27472,7 @@
 		(dnp no)
 		(uuid "cbe280e1-f535-4ec6-baab-baf0d02d2b8a")
 		(property "Reference" "C116"
-			(at 513.588 95.25 0)
+			(at 513.588 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27474,15 +27480,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 513.842 97.536 0)
+			(at 513.842 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 507.0348 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 507.0348 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27746,7 +27752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 294.64 90)
 			(effects
 				(font
@@ -27815,7 +27821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 532.892 31.75 90)
 			(effects
 				(font
@@ -27884,7 +27890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -28038,7 +28044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 26.162 45.72 90)
 			(effects
 				(font
@@ -28107,7 +28113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 192.278 97.79 90)
 			(effects
 				(font
@@ -28306,7 +28312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 132.842 58.42 90)
 			(effects
 				(font
@@ -28441,7 +28447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.808 247.65 90)
 			(effects
 				(font
@@ -28511,7 +28517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.842 90.17 90)
 			(effects
 				(font
@@ -28581,7 +28587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 161.798 327.66 90)
 			(effects
 				(font
@@ -28648,7 +28654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 35.56 0)
 			(effects
 				(font

@@ -5434,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 216.408 73.66 90)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 52.07 243.84 0)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 195.58 64.262 90)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 166.37 212.09 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 166.37 158.75 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 187.198 90)
 			(effects
 				(font
@@ -6088,7 +6088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -6146,8 +6146,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 168.91 73.66 0)
-		(mirror y)
+		(at 168.91 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6155,7 +6154,7 @@
 		(dnp no)
 		(uuid "2213147e-ee3c-4a61-acd2-ee61a1c999a8")
 		(property "Reference" "C260"
-			(at 165.1 72.3899 0)
+			(at 165.1 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6163,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 165.1 74.9299 0)
+			(at 165.1 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -6200,7 +6199,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 170.18 70.485 0)
+			(at 170.18 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6208,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 169.545 76.835 0)
+			(at 169.545 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 242.57 110.49 0)
 			(effects
 				(font
@@ -6312,8 +6311,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 156.21 73.66 0)
-		(mirror y)
+		(at 156.21 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6321,7 +6319,7 @@
 		(dnp no)
 		(uuid "288fda63-3547-4157-b133-6d7500938970")
 		(property "Reference" "C259"
-			(at 152.4 72.3899 0)
+			(at 152.4 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6328,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 152.4 74.9299 0)
+			(at 152.4 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -6366,7 +6364,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 157.48 70.485 0)
+			(at 157.48 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6373,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 156.845 76.835 0)
+			(at 156.845 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 224.028 119.38 90)
 			(effects
 				(font
@@ -6539,6 +6537,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 86.36 243.84 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6546,7 +6545,7 @@
 		(dnp no)
 		(uuid "30a4fed7-286d-456c-922b-849393c250b9")
 		(property "Reference" "C254"
-			(at 90.17 242.5699 0)
+			(at 90.17 245.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6554,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 90.17 245.1099 0)
+			(at 90.17 242.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 243.84 0)
 			(effects
 				(font
@@ -6591,7 +6590,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 85.09 240.665 0)
+			(at 85.09 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6599,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 85.725 247.015 0)
+			(at 85.725 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,6 +6626,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 138.43 130.81 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6634,7 +6634,7 @@
 		(dnp no)
 		(uuid "33928ea2-d774-429e-b100-1425679e0d0d")
 		(property "Reference" "R357"
-			(at 135.89 129.5399 0)
+			(at 135.89 132.0801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6643,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 135.89 132.0799 0)
+			(at 135.89 129.5401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 136.652 130.81 90)
 			(effects
 				(font
@@ -6696,16 +6696,14 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 259.08 124.46 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a2434ee-f6d7-4667-ab97-480386dab72f")
 		(property "Reference" "C56"
-			(at 255.27 123.1899 0)
+			(at 255.27 125.7301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6712,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 255.27 125.7299 0)
+			(at 255.27 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,8 +6720,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 260.0452 120.65 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 260.0452 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 269.24 109.728 90)
 			(effects
 				(font
@@ -6860,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:XTAL-6"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -6940,7 +6938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 125.73 0)
 			(effects
 				(font
@@ -7026,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 169.418 90)
 			(effects
 				(font
@@ -7071,6 +7069,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 35.56 243.84 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7078,7 +7077,7 @@
 		(dnp no)
 		(uuid "5058b695-853b-46ae-8967-1e43f1e3b25c")
 		(property "Reference" "C242"
-			(at 39.37 242.5699 0)
+			(at 39.37 245.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7086,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 39.37 245.1099 0)
+			(at 39.37 242.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.56 243.84 0)
 			(effects
 				(font
@@ -7123,7 +7122,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 34.29 240.665 0)
+			(at 34.29 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7131,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 34.925 247.015 0)
+			(at 34.925 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,8 +7224,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 203.2 73.66 0)
-		(mirror y)
+		(at 203.2 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7234,7 +7232,7 @@
 		(dnp no)
 		(uuid "5f7847b4-9b4a-4f9b-a3cf-a9d5b10d35fa")
 		(property "Reference" "C227"
-			(at 199.39 72.3899 0)
+			(at 199.39 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7241,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 199.39 74.9299 0)
+			(at 199.39 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 73.66 0)
 			(effects
 				(font
@@ -7279,7 +7277,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 204.47 70.485 0)
+			(at 204.47 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7286,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 203.835 76.835 0)
+			(at 203.835 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:SOIC-16W"
 			(at 175.26 104.14 0)
 			(effects
 				(font
@@ -7514,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC110:3D"
 			(at 271.78 124.46 0)
 			(effects
 				(font
@@ -7653,7 +7651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 152.4 156.972 90)
 			(effects
 				(font
@@ -7720,7 +7718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 180.34 50.8 0)
 			(effects
 				(font
@@ -7866,7 +7864,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 127 180)
+		(at 203.2 127 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7874,7 +7873,7 @@
 		(dnp no)
 		(uuid "863788e0-f614-4139-ae00-c02ee0ba77e9")
 		(property "Reference" "R359"
-			(at 204.978 125.984 0)
+			(at 204.978 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7882,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 205.74 128.2699 0)
+			(at 205.74 125.7301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,7 +7890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 204.978 127 90)
 			(effects
 				(font
@@ -7936,16 +7935,14 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 241.3 132.08 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "865b5034-1450-4855-92a0-eabd1f67a1d8")
 		(property "Reference" "C59"
-			(at 237.49 130.8099 0)
+			(at 237.49 133.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +7951,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 237.49 133.3499 0)
+			(at 237.49 130.8101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,8 +7959,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.2652 128.27 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 242.2652 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 101.6 243.84 0)
 			(effects
 				(font
@@ -8267,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 178.308 90)
 			(effects
 				(font
@@ -8378,6 +8375,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 116.84 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8385,7 +8383,7 @@
 		(dnp no)
 		(uuid "9e44bee7-fc87-45ab-8da3-f99e2777652e")
 		(property "Reference" "C257"
-			(at 120.65 111.7599 0)
+			(at 120.65 114.3001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +8392,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 120.65 114.2999 0)
+			(at 120.65 111.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.84 113.03 0)
 			(effects
 				(font
@@ -8430,7 +8428,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 115.57 109.855 0)
+			(at 115.57 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8437,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 116.205 116.205 0)
+			(at 116.205 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -8569,7 +8567,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 212.09 90)
+		(at 189.23 212.09 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8592,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 213.868 90)
 			(effects
 				(font
@@ -8702,7 +8701,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 106.68 100.33 270)
+		(at 106.68 100.33 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8710,7 +8710,7 @@
 		(dnp no)
 		(uuid "af494959-c5b4-4e82-8d30-17b7f55cdbe5")
 		(property "Reference" "C230"
-			(at 104.648 95.25 90)
+			(at 108.712 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8719,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 104.902 97.282 90)
+			(at 108.458 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -8755,7 +8755,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 109.855 99.06 0)
+			(at 103.505 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8764,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 103.505 99.695 0)
+			(at 109.855 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 160.528 90)
 			(effects
 				(font
@@ -9013,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 166.37 176.53 0)
 			(effects
 				(font
@@ -9159,8 +9159,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 187.96 73.66 0)
-		(mirror y)
+		(at 187.96 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9168,7 +9167,7 @@
 		(dnp no)
 		(uuid "c3b12000-eee4-4535-9753-fd9091b22e91")
 		(property "Reference" "C258"
-			(at 184.15 72.3899 0)
+			(at 184.15 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9176,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 184.15 74.9299 0)
+			(at 184.15 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -9213,7 +9212,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 189.23 70.485 0)
+			(at 189.23 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9221,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 188.595 76.835 0)
+			(at 188.595 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9247,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 194.31 90)
+		(at 189.23 194.31 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9271,7 +9271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 196.088 90)
 			(effects
 				(font
@@ -9449,6 +9449,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 73.66 243.84 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9456,7 +9457,7 @@
 		(dnp no)
 		(uuid "e1ad7f3c-3d28-41c6-8a9b-500844dbc336")
 		(property "Reference" "C256"
-			(at 77.47 242.5699 0)
+			(at 77.47 245.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +9466,7 @@
 			)
 		)
 		(property "Value" "150nF"
-			(at 77.47 245.1099 0)
+			(at 77.47 242.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 243.84 0)
 			(effects
 				(font
@@ -9501,7 +9502,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 72.39 240.665 0)
+			(at 72.39 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9511,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 73.025 247.015 0)
+			(at 73.025 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,8 +9603,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 142.24 73.66 0)
-		(mirror y)
+		(at 142.24 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9611,7 +9611,7 @@
 		(dnp no)
 		(uuid "faa452fd-0dc7-427d-8a9a-dd1d4742cfd9")
 		(property "Reference" "C232"
-			(at 138.43 72.3899 0)
+			(at 138.43 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9620,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 138.43 74.9299 0)
+			(at 138.43 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -9656,7 +9656,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 143.51 70.485 0)
+			(at 143.51 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9665,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 142.875 76.835 0)
+			(at 142.875 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9691,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 203.2 90)
+		(at 189.23 203.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9714,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 189.23 204.978 90)
 			(effects
 				(font
