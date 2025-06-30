@@ -6866,54 +6866,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Generic:Q-BJT-Darlington,PNP,IEEE"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_Transistor_BJT_Darlington_AKL:Q_PNP_Darlington_Generic_BCE"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 7.62 2.54 0)
+				(at 6.35 1.27 0)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
 			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 7.62 -2.54 0)
+			(property "Value" "Q_PNP_Darlington_Generic_BCE"
+				(at 6.35 -1.27 0)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 -2.54 0)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "bipolar junction transistor (BJT) Darlington pair: PNP (IEEE with envelope)"
+			(property "Description" "PNP Darlington transistor, Generic symbol, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6922,7 +6918,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=1 2=2 3=3"
+			(property "ki_keywords" "transistor PNP Darlington generic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6931,41 +6927,13 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "SPICE"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "type=\"X\" model=\"Q-BJT-Darlington,PNP,IEEE\" lib=\"\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "X Q Darlington BJT PNP pair bipolar junction transistor IEEE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q-BJT-Darlington,PNP,IEEE_1_1"
+			(symbol "Q_PNP_Darlington_Generic_BCE_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -6.35 -1.27) (xy -2.54 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -6974,19 +6942,31 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 2.1082) (xy -0.6604 1.0922) (xy 0.4318 1.1938) (xy -0.254 2.1082)
+						(xy -0.635 1.27) (xy 0.635 1.27)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 2.54 -3.81) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(circle
-					(center 2.159 0)
-					(radius 5.6896)
+					(center 0 0)
+					(radius 5.2324)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -6997,19 +6977,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.27 2.54) (xy -1.27 0.635)
+						(xy 0.635 1.905) (xy 2.54 3.81) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -7021,7 +6989,104 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 4.6482) (xy 3.1496 3.6322) (xy 4.2418 3.7338) (xy 3.556 4.6482)
+						(xy 0.635 0.635) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 0.635 3.175) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PNP_Darlington_Generic_BCE_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -0.635 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -2.54 0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.635) (xy -1.27 1.143) (xy -1.778 0.127) (xy -0.762 0.635) (xy -0.762 0.635)
 					)
 					(stroke
 						(width 0)
@@ -7033,43 +7098,19 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 2.54 3.175)
+						(xy 2.413 3.175) (xy 1.905 3.683) (xy 1.397 2.667) (xy 2.413 3.175) (xy 2.413 3.175)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 1.27 -2.54) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -7077,17 +7118,17 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
-								(size 1.8288 1.8288)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 270)
-					(length 0)
+					(at 2.54 7.62 270)
+					(length 2.54)
 					(name "E"
 						(effects
 							(font
@@ -7098,14 +7139,14 @@
 					(number "3"
 						(effects
 							(font
-								(size 1.8288 1.8288)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 5.08)
+					(at 2.54 -7.62 90)
+					(length 2.54)
 					(name "C"
 						(effects
 							(font
@@ -7113,10 +7154,10 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
-								(size 1.8288 1.8288)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7438,12 +7479,6 @@
 		(uuid "0e4e91bb-c482-4e4f-9247-9bb567f989a2")
 	)
 	(junction
-		(at 431.8 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f3c3d9f-7ba7-4333-92c6-e1264ccb0f47")
-	)
-	(junction
 		(at 304.8 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7708,6 +7743,12 @@
 		(uuid "923530c0-90d7-4983-87d8-48fa79e0bc70")
 	)
 	(junction
+		(at 431.8 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d74563-5157-4219-80ac-88ea3899af9b")
+	)
+	(junction
 		(at 438.15 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7724,6 +7765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dd5ac19-15e8-4dfb-af5e-c6125d3368b9")
+	)
+	(junction
+		(at 431.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5274858-0c2f-4ef0-9d31-9a698ce8e648")
 	)
 	(junction
 		(at 430.53 176.53)
@@ -7874,12 +7921,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e93cdeb5-9348-43f8-863e-02145919ed58")
-	)
-	(junction
-		(at 431.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9dd81f0-aafe-4761-81e2-755a4ea4c91f")
 	)
 	(junction
 		(at 87.63 274.32)
@@ -12113,6 +12154,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 93.98) (xy 431.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1433cae-4554-40ad-b63a-150ee5e2d391")
+	)
+	(wire
+		(pts
 			(xy 218.44 243.84) (xy 209.55 243.84)
 		)
 		(stroke
@@ -12450,6 +12501,16 @@
 			(type default)
 		)
 		(uuid "b0c52069-d516-4232-8ae8-10dc44f1fbe0")
+	)
+	(wire
+		(pts
+			(xy 431.8 69.85) (xy 431.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e03c9-7f59-47c0-8847-ca04730ffaeb")
 	)
 	(wire
 		(pts
@@ -13220,16 +13281,6 @@
 			(type default)
 		)
 		(uuid "d1b74591-e028-4f78-a782-38fb62f0213a")
-	)
-	(wire
-		(pts
-			(xy 431.8 69.85) (xy 431.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c4b5b7-0ffc-409c-8db4-19be177922b6")
 	)
 	(wire
 		(pts
@@ -14191,16 +14242,6 @@
 		)
 		(uuid "fcb8b75f-12a3-4a3e-b2fd-124f875bf453")
 	)
-	(wire
-		(pts
-			(xy 431.8 92.71) (xy 431.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd8f77a-60e0-4058-b0d6-64337e850389")
-	)
 	(bus
 		(pts
 			(xy 52.07 143.51) (xy 52.07 148.59)
@@ -14273,7 +14314,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 99.06) (xy 431.8 99.06)
+			(xy 431.8 99.06) (xy 449.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -18240,6 +18281,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Transistor_BJT_Darlington_AKL:Q_PNP_Darlington_Generic_BCE")
+		(at 429.26 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af5fcbd-6df6-44c5-831c-c54eeb647e95")
+		(property "Reference" "Q37"
+			(at 435.61 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BH"
+			(at 435.61 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 434.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 429.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP Darlington transistor, Generic symbol, Alternate KiCAD Library"
+			(at 429.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7b1a4b7-f031-41a8-b2a7-9d7186e5d1c8")
+		)
+		(pin "3"
+			(uuid "983eea12-1624-4e3d-a9ad-68d31bac6b3f")
+		)
+		(pin "2"
+			(uuid "b6aaa17b-0d05-4c41-899e-f9f7580738c1")
+		)
+		(instances
+			(project ""
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006e2d8c88"
+					(reference "Q37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 279.4 90)
 		(unit 1)
@@ -22119,106 +22233,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006e2d8c88"
 					(reference "#PWR0598")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Generic:Q-BJT-Darlington,PNP,IEEE")
-		(at 426.72 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2326153-3648-432f-be70-27e316e13e62")
-		(property "Reference" "Q37"
-			(at 435.61 85.0899 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BH"
-			(at 435.61 90.1699 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 426.72 87.63 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 87.63 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "bipolar junction transistor (BJT) Darlington pair: PNP (IEEE with envelope)"
-			(at 426.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 426.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 434.34 85.09 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"X\" model=\"Q-BJT-Darlington,PNP,IEEE\" lib=\"\""
-			(at 426.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1e7055fd-0919-4a4f-9eda-34a55a8c7f6d")
-		)
-		(pin "1"
-			(uuid "b90f560c-609a-4f3e-835d-8eb5ca2189b2")
-		)
-		(pin "3"
-			(uuid "d36eaa17-a621-4930-8f2d-20c71e3e4f95")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-00006e2d8c88"
-					(reference "Q37")
 					(unit 1)
 				)
 			)

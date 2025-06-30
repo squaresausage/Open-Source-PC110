@@ -2735,34 +2735,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PNP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_Transistor_BJT_AKL:Q_PNP_Generic_BEC"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PNP"
-				(at -2.54 5.08 0)
+			(property "Value" "Q_PNP_Generic_BEC"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 35.56 0 0)
+				(at 5.08 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2770,16 +2769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 35.56 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2788,7 +2778,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PNP"
+			(property "Description" "PNP transistor, generic symbol, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2797,7 +2787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
+			(property "ki_keywords" "transistor PNP generic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2806,31 +2796,13 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PNP_0_1"
+			(symbol "Q_PNP_Generic_BEC_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0.635 0.635) (xy 2.54 2.54) (xy 2.54 2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2839,34 +2811,22 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905) (xy 0.635 1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2881,12 +2841,12 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 2.286 1.778) (xy 1.778 2.286) (xy 1.27 1.27) (xy 2.286 1.778) (xy 2.286 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2897,29 +2857,11 @@
 					)
 				)
 			)
-			(symbol "PNP_1_1"
+			(symbol "Q_PNP_Generic_BEC_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.715)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2934,10 +2876,28 @@
 						)
 					)
 				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7549,16 +7509,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PNP")
-		(at 262.89 87.63 180)
+		(lib_id "PCM_Transistor_BJT_AKL:Q_PNP_Generic_BEC")
+		(at 262.89 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d026198-40a8-43af-a0a0-56a5532697c6")
+		(uuid "39f413de-6f10-474d-9386-8f544da2a07d")
 		(property "Reference" "Q36"
-			(at 257.81 88.9001 0)
+			(at 257.81 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7528,7 @@
 			)
 		)
 		(property "Value" "7C"
-			(at 257.81 86.3601 0)
+			(at 257.81 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,8 +7536,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 227.33 87.63 0)
+		(property "Footprint" ""
+			(at 257.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,16 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 227.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Datasheet" "~"
 			(at 262.89 87.63 0)
 			(effects
 				(font
@@ -7602,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PNP"
+		(property "Description" "PNP transistor, generic symbol, Alternate KiCAD Library"
 			(at 262.89 87.63 0)
 			(effects
 				(font
@@ -7610,36 +7562,18 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 262.89 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 262.89 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "713edd13-c236-40a5-bbda-594988e9dd45")
 		)
 		(pin "1"
-			(uuid "fdc9d3c5-df2d-4d0b-8ed6-c1fd4647c23e")
+			(uuid "4ef12a0c-9d55-4be6-ab3e-7494cd284b06")
 		)
 		(pin "2"
-			(uuid "216f48f0-f99a-4f5a-b06a-92d0d3b428c6")
+			(uuid "9ef26c59-7c16-425e-afaf-8d8755de8e47")
+		)
+		(pin "3"
+			(uuid "fd65cd60-fad7-4d3b-8db6-2013ee58b8f0")
 		)
 		(instances
-			(project ""
+			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/29aeee43-2869-4080-920c-a693b0bc5770"
 					(reference "Q36")
 					(unit 1)
