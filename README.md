@@ -40,6 +40,19 @@ Here is a [link to the HackADay article](https://hackaday.com/2025/04/06/reverse
 
 # License
 
-This project is free for non-commercial reproduction. You are not permitted to sell it for profit. Neither are you permitted to create a closed-source clone of it. Share your experiences, forks, and ideas with the community to benefit everyone.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NonCommercial — You may not use the material for commercial purposes.
+
+For full details, see: https://creativecommons.org/licenses/by-nc/4.0/
+
+As the project creator, I reserve the right to use this material commercially or under any other terms.
+
 
 
