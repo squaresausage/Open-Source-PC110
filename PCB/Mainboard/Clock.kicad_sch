@@ -5452,7 +5452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 214.63 73.66 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS02"
+		(property "Value" "SN74LV02"
 			(at 58.42 245.1099 0)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/f-V02.pdf"
 			(at 52.07 243.84 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
 			(at 52.07 243.84 0)
 			(effects
 				(font
@@ -5694,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -5736,7 +5736,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS125"
+		(property "Value" "SN74LVT125"
 			(at 166.37 205.74 0)
 			(effects
 				(font
@@ -5753,7 +5753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 166.37 212.09 0)
 			(effects
 				(font
@@ -5762,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 166.37 212.09 0)
 			(effects
 				(font
@@ -5840,7 +5840,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS125"
+		(property "Value" "SN74LVT125"
 			(at 166.37 152.4 0)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 166.37 158.75 0)
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 166.37 158.75 0)
 			(effects
 				(font
@@ -6000,7 +6000,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1fc6c405-bb55-4db2-8fa2-935c4df11cd1")
 		(property "Reference" "R344"
 			(at 189.23 180.848 90)
@@ -6036,7 +6036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 185.42 0)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MUN2114"
+		(property "Value" "6D"
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -6108,16 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital PNP Transistor, 10k/47k, SOT-23"
-			(at 200.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "6D"
+		(property "Description" ""
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -6189,31 +6180,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 170.18 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 169.545 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6250,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Value" "BD53E31"
+		(property "Value" "8C01"
 			(at 244.094 104.14 0)
 			(effects
 				(font
@@ -6276,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "QC01"
+		(property "Description" ""
 			(at 242.57 110.49 0)
 			(effects
 				(font
@@ -6354,31 +6326,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 157.48 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 156.845 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6510,7 +6463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 222.25 119.38 0)
 			(effects
 				(font
@@ -6580,31 +6533,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 86.36 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 85.09 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 85.725 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6642,7 +6576,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "33"
 			(at 135.89 129.5401 0)
 			(effects
 				(font
@@ -6669,7 +6603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 138.43 130.81 0)
 			(effects
 				(font
@@ -6738,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -6806,7 +6740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 269.24 107.95 0)
 			(effects
 				(font
@@ -6876,21 +6810,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three pin crystal, GND on pin 3"
+		(property "Description" ""
 			(at 101.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Frequency" "14.318MHz"
-			(at 110.236 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6918,7 +6844,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4af62dfe-4a61-4e48-a8eb-655b93efbb9e")
 		(property "Reference" "C261"
 			(at 104.648 120.65 90)
@@ -6956,31 +6882,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 109.855 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 103.505 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7042,7 +6949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 167.64 0)
 			(effects
 				(font
@@ -7112,31 +7019,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 35.56 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 34.29 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 34.925 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7267,31 +7155,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 203.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 204.47 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 203.835 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7494,7 +7363,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7636ed0a-d00f-48dc-8906-73d316939224")
 		(property "Reference" "D9"
 			(at 267.462 122.428 90)
@@ -7530,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 2"
+		(property "Description" ""
 			(at 271.78 124.46 0)
 			(effects
 				(font
@@ -7669,7 +7538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 152.4 158.75 0)
 			(effects
 				(font
@@ -7710,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS02"
+		(property "Value" "SN74LV02"
 			(at 180.34 44.45 0)
 			(effects
 				(font
@@ -7727,7 +7596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/f-V02.pdf"
 			(at 180.34 50.8 0)
 			(effects
 				(font
@@ -7736,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
 			(at 180.34 50.8 0)
 			(effects
 				(font
@@ -7908,7 +7777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 203.2 127 0)
 			(effects
 				(font
@@ -7977,7 +7846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 241.3 132.08 0)
 			(effects
 				(font
@@ -8086,7 +7955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS125"
+		(property "Value" "SN74LVT125"
 			(at 107.95 245.1099 0)
 			(effects
 				(font
@@ -8104,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 101.6 243.84 0)
 			(effects
 				(font
@@ -8113,7 +7982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 101.6 243.84 0)
 			(effects
 				(font
@@ -8282,7 +8151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 176.53 0)
 			(effects
 				(font
@@ -8380,7 +8249,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9e44bee7-fc87-45ab-8da3-f99e2777652e")
 		(property "Reference" "C257"
 			(at 120.65 114.3001 0)
@@ -8418,31 +8287,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 115.57 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 116.205 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8479,7 +8329,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS125"
+		(property "Value" "SN74LVT125"
 			(at 166.37 187.96 0)
 			(effects
 				(font
@@ -8496,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -8505,7 +8355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -8609,7 +8459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 212.09 0)
 			(effects
 				(font
@@ -8707,7 +8557,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "af494959-c5b4-4e82-8d30-17b7f55cdbe5")
 		(property "Reference" "C230"
 			(at 108.712 95.25 90)
@@ -8745,31 +8595,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 103.505 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 109.855 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8898,7 +8729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 158.75 0)
 			(effects
 				(font
@@ -9005,7 +8836,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS125"
+		(property "Value" "SN74LVT125"
 			(at 166.37 170.18 0)
 			(effects
 				(font
@@ -9022,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 166.37 176.53 0)
 			(effects
 				(font
@@ -9031,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 166.37 176.53 0)
 			(effects
 				(font
@@ -9202,31 +9033,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 189.23 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 188.595 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9289,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 194.31 0)
 			(effects
 				(font
@@ -9492,31 +9304,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 73.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 72.39 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 73.025 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9646,31 +9439,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 142.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 143.51 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 142.875 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9733,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 189.23 203.2 0)
 			(effects
 				(font

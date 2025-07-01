@@ -3365,616 +3365,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Filter_EMI_LLLL_15263748"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Filter_EMI_LLLL_15263748"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "EMI 4-inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "common mode quadruple choke quad coil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L* L_CommonMode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Filter_EMI_LLLL_15263748_0_1"
-				(circle
-					(center -2.54 3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy 2.921 1.905)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy 2.921 -0.635)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.175) (xy 2.921 -3.175)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.715) (xy 2.921 -5.715)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.905 3.1723)
-					(end -1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.905 -1.9077)
-					(end -1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -5.08)
-					(mid -1.905 -4.4477)
-					(end -1.27 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0.127) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -2.413) (xy -2.54 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -4.953) (xy -2.54 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -0.635 3.1723)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -2.54)
-					(mid -0.635 -1.9077)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -5.08)
-					(mid -0.635 -4.4477)
-					(end 0 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid 0.635 3.1723)
-					(end 1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid 0.635 -1.9077)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.08)
-					(mid 0.635 -4.4477)
-					(end 1.27 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.889) (xy -0.254 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.651) (xy -0.254 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.191) (xy -0.254 -4.699)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 2.54)
-					(mid 1.905 3.1723)
-					(end 2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -2.54)
-					(mid 1.905 -1.9077)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -5.08)
-					(mid 1.905 -4.4477)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 1.905) (xy 1.27 1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.635) (xy 1.27 -1.397)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -3.175) (xy 1.27 -3.937)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Filter_EMI_LLLL_15263748_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -6950,6 +6340,595 @@
 						)
 					)
 					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PC110:EMI_filter_Array"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "EM"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMI_filter_Array_0_1"
+				(circle
+					(center -2.54 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.175) (xy 2.921 3.175)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.921 0.635)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.921 -1.905)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy 2.921 -4.445)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 3.81)
+					(mid -1.905 4.4423)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.27)
+					(mid -1.905 1.9023)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid -1.905 -0.6377)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -3.81)
+					(mid -1.905 -3.1777)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.397) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -1.143) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -3.683) (xy -2.54 -4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -0.635 4.4423)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -0.635 1.9023)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -0.635 -0.6377)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -0.635 -3.1777)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.635 4.4423)
+					(end 1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.635 1.9023)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.635 -0.6377)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.81)
+					(mid 0.635 -3.1777)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.159) (xy -0.254 1.651)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.381) (xy -0.254 -0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.921) (xy -0.254 -3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 3.81)
+					(mid 1.905 4.4423)
+					(end 2.54 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 1.905 1.9023)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 1.905 -0.6377)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.81)
+					(mid 1.905 -3.1777)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 3.175) (xy 1.27 2.413)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.635) (xy 1.27 -0.127)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -1.905) (xy 1.27 -2.667)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EMI_filter_Array_1_1"
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17669,7 +17648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 302.26 495.3 0)
 			(effects
 				(font
@@ -17678,7 +17657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 302.26 495.3 0)
 			(effects
 				(font
@@ -17766,7 +17745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 292.1 135.89 0)
 			(effects
 				(font
@@ -17842,7 +17821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 504.19 140.97 0)
 			(effects
 				(font
@@ -17851,7 +17830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 504.19 140.97 0)
 			(effects
 				(font
@@ -18005,7 +17984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 302.26 332.74 0)
 			(effects
 				(font
@@ -18115,7 +18094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 524.51 523.2399 90)
 			(effects
 				(font
@@ -18134,7 +18113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" ""
 			(at 521.97 525.018 0)
 			(effects
 				(font
@@ -18143,7 +18122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 521.97 521.97 0)
 			(effects
 				(font
@@ -18215,7 +18194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 706.12 360.68 0)
 			(effects
 				(font
@@ -18483,31 +18462,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 381 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 379.73 257.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 380.365 263.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18571,31 +18531,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 334.01 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 335.28 498.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 334.645 492.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18659,31 +18600,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 198.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 196.85 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 197.485 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18947,7 +18869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 582.93 358.14 0)
 			(effects
 				(font
@@ -19123,7 +19045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Docking Station"
+		(property "Value" "Docking Port"
 			(at 416.306 294.386 0)
 			(effects
 				(font
@@ -19568,7 +19490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+		(property "Datasheet" ""
 			(at 572.77 115.57 0)
 			(effects
 				(font
@@ -19578,7 +19500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 572.77 109.22 0)
 			(effects
 				(font
@@ -19656,7 +19578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 464.82 293.37 0)
 			(effects
 				(font
@@ -19726,7 +19648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 603.25 358.14 0)
 			(effects
 				(font
@@ -19752,7 +19674,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 265.43 158.75 90)
+		(at 265.43 158.75 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19793,7 +19716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 265.43 158.75 0)
 			(effects
 				(font
@@ -19928,7 +19851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 214.63 364.49 0)
 			(effects
 				(font
@@ -20131,7 +20054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 513.08 414.02 0)
 			(effects
 				(font
@@ -20201,25 +20124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 384.81 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 384.81 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 384.81 278.13 0)
 			(effects
 				(font
@@ -20288,7 +20193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 194.31 364.49 0)
 			(effects
 				(font
@@ -20558,7 +20463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 179.07 180.34 0)
 			(effects
 				(font
@@ -20693,7 +20598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 184.15 307.34 0)
 			(effects
 				(font
@@ -20896,31 +20801,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 332.74 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 331.47 281.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 332.105 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20984,31 +20870,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 212.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 210.82 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 211.455 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21073,31 +20940,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 173.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 175.26 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 174.625 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21133,7 +20981,7 @@
 				)
 			)
 		)
-		(property "Value" "74LV126"
+		(property "Value" "SN74LV126"
 			(at 682.752 372.364 0)
 			(effects
 				(font
@@ -21150,7 +20998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/g-V126.pdf"
 			(at 674.37 368.3 0)
 			(effects
 				(font
@@ -21159,7 +21007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
 			(at 674.37 368.3 0)
 			(effects
 				(font
@@ -21254,7 +21102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 532.13 140.97 0)
 			(effects
 				(font
@@ -21263,7 +21111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 532.13 140.97 0)
 			(effects
 				(font
@@ -21637,31 +21485,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 429.26 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 427.99 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 428.625 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21766,7 +21595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LV126"
+		(property "Value" "SN74LV126"
 			(at 278.13 496.5699 0)
 			(effects
 				(font
@@ -21784,7 +21613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/g-V126.pdf"
 			(at 271.78 495.3 0)
 			(effects
 				(font
@@ -21793,7 +21622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
 			(at 271.78 495.3 0)
 			(effects
 				(font
@@ -21899,31 +21728,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 455.93 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 454.66 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 455.295 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21987,7 +21797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 718.82 360.68 0)
 			(effects
 				(font
@@ -22045,7 +21855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 508 334.01 0)
 			(effects
 				(font
@@ -22054,7 +21864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 508 334.01 0)
 			(effects
 				(font
@@ -22159,7 +21969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 381 238.76 0)
 			(effects
 				(font
@@ -22295,7 +22105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 290.83 332.74 0)
 			(effects
 				(font
@@ -22338,7 +22148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PS2"
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -22491,7 +22301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MUN2114"
+		(property "Value" "6D"
 			(at 405.13 59.69 0)
 			(effects
 				(font
@@ -22520,16 +22330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital PNP Transistor, 10k/47k, SOT-23"
-			(at 410.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "6D"
+		(property "Description" ""
 			(at 410.21 58.42 0)
 			(effects
 				(font
@@ -22668,31 +22469,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 549.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 548.64 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 549.275 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -22812,7 +22594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 153.67 321.31 0)
 			(effects
 				(font
@@ -22821,7 +22603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 153.67 321.31 0)
 			(effects
 				(font
@@ -22917,7 +22699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 185.42 496.57 0)
 			(effects
 				(font
@@ -22926,7 +22708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 185.42 496.57 0)
 			(effects
 				(font
@@ -22986,7 +22768,7 @@
 				)
 			)
 		)
-		(property "Value" "74LV126"
+		(property "Value" "SN74LV126"
 			(at 682.244 388.874 0)
 			(effects
 				(font
@@ -23003,7 +22785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/g-V126.pdf"
 			(at 674.37 383.54 0)
 			(effects
 				(font
@@ -23012,7 +22794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
 			(at 674.37 383.54 0)
 			(effects
 				(font
@@ -23381,31 +23163,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 431.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 430.53 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 431.165 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23460,7 +23223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 481.33 260.35 0)
 			(effects
 				(font
@@ -23469,7 +23232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 481.33 260.35 0)
 			(effects
 				(font
@@ -23556,7 +23319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 448.31 260.35 0)
 			(effects
 				(font
@@ -23693,31 +23456,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 255.27 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 254 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 254.635 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23781,7 +23525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 492.76 312.42 0)
 			(effects
 				(font
@@ -23851,7 +23595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 613.41 358.14 0)
 			(effects
 				(font
@@ -23921,25 +23665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 389.89 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 389.89 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 389.89 278.13 0)
 			(effects
 				(font
@@ -23980,7 +23706,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 332.74 432.054 90)
 			(effects
 				(font
@@ -24006,16 +23732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 339.09 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 339.09 430.53 0)
 			(effects
 				(font
@@ -24221,7 +23938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 693.42 360.68 0)
 			(effects
 				(font
@@ -24247,7 +23964,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 306.07 269.24 180)
+		(at 306.07 269.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24255,7 +23973,7 @@
 		(dnp no)
 		(uuid "7022dfa5-a4d1-4700-ba4c-d73fa5bffee8")
 		(property "Reference" "C93"
-			(at 300.228 268.224 0)
+			(at 300.228 270.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24264,7 +23982,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 301.752 270.764 0)
+			(at 301.752 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24290,31 +24008,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 306.07 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 307.34 272.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 306.705 266.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24579,7 +24278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 521.97 119.38 0)
 			(effects
 				(font
@@ -24638,7 +24337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/d-V32.pdf"
 			(at 543.56 260.35 0)
 			(effects
 				(font
@@ -24647,7 +24346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 2-input OR"
+		(property "Description" "Quadruple 2-Input Positive-Or Gates"
 			(at 543.56 260.35 0)
 			(effects
 				(font
@@ -24810,7 +24509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/d-V32.pdf"
 			(at 347.98 495.3 0)
 			(effects
 				(font
@@ -24819,7 +24518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 2-input OR"
+		(property "Description" "Quadruple 2-Input Positive-Or Gates"
 			(at 347.98 495.3 0)
 			(effects
 				(font
@@ -25057,31 +24756,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 548.64 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 545.465 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 551.815 352.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25117,7 +24797,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 535.94 115.57 0)
 			(effects
 				(font
@@ -25143,16 +24823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 535.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 535.94 119.38 0)
 			(effects
 				(font
@@ -25198,7 +24869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BH"
+		(property "Value" "BH RT"
 			(at 453.39 58.4199 0)
 			(effects
 				(font
@@ -25225,7 +24896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP Darlington transistor, Generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 447.04 57.15 0)
 			(effects
 				(font
@@ -25364,31 +25035,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 495.3 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 494.03 404.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 494.665 398.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25452,7 +25104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 281.94 135.89 0)
 			(effects
 				(font
@@ -25513,7 +25165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 231.14 495.3 0)
 			(effects
 				(font
@@ -25522,7 +25174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 231.14 495.3 0)
 			(effects
 				(font
@@ -25628,7 +25280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 407.67 73.66 0)
 			(effects
 				(font
@@ -25697,7 +25349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 441.96 293.37 0)
 			(effects
 				(font
@@ -25899,31 +25551,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 223.52 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 222.25 297.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 222.885 291.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26120,7 +25753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 231.14 105.41 0)
 			(effects
 				(font
@@ -26151,7 +25784,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8e507f7d-d188-4936-b92d-11275f501fa0")
 		(property "Reference" "C1"
 			(at 472.44 163.8299 0)
@@ -26189,31 +25822,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 468.63 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 467.36 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 467.995 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26451,7 +26065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
+		(property "Value" "300nF"
 			(at 250.19 90.1699 0)
 			(effects
 				(font
@@ -26478,31 +26092,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 245.11 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 245.745 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26633,7 +26228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 373.38 219.71 0)
 			(effects
 				(font
@@ -26702,7 +26297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 543.56 306.07 0)
 			(effects
 				(font
@@ -26812,7 +26407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 595.63 487.6799 90)
 			(effects
 				(font
@@ -26831,7 +26426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" ""
 			(at 593.09 489.458 0)
 			(effects
 				(font
@@ -26840,7 +26435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 593.09 486.41 0)
 			(effects
 				(font
@@ -26913,7 +26508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 255.27 332.74 0)
 			(effects
 				(font
@@ -26982,7 +26577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 184.15 180.34 0)
 			(effects
 				(font
@@ -27185,7 +26780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 279.4 332.74 0)
 			(effects
 				(font
@@ -27320,31 +26915,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 320.04 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 318.77 281.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 319.405 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27409,7 +26985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 426.72 260.35 0)
 			(effects
 				(font
@@ -27548,7 +27124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 267.97 332.74 0)
 			(effects
 				(font
@@ -27840,31 +27416,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 539.75 398.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 539.115 404.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27992,7 +27549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 199.39 114.3 0)
 			(effects
 				(font
@@ -28062,31 +27619,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 416.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 415.29 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 415.925 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28217,7 +27755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 623.57 358.14 0)
 			(effects
 				(font
@@ -28286,31 +27824,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 549.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 548.64 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 549.275 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28348,7 +27867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 551.18 487.6799 90)
 			(effects
 				(font
@@ -28367,7 +27886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" ""
 			(at 548.64 489.458 0)
 			(effects
 				(font
@@ -28376,7 +27895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 548.64 486.41 0)
 			(effects
 				(font
@@ -28422,7 +27941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BH"
+		(property "Value" "BH RT"
 			(at 227.33 80.0099 0)
 			(effects
 				(font
@@ -28449,7 +27968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP Darlington transistor, Generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 233.68 78.74 0)
 			(effects
 				(font
@@ -28588,7 +28107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 468.63 129.54 0)
 			(effects
 				(font
@@ -28657,7 +28176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 427.99 58.42 0)
 			(effects
 				(font
@@ -28926,31 +28445,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 355.6 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 356.87 216.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 356.235 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29014,7 +28514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 453.39 293.37 0)
 			(effects
 				(font
@@ -29139,7 +28639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/a%26e-V125.pdf"
 			(at 508 317.5 0)
 			(effects
 				(font
@@ -29148,7 +28648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "ABT QUADRUPLE BUS BUFFER WITH 3STATE OUTPUTS"
 			(at 508 317.5 0)
 			(effects
 				(font
@@ -29253,31 +28753,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 289.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 290.83 272.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 290.195 266.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29341,7 +28822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 394.97 250.19 0)
 			(effects
 				(font
@@ -29410,7 +28891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 538.48 243.84 0)
 			(effects
 				(font
@@ -29546,31 +29027,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 443.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 441.96 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 442.595 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29606,7 +29068,7 @@
 				)
 			)
 		)
-		(property "Value" "74LV126"
+		(property "Value" "SN74LV126"
 			(at 683.006 403.098 0)
 			(effects
 				(font
@@ -29623,7 +29085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/g-V126.pdf"
 			(at 674.37 398.78 0)
 			(effects
 				(font
@@ -29632,7 +29094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
 			(at 674.37 398.78 0)
 			(effects
 				(font
@@ -29737,7 +29199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 533.4 306.07 0)
 			(effects
 				(font
@@ -29780,7 +29242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BH"
+		(property "Value" "BH RT"
 			(at 361.95 250.1899 0)
 			(effects
 				(font
@@ -29807,7 +29269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP Darlington transistor, Generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 368.3 248.92 0)
 			(effects
 				(font
@@ -29935,7 +29397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 210.82 321.31 0)
 			(effects
 				(font
@@ -29944,7 +29406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single D Flip-Flop, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 210.82 321.31 0)
 			(effects
 				(font
@@ -30032,31 +29494,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 213.36 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 212.09 498.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 212.725 492.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30121,7 +29564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 593.09 358.14 0)
 			(effects
 				(font
@@ -30164,7 +29607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 504.19 487.6799 90)
 			(effects
 				(font
@@ -30183,7 +29626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" ""
 			(at 501.65 489.458 0)
 			(effects
 				(font
@@ -30192,7 +29635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 501.65 486.41 0)
 			(effects
 				(font
@@ -30214,93 +29657,6 @@
 			(project ""
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/6dbc8bfb-047e-469c-b9e0-4e168250e555"
 					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Filter_EMI_LLLL_15263748")
-		(at 265.43 152.4 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1e532c3-f878-47d0-a9af-80c0b9d79568")
-		(property "Reference" "EM5"
-			(at 265.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EMI"
-			(at 265.5685 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PC110:R-array"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 4-inductor filter"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e02c52d-63a0-4079-b9c2-2eb40bed0264")
-		)
-		(pin "2"
-			(uuid "82a239b6-eb9e-401a-b4de-ea25c4651173")
-		)
-		(pin "3"
-			(uuid "22923281-7feb-4320-9b20-2d5d01b4d790")
-		)
-		(pin "4"
-			(uuid "5a30ceee-e762-4dcf-9bc9-966fe4a171bb")
-		)
-		(pin "5"
-			(uuid "0405f56d-c791-484a-b596-4efd7f817883")
-		)
-		(pin "6"
-			(uuid "0de1645b-68f3-4f3d-a3e8-14d5bae9883c")
-		)
-		(pin "7"
-			(uuid "f2d24814-57d2-4cb1-87be-cc6b7984235b")
-		)
-		(pin "8"
-			(uuid "2ebbc85c-1110-4fac-8cf2-a2aabbda0125")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/6dbc8bfb-047e-469c-b9e0-4e168250e555"
-					(reference "EM5")
 					(unit 1)
 				)
 			)
@@ -30551,31 +29907,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 168.91 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 167.64 492.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 168.275 498.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30613,7 +29950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 571.5 523.2399 90)
 			(effects
 				(font
@@ -30632,7 +29969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" ""
 			(at 568.96 525.018 0)
 			(effects
 				(font
@@ -30641,7 +29978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 568.96 521.97 0)
 			(effects
 				(font
@@ -30713,31 +30050,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 217.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 218.44 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 217.805 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30802,31 +30120,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 241.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 240.03 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 240.665 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30891,7 +30190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 449.58 95.25 0)
 			(effects
 				(font
@@ -30934,7 +30233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Modem-Connector"
 			(at 561.9181 359.41 0)
 			(effects
 				(font
@@ -31103,7 +30402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 204.47 364.49 0)
 			(effects
 				(font
@@ -31172,7 +30471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 224.79 364.49 0)
 			(effects
 				(font
@@ -31241,7 +30540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 410.21 250.19 0)
 			(effects
 				(font
@@ -31310,31 +30609,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 226.06 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 224.79 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 225.425 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31599,7 +30879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 256.54 80.01 0)
 			(effects
 				(font
@@ -31724,7 +31004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/d-V32.pdf"
 			(at 391.16 495.3 0)
 			(effects
 				(font
@@ -31733,7 +31013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 2-input OR"
+		(property "Description" "Quadruple 2-Input Positive-Or Gates"
 			(at 391.16 495.3 0)
 			(effects
 				(font
@@ -31854,6 +31134,92 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/6dbc8bfb-047e-469c-b9e0-4e168250e555"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC110:EMI_filter_Array")
+		(at 265.43 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f84cfc89-e42d-46c1-b382-0adea2f57b4e")
+		(property "Reference" "EM5"
+			(at 265.43 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-array"
+			(at 265.5685 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC110:R-array"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "7a80f6a6-f8a2-4abc-8d5b-ba243899e3e8")
+		)
+		(pin "3"
+			(uuid "327dcc09-0510-47e5-9b08-6e151868beaf")
+		)
+		(pin "7"
+			(uuid "96a9c64d-05f5-4421-8209-9149906680f5")
+		)
+		(pin "2"
+			(uuid "c54b05dc-b804-4d47-b0a3-7e51bce04bea")
+		)
+		(pin "6"
+			(uuid "fce8b194-aa6f-4aa6-b5e9-fd7c9909bb90")
+		)
+		(pin "4"
+			(uuid "2265f957-9723-4a84-8423-24b8c1b32679")
+		)
+		(pin "5"
+			(uuid "d6cc2664-0778-4198-be20-8387c9ba9007")
+		)
+		(pin "1"
+			(uuid "536b7931-0a08-4453-b4a4-fbcb97b08bab")
+		)
+		(instances
+			(project ""
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/6dbc8bfb-047e-469c-b9e0-4e168250e555"
+					(reference "EM5")
 					(unit 1)
 				)
 			)
@@ -32226,7 +31592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 504.19 127 0)
 			(effects
 				(font
@@ -32235,7 +31601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 504.19 127 0)
 			(effects
 				(font

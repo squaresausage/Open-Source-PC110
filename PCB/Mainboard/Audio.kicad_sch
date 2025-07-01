@@ -18607,7 +18607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 345.44 154.94 0)
 			(effects
 				(font
@@ -18784,7 +18784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 322.58 323.8501 0)
 			(effects
 				(font
@@ -18811,7 +18811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 318.77 325.12 0)
 			(effects
 				(font
@@ -18880,7 +18880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 266.7 82.55 0)
 			(effects
 				(font
@@ -18987,7 +18987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "HD151015"
 			(at 328.5333 167.64 0)
 			(effects
 				(font
@@ -19005,7 +19005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/8-HD151015.pdf"
 			(at 323.85 187.96 0)
 			(effects
 				(font
@@ -19014,7 +19014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9 bit Level Shifter/Transceiver With 3 State Outputs"
 			(at 323.85 187.96 0)
 			(effects
 				(font
@@ -19147,31 +19147,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 267.97 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 265.43 337.947 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 271.145 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19198,7 +19179,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05702c15-bad5-47dd-9ed2-5bc308cf957e")
 		(property "Reference" "C270"
@@ -19235,7 +19216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 318.77 43.18 0)
 			(effects
 				(font
@@ -19303,31 +19284,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 490.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 487.045 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 493.395 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19392,7 +19354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 100.33 243.84 0)
 			(effects
 				(font
@@ -19450,7 +19412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
+		(property "Datasheet" ""
 			(at 257.81 43.18 0)
 			(effects
 				(font
@@ -19459,7 +19421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 257.81 43.18 0)
 			(effects
 				(font
@@ -19565,7 +19527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 231.14 162.56 0)
 			(effects
 				(font
@@ -19635,7 +19597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 566.42 140.97 0)
 			(effects
 				(font
@@ -19705,7 +19667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 439.42 257.81 0)
 			(effects
 				(font
@@ -19774,7 +19736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -19843,7 +19805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 130.81 360.68 0)
 			(effects
 				(font
@@ -19912,7 +19874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 170.18 52.07 0)
 			(effects
 				(font
@@ -20046,7 +20008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 121.92 379.73 0)
 			(effects
 				(font
@@ -20113,31 +20075,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 121.92 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 118.745 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 125.095 352.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20164,7 +20107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "178beafc-796c-4917-ab07-176a5510f780")
 		(property "Reference" "D34"
 			(at 116.84 53.34 0)
@@ -20200,16 +20143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -20279,7 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 347.98 279.4 0)
 			(effects
 				(font
@@ -20482,7 +20416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -20524,7 +20458,7 @@
 				)
 			)
 		)
-		(property "Value" "DAN222"
+		(property "Value" "N"
 			(at 318.77 363.22 0)
 			(effects
 				(font
@@ -20557,14 +20491,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Topmark" "N"
-			(at 318.77 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -20725,7 +20651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1df15645-22e0-49d4-9340-b2c4d8cfc548")
 		(property "Reference" "C10"
 			(at 177.8 341.63 90)
@@ -20761,31 +20687,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 177.8 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 180.975 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 174.625 348.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20954,7 +20861,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS02"
+		(property "Value" "SN74LV02"
 			(at 246.38 234.95 0)
 			(effects
 				(font
@@ -20971,7 +20878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/f-V02.pdf"
 			(at 246.38 241.3 0)
 			(effects
 				(font
@@ -20980,7 +20887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
 			(at 246.38 241.3 0)
 			(effects
 				(font
@@ -21084,31 +20991,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 490.22 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 487.045 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 493.395 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21239,7 +21127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 204.47 163.83 0)
 			(effects
 				(font
@@ -21308,7 +21196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -21367,7 +21255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" ""
 			(at 246.38 198.12 0)
 			(effects
 				(font
@@ -21376,7 +21264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" ""
 			(at 246.38 198.12 0)
 			(effects
 				(font
@@ -21453,7 +21341,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 116.84 276.86 0)
 			(effects
 				(font
@@ -21479,16 +21367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 116.84 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 116.84 273.05 0)
 			(effects
 				(font
@@ -21626,7 +21505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 537.21 114.3 0)
 			(effects
 				(font
@@ -21695,7 +21574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -21765,7 +21644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 422.91 95.25 0)
 			(effects
 				(font
@@ -21911,7 +21790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 553.72 124.46 0)
 			(effects
 				(font
@@ -21981,7 +21860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 120.65 168.91 0)
 			(effects
 				(font
@@ -22051,7 +21930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 419.1 257.81 0)
 			(effects
 				(font
@@ -22120,7 +21999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 474.98 85.09 0)
 			(effects
 				(font
@@ -22187,31 +22066,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 195.58 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 193.04 354.457 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 198.755 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -22340,31 +22200,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 218.44 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 218.567 367.03 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 219.71 361.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -22400,7 +22241,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS02"
+		(property "Value" "SN74LV02"
 			(at 246.126 259.08 0)
 			(effects
 				(font
@@ -22417,7 +22258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/f-V02.pdf"
 			(at 246.38 251.46 0)
 			(effects
 				(font
@@ -22426,7 +22267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
 			(at 246.38 251.46 0)
 			(effects
 				(font
@@ -22503,7 +22344,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Y3014"
 			(at 190.5 132.0733 0)
 			(effects
 				(font
@@ -22603,7 +22444,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3694fb20-e9d8-4a3f-87f7-10051fa6ef41")
 		(property "Reference" "D12"
 			(at 439.42 294.64 0)
@@ -22639,16 +22480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
-			(at 439.42 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "K"
+		(property "Description" ""
 			(at 439.42 288.29 0)
 			(effects
 				(font
@@ -22750,7 +22582,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "398ff3c8-ec07-495b-9161-86783a91280f")
 		(property "Reference" "R56"
 			(at 403.86 96.5201 0)
@@ -22788,7 +22620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 401.32 95.25 0)
 			(effects
 				(font
@@ -22887,7 +22719,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4099a765-6a99-4904-b226-ab2acda13923")
 		(property "Reference" "R55"
 			(at 386.08 96.5201 0)
@@ -22925,7 +22757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 383.54 95.25 0)
 			(effects
 				(font
@@ -22992,7 +22824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -23061,7 +22893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 130.81 341.63 0)
 			(effects
 				(font
@@ -23196,7 +23028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 287.02 82.55 0)
 			(effects
 				(font
@@ -23266,7 +23098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 480.06 200.66 0)
 			(effects
 				(font
@@ -23325,7 +23157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" ""
 			(at 246.38 176.53 0)
 			(effects
 				(font
@@ -23334,7 +23166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" ""
 			(at 246.38 176.53 0)
 			(effects
 				(font
@@ -23771,7 +23603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 297.18 356.87 0)
 			(effects
 				(font
@@ -23971,31 +23803,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 59.69 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 62.865 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 56.515 311.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24032,7 +23845,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 280.67 43.18 0)
 			(effects
 				(font
@@ -24058,16 +23871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 276.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 276.86 43.18 0)
 			(effects
 				(font
@@ -24129,7 +23933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+		(property "Datasheet" ""
 			(at 87.63 162.56 0)
 			(effects
 				(font
@@ -24138,7 +23942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+		(property "Description" ""
 			(at 87.63 162.56 0)
 			(effects
 				(font
@@ -24223,31 +24027,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 524.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 523.24 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 523.875 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24268,7 +24053,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 289.56 246.38 90)
+		(at 289.56 246.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24309,7 +24095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 289.56 246.38 0)
 			(effects
 				(font
@@ -24376,7 +24162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 87.63 175.26 0)
 			(effects
 				(font
@@ -24503,7 +24289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" ""
 			(at 521.97 337.82 0)
 			(effects
 				(font
@@ -24512,7 +24298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" ""
 			(at 521.97 337.82 0)
 			(effects
 				(font
@@ -24618,7 +24404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 439.42 337.82 0)
 			(effects
 				(font
@@ -24650,7 +24436,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d61d6ca-dd6d-4805-b079-b1b8933f37a1")
 		(property "Reference" "R48"
 			(at 394.97 96.5201 0)
@@ -24688,7 +24474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 392.43 95.25 0)
 			(effects
 				(font
@@ -24756,7 +24542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 58.42 273.05 0)
 			(effects
 				(font
@@ -24826,7 +24612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 477.52 337.82 0)
 			(effects
 				(font
@@ -24962,7 +24748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 553.72 140.97 0)
 			(effects
 				(font
@@ -25231,7 +25017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 31.75 325.12 0)
 			(effects
 				(font
@@ -25299,43 +25085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 153.67 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 153.67 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 153.67 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 153.67 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+		(property "Description" ""
 			(at 153.67 354.33 0)
 			(effects
 				(font
@@ -25421,7 +25171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 44.45 218.44 0)
 			(effects
 				(font
@@ -25488,31 +25238,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 365.76 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 362.585 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 368.935 368.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25929,7 +25660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 217.17 101.6 0)
 			(effects
 				(font
@@ -26064,7 +25795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 412.75 241.3 0)
 			(effects
 				(font
@@ -26134,7 +25865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 130.81 314.96 0)
 			(effects
 				(font
@@ -26268,7 +25999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -26338,7 +26069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 297.18 35.56 0)
 			(effects
 				(font
@@ -26406,7 +26137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 292.1 337.82 0)
 			(effects
 				(font
@@ -26474,43 +26205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 59.69 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 59.69 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 59.69 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 59.69 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+		(property "Description" ""
 			(at 59.69 331.47 0)
 			(effects
 				(font
@@ -26596,7 +26291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 83.82 231.14 0)
 			(effects
 				(font
@@ -26627,7 +26322,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "748cb02c-280d-40d5-a281-beab1a43aa7b")
 		(property "Reference" "R50"
 			(at 367.03 93.9799 0)
@@ -26665,7 +26360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 364.49 95.25 0)
 			(effects
 				(font
@@ -26801,7 +26496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 342.9 356.87 0)
 			(effects
 				(font
@@ -26869,7 +26564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 382.27 193.04 0)
 			(effects
 				(font
@@ -27167,7 +26862,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7ab6ce8e-5461-4531-a9a9-73c541bd63c2")
 		(property "Reference" "R54"
 			(at 349.25 93.9799 0)
@@ -27205,7 +26900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 346.71 95.25 0)
 			(effects
 				(font
@@ -27405,31 +27100,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 177.8 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 180.975 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 174.625 361.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27558,7 +27234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 368.3 279.4 0)
 			(effects
 				(font
@@ -27825,7 +27501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 261.62 162.56 0)
 			(effects
 				(font
@@ -27894,7 +27570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 298.45 204.47 0)
 			(effects
 				(font
@@ -27972,15 +27648,6 @@
 				(hide yes)
 			)
 		)
-		(property "Topmark" "3E00"
-			(at 438.15 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "944313c1-d10d-462a-bee8-72435fd82f64")
 		)
@@ -28048,7 +27715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 285.75 278.13 0)
 			(effects
 				(font
@@ -28115,7 +27782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 153.67 379.73 0)
 			(effects
 				(font
@@ -28344,7 +28011,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "866d42f7-8326-4ca8-810b-b12dfc31d38c")
 		(property "Reference" "R65"
 			(at 377.19 93.9799 0)
@@ -28382,7 +28049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 374.65 95.25 0)
 			(effects
 				(font
@@ -28452,7 +28119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 474.98 69.85 0)
 			(effects
 				(font
@@ -28519,7 +28186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 354.33 316.23 0)
 			(effects
 				(font
@@ -28589,7 +28256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 236.22 288.29 0)
 			(effects
 				(font
@@ -28658,7 +28325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 123.19 328.93 0)
 			(effects
 				(font
@@ -28726,21 +28393,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three pin crystal, GND on pin 3"
+		(property "Description" ""
 			(at 490.22 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Frequency" "14.318MHz?"
-			(at 490.474 188.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -28807,7 +28466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 464.82 191.77 0)
 			(effects
 				(font
@@ -28874,7 +28533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 158.75 185.42 0)
 			(effects
 				(font
@@ -29007,7 +28666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 342.9 316.23 0)
 			(effects
 				(font
@@ -29609,7 +29268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 340.36 204.47 0)
 			(effects
 				(font
@@ -29641,7 +29300,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "95d29018-fc63-4528-9ce1-ea2dbcc382d2")
 		(property "Reference" "C24"
 			(at 514.35 143.51 90)
@@ -29677,31 +29336,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 514.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 517.525 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 511.175 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29738,7 +29378,7 @@
 				)
 			)
 		)
-		(property "Value" "RN5VD"
+		(property "Value" "3F01"
 			(at 168.91 30.48 0)
 			(effects
 				(font
@@ -29765,15 +29405,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3F01"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -29850,31 +29481,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 73.66 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 76.835 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 70.485 292.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30003,31 +29615,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 80.01 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 83.185 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 76.835 332.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30089,31 +29682,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 514.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 517.525 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 511.175 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30176,7 +29750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 195.58 157.48 0)
 			(effects
 				(font
@@ -30311,43 +29885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 455.93 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 455.93 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 455.93 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 455.93 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+		(property "Description" ""
 			(at 455.93 337.82 0)
 			(effects
 				(font
@@ -30433,31 +29971,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 63.5 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 66.675 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 60.325 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30578,7 +30097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+		(property "Datasheet" ""
 			(at 160.02 172.72 0)
 			(effects
 				(font
@@ -30587,7 +30106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+		(property "Description" ""
 			(at 160.02 172.72 0)
 			(effects
 				(font
@@ -30648,7 +30167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ES488F"
 			(at 436.4833 109.22 0)
 			(effects
 				(font
@@ -30866,7 +30385,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 129.54 231.394 90)
 			(effects
 				(font
@@ -30892,7 +30411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 129.54 233.68 0)
 			(effects
 				(font
@@ -31027,7 +30546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 280.67 356.87 0)
 			(effects
 				(font
@@ -31088,7 +30607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/ahmadexp/Open-Source-PC110/blob/main/datasheets/top/6-LM4861.pdf"
 			(at 365.76 337.82 0)
 			(effects
 				(font
@@ -31097,7 +30616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Amp"
 			(at 365.76 337.82 0)
 			(effects
 				(font
@@ -31372,7 +30891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 420.37 218.44 0)
 			(effects
 				(font
@@ -31381,7 +30900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 420.37 218.44 0)
 			(effects
 				(font
@@ -31468,7 +30987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 276.86 82.55 0)
 			(effects
 				(font
@@ -31538,7 +31057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 500.38 200.66 0)
 			(effects
 				(font
@@ -31805,7 +31324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 389.89 279.4 0)
 			(effects
 				(font
@@ -31897,7 +31416,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 318.77 246.38 90)
+		(at 318.77 246.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31938,7 +31458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 318.77 246.38 0)
 			(effects
 				(font
@@ -32006,7 +31526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 59.69 320.04 0)
 			(effects
 				(font
@@ -32075,7 +31595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 459.74 85.09 0)
 			(effects
 				(font
@@ -32304,7 +31824,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b57d7357-0ef7-4fbc-b53e-07c7b1bd0189")
 		(property "Reference" "C6"
 			(at 228.346 355.346 0)
@@ -32342,7 +31862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 232.41 356.87 0)
 			(effects
 				(font
@@ -32477,7 +31997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 539.75 140.97 0)
 			(effects
 				(font
@@ -32536,7 +32056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/d-V32.pdf"
 			(at 387.35 218.44 0)
 			(effects
 				(font
@@ -32545,7 +32065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 2-input OR"
+		(property "Description" "Quadruple 2-Input Positive-Or Gates"
 			(at 387.35 218.44 0)
 			(effects
 				(font
@@ -32639,7 +32159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/d-V32.pdf"
 			(at 387.35 208.28 0)
 			(effects
 				(font
@@ -32648,7 +32168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad 2-input OR"
+		(property "Description" "Quadruple 2-Input Positive-Or Gates"
 			(at 387.35 208.28 0)
 			(effects
 				(font
@@ -32752,7 +32272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 58.42 292.1 0)
 			(effects
 				(font
@@ -32885,7 +32405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 365.76 378.46 0)
 			(effects
 				(font
@@ -32952,31 +32472,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 142.24 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 139.065 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 145.415 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -33039,7 +32540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 69.85 231.14 0)
 			(effects
 				(font
@@ -33172,31 +32673,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 497.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 496.57 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 497.205 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -33250,7 +32732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" ""
 			(at 246.38 146.05 0)
 			(effects
 				(font
@@ -33259,7 +32741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" ""
 			(at 246.38 146.05 0)
 			(effects
 				(font
@@ -33431,7 +32913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 110.49 386.08 0)
 			(effects
 				(font
@@ -33565,7 +33047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 196.85 134.62 0)
 			(effects
 				(font
@@ -33626,7 +33108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 494.03 337.82 0)
 			(effects
 				(font
@@ -33635,7 +33117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 494.03 337.82 0)
 			(effects
 				(font
@@ -33740,7 +33222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 110.49 124.46 0)
 			(effects
 				(font
@@ -33873,31 +33355,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 486.41 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 485.14 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 485.775 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -33959,7 +33422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 129.54 254 0)
 			(effects
 				(font
@@ -34192,7 +33655,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c91c5d31-1156-4ad2-a3d7-2587d9ed8852")
 		(property "Reference" "C50"
 			(at 68.58 168.9099 0)
@@ -34230,7 +33693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 72.39 170.18 0)
 			(effects
 				(font
@@ -34297,7 +33760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 69.85 217.17 0)
 			(effects
 				(font
@@ -34592,7 +34055,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cfd70473-63e8-4de5-843c-c5c57eef86bc")
 		(property "Reference" "R47"
 			(at 358.14 93.9799 0)
@@ -34630,7 +34093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 355.6 95.25 0)
 			(effects
 				(font
@@ -34764,7 +34227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 317.5 156.21 0)
 			(effects
 				(font
@@ -34965,31 +34428,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 511.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 510.54 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 511.175 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35052,31 +34496,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 467.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 466.09 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 466.725 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35132,7 +34557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -35141,7 +34566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -35314,7 +34739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 254 356.87 0)
 			(effects
 				(font
@@ -35518,7 +34943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 31.75 342.9 0)
 			(effects
 				(font
@@ -35586,7 +35011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "External clock input for Audio Drive"
 			(at 514.35 172.72 0)
 			(effects
 				(font
@@ -35723,7 +35148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 152.4 220.98 0)
 			(effects
 				(font
@@ -35899,7 +35324,7 @@
 				)
 			)
 		)
-		(property "Value" "YMF3812"
+		(property "Value" "YM3812"
 			(at 245.364 91.44 0)
 			(effects
 				(font
@@ -36101,7 +35526,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 87.63 318.7699 0)
 			(effects
 				(font
@@ -36128,7 +35553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 91.44 317.5 0)
 			(effects
 				(font
@@ -36197,7 +35622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 142.24 180.34 0)
 			(effects
 				(font
@@ -36258,7 +35683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -36267,7 +35692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -36371,31 +35796,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 88.9 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 92.075 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 85.725 254.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36514,7 +35920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" ""
 			(at 246.38 219.71 0)
 			(effects
 				(font
@@ -36523,7 +35929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" ""
 			(at 246.38 219.71 0)
 			(effects
 				(font
@@ -36619,7 +36025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
+		(property "Datasheet" ""
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -36628,7 +36034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+		(property "Description" ""
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -36688,7 +36094,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS02"
+		(property "Value" "SN74LV02"
 			(at 266.7 240.03 0)
 			(effects
 				(font
@@ -36705,7 +36111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/f-V02.pdf"
 			(at 266.7 246.38 0)
 			(effects
 				(font
@@ -36714,7 +36120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "quad 2-input NOR gate"
+		(property "Description" "Quadruple 2-Input Positive-NOR Gates"
 			(at 266.7 246.38 0)
 			(effects
 				(font
@@ -36820,7 +36226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 44.45 342.9 0)
 			(effects
 				(font
@@ -36888,31 +36294,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 441.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 444.5 69.977 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 438.785 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36950,7 +36337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SC4452"
+		(property "Value" "ST3"
 			(at 97.79 265.4299 0)
 			(effects
 				(font
@@ -36977,7 +36364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 102.87 264.16 0)
 			(effects
 				(font
@@ -37011,7 +36398,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f5bedf05-578a-4334-8909-a09c9f3634d1")
 		(property "Reference" "R64"
 			(at 340.36 93.9799 0)
@@ -37049,7 +36436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 337.82 95.25 0)
 			(effects
 				(font
@@ -37091,7 +36478,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 129.54 241.554 90)
 			(effects
 				(font
@@ -37117,7 +36504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 129.54 243.84 0)
 			(effects
 				(font
@@ -37293,7 +36680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Speaker"
+		(property "Value" "SPKR"
 			(at 406.146 330.962 0)
 			(effects
 				(font
@@ -37320,7 +36707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 407.67 336.55 0)
 			(effects
 				(font
@@ -37455,31 +36842,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 270.51 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 273.05 278.257 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 267.335 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37515,7 +36883,7 @@
 				)
 			)
 		)
-		(property "Value" "74LV126"
+		(property "Value" "SN74LV126"
 			(at 336.55 49.53 0)
 			(effects
 				(font
@@ -37532,7 +36900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS126"
+		(property "Datasheet" "https://github.com/ahmadexp/PC110-Mainboard-Schematic/blob/main/datasheets/bottom/g-V126.pdf"
 			(at 336.55 43.18 0)
 			(effects
 				(font
@@ -37541,7 +36909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad buffer 3-State outputs"
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
 			(at 336.55 43.18 0)
 			(effects
 				(font
@@ -37644,31 +37012,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 153.67 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 150.495 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 156.845 370.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37799,7 +37148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 204.47 363.22 0)
 			(effects
 				(font
@@ -37867,7 +37216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 58.42 254 0)
 			(effects
 				(font

@@ -1332,616 +1332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Filter_EMI_LLLL_15263748"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Filter_EMI_LLLL_15263748"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "EMI 4-inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "common mode quadruple choke quad coil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L* L_CommonMode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Filter_EMI_LLLL_15263748_0_1"
-				(circle
-					(center -2.54 3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy 2.921 1.905)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy 2.921 -0.635)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.175) (xy 2.921 -3.175)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.715) (xy 2.921 -5.715)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.905 3.1723)
-					(end -1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.905 -1.9077)
-					(end -1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -5.08)
-					(mid -1.905 -4.4477)
-					(end -1.27 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0.127) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -2.413) (xy -2.54 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -4.953) (xy -2.54 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -0.635 3.1723)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -2.54)
-					(mid -0.635 -1.9077)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -5.08)
-					(mid -0.635 -4.4477)
-					(end 0 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid 0.635 3.1723)
-					(end 1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid 0.635 -1.9077)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.08)
-					(mid 0.635 -4.4477)
-					(end 1.27 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.889) (xy -0.254 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.651) (xy -0.254 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.191) (xy -0.254 -4.699)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 2.54)
-					(mid 1.905 3.1723)
-					(end 2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -2.54)
-					(mid 1.905 -1.9077)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -5.08)
-					(mid 1.905 -4.4477)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 1.905) (xy 1.27 1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.635) (xy 1.27 -1.397)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -3.175) (xy 1.27 -3.937)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Filter_EMI_LLLL_15263748_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5971,6 +5361,595 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PC110:EMI_filter_Array"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "EM"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMI_filter_Array_0_1"
+				(circle
+					(center -2.54 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.175) (xy 2.921 3.175)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.921 0.635)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.921 -1.905)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy 2.921 -4.445)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 3.81)
+					(mid -1.905 4.4423)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.27)
+					(mid -1.905 1.9023)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid -1.905 -0.6377)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -3.81)
+					(mid -1.905 -3.1777)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.397) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -1.143) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -3.683) (xy -2.54 -4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -0.635 4.4423)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -0.635 1.9023)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -0.635 -0.6377)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -0.635 -3.1777)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.635 4.4423)
+					(end 1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.635 1.9023)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.635 -0.6377)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.81)
+					(mid 0.635 -3.1777)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.159) (xy -0.254 1.651)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.381) (xy -0.254 -0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.921) (xy -0.254 -3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 3.81)
+					(mid 1.905 4.4423)
+					(end 2.54 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 1.905 1.9023)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 1.905 -0.6377)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.81)
+					(mid 1.905 -3.1777)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 3.175) (xy 1.27 2.413)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.635) (xy 1.27 -0.127)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -1.905) (xy 1.27 -2.667)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EMI_filter_Array_1_1"
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -8533,13 +8512,13 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 127) (xy 441.96 127)
+			(xy 424.18 137.16) (xy 441.96 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09e8d265-35bf-47ab-9dbd-3a4dfb2d18f1")
+		(uuid "09d75799-de03-4019-9065-56d9dba9045b")
 	)
 	(wire
 		(pts
@@ -8843,6 +8822,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 124.46) (xy 441.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15643e35-a1f5-46cb-b0c5-859f369d5c9c")
+	)
+	(wire
+		(pts
 			(xy 439.42 246.38) (xy 443.23 246.38)
 		)
 		(stroke
@@ -8880,6 +8869,16 @@
 			(type default)
 		)
 		(uuid "164b944d-8201-4c84-8918-df029b03eea0")
+	)
+	(wire
+		(pts
+			(xy 424.18 139.7) (xy 441.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e8b2fa-a544-4528-8fb6-e534ae961806")
 	)
 	(wire
 		(pts
@@ -9001,6 +9000,16 @@
 		)
 		(uuid "1b483fe0-d937-402d-acf9-59af62345add")
 	)
+	(wire
+		(pts
+			(xy 424.18 129.54) (xy 441.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6ae933-833e-4681-a9c9-76bed3bb7d24")
+	)
 	(bus
 		(pts
 			(xy 281.94 201.93) (xy 292.1 201.93)
@@ -9093,6 +9102,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 142.24) (xy 441.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2044713d-f46e-4eaf-8fba-747db3758515")
+	)
+	(wire
+		(pts
 			(xy 560.07 247.65) (xy 560.07 255.27)
 		)
 		(stroke
@@ -9160,6 +9179,16 @@
 			(type default)
 		)
 		(uuid "22fbe3cb-07ba-4df8-93dc-35089ad686de")
+	)
+	(wire
+		(pts
+			(xy 424.18 132.08) (xy 441.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233af538-eba1-427c-9e53-c39a61cbcf1b")
 	)
 	(wire
 		(pts
@@ -9293,16 +9322,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 142.24) (xy 441.96 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2855aedd-2715-41ce-935b-6263b0c2aebd")
-	)
-	(wire
-		(pts
 			(xy 469.9 88.9) (xy 469.9 96.52)
 		)
 		(stroke
@@ -9390,16 +9409,6 @@
 			(type default)
 		)
 		(uuid "2b97dbc1-268d-4292-ae2a-c3e9ee1b3190")
-	)
-	(wire
-		(pts
-			(xy 424.18 149.86) (xy 441.96 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba90310-cef6-4b06-af1e-8f11e04c7006")
 	)
 	(wire
 		(pts
@@ -9733,16 +9742,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 121.92) (xy 441.96 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "388a00fd-68b6-495e-8e3e-a0c370cc27a3")
-	)
-	(wire
-		(pts
 			(xy 76.2 193.04) (xy 120.65 193.04)
 		)
 		(stroke
@@ -10003,16 +10002,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 139.7) (xy 441.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420bdf88-04d3-4f93-8cd0-e3c1bf972192")
-	)
-	(wire
-		(pts
 			(xy 406.4 233.68) (xy 415.29 233.68)
 		)
 		(stroke
@@ -10050,16 +10039,6 @@
 			(type default)
 		)
 		(uuid "431ef9e1-097a-4a4b-926e-8a62c28dbb4d")
-	)
-	(wire
-		(pts
-			(xy 424.18 144.78) (xy 441.96 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432e35bb-8c88-468a-b7f5-fc2f6db80c66")
 	)
 	(wire
 		(pts
@@ -10290,16 +10269,6 @@
 			(type default)
 		)
 		(uuid "4c5fd9a2-174e-40f4-9b3f-a53052917552")
-	)
-	(wire
-		(pts
-			(xy 424.18 129.54) (xy 441.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc7587d-084b-4f1a-9645-d28cbce6cf31")
 	)
 	(wire
 		(pts
@@ -10690,16 +10659,6 @@
 			(type default)
 		)
 		(uuid "5c1c0c8a-ace7-41cf-9eaf-a099d961b8cb")
-	)
-	(wire
-		(pts
-			(xy 424.18 124.46) (xy 441.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c7fb8ae-bc3e-4819-8480-a1f984d1c61d")
 	)
 	(wire
 		(pts
@@ -11223,16 +11182,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 132.08) (xy 441.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f2c608-8df1-4914-8d6a-42082f1dd6c9")
-	)
-	(wire
-		(pts
 			(xy 251.46 130.81) (xy 312.42 130.81)
 		)
 		(stroke
@@ -11260,16 +11209,6 @@
 			(type default)
 		)
 		(uuid "731d27b4-b290-4fa7-859e-6efdd6c9843f")
-	)
-	(wire
-		(pts
-			(xy 424.18 152.4) (xy 441.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e82a32-8f8b-4bb2-9500-dbdaa4859a2d")
 	)
 	(wire
 		(pts
@@ -11330,6 +11269,16 @@
 			(type default)
 		)
 		(uuid "7583a65f-3312-413b-9768-7e9696306452")
+	)
+	(wire
+		(pts
+			(xy 424.18 152.4) (xy 441.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e5707a-9cb3-443e-bb59-36df947913d9")
 	)
 	(wire
 		(pts
@@ -11873,6 +11822,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 119.38) (xy 441.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d288ba5-bd60-4188-84f1-85021a8332ad")
+	)
+	(wire
+		(pts
 			(xy 530.86 123.19) (xy 557.53 123.19)
 		)
 		(stroke
@@ -11880,6 +11839,16 @@
 			(type default)
 		)
 		(uuid "8dda1cac-ead0-46d7-8877-4c4836eb62c2")
+	)
+	(wire
+		(pts
+			(xy 424.18 134.62) (xy 441.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4e03ae-ef23-4bf9-ad39-a705c79bff95")
 	)
 	(wire
 		(pts
@@ -11963,6 +11932,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 147.32) (xy 441.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9199fad2-5ce4-4bf2-a458-1ec895a48095")
+	)
+	(wire
+		(pts
 			(xy 326.39 74.93) (xy 326.39 78.74)
 		)
 		(stroke
@@ -11973,6 +11952,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 144.78) (xy 441.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92099b83-696f-4b98-82fd-74dcfc81abc8")
+	)
+	(wire
+		(pts
 			(xy 342.9 106.68) (xy 345.44 106.68)
 		)
 		(stroke
@@ -11980,16 +11969,6 @@
 			(type default)
 		)
 		(uuid "92386dfc-e27c-4889-9f43-51993f966a92")
-	)
-	(wire
-		(pts
-			(xy 424.18 134.62) (xy 441.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b87333-c912-42c1-adaf-bf2d48c86970")
 	)
 	(wire
 		(pts
@@ -12280,16 +12259,6 @@
 			(type default)
 		)
 		(uuid "9f1483ed-d1cc-454e-a3f3-983b80280fe4")
-	)
-	(wire
-		(pts
-			(xy 424.18 119.38) (xy 441.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb53d35-8b02-4525-96e1-ae09025bb4ae")
 	)
 	(wire
 		(pts
@@ -12843,13 +12812,13 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 147.32) (xy 441.96 147.32)
+			(xy 424.18 149.86) (xy 441.96 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5c0d8fb-6e20-4477-bdb0-060548c8ee9a")
+		(uuid "b50938d9-f69c-46d1-b2f1-9f532d19e9c0")
 	)
 	(wire
 		(pts
@@ -13163,16 +13132,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 116.84) (xy 441.96 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08271ef-bcbd-4718-acb9-4e48e529dd78")
-	)
-	(wire
-		(pts
 			(xy 521.97 158.75) (xy 521.97 233.68)
 		)
 		(stroke
@@ -13250,16 +13209,6 @@
 			(type default)
 		)
 		(uuid "c268e13f-37c9-47ef-999e-0c728a9188f2")
-	)
-	(wire
-		(pts
-			(xy 424.18 154.94) (xy 441.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ab7a8b-d984-4b18-89bf-06afcbfffb0a")
 	)
 	(wire
 		(pts
@@ -13833,6 +13782,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 121.92) (xy 441.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d188a0cd-4254-46cd-91c9-920fd0beb7ff")
+	)
+	(wire
+		(pts
 			(xy 52.07 67.31) (xy 30.48 67.31)
 		)
 		(stroke
@@ -14063,6 +14022,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 116.84) (xy 441.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac162bf-a92b-4078-ab91-93d8d50443a0")
+	)
+	(wire
+		(pts
 			(xy 525.78 54.61) (xy 534.67 54.61)
 		)
 		(stroke
@@ -14080,16 +14049,6 @@
 			(type default)
 		)
 		(uuid "dafc47c0-129c-41fc-8da1-5ab2b78e9b14")
-	)
-	(wire
-		(pts
-			(xy 424.18 137.16) (xy 441.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf83077-d904-45ae-911d-9ef9ec3a4f18")
 	)
 	(bus
 		(pts
@@ -14903,6 +14862,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 154.94) (xy 441.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c238b3-a296-4ac6-aba1-631b08a5e6b0")
+	)
+	(wire
+		(pts
 			(xy 201.93 153.67) (xy 312.42 153.67)
 		)
 		(stroke
@@ -14970,6 +14939,16 @@
 			(type default)
 		)
 		(uuid "f8d1b594-bd8c-4959-a69e-9fe6874520bd")
+	)
+	(wire
+		(pts
+			(xy 424.18 127) (xy 441.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d8cfa3-dd84-47bf-bfa5-a9778c7c270a")
 	)
 	(wire
 		(pts
@@ -15202,7 +15181,7 @@
 		(uuid "05cc071c-36b6-425c-b568-23fc4116882c")
 	)
 	(label "LCD_R3"
-		(at 441.96 152.4 180)
+		(at 441.96 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15292,7 +15271,7 @@
 		(uuid "22061ffc-6728-4c7e-bf74-07033712f066")
 	)
 	(label "LCD_G0"
-		(at 441.96 132.08 180)
+		(at 441.96 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15302,7 +15281,7 @@
 		(uuid "221aa253-3b9a-4e65-8cd3-95916d7899c7")
 	)
 	(label "LCD_R1"
-		(at 441.96 137.16 180)
+		(at 441.96 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15412,7 +15391,7 @@
 		(uuid "41e40b5f-e062-4c46-a74d-65a992303431")
 	)
 	(label "LCD_G3"
-		(at 441.96 144.78 180)
+		(at 441.96 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15442,7 +15421,7 @@
 		(uuid "49c670f8-a5eb-4c5c-bdda-a639e95239ca")
 	)
 	(label "LCD_B1"
-		(at 441.96 121.92 180)
+		(at 441.96 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15512,7 +15491,7 @@
 		(uuid "5ed41472-820a-4e5a-9b07-e532ec6833a5")
 	)
 	(label "LCD_G4"
-		(at 441.96 142.24 180)
+		(at 441.96 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15542,7 +15521,7 @@
 		(uuid "644890d9-ce14-4606-a137-0b0921db67d0")
 	)
 	(label "LCD_B3"
-		(at 441.96 116.84 180)
+		(at 441.96 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15552,7 +15531,7 @@
 		(uuid "645010d3-4679-43b5-acb8-bdc8e2860d4f")
 	)
 	(label "LCD_R0"
-		(at 441.96 139.7 180)
+		(at 441.96 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15582,7 +15561,7 @@
 		(uuid "6c7c3246-477f-45ff-9ade-72177337bda3")
 	)
 	(label "LCD_G1"
-		(at 441.96 129.54 180)
+		(at 441.96 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15702,7 +15681,7 @@
 		(uuid "85569e80-cfc9-454c-80b6-c9b9ff3084f2")
 	)
 	(label "LCD_B4"
-		(at 441.96 134.62 180)
+		(at 441.96 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15842,7 +15821,7 @@
 		(uuid "c07ef66e-e692-4706-9477-c6eb8c29ce9a")
 	)
 	(label "LCD_R2"
-		(at 441.96 154.94 180)
+		(at 441.96 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15872,7 +15851,7 @@
 		(uuid "c85d9ca1-7c79-46dd-8440-75440e533ebe")
 	)
 	(label "LCD_24"
-		(at 441.96 147.32 180)
+		(at 441.96 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15892,7 +15871,7 @@
 		(uuid "d23d0b6b-fe24-4cfc-85e2-7e72a199079d")
 	)
 	(label "LCD_B0"
-		(at 441.96 124.46 180)
+		(at 441.96 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15962,7 +15941,7 @@
 		(uuid "e61adca8-fc8e-4df0-af82-53915aacdbcf")
 	)
 	(label "LCD_B2"
-		(at 441.96 119.38 180)
+		(at 441.96 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15972,7 +15951,7 @@
 		(uuid "e72d8ebb-caac-42a2-ae17-8bd4963df55d")
 	)
 	(label "LCD_G2"
-		(at 441.96 127 180)
+		(at 441.96 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16022,7 +16001,7 @@
 		(uuid "f9e5641b-3e38-43a2-8ecb-2b3740291b96")
 	)
 	(label "LCD_R4"
-		(at 441.96 149.86 180)
+		(at 441.96 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16715,31 +16694,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 313.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 312.42 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 313.055 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16803,31 +16763,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16892,7 +16833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 179.07 213.36 0)
 			(effects
 				(font
@@ -16961,31 +16902,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 491.49 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 490.22 342.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 490.855 348.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17050,31 +16972,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 511.81 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 510.54 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 511.175 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17137,31 +17040,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 429.26 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 431.8 285.877 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 426.085 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17292,31 +17176,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 300.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 299.72 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 300.355 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17447,31 +17312,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 476.25 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 474.98 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 475.615 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17733,31 +17579,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 282.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 288.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17821,7 +17648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 417.83 294.64 0)
 			(effects
 				(font
@@ -17890,31 +17717,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 318.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 324.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17978,7 +17786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 417.83 285.75 0)
 			(effects
 				(font
@@ -17997,93 +17805,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Filter_EMI_LLLL_15263748")
-		(at 419.1 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e0ba3de-1933-4888-a632-144b474e3f21")
-		(property "Reference" "EM1"
-			(at 426.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EMI"
-			(at 418.9615 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PC110:R-array"
-			(at 419.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 419.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 4-inductor filter"
-			(at 419.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b94994f1-0ed1-48ab-9944-0d7b65bc7b2e")
-		)
-		(pin "2"
-			(uuid "a9a417a0-7a15-4a6c-be0c-2a84f1e803fe")
-		)
-		(pin "3"
-			(uuid "6334f5b3-9cdf-43d6-8fe8-b034be914d17")
-		)
-		(pin "4"
-			(uuid "a12629ac-44c6-4df1-b226-7d422e353a81")
-		)
-		(pin "5"
-			(uuid "3d8f59b1-3e00-4cd7-ab03-417276822b82")
-		)
-		(pin "6"
-			(uuid "059b72d3-a939-4e83-aa89-28f2181400c0")
-		)
-		(pin "7"
-			(uuid "4e833e79-b325-446d-ad75-f704e8277ae0")
-		)
-		(pin "8"
-			(uuid "84311886-bdc3-493c-b32e-7294c910bf7a")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
-					(reference "EM1")
 					(unit 1)
 				)
 			)
@@ -18201,25 +17922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 499.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 499.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" ""
 			(at 499.11 114.3 0)
 			(effects
 				(font
@@ -18289,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 548.64 53.34 0)
 			(effects
 				(font
@@ -18308,93 +18011,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "R229")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Filter_EMI_LLLL_15263748")
-		(at 419.1 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "225c23db-a497-4c39-999a-eee4b11f9e14")
-		(property "Reference" "EM4"
-			(at 426.72 156.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EMI"
-			(at 418.9615 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PC110:R-array"
-			(at 419.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 419.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 4-inductor filter"
-			(at 419.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46e3a3a1-5005-4435-a231-5ea686c6ae04")
-		)
-		(pin "2"
-			(uuid "94eb6710-6a8f-419b-b9cc-4c20d8a86e07")
-		)
-		(pin "3"
-			(uuid "b8f21f0c-b4ed-4ca6-9f3d-7d423a1f18a8")
-		)
-		(pin "4"
-			(uuid "ca8e6107-45ec-440f-b749-b76dc9fbf869")
-		)
-		(pin "5"
-			(uuid "150d3c8f-13d5-445a-8424-3af77ec502dd")
-		)
-		(pin "6"
-			(uuid "5902a151-8014-4ecf-817a-7af05ed7712e")
-		)
-		(pin "7"
-			(uuid "62e1adbc-3078-44f8-81c3-3b8eb8daf39b")
-		)
-		(pin "8"
-			(uuid "83666ea3-1593-4592-906d-2743c7c23df9")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
-					(reference "EM4")
 					(unit 1)
 				)
 			)
@@ -18445,31 +18061,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 325.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 332.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18533,31 +18130,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18688,31 +18266,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 419.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 417.83 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 418.465 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18777,7 +18336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 140.97 213.36 0)
 			(effects
 				(font
@@ -18979,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 499.11 88.9 0)
 			(effects
 				(font
@@ -19049,7 +18608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 411.48 105.41 0)
 			(effects
 				(font
@@ -19184,7 +18743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 449.58 100.33 0)
 			(effects
 				(font
@@ -19320,31 +18879,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 367.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 365.76 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 366.395 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19358,6 +18898,91 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC110:EMI_filter_Array")
+		(at 419.1 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d6c9cd-c9ae-4cbd-b259-d4433c9c5c65")
+		(property "Reference" "EM1"
+			(at 426.974 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-array"
+			(at 418.9615 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC110:R-array"
+			(at 419.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80123331-8307-4929-b957-ec6f619af911")
+		)
+		(pin "2"
+			(uuid "4a99ccf6-a525-410f-b854-ee6f70b9f98e")
+		)
+		(pin "3"
+			(uuid "0adebf5e-72ed-4c6f-a8bd-e710a3fc37ee")
+		)
+		(pin "4"
+			(uuid "fc136edb-d6ed-40b7-aa77-9fa72189d40e")
+		)
+		(pin "8"
+			(uuid "f1002deb-0f8b-4c2a-a598-c014082dc449")
+		)
+		(pin "7"
+			(uuid "cee06092-7416-4058-b51e-b2ca23e0810d")
+		)
+		(pin "6"
+			(uuid "2ff1664b-b41e-4dd4-b68b-75d071110a2c")
+		)
+		(pin "5"
+			(uuid "4e46eb1d-0d6d-4dde-b70b-cda3fc8129d0")
+		)
+		(instances
+			(project ""
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
+					(reference "EM1")
 					(unit 1)
 				)
 			)
@@ -19407,31 +19032,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 520.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 520.573 49.53 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 519.43 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19496,31 +19102,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 354.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 353.06 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 353.695 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -19534,93 +19121,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Filter_EMI_LLLL_15263748")
-		(at 419.1 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b48bb11-971a-47f2-ab48-66ae28c2a03d")
-		(property "Reference" "EM3"
-			(at 426.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EMI"
-			(at 418.9615 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PC110:R-array"
-			(at 419.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 419.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 4-inductor filter"
-			(at 419.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f5acf0b-67d5-4d21-9c72-6fdd2222db21")
-		)
-		(pin "2"
-			(uuid "14cef54e-d446-46fd-8526-004718b3968d")
-		)
-		(pin "3"
-			(uuid "e9a7f8e8-f4a5-4a70-be64-a0d149bd3b29")
-		)
-		(pin "4"
-			(uuid "77a608fb-b74f-4451-94ff-19f947d88a44")
-		)
-		(pin "5"
-			(uuid "4cb68c07-4abf-43e0-b02b-1f53174252f3")
-		)
-		(pin "6"
-			(uuid "0e3411b4-f152-4ee5-8545-cfa7e5234ce1")
-		)
-		(pin "7"
-			(uuid "4f3abda3-6004-4b87-ba89-2a6474e49e62")
-		)
-		(pin "8"
-			(uuid "a3151330-2be1-4d0c-bd25-c80c451eb748")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
-					(reference "EM3")
 					(unit 1)
 				)
 			)
@@ -19672,7 +19172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 487.68 303.53 0)
 			(effects
 				(font
@@ -19763,6 +19263,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PC110:EMI_filter_Array")
+		(at 419.1 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ce06ba1-41f6-4878-9a92-3e03f13fb6c4")
+		(property "Reference" "EM2"
+			(at 426.974 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-array"
+			(at 418.9615 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC110:R-array"
+			(at 419.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362e21ff-d85a-4321-91d6-65cf1149f88e")
+		)
+		(pin "2"
+			(uuid "24d6d5f9-72a7-4bfe-8962-32face591c69")
+		)
+		(pin "3"
+			(uuid "8398aa86-1346-41b4-984a-ca33b02a8c6b")
+		)
+		(pin "4"
+			(uuid "ce4b59fa-7967-4a98-8c7c-85a54e745b18")
+		)
+		(pin "8"
+			(uuid "2f4d411e-f3b3-4c60-ae83-aab3f319db5f")
+		)
+		(pin "7"
+			(uuid "32e81e3d-8907-4901-8901-5c3f1dd36948")
+		)
+		(pin "6"
+			(uuid "509c805f-4bb9-4dea-901e-bdec76f14700")
+		)
+		(pin "5"
+			(uuid "627b8124-9dc7-4d15-bce4-dca2bdef9dd6")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
+					(reference "EM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 459.74 100.33 0)
 		(unit 1)
@@ -19807,7 +19392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 459.74 100.33 0)
 			(effects
 				(font
@@ -19943,31 +19528,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 370.84 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 369.57 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 370.205 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20031,7 +19597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 163.83 213.36 0)
 			(effects
 				(font
@@ -20101,31 +19667,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 464.82 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 463.55 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 464.185 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20189,31 +19736,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 504.19 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 502.92 342.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 503.555 348.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20278,31 +19806,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 325.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 323.85 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 324.485 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20316,6 +19825,91 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "C156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC110:EMI_filter_Array")
+		(at 419.1 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50807612-13e5-404c-89c8-5532a04a51a8")
+		(property "Reference" "EM3"
+			(at 426.974 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-array"
+			(at 418.9615 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC110:R-array"
+			(at 419.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cd49381-70a0-4d05-be2c-d6d531451523")
+		)
+		(pin "2"
+			(uuid "3143dd7e-c50b-4deb-9e4a-c5b123e17c54")
+		)
+		(pin "3"
+			(uuid "25514422-cde2-422c-b174-e56c47be74f1")
+		)
+		(pin "4"
+			(uuid "081fbfeb-9fb8-45ca-a75f-db9ee1f627bd")
+		)
+		(pin "8"
+			(uuid "7ea16299-0d5f-4c99-b1a4-438d9a4a8849")
+		)
+		(pin "7"
+			(uuid "f0c8ae0c-529f-4096-bd19-9ddbcab1ac7c")
+		)
+		(pin "6"
+			(uuid "c2a371ba-81cf-43ef-99ea-fb3d54e51c1c")
+		)
+		(pin "5"
+			(uuid "444273d6-3b85-4e48-92ee-d4344f60ab80")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
+					(reference "EM3")
 					(unit 1)
 				)
 			)
@@ -20366,7 +19960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 469.9 100.33 0)
 			(effects
 				(font
@@ -20568,7 +20162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 201.93 213.36 0)
 			(effects
 				(font
@@ -21209,31 +20803,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 452.12 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 450.85 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 451.485 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21298,31 +20873,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 326.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 325.12 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 325.755 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21452,7 +21008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 492.76 55.88 0)
 			(effects
 				(font
@@ -21494,7 +21050,7 @@
 				)
 			)
 		)
-		(property "Value" "300nH"
+		(property "Value" "1.5uH"
 			(at 505.714 103.124 90)
 			(effects
 				(font
@@ -21520,31 +21076,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 505.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 508 105.537 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 502.285 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21674,7 +21211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 186.69 213.36 0)
 			(effects
 				(font
@@ -21744,31 +21281,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 405.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 403.86 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 404.495 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21897,31 +21415,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 548.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 548.513 72.39 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 547.37 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21983,31 +21482,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 387.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 384.81 48.387 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 390.525 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -22071,31 +21551,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 269.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 276.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -22159,7 +21620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 457.2 55.88 0)
 			(effects
 				(font
@@ -22227,7 +21688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -22428,7 +21889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 439.42 303.53 0)
 			(effects
 				(font
@@ -22497,7 +21958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 255.27 213.36 0)
 			(effects
 				(font
@@ -22737,7 +22198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LCD_Connector"
+		(property "Value" "LCD_connector"
 			(at 565.658 165.862 90)
 			(effects
 				(font
@@ -22764,7 +22225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 562.61 148.59 0)
 			(effects
 				(font
@@ -22918,7 +22379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 232.41 213.36 0)
 			(effects
 				(font
@@ -22988,31 +22449,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 129.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 128.27 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 128.905 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23076,7 +22518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 455.93 264.16 0)
 			(effects
 				(font
@@ -23145,31 +22587,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 226.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23183,6 +22606,91 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
 					(reference "C174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC110:EMI_filter_Array")
+		(at 419.1 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77416c56-a8a1-4c05-9e2f-e111c28b5ffd")
+		(property "Reference" "EM4"
+			(at 426.974 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-array"
+			(at 418.9615 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC110:R-array"
+			(at 419.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99addfb-0b52-4b3b-9073-e3df068ebf5e")
+		)
+		(pin "2"
+			(uuid "2344c74b-43b3-466f-903a-c2e8e809a63e")
+		)
+		(pin "3"
+			(uuid "32868bde-a916-4381-a03e-d34c96089c46")
+		)
+		(pin "4"
+			(uuid "fae2b0ee-335e-443a-96ad-e3126f982816")
+		)
+		(pin "8"
+			(uuid "61bd3555-45c6-47ac-8648-7535d87e5773")
+		)
+		(pin "7"
+			(uuid "f626f993-2183-4d46-a8b0-78a8a1e6306a")
+		)
+		(pin "6"
+			(uuid "039e4ba9-4018-438d-8391-cc976740f3de")
+		)
+		(pin "5"
+			(uuid "f76cffc4-f920-48c7-8869-211265d58f1f")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
+					(reference "EM4")
 					(unit 1)
 				)
 			)
@@ -23366,31 +22874,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 313.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 312.42 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 313.055 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23454,31 +22943,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 558.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 557.53 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 558.165 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23541,31 +23011,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 336.55 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 339.09 22.987 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 333.375 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23629,31 +23080,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 378.46 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 377.19 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 377.825 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23690,7 +23122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150nF"
+		(property "Value" "1nF"
 			(at 290.068 85.09 0)
 			(effects
 				(font
@@ -23717,31 +23149,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 285.75 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 286.385 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23805,31 +23218,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 294.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23957,7 +23351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -24065,7 +23459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150nF"
+		(property "Value" "120nF"
 			(at 304.038 85.09 0)
 			(effects
 				(font
@@ -24092,31 +23486,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 300.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 299.72 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 300.355 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24202,93 +23577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Filter_EMI_LLLL_15263748")
-		(at 419.1 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88d11ca6-57bf-4831-97d9-bff4c101e959")
-		(property "Reference" "EM2"
-			(at 426.72 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EMI"
-			(at 418.9615 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PC110:R-array"
-			(at 419.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 419.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI 4-inductor filter"
-			(at 419.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a35a4c96-2420-405c-9288-c7b260d15ddf")
-		)
-		(pin "2"
-			(uuid "67a4bca3-cb0b-4934-8644-5324f1af321a")
-		)
-		(pin "3"
-			(uuid "bcc23e18-7b06-4340-a3e0-b101a8b6da32")
-		)
-		(pin "4"
-			(uuid "3e4a7eb1-d4cb-4b04-820c-88329c897b0f")
-		)
-		(pin "5"
-			(uuid "0627d79d-317f-47e4-a098-8ed2bc885e58")
-		)
-		(pin "6"
-			(uuid "63e225b8-e18f-45da-9cd7-13b70574e529")
-		)
-		(pin "7"
-			(uuid "09a56c85-68f4-4971-ae46-ad233124a73d")
-		)
-		(pin "8"
-			(uuid "00aa44ee-dffe-47ae-ba05-cb3502fd9331")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000066b27913"
-					(reference "EM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 55.88 76.2 270)
 		(mirror x)
@@ -24332,7 +23620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -24531,31 +23819,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 468.63 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 466.09 264.287 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 471.805 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24685,31 +23954,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 257.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 263.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24840,7 +24090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 224.79 213.36 0)
 			(effects
 				(font
@@ -24975,7 +24225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 66.04 213.36 0)
 			(effects
 				(font
@@ -25111,7 +24361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 435.61 246.38 0)
 			(effects
 				(font
@@ -25246,7 +24496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 171.45 213.36 0)
 			(effects
 				(font
@@ -25315,31 +24565,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 351.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 357.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25469,31 +24700,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25558,31 +24770,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 326.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 325.12 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 325.755 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25646,7 +24839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 86.36 213.36 0)
 			(effects
 				(font
@@ -25782,7 +24975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 240.03 213.36 0)
 			(effects
 				(font
@@ -25891,7 +25084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SA1881-6"
+		(property "Value" "IS6"
 			(at 523.24 34.2899 0)
 			(effects
 				(font
@@ -25918,7 +25111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 518.16 33.02 0)
 			(effects
 				(font
@@ -26049,7 +25242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 480.06 45.72 0)
 			(effects
 				(font
@@ -26059,7 +25252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 480.06 45.72 0)
 			(effects
 				(font
@@ -26235,7 +25428,7 @@
 				)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 469.9 69.85 0)
 			(effects
 				(font
@@ -26261,16 +25454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
-			(at 469.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "K"
+		(property "Description" ""
 			(at 469.9 66.04 0)
 			(effects
 				(font
@@ -26342,7 +25526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 499.11 33.02 0)
 			(effects
 				(font
@@ -26409,31 +25593,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 552.45 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 552.323 196.85 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 551.18 202.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26564,7 +25729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 209.55 213.36 0)
 			(effects
 				(font
@@ -26633,7 +25798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 194.31 213.36 0)
 			(effects
 				(font
@@ -26967,7 +26132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 247.65 213.36 0)
 			(effects
 				(font
@@ -27010,7 +26175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "51W4260ATT7"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -27219,31 +26384,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 338.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 344.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27373,31 +26519,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 310.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 316.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27462,31 +26589,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 355.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 354.33 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 354.965 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27617,31 +26725,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 287.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 285.75 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 286.385 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27705,31 +26794,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 254.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 260.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27923,31 +26993,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 429.26 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 426.72 294.767 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 432.435 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28012,7 +27063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 156.21 213.36 0)
 			(effects
 				(font
@@ -28213,31 +27264,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 348.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28500,31 +27532,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 114.3 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 114.935 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28786,31 +27799,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 538.48 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 537.21 297.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 537.845 304.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29073,7 +28067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 534.67 64.77 0)
 			(effects
 				(font
@@ -29208,7 +28202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 76.2 213.36 0)
 			(effects
 				(font
@@ -29673,31 +28667,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 433.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 431.8 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 432.435 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29894,7 +28869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 420.37 99.06 0)
 			(effects
 				(font
@@ -29964,31 +28939,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 274.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 273.05 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 273.685 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30316,31 +29272,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 505.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 504.19 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 504.825 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30405,31 +29342,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 274.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 273.05 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 273.685 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30494,7 +29412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 217.17 213.36 0)
 			(effects
 				(font
@@ -30561,7 +29479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 55.88 85.09 0)
 			(effects
 				(font
@@ -30696,7 +29614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 148.59 213.36 0)
 			(effects
 				(font

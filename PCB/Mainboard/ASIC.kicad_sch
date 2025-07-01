@@ -2054,207 +2054,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_CommonCathode_AKA"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Dual_CommonCathode_AKA"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual diode, common cathode on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Dual_CommonCathode_AKA_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Dual_Series_KAC"
 			(pin_names
 				(offset 0.762)
@@ -3189,6 +2988,196 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PC110:3D_Diode"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.016 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3D_Diode_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3D_Diode_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13617,6 +13606,16 @@
 	)
 	(wire
 		(pts
+			(xy 516.89 231.14) (xy 516.89 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902eb62a-075e-4e03-a4fa-05757d8d6600")
+	)
+	(wire
+		(pts
 			(xy 273.05 351.79) (xy 276.86 351.79)
 		)
 		(stroke
@@ -14787,7 +14786,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 226.06) (xy 505.46 226.06)
+			(xy 516.89 231.14) (xy 505.46 231.14)
 		)
 		(stroke
 			(width 0)
@@ -14877,7 +14876,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 226.06) (xy 505.46 210.82)
+			(xy 505.46 231.14) (xy 505.46 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19712,7 +19711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 346.71 232.41 0)
 			(effects
 				(font
@@ -19845,7 +19844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 359.41 232.41 0)
 			(effects
 				(font
@@ -19912,7 +19911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 187.96 186.69 0)
 			(effects
 				(font
@@ -20019,7 +20018,7 @@
 				)
 			)
 		)
-		(property "Value" "2SA1881-6"
+		(property "Value" "IS6"
 			(at 553.72 341.63 90)
 			(effects
 				(font
@@ -20045,7 +20044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 553.72 347.98 0)
 			(effects
 				(font
@@ -20539,7 +20538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 539.75 361.95 0)
 			(effects
 				(font
@@ -20549,7 +20548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 539.75 361.95 0)
 			(effects
 				(font
@@ -20688,31 +20687,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 77.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 76.2 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 76.835 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20774,7 +20754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 426.72 289.56 0)
 			(effects
 				(font
@@ -20844,7 +20824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 267.97 80.01 0)
 			(effects
 				(font
@@ -21046,7 +21026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 397.51 162.56 0)
 			(effects
 				(font
@@ -21088,7 +21068,7 @@
 				)
 			)
 		)
-		(property "Value" "DA204U"
+		(property "Value" "K"
 			(at 518.16 341.63 0)
 			(effects
 				(font
@@ -21114,16 +21094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
-			(at 518.16 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "K"
+		(property "Description" ""
 			(at 518.16 345.44 0)
 			(effects
 				(font
@@ -21325,7 +21296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 400.05 326.39 0)
 			(effects
 				(font
@@ -21392,7 +21363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 334.01 232.41 0)
 			(effects
 				(font
@@ -21411,87 +21382,6 @@
 			(project "PC110"
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064523075"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AKA")
-		(at 516.89 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43d23302-aef7-4440-a35d-8d663fe0627a")
-		(property "Reference" "D33"
-			(at 514.35 217.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DAN222"
-			(at 514.35 219.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 516.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 516.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, common cathode on pin 2"
-			(at 516.89 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "N"
-			(at 516.89 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43860cb3-fe2f-4ff8-8061-04872f65ae18")
-		)
-		(pin "3"
-			(uuid "de9fee78-4022-429b-874f-c0a4e82d92b6")
-		)
-		(pin "2"
-			(uuid "4f3ae8c3-c0ce-4d70-8018-53c7eefb126d")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064523075"
-					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -21543,7 +21433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 361.95 167.64 0)
 			(effects
 				(font
@@ -21610,7 +21500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 533.4 218.44 0)
 			(effects
 				(font
@@ -21651,7 +21541,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 157.988 283.21 90)
 			(effects
 				(font
@@ -21677,16 +21567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 151.13 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 151.13 283.21 0)
 			(effects
 				(font
@@ -21756,7 +21637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 508 359.41 0)
 			(effects
 				(font
@@ -21889,7 +21770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 280.67 231.14 0)
 			(effects
 				(font
@@ -22022,7 +21903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 367.03 182.88 0)
 			(effects
 				(font
@@ -22114,16 +21995,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 397.51 252.73 180)
+		(at 397.51 252.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52e2836f-fb2f-4784-b1be-dbcb49415742")
 		(property "Reference" "R216"
-			(at 400.05 251.4599 0)
+			(at 400.05 254.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,7 +22013,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 400.05 253.9999 0)
+			(at 400.05 251.4601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22158,7 +22039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 397.51 252.73 0)
 			(effects
 				(font
@@ -22358,7 +22239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 417.83 298.45 0)
 			(effects
 				(font
@@ -22923,7 +22804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 453.39 205.74 0)
 			(effects
 				(font
@@ -22964,7 +22845,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 179.578 280.67 90)
 			(effects
 				(font
@@ -22990,16 +22871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 172.72 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 172.72 280.67 0)
 			(effects
 				(font
@@ -23332,7 +23204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -23402,31 +23274,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 137.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 135.89 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 136.525 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23620,7 +23473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 513.08 330.2 0)
 			(effects
 				(font
@@ -23820,7 +23673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 194.31 228.6 0)
 			(effects
 				(font
@@ -24019,7 +23872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 464.82 279.4 0)
 			(effects
 				(font
@@ -24061,7 +23914,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC123"
+		(property "Value" "SN74LS123A"
 			(at 339.09 182.88 0)
 			(effects
 				(font
@@ -24078,7 +23931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf"
+		(property "Datasheet" ""
 			(at 339.09 193.04 0)
 			(effects
 				(font
@@ -24087,7 +23940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual retriggerable monostable multivibrator"
+		(property "Description" ""
 			(at 339.09 193.04 0)
 			(effects
 				(font
@@ -24331,7 +24184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 440.69 205.74 0)
 			(effects
 				(font
@@ -24398,7 +24251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 411.48 328.93 0)
 			(effects
 				(font
@@ -24460,7 +24313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 549.91 218.44 0)
 			(effects
 				(font
@@ -24470,7 +24323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 549.91 218.44 0)
 			(effects
 				(font
@@ -24606,7 +24459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 387.35 378.46 0)
 			(effects
 				(font
@@ -24667,7 +24520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf"
+		(property "Datasheet" ""
 			(at 453.39 237.49 0)
 			(effects
 				(font
@@ -24676,7 +24529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NAND Gate, High-speed Si-gate CMOS"
+		(property "Description" ""
 			(at 453.39 237.49 0)
 			(effects
 				(font
@@ -24762,7 +24615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 552.45 201.93 0)
 			(effects
 				(font
@@ -24829,7 +24682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 553.72 358.14 0)
 			(effects
 				(font
@@ -25152,7 +25005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 414.02 260.35 0)
 			(effects
 				(font
@@ -25161,7 +25014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 414.02 260.35 0)
 			(effects
 				(font
@@ -25246,7 +25099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 513.08 279.4 0)
 			(effects
 				(font
@@ -25371,7 +25224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 255.27 193.04 0)
 			(effects
 				(font
@@ -25380,7 +25233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 255.27 193.04 0)
 			(effects
 				(font
@@ -25468,31 +25321,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 151.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 149.86 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 150.495 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25555,7 +25389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 534.67 345.44 0)
 			(effects
 				(font
@@ -25689,7 +25523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 293.37 231.14 0)
 			(effects
 				(font
@@ -25798,7 +25632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "SN74LS74a"
 			(at 475.8533 175.26 0)
 			(effects
 				(font
@@ -25816,7 +25650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 473.71 182.88 0)
 			(effects
 				(font
@@ -25825,7 +25659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 473.71 182.88 0)
 			(effects
 				(font
@@ -25928,7 +25762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -25989,7 +25823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf"
+		(property "Datasheet" ""
 			(at 285.75 81.28 0)
 			(effects
 				(font
@@ -25998,7 +25832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Triple NOT Gate Schmitt, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 285.75 81.28 0)
 			(effects
 				(font
@@ -26218,31 +26052,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 90.17 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 90.805 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26346,7 +26161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "SN74LS74a"
 			(at 393.7 82.5499 0)
 			(effects
 				(font
@@ -26364,7 +26179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 387.35 81.28 0)
 			(effects
 				(font
@@ -26373,7 +26188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 387.35 81.28 0)
 			(effects
 				(font
@@ -26476,7 +26291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 488.95 279.4 0)
 			(effects
 				(font
@@ -26583,7 +26398,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 198.628 278.13 90)
 			(effects
 				(font
@@ -26609,16 +26424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 191.77 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 191.77 278.13 0)
 			(effects
 				(font
@@ -26691,7 +26497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 368.3 81.28 0)
 			(effects
 				(font
@@ -26733,7 +26539,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC123"
+		(property "Value" "SN74LS123A"
 			(at 473.71 205.74 0)
 			(effects
 				(font
@@ -26750,7 +26556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf"
+		(property "Datasheet" ""
 			(at 473.71 215.9 0)
 			(effects
 				(font
@@ -26759,7 +26565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual retriggerable monostable multivibrator"
+		(property "Description" ""
 			(at 473.71 215.9 0)
 			(effects
 				(font
@@ -26936,7 +26742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 477.52 247.65 0)
 			(effects
 				(font
@@ -26997,7 +26803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 210.82 190.5 0)
 			(effects
 				(font
@@ -27006,7 +26812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single OR Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 210.82 190.5 0)
 			(effects
 				(font
@@ -27034,6 +26840,79 @@
 			(project ""
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064523075"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PC110:3D_Diode")
+		(at 516.89 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c92f50d2-7e05-4db8-8ebf-8ed1f4b9b51b")
+		(property "Reference" "D33"
+			(at 514.35 217.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N"
+			(at 514.35 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 516.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7412235e-fec2-4745-b2bf-0f2aa5b90061")
+		)
+		(pin "2"
+			(uuid "b3c50627-144e-4108-aa37-8d542edbc7c7")
+		)
+		(pin "1"
+			(uuid "9e839bba-330d-42ec-8d71-3fdd904b25af")
+		)
+		(instances
+			(project "PC110"
+				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-000064523075"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -27282,31 +27161,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 48.26 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 46.99 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 47.625 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27364,7 +27224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 398.78 289.56 0)
 			(effects
 				(font
@@ -27374,7 +27234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 398.78 289.56 0)
 			(effects
 				(font
@@ -27513,7 +27373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" ""
 			(at 433.07 281.94 0)
 			(effects
 				(font
@@ -27556,7 +27416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "SN74LS74a"
 			(at 475.8533 156.21 0)
 			(effects
 				(font
@@ -27574,7 +27434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 473.71 148.59 0)
 			(effects
 				(font
@@ -27583,7 +27443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
+		(property "Description" ""
 			(at 473.71 148.59 0)
 			(effects
 				(font
@@ -27748,7 +27608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 462.28 293.37 0)
 			(effects
 				(font
@@ -27758,7 +27618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 462.28 293.37 0)
 			(effects
 				(font
@@ -27829,7 +27689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 306.07 231.14 0)
 			(effects
 				(font
@@ -27958,7 +27818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 486.41 293.37 0)
 			(effects
 				(font
@@ -27968,7 +27828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 486.41 293.37 0)
 			(effects
 				(font
@@ -28038,7 +27898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 388.62 323.85 0)
 			(effects
 				(font
@@ -28344,7 +28204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC123"
+		(property "Value" "SN74LS123A"
 			(at 426.72 82.5499 0)
 			(effects
 				(font
@@ -28362,7 +28222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf"
+		(property "Datasheet" ""
 			(at 420.37 81.28 0)
 			(effects
 				(font
@@ -28371,7 +28231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual retriggerable monostable multivibrator"
+		(property "Description" ""
 			(at 420.37 81.28 0)
 			(effects
 				(font
@@ -28455,7 +28315,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "33k"
 			(at 429.006 296.164 0)
 			(effects
 				(font
@@ -28481,7 +28341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 433.07 297.18 0)
 			(effects
 				(font
@@ -28605,7 +28465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" ""
 			(at 226.06 378.46 0)
 			(effects
 				(font
@@ -28614,7 +28474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 226.06 378.46 0)
 			(effects
 				(font
@@ -28750,7 +28610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf"
+		(property "Datasheet" ""
 			(at 331.47 81.28 0)
 			(effects
 				(font
@@ -28759,7 +28619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NAND Gate, High-speed Si-gate CMOS"
+		(property "Description" ""
 			(at 331.47 81.28 0)
 			(effects
 				(font
@@ -28847,7 +28707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 313.69 80.01 0)
 			(effects
 				(font
@@ -28910,7 +28770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta42.pdf"
+		(property "Datasheet" ""
 			(at 510.54 293.37 0)
 			(effects
 				(font
@@ -28920,7 +28780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.3A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" ""
 			(at 510.54 293.37 0)
 			(effects
 				(font
@@ -29058,7 +28918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 234.95 254 0)
 			(effects
 				(font
@@ -29183,7 +29043,7 @@
 				)
 			)
 		)
-		(property "Value" "RB715F"
+		(property "Value" "3D"
 			(at 218.948 275.59 90)
 			(effects
 				(font
@@ -29209,16 +29069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 2"
-			(at 212.09 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Topmark" "3D"
+		(property "Description" ""
 			(at 212.09 275.59 0)
 			(effects
 				(font
@@ -29357,31 +29208,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 60.96 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 61.595 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29443,7 +29275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 193.04 88.9 0)
 			(effects
 				(font
