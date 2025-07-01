@@ -1,0 +1,115 @@
+(footprint "XTAL-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29312c95-918b-4dab-a67c-c32791b137bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XTAL-4"
+		(at 0.05 6.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31f84f8f-3a83-47fc-a770-04485ae0de9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22e890e3-7312-467a-a6ec-9dafb2dbfb28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "387a186e-d31e-4561-ad96-bb6442de5893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2739ef4c-bd18-407e-89ea-bfdaec681e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at -0.2 7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f8010dfd-3a99-4d6c-a3ea-f35c29d0a483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.15 -2.2 90)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5818cbe8-53cd-4616-8887-16e797b3551f")
+	)
+	(pad "2" smd rect
+		(at -0.15 2.1 90)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "086dc17b-b762-48f0-9343-e954ca33652f")
+	)
+	(pad "3" smd custom
+		(at -0.1 0)
+		(size 2.4 1.5)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -1.95 -0.85)
+				(end 1.85 0.75)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "d759429f-ebf7-4259-b2ec-05d68abc2014")
+	)
+)
