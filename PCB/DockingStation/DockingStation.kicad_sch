@@ -5247,7 +5247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_Series_ACK"
+		(symbol "Device:D_Dual_Series_KAC"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -5263,7 +5263,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Dual_Series_ACK"
+			(property "Value" "D_Dual_Series_KAC"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -5289,7 +5289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual diode, anode/center/cathode"
+			(property "Description" "Dual diode, cathode/anode/center"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5307,7 +5307,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Dual_Series_ACK_0_1"
+			(symbol "D_Dual_Series_KAC_0_1"
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
@@ -5391,18 +5391,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -5413,7 +5401,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5431,7 +5419,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5449,7 +5437,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8862,34 +8850,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_Transistor_BJT_AKL:Q_NPN_Generic_BEC"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "Q_NPN_Generic_BEC"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 63.5 0 0)
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8897,16 +8884,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8915,7 +8893,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "Description" "NPN transistor, generic symbol, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8924,7 +8902,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
+			(property "ki_keywords" "transistor NPN generic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8933,37 +8911,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Q_NPN_Generic_BEC_0_1"
 				(polyline
 					(pts
 						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
@@ -9008,7 +8956,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -9023,54 +8971,12 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "NPN_1_1"
+			(symbol "Q_NPN_Generic_BEC_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.715)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9085,7 +8991,25 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -9095,7 +9019,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9352,12 +9276,6 @@
 		(uuid "07aa8680-eb26-427f-8414-a6c05c070ef9")
 	)
 	(junction
-		(at 703.58 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0866faa7-98ac-4f3b-9402-64ed403749e1")
-	)
-	(junction
 		(at 549.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9482,6 +9400,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d348344-993c-4350-81be-47b7089f7666")
+	)
+	(junction
+		(at 716.28 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dc9d176-2571-48da-a1fa-79f9ae2d9c6e")
 	)
 	(junction
 		(at 67.31 109.22)
@@ -9610,6 +9534,12 @@
 		(uuid "34bd5e06-202c-4577-ad14-7f1a0d41712e")
 	)
 	(junction
+		(at 725.17 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358700b9-43a1-412e-a198-bdf195424bec")
+	)
+	(junction
 		(at 548.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9688,10 +9618,10 @@
 		(uuid "478b22b6-a068-41ce-8aeb-edaf8649f62a")
 	)
 	(junction
-		(at 728.98 40.64)
+		(at 688.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47c0c637-18d2-4a73-89ba-d88900a8b54e")
+		(uuid "48ab6479-0183-4905-b9f3-2da6c77b5ec1")
 	)
 	(junction
 		(at 176.53 497.84)
@@ -9716,6 +9646,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5f4497-7403-4005-a489-1e9dd12f4be9")
+	)
+	(junction
+		(at 740.41 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b961084-72d6-48a3-bf97-b2520a42b666")
 	)
 	(junction
 		(at 240.03 124.46)
@@ -9956,12 +9892,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "793c2a5e-e1ec-4907-8854-b644b196ca50")
-	)
-	(junction
-		(at 689.61 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "793e103a-bff8-43bf-beba-38d47227f16e")
 	)
 	(junction
 		(at 67.31 83.82)
@@ -10833,7 +10763,7 @@
 	)
 	(wire
 		(pts
-			(xy 762 72.39) (xy 728.98 72.39)
+			(xy 762 72.39) (xy 716.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10880,6 +10810,16 @@
 			(type default)
 		)
 		(uuid "015b0a7a-6b1d-48a5-9f85-900b725445fd")
+	)
+	(wire
+		(pts
+			(xy 725.17 54.61) (xy 725.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0166fd47-6999-47e8-86ee-afc30f087da5")
 	)
 	(wire
 		(pts
@@ -11173,7 +11113,7 @@
 	)
 	(wire
 		(pts
-			(xy 728.98 72.39) (xy 728.98 40.64)
+			(xy 716.28 72.39) (xy 716.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11693,16 +11633,6 @@
 	)
 	(wire
 		(pts
-			(xy 689.61 60.96) (xy 689.61 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16297ab7-631f-4606-ad3e-a4b627bd7865")
-	)
-	(wire
-		(pts
 			(xy 530.86 125.73) (xy 770.89 125.73)
 		)
 		(stroke
@@ -11880,16 +11810,6 @@
 			(type default)
 		)
 		(uuid "1a28a18d-ea8b-4a18-98c7-76b1797f6729")
-	)
-	(wire
-		(pts
-			(xy 689.61 40.64) (xy 689.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a46e14d-95f8-4e37-ad8a-75b34af82466")
 	)
 	(wire
 		(pts
@@ -13003,6 +12923,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 58.42) (xy 740.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ad4dea-b1d7-4575-802f-43650579caff")
+	)
+	(wire
+		(pts
 			(xy 314.96 67.31) (xy 314.96 101.6)
 		)
 		(stroke
@@ -13060,6 +12990,16 @@
 			(type default)
 		)
 		(uuid "363dae5d-326a-481a-ae5a-8b232bc7f70d")
+	)
+	(wire
+		(pts
+			(xy 725.17 40.64) (xy 740.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b999c7-351a-46e6-8a99-7a267a635b84")
 	)
 	(wire
 		(pts
@@ -15763,13 +15703,13 @@
 	)
 	(wire
 		(pts
-			(xy 728.98 40.64) (xy 740.41 40.64)
+			(xy 716.28 40.64) (xy 725.17 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75363f34-e0c3-4fc3-896a-ce8eea9b7851")
+		(uuid "7537dad4-03ca-4dfd-b6c4-9fb55ccf3953")
 	)
 	(wire
 		(pts
@@ -16190,16 +16130,6 @@
 			(type default)
 		)
 		(uuid "800eb274-c6ff-477a-a1e5-e152634a9fbc")
-	)
-	(wire
-		(pts
-			(xy 703.58 40.64) (xy 711.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "810752bd-d811-4c3d-8879-f62b024a9a4b")
 	)
 	(wire
 		(pts
@@ -18603,7 +18533,7 @@
 	)
 	(wire
 		(pts
-			(xy 703.58 40.64) (xy 703.58 45.72)
+			(xy 688.34 40.64) (xy 688.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -19353,7 +19283,7 @@
 	)
 	(wire
 		(pts
-			(xy 689.61 40.64) (xy 703.58 40.64)
+			(xy 675.64 40.64) (xy 688.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -19643,7 +19573,7 @@
 	)
 	(wire
 		(pts
-			(xy 703.58 60.96) (xy 703.58 55.88)
+			(xy 688.34 60.96) (xy 688.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -19793,7 +19723,7 @@
 	)
 	(wire
 		(pts
-			(xy 721.36 40.64) (xy 728.98 40.64)
+			(xy 707.39 40.64) (xy 716.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -20313,6 +20243,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 40.64) (xy 725.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cb8c1b-a01e-4e49-b62f-29f65bce5bdf")
+	)
+	(wire
+		(pts
 			(xy 194.31 153.67) (xy 194.31 152.4)
 		)
 		(stroke
@@ -20733,16 +20673,6 @@
 	)
 	(wire
 		(pts
-			(xy 675.64 40.64) (xy 689.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefea388-6f37-4b41-9a03-f9b609ad00d7")
-	)
-	(wire
-		(pts
 			(xy 125.73 274.32) (xy 125.73 292.1)
 		)
 		(stroke
@@ -21040,6 +20970,16 @@
 			(type default)
 		)
 		(uuid "f51affad-217f-4923-a088-113a599c93a5")
+	)
+	(wire
+		(pts
+			(xy 688.34 40.64) (xy 697.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f584fc68-f9de-41ed-af12-6d9a97ac391d")
 	)
 	(wire
 		(pts
@@ -23772,15 +23712,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 316.23 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00e2dec0-04dc-4a29-b3c4-de2c56e68deb")
 		(property "Reference" "C53"
-			(at 320.04 146.0499 0)
+			(at 320.04 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23789,7 +23729,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 320.04 148.5899 0)
+			(at 320.04 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23825,7 +23765,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 314.96 144.145 0)
+			(at 314.96 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23834,7 +23774,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 315.595 150.495 0)
+			(at 315.595 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23926,7 +23866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 703.58 60.96 0)
+		(at 688.34 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23935,7 +23875,7 @@
 		(fields_autoplaced yes)
 		(uuid "0174451f-5d18-465f-a0dd-cea49cf74666")
 		(property "Reference" "#PWR037"
-			(at 703.58 67.31 0)
+			(at 688.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,7 +23884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 703.58 66.04 0)
+			(at 688.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23952,7 +23892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 703.58 60.96 0)
+			(at 688.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23961,7 +23901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 703.58 60.96 0)
+			(at 688.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +23910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 703.58 60.96 0)
+			(at 688.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23993,15 +23933,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 201.93 417.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02080a26-7b5d-495c-a8ed-d540fbfa3375")
 		(property "Reference" "R33"
-			(at 204.47 416.5599 0)
+			(at 204.47 419.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24010,7 +23950,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 204.47 419.0999 0)
+			(at 204.47 416.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24046,7 +23986,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 198.755 414.655 0)
+			(at 198.755 421.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24055,7 +23995,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 204.47 421.005 0)
+			(at 204.47 414.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24148,15 +24088,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 300.99 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03c04016-f9ae-40f5-ac2c-a9e1c5a3afbf")
 		(property "Reference" "C52"
-			(at 304.8 146.0499 0)
+			(at 304.8 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24165,7 +24105,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 304.8 148.5899 0)
+			(at 304.8 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24201,7 +24141,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 299.72 144.145 0)
+			(at 299.72 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24210,7 +24150,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 300.355 150.495 0)
+			(at 300.355 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24454,7 +24394,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 613.41 508 90)
+		(at 613.41 508 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24505,7 +24446,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 610.87 508.127 0)
+			(at 615.95 508.127 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -24514,7 +24455,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 616.585 509.27 0)
+			(at 610.235 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24540,7 +24481,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 125.73 91.44 90)
+		(at 125.73 91.44 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24591,7 +24533,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 123.19 91.567 0)
+			(at 128.27 91.567 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -24600,7 +24542,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 128.905 92.71 0)
+			(at 122.555 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24626,7 +24568,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 262.89 127 90)
+		(at 262.89 127 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24677,7 +24620,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 260.35 127.127 0)
+			(at 265.43 127.127 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -24686,7 +24629,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 266.065 128.27 0)
+			(at 259.715 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24713,15 +24656,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 767.08 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "081d8e76-2b48-4a93-9663-184e84b6d86b")
 		(property "Reference" "C10"
-			(at 770.89 48.2599 0)
+			(at 770.89 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24730,7 +24673,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 770.89 50.7999 0)
+			(at 770.89 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24766,7 +24709,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 765.81 46.355 0)
+			(at 765.81 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24775,7 +24718,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 766.445 52.705 0)
+			(at 766.445 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25020,15 +24963,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 433.07 444.5 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a2e5e36-bb63-4380-873c-4bafbb1bee20")
 		(property "Reference" "R29"
-			(at 435.61 443.2299 0)
+			(at 435.61 445.7701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25037,7 +24980,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 435.61 445.7699 0)
+			(at 435.61 443.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25073,7 +25016,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 429.895 441.325 0)
+			(at 429.895 447.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25082,7 +25025,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 435.61 447.675 0)
+			(at 435.61 441.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25109,15 +25052,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 328.93 419.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a58327f-1a6a-4bed-9cb8-6c84ef73a0cb")
 		(property "Reference" "C83"
-			(at 332.74 417.8299 0)
+			(at 332.74 420.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25126,7 +25069,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 332.74 420.3699 0)
+			(at 332.74 417.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25162,7 +25105,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 327.66 415.925 0)
+			(at 327.66 422.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25171,7 +25114,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 328.295 422.275 0)
+			(at 328.295 415.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25197,7 +25140,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 110.49 76.2 90)
+		(at 110.49 76.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25248,7 +25192,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 107.315 79.375 0)
+			(at 113.665 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25257,7 +25201,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 113.665 73.66 0)
+			(at 107.315 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25284,15 +25228,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 209.55 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b793c0f-c688-4136-8cf9-9db20f26c659")
 		(property "Reference" "C50"
-			(at 213.36 146.0499 0)
+			(at 213.36 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25301,7 +25245,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 213.36 148.5899 0)
+			(at 213.36 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25337,7 +25281,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 208.28 144.145 0)
+			(at 208.28 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25346,7 +25290,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 208.915 150.495 0)
+			(at 208.915 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25372,7 +25316,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 334.01 134.62 90)
+		(at 334.01 134.62 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25423,7 +25368,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 330.835 137.795 0)
+			(at 337.185 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25432,7 +25377,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 337.185 132.08 0)
+			(at 330.835 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25548,15 +25493,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 201.93 430.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c6c1aeb-97f9-420d-8887-fd8449eff546")
 		(property "Reference" "R34"
-			(at 204.47 429.2599 0)
+			(at 204.47 431.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25565,7 +25510,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 204.47 431.7999 0)
+			(at 204.47 429.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25601,7 +25546,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 198.755 427.355 0)
+			(at 198.755 433.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25610,7 +25555,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 204.47 433.705 0)
+			(at 204.47 427.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25722,7 +25667,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 302.26 129.54 90)
+		(at 302.26 129.54 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25773,7 +25719,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 299.085 132.715 0)
+			(at 305.435 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25782,7 +25728,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 305.435 127 0)
+			(at 299.085 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26088,15 +26034,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 632.46 515.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f9b233f-e4c2-4ae6-9f41-449155d718a5")
 		(property "Reference" "C62"
-			(at 636.27 514.3499 0)
+			(at 636.27 516.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26105,7 +26051,7 @@
 			)
 		)
 		(property "Value" "250nF"
-			(at 636.27 516.8899 0)
+			(at 636.27 514.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26141,7 +26087,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 631.19 512.445 0)
+			(at 631.19 518.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26150,7 +26096,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 631.825 518.795 0)
+			(at 631.825 512.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26391,15 +26337,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 285.75 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10df7ade-812b-41f9-89f4-1607f6bdb75e")
 		(property "Reference" "C54"
-			(at 289.56 146.0499 0)
+			(at 289.56 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26408,7 +26354,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 289.56 148.5899 0)
+			(at 289.56 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26444,7 +26390,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 284.48 144.145 0)
+			(at 284.48 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26453,7 +26399,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 285.115 150.495 0)
+			(at 285.115 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26682,17 +26628,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 546.1 425.45 90)
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 514.35 425.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "120be5f1-ca10-4893-ab4d-23407b7529b8")
-		(property "Reference" "DA10"
-			(at 543.56 422.3384 90)
+		(uuid "12d60869-990c-4dbe-b88e-85e0b960a789")
+		(property "Reference" "DA8"
+			(at 511.81 424.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26701,7 +26647,7 @@
 			)
 		)
 		(property "Value" "1W"
-			(at 543.56 424.8784 90)
+			(at 511.81 426.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26710,7 +26656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 546.1 425.45 0)
+			(at 514.35 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26719,7 +26665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 546.1 425.45 0)
+			(at 514.35 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26727,28 +26673,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 546.1 425.45 0)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 514.35 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "f5a2de8f-d9c6-4a9a-b96f-f6e21289fee2")
 		)
 		(pin "2"
-			(uuid "32a64d51-c088-4f1c-be45-5df2b128f24a")
+			(uuid "b38da797-796d-4541-a7e4-c39eab3141bc")
 		)
 		(pin "1"
-			(uuid "58209a8a-4427-4381-aa40-be02aa0af2f2")
+			(uuid "7c918aa5-6610-45ff-bb0c-c2e8020c812a")
+		)
+		(pin "3"
+			(uuid "2353342a-4b35-4e9e-82a0-4416b6d75b23")
 		)
 		(instances
-			(project ""
+			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA10")
+					(reference "DA8")
 					(unit 1)
 				)
 			)
@@ -26757,15 +26703,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 255.27 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1306933c-4a5d-439c-8334-d29c8749a111")
 		(property "Reference" "C55"
-			(at 259.08 146.0499 0)
+			(at 259.08 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26774,7 +26720,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 259.08 148.5899 0)
+			(at 259.08 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26810,7 +26756,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 254 144.145 0)
+			(at 254 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26819,7 +26765,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 254.635 150.495 0)
+			(at 254.635 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27222,17 +27168,162 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 740.41 49.53 0)
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 547.37 369.57 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "16046c1a-1659-44c2-b0e9-0ab4d77c51a4")
+		(property "Reference" "DA6"
+			(at 544.83 370.8401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 544.83 368.3001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 547.37 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 547.37 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 547.37 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d9c8f2a-f0a4-40ca-b278-b9b22b543e93")
+		)
+		(pin "1"
+			(uuid "36ab3d43-ef5c-4906-b417-d2baaad9b021")
+		)
+		(pin "3"
+			(uuid "969ecef5-58f3-4092-898c-ec345ac06424")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 718.82 422.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "162b9927-6e63-4be8-9472-65308cfd0274")
+		(property "Reference" "DA1"
+			(at 721.36 424.1801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 721.36 421.6401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 718.82 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 718.82 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 718.82 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78967214-c936-4bac-badc-e17f86f252b1")
+		)
+		(pin "1"
+			(uuid "16866b8c-a483-40df-b989-6e12d3a07a17")
+		)
+		(pin "3"
+			(uuid "e5f512a1-8c17-4a0d-8d84-b459fe3c4e88")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:R")
+		(at 740.41 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "163df052-f8b4-43e0-b66e-a402bb816240")
 		(property "Reference" "R6"
-			(at 742.95 48.2599 0)
+			(at 742.95 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27241,7 +27332,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 742.95 50.7999 0)
+			(at 742.95 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27277,7 +27368,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 737.235 46.355 0)
+			(at 737.235 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27286,7 +27377,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 742.95 52.705 0)
+			(at 742.95 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27464,7 +27555,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 217.17 119.38 90)
+		(at 217.17 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27515,7 +27607,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 214.63 119.507 0)
+			(at 219.71 119.507 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -27524,7 +27616,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 220.345 120.65 0)
+			(at 213.995 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27879,15 +27971,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 575.31 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a600233-753b-4a9f-8a18-039ad55eccdc")
 		(property "Reference" "C23"
-			(at 579.12 144.7799 0)
+			(at 579.12 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27896,7 +27988,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 579.12 147.3199 0)
+			(at 579.12 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27932,7 +28024,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 574.04 142.875 0)
+			(at 574.04 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27941,7 +28033,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 574.675 149.225 0)
+			(at 574.675 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27967,7 +28059,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 125.73 81.28 90)
+		(at 125.73 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28018,7 +28111,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 122.555 84.455 0)
+			(at 128.905 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28027,7 +28120,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 128.905 78.74 0)
+			(at 122.555 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28054,15 +28147,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 240.03 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c363c0b-9e46-4ff2-b131-3da7fa9383dc")
 		(property "Reference" "C51"
-			(at 243.84 146.0499 0)
+			(at 243.84 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28071,7 +28164,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 243.84 148.5899 0)
+			(at 243.84 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28107,7 +28200,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 238.76 144.145 0)
+			(at 238.76 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28116,7 +28209,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 239.395 150.495 0)
+			(at 239.395 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28297,13 +28390,13 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 226.06 389.89 90)
+		(at 226.06 389.89 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d3cea94-821b-4986-8943-305623f5076c")
 		(property "Reference" "R38"
 			(at 226.06 383.54 90)
@@ -28349,7 +28442,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 222.885 393.065 0)
+			(at 229.235 393.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28358,7 +28451,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 229.235 387.35 0)
+			(at 222.885 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28450,7 +28543,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 287.02 127 90)
+		(at 287.02 127 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28501,7 +28595,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 283.845 130.175 0)
+			(at 290.195 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28510,7 +28604,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 290.195 124.46 0)
+			(at 283.845 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28624,15 +28718,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 676.91 500.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fc8560c-caff-4078-922c-6f1ab4c2e18a")
 		(property "Reference" "C63"
-			(at 680.72 499.1099 0)
+			(at 680.72 501.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28641,7 +28735,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 680.72 501.6499 0)
+			(at 680.72 499.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28677,7 +28771,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 675.64 497.205 0)
+			(at 675.64 503.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28686,7 +28780,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 676.275 503.555 0)
+			(at 676.275 497.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28865,15 +28959,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 753.11 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2215c3e6-aefd-478f-8739-eae1e9819f79")
 		(property "Reference" "C9"
-			(at 756.92 48.2599 0)
+			(at 756.92 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28882,7 +28976,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 756.92 50.7999 0)
+			(at 756.92 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28918,7 +29012,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 751.84 46.355 0)
+			(at 751.84 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28927,7 +29021,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 752.475 52.705 0)
+			(at 752.475 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29020,15 +29114,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 163.83 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "226284b2-f836-42b6-b80d-13ec2871a50d")
 		(property "Reference" "C59"
-			(at 167.64 146.0499 0)
+			(at 167.64 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29037,7 +29131,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 167.64 148.5899 0)
+			(at 167.64 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29073,7 +29167,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 162.56 144.145 0)
+			(at 162.56 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29082,7 +29176,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 163.195 150.495 0)
+			(at 163.195 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29108,7 +29202,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 716.28 40.64 90)
+		(at 702.31 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29116,7 +29210,7 @@
 		(dnp no)
 		(uuid "2281d750-95cf-40c3-95d0-bbdb9a8ef769")
 		(property "Reference" "L11"
-			(at 716.28 37.338 90)
+			(at 702.31 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29124,7 +29218,7 @@
 			)
 		)
 		(property "Value" "680nH"
-			(at 716.28 38.862 90)
+			(at 702.31 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29132,7 +29226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 716.28 40.64 0)
+			(at 702.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29141,7 +29235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 716.28 40.64 0)
+			(at 702.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29150,7 +29244,7 @@
 			)
 		)
 		(property "Description" "coil/winding/inductor/choke/reactor"
-			(at 716.28 40.64 0)
+			(at 702.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29159,7 +29253,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 713.74 40.767 0)
+			(at 699.77 40.767 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -29168,7 +29262,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 719.455 41.91 0)
+			(at 705.485 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,15 +29611,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 410.21 361.95 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24cf04b3-34eb-4da7-b51e-c7b77f1c90a9")
 		(property "Reference" "R10"
-			(at 412.75 360.6799 0)
+			(at 412.75 363.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29534,7 +29628,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 412.75 363.2199 0)
+			(at 412.75 360.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29570,7 +29664,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 407.035 358.775 0)
+			(at 407.035 365.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29579,7 +29673,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 412.75 365.125 0)
+			(at 412.75 358.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29877,7 +29971,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 293.37 132.08 90)
+		(at 293.37 132.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29928,7 +30023,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 290.83 132.207 0)
+			(at 295.91 132.207 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -29937,7 +30032,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 296.545 133.35 0)
+			(at 290.195 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29963,7 +30058,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 226.06 116.84 90)
+		(at 226.06 116.84 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30014,7 +30110,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 222.885 120.015 0)
+			(at 229.235 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30023,7 +30119,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 229.235 114.3 0)
+			(at 222.885 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30050,15 +30146,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 224.79 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "270b21a0-5d67-4a9e-9526-d0c317e12fc3")
 		(property "Reference" "C56"
-			(at 228.6 146.0499 0)
+			(at 228.6 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30067,7 +30163,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 228.6 148.5899 0)
+			(at 228.6 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30103,7 +30199,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 223.52 144.145 0)
+			(at 223.52 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30112,7 +30208,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 224.155 150.495 0)
+			(at 224.155 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30138,7 +30234,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 533.4 90)
+		(at 645.16 533.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30189,7 +30286,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 533.527 0)
+			(at 647.7 533.527 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -30198,7 +30295,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 534.67 0)
+			(at 641.985 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30508,7 +30605,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 217.17 111.76 90)
+		(at 217.17 111.76 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30559,7 +30657,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 213.995 114.935 0)
+			(at 220.345 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30568,7 +30666,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 220.345 109.22 0)
+			(at 213.995 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31008,7 +31106,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 140.97 86.36 90)
+		(at 140.97 86.36 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31059,7 +31158,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 137.795 89.535 0)
+			(at 144.145 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31068,7 +31167,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 144.145 83.82 0)
+			(at 137.795 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31491,15 +31590,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 201.93 405.13 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3952744c-175f-452a-92d8-6cc0d8b11e5e")
 		(property "Reference" "R32"
-			(at 204.47 403.8599 0)
+			(at 204.47 406.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31508,7 +31607,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 204.47 406.3999 0)
+			(at 204.47 403.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31544,7 +31643,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 198.755 401.955 0)
+			(at 198.755 408.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31553,7 +31652,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 204.47 408.305 0)
+			(at 204.47 401.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31645,7 +31744,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 110.49 86.36 90)
+		(at 110.49 86.36 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31696,7 +31796,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 107.95 86.487 0)
+			(at 113.03 86.487 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -31705,7 +31805,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 113.665 87.63 0)
+			(at 107.315 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31885,15 +31985,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 601.98 514.35 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ca90181-d073-41af-8ee7-ce9eda7935b0")
 		(property "Reference" "C31"
-			(at 605.79 513.0799 0)
+			(at 605.79 515.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31902,7 +32002,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 605.79 515.6199 0)
+			(at 605.79 513.0801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31938,7 +32038,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 600.71 511.175 0)
+			(at 600.71 517.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31947,7 +32047,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 601.345 517.525 0)
+			(at 601.345 511.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31966,80 +32066,6 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 753.11 422.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ef587cd-93ca-458a-b326-ccff8bfe9855")
-		(property "Reference" "DA3"
-			(at 755.65 419.7984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 755.65 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 753.11 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 753.11 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 753.11 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f6a94e94-6517-4642-8b28-d5267e75b539")
-		)
-		(pin "2"
-			(uuid "54712aee-1666-466c-81a7-752a75c9559b")
-		)
-		(pin "1"
-			(uuid "9e2acfa2-b15c-4f4b-8cc7-82103630d498")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA3")
 					(unit 1)
 				)
 			)
@@ -32199,79 +32225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 514.35 425.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4015d19b-cf4b-4ccb-88b5-001b21330574")
-		(property "Reference" "DA8"
-			(at 511.81 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 511.81 424.8784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 514.35 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 514.35 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5337df96-6518-489b-a281-cf8cc343c86c")
-		)
-		(pin "2"
-			(uuid "1be86737-7b06-4109-a4dd-fe047f17e0d3")
-		)
-		(pin "1"
-			(uuid "b6ac4360-1948-413b-a6e4-f8a66ab4d7bf")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 575.31 153.67 0)
 		(unit 1)
@@ -32406,15 +32359,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 118.11 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4321a01b-3517-4aa1-88fa-f275be4c7163")
 		(property "Reference" "C46"
-			(at 121.92 146.0499 0)
+			(at 121.92 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32423,7 +32376,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 121.92 148.5899 0)
+			(at 121.92 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32459,7 +32412,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 116.84 144.145 0)
+			(at 116.84 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32468,7 +32421,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 117.475 150.495 0)
+			(at 117.475 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32581,15 +32534,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 349.25 388.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "438f6930-980f-46e8-8275-b9e3c20b7de5")
 		(property "Reference" "C70"
-			(at 353.06 387.3499 0)
+			(at 353.06 389.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32598,7 +32551,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 353.06 389.8899 0)
+			(at 353.06 387.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32634,7 +32587,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 347.98 385.445 0)
+			(at 347.98 391.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32643,7 +32596,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 348.615 391.795 0)
+			(at 348.615 385.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33354,7 +33307,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 632.46 209.55 90)
+		(at 632.46 209.55 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33405,7 +33359,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 629.285 212.725 0)
+			(at 635.635 212.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33414,7 +33368,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 635.635 207.01 0)
+			(at 629.285 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33522,106 +33476,6 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 241.3 424.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c29a5e2-83ee-4296-ad82-09df84e5cb30")
-		(property "Reference" "Q2"
-			(at 246.38 422.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8C"
-			(at 246.38 425.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 304.8 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 241.3 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 241.3 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 241.3 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 241.3 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1017642c-d997-4155-9082-a4c0dcc251e0")
-		)
-		(pin "3"
-			(uuid "e3d1f001-367b-4826-8bbf-a7ea97b51f85")
-		)
-		(pin "2"
-			(uuid "04f20402-0568-4e99-a791-a5369dc7a86a")
-		)
-		(instances
-			(project ""
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -33897,7 +33751,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 645.16 203.2 90)
+		(at 645.16 203.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33948,7 +33803,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 641.985 206.375 0)
+			(at 648.335 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33957,7 +33812,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 648.335 200.66 0)
+			(at 641.985 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34115,7 +33970,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 201.93 116.84 90)
+		(at 201.93 116.84 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34166,7 +34022,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 199.39 116.967 0)
+			(at 204.47 116.967 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -34175,7 +34031,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 205.105 118.11 0)
+			(at 198.755 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34202,15 +34058,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 488.95 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52677188-d0a9-4db4-a3be-81be561000a8")
 		(property "Reference" "C12"
-			(at 492.76 144.7799 0)
+			(at 492.76 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34219,7 +34075,7 @@
 			)
 		)
 		(property "Value" "82nF"
-			(at 492.76 147.3199 0)
+			(at 492.76 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34255,7 +34111,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 487.68 142.875 0)
+			(at 487.68 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34264,7 +34120,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 488.315 149.225 0)
+			(at 488.315 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34290,16 +34146,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 689.61 50.8 0)
+		(at 725.17 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5427382e-d09d-44da-8d61-1b3f8ef708b9")
 		(property "Reference" "C11"
-			(at 693.42 49.5299 0)
+			(at 728.98 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34308,7 +34164,7 @@
 			)
 		)
 		(property "Value" "1.5uF"
-			(at 693.42 52.0699 0)
+			(at 728.98 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34317,7 +34173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 689.61 50.8 0)
+			(at 725.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34326,7 +34182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 689.61 50.8 0)
+			(at 725.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34335,7 +34191,7 @@
 			)
 		)
 		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 689.61 50.8 0)
+			(at 725.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34344,7 +34200,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 688.34 47.625 0)
+			(at 723.9 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34353,7 +34209,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 688.975 53.975 0)
+			(at 724.535 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34379,7 +34235,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 476.25 90)
+		(at 645.16 476.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34430,7 +34287,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 476.377 0)
+			(at 647.7 476.377 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -34439,7 +34296,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 477.52 0)
+			(at 641.985 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34641,15 +34498,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 227.33 430.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5acb6bcd-0e3f-436f-95a2-b06b7e7f85ba")
 		(property "Reference" "R35"
-			(at 229.87 429.2599 0)
+			(at 229.87 431.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34658,7 +34515,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 229.87 431.7999 0)
+			(at 229.87 429.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34694,7 +34551,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 224.155 427.355 0)
+			(at 224.155 433.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34703,7 +34560,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 229.87 433.705 0)
+			(at 229.87 427.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35592,79 +35449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 500.38 425.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64978a51-d54b-4ebe-8a14-61039d854f09")
-		(property "Reference" "DA9"
-			(at 497.84 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 497.84 424.8784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 500.38 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 500.38 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 500.38 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9ab84df0-a764-4402-b74c-2bd840a7d7c4")
-		)
-		(pin "2"
-			(uuid "f3379815-3a29-4223-8043-d2845a2815c1")
-		)
-		(pin "1"
-			(uuid "9f226769-abc0-42d7-b6b3-76d9f2b41519")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:L")
 		(at 613.41 105.41 90)
 		(unit 1)
@@ -35969,17 +35753,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 547.37 369.57 90)
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 772.16 422.91 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca7cae3-05b4-4650-b6c8-ce1c64b0905e")
-		(property "Reference" "DA6"
-			(at 544.83 366.4584 90)
+		(uuid "6c389363-22bf-406f-b9cb-c4cbaa3775ad")
+		(property "Reference" "DA4"
+			(at 774.7 421.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35988,7 +35772,7 @@
 			)
 		)
 		(property "Value" "1W"
-			(at 544.83 368.9984 90)
+			(at 774.7 424.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35997,7 +35781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 547.37 369.57 0)
+			(at 772.16 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36006,7 +35790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 547.37 369.57 0)
+			(at 772.16 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36014,28 +35798,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 547.37 369.57 0)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 772.16 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "a3983c2b-eefd-4f5a-ba0e-f1e85a5a9e7f")
 		)
 		(pin "2"
-			(uuid "69a63a6c-0826-469e-8245-84c7132d939e")
+			(uuid "47a86e57-c56a-47a4-afab-7fd66aae5ad4")
 		)
 		(pin "1"
-			(uuid "06472813-c394-445a-9197-c41841267edd")
+			(uuid "e49f3f04-2db3-419c-8ba6-ba6b8c13cc60")
+		)
+		(pin "3"
+			(uuid "5a8b2901-39b5-4153-a3be-be4c697f2e7f")
 		)
 		(instances
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA6")
+					(reference "DA4")
 					(unit 1)
 				)
 			)
@@ -36043,7 +35827,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 95.25 81.28 90)
+		(at 95.25 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36094,7 +35879,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 92.71 81.407 0)
+			(at 97.79 81.407 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -36103,7 +35888,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 98.425 82.55 0)
+			(at 92.075 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36130,15 +35915,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 560.07 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d1fdc79-8503-4552-9ebe-026a3f16e041")
 		(property "Reference" "C21"
-			(at 563.88 144.7799 0)
+			(at 563.88 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36147,7 +35932,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 563.88 147.3199 0)
+			(at 563.88 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36183,7 +35968,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 558.8 142.875 0)
+			(at 558.8 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36192,7 +35977,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 559.435 149.225 0)
+			(at 559.435 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36304,7 +36089,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 317.5 132.08 90)
+		(at 317.5 132.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36355,7 +36141,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 314.325 135.255 0)
+			(at 320.675 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36364,7 +36150,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 320.675 129.54 0)
+			(at 314.325 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36650,80 +36436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 718.82 422.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70c6f10e-fc9c-4f13-8c0a-c52f62cde231")
-		(property "Reference" "DA1"
-			(at 721.36 419.7984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 721.36 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 718.82 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 718.82 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 718.82 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8f147c79-56eb-479f-b49b-4ad2621b6260")
-		)
-		(pin "2"
-			(uuid "44b3cd35-c02f-47a4-9c0d-0e781e181dca")
-		)
-		(pin "1"
-			(uuid "314f4354-67c4-4dbc-9c78-ee1fab7042c3")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK_Parallel")
 		(at 336.55 41.91 270)
 		(unit 1)
@@ -36799,15 +36511,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 544.83 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "718b3fc4-24e3-4c3f-862b-cbe864afb6fe")
 		(property "Reference" "C19"
-			(at 548.64 144.7799 0)
+			(at 548.64 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36816,7 +36528,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 548.64 147.3199 0)
+			(at 548.64 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36852,7 +36564,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 543.56 142.875 0)
+			(at 543.56 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36861,7 +36573,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 544.195 149.225 0)
+			(at 544.195 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36954,15 +36666,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 621.03 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73a656d9-6666-42bf-895d-52c99a93fd78")
 		(property "Reference" "C29"
-			(at 624.84 144.7799 0)
+			(at 624.84 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36971,7 +36683,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 624.84 147.3199 0)
+			(at 624.84 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37007,7 +36719,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 619.76 142.875 0)
+			(at 619.76 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37016,7 +36728,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 620.395 149.225 0)
+			(at 620.395 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37479,15 +37191,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 472.44 389.89 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78667509-3346-42d8-a5a7-1b24d10984c6")
 		(property "Reference" "C72"
-			(at 476.25 388.6199 0)
+			(at 476.25 391.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37496,7 +37208,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 476.25 391.1599 0)
+			(at 476.25 388.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37532,7 +37244,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 471.17 386.715 0)
+			(at 471.17 393.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37541,7 +37253,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 471.805 393.065 0)
+			(at 471.805 386.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37632,80 +37344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 772.16 422.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79a0f483-30de-46ce-aed6-79afde0a5256")
-		(property "Reference" "DA4"
-			(at 774.7 419.7984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 774.7 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 772.16 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 772.16 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 772.16 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9923b399-2851-4918-baee-2909184e3e23")
-		)
-		(pin "2"
-			(uuid "d126e5df-35a5-47be-9943-acbbcd59da46")
-		)
-		(pin "1"
-			(uuid "f2eef27d-5189-4bcb-adfb-1d7ff86e75ff")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Mini-DIN-6")
 		(at 711.2 521.97 270)
 		(unit 1)
@@ -37789,7 +37427,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 539.75 90)
+		(at 645.16 539.75 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37840,7 +37479,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 539.877 0)
+			(at 647.7 539.877 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -37849,7 +37488,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 541.02 0)
+			(at 641.985 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37942,15 +37581,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 664.21 500.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b263d45-4c3b-49aa-90c4-cb4f032f0173")
 		(property "Reference" "C64"
-			(at 668.02 499.1099 0)
+			(at 668.02 501.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37959,7 +37598,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 668.02 501.6499 0)
+			(at 668.02 499.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37995,7 +37634,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 662.94 497.205 0)
+			(at 662.94 503.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38004,7 +37643,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 663.575 503.555 0)
+			(at 663.575 497.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38096,7 +37735,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 186.69 111.76 90)
+		(at 186.69 111.76 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38147,7 +37787,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 184.15 111.887 0)
+			(at 189.23 111.887 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -38156,7 +37796,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 189.865 113.03 0)
+			(at 183.515 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38307,6 +37947,79 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 546.1 425.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d17dee1-ad91-4433-bf80-e4a50b9e9d2a")
+		(property "Reference" "DA10"
+			(at 543.56 426.7201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 543.56 424.1801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 546.1 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2be90b0-099e-4c70-81a5-ecccf8c246c4")
+		)
+		(pin "1"
+			(uuid "3de92a7d-d064-47ce-960e-8a221cda13ca")
+		)
+		(pin "3"
+			(uuid "e5d82c48-afc2-4c46-857c-1e02f04590da")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA10")
 					(unit 1)
 				)
 			)
@@ -38532,7 +38245,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 308.61 134.62 90)
+		(at 308.61 134.62 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38583,7 +38297,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 306.07 134.747 0)
+			(at 311.15 134.747 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -38592,7 +38306,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 311.785 135.89 0)
+			(at 305.435 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39169,7 +38883,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 278.13 129.54 90)
+		(at 278.13 129.54 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39220,7 +38935,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 275.59 129.667 0)
+			(at 280.67 129.667 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -39229,7 +38944,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 281.305 130.81 0)
+			(at 274.955 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39636,7 +39351,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 607.06 222.25 90)
+		(at 607.06 222.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39687,7 +39403,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 603.885 225.425 0)
+			(at 610.235 225.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39696,7 +39412,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 610.235 219.71 0)
+			(at 603.885 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39722,7 +39438,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 271.78 124.46 90)
+		(at 271.78 124.46 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39773,7 +39490,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 268.605 127.635 0)
+			(at 274.955 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39782,7 +39499,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 274.955 121.92 0)
+			(at 268.605 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39983,7 +39700,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 241.3 119.38 90)
+		(at 241.3 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40034,7 +39752,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 238.125 122.555 0)
+			(at 244.475 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40043,7 +39761,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 244.475 116.84 0)
+			(at 238.125 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40154,6 +39872,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 753.11 422.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b763885-7915-4ee8-a813-02aaa1408afc")
+		(property "Reference" "DA3"
+			(at 755.65 424.1801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 755.65 421.6401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 753.11 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 753.11 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 753.11 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "945d5ccc-3138-4abe-851e-7048daab7b35")
+		)
+		(pin "1"
+			(uuid "02a1c1e3-fe5e-4a94-9046-9ddf899d94e2")
+		)
+		(pin "3"
+			(uuid "de93130a-b4c4-4e68-8bed-e9f45cbc323e")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 124.46 417.83 0)
 		(unit 1)
@@ -40243,72 +40033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 689.61 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8eaf02df-6c85-45d2-bd92-676333f00e87")
-		(property "Reference" "#PWR038"
-			(at 689.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 689.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 689.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 689.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 689.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c27fc31-1145-4a7c-8a48-e5182b582a23")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 443.23 384.81 0)
 		(unit 1)
@@ -40392,6 +40116,79 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 500.38 425.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fe4fa0a-99ea-4df6-a098-fb3b12ed470e")
+		(property "Reference" "DA9"
+			(at 497.84 424.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 497.84 426.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 500.38 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 500.38 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 500.38 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba12409b-9400-4e80-b7a3-2c7018e2ecf9")
+		)
+		(pin "1"
+			(uuid "4af51ee7-f15b-4924-8938-d0d654915252")
+		)
+		(pin "3"
+			(uuid "b16ffcb3-c98d-4799-8e6c-cf0607d9cb6a")
+		)
+		(instances
+			(project ""
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA9")
 					(unit 1)
 				)
 			)
@@ -40664,7 +40461,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 619.76 215.9 90)
+		(at 619.76 215.9 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40715,7 +40513,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 616.585 219.075 0)
+			(at 622.935 219.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40724,7 +40522,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 622.935 213.36 0)
+			(at 616.585 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40750,7 +40548,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 156.21 101.6 90)
+		(at 156.21 101.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40801,7 +40600,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 153.67 101.727 0)
+			(at 158.75 101.727 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -40810,7 +40609,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 159.385 102.87 0)
+			(at 153.035 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40903,15 +40702,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 227.33 417.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94c8b8fa-8956-4e69-b25f-53adb915c5d8")
 		(property "Reference" "R37"
-			(at 229.87 416.5599 0)
+			(at 229.87 419.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40920,7 +40719,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 229.87 419.0999 0)
+			(at 229.87 416.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40956,7 +40755,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 224.155 414.655 0)
+			(at 224.155 421.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40965,7 +40764,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 229.87 421.005 0)
+			(at 229.87 414.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41144,15 +40943,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 670.56 547.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9994c4a0-e137-4b1b-8e39-9d357990c2b8")
 		(property "Reference" "C66"
-			(at 674.37 546.0999 0)
+			(at 674.37 548.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41161,7 +40960,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 674.37 548.6399 0)
+			(at 674.37 546.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41197,7 +40996,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 669.29 544.195 0)
+			(at 669.29 550.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41206,7 +41005,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 669.925 550.545 0)
+			(at 669.925 544.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41374,7 +41173,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 232.41 121.92 90)
+		(at 232.41 121.92 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41425,7 +41225,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 229.87 122.047 0)
+			(at 234.95 122.047 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -41434,7 +41234,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 235.585 123.19 0)
+			(at 229.235 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41550,15 +41350,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 621.03 373.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bbf12c7-08a2-4f37-828f-6f6da85b184d")
 		(property "Reference" "C2"
-			(at 624.84 372.1099 0)
+			(at 624.84 374.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41567,7 +41367,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 624.84 374.6499 0)
+			(at 624.84 372.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41603,7 +41403,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 619.76 370.205 0)
+			(at 619.76 376.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41612,7 +41412,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 620.395 376.555 0)
+			(at 620.395 370.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41637,90 +41437,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 528.32 425.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c926728-6b63-420a-aac0-40d0b8bef19e")
-		(property "Reference" "DA7"
-			(at 525.78 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 525.78 424.8784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 528.32 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 528.32 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 528.32 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9eb92fe0-55b1-4465-a960-50afe4d35caa")
-		)
-		(pin "2"
-			(uuid "2830fcf6-8c8a-4ba1-8efc-ea47b3dccd76")
-		)
-		(pin "1"
-			(uuid "da6d8ecf-0b86-4472-b88d-aaa284fe29ce")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 675.64 50.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ccda676-3fdc-4061-a3ee-c17ca30cf18f")
 		(property "Reference" "C35"
-			(at 679.45 49.5299 0)
+			(at 679.45 52.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41729,7 +41456,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 679.45 52.0699 0)
+			(at 679.45 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41765,7 +41492,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 674.37 47.625 0)
+			(at 674.37 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41774,7 +41501,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 675.005 53.975 0)
+			(at 675.005 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41800,7 +41527,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 156.21 91.44 90)
+		(at 156.21 91.44 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41851,7 +41579,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 153.035 94.615 0)
+			(at 159.385 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41860,7 +41588,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 159.385 88.9 0)
+			(at 153.035 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42412,15 +42140,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 510.54 441.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2af45ff-eb3d-44dd-80e8-1046b38a9497")
 		(property "Reference" "R5"
-			(at 513.08 440.6899 0)
+			(at 513.08 443.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42429,7 +42157,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 513.08 443.2299 0)
+			(at 513.08 440.6901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42465,7 +42193,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 507.365 438.785 0)
+			(at 507.365 445.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42474,7 +42202,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 513.08 445.135 0)
+			(at 513.08 438.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42675,7 +42403,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 140.97 96.52 90)
+		(at 140.97 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42726,7 +42455,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 138.43 96.647 0)
+			(at 143.51 96.647 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -42735,7 +42464,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 144.145 97.79 0)
+			(at 137.795 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42754,6 +42483,78 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "L51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 736.6 422.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4901395-4e8c-400b-9fc3-869f5536ce1d")
+		(property "Reference" "DA2"
+			(at 739.14 424.1801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 739.14 421.6401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 736.6 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 736.6 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 736.6 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "618ce10a-1a21-409e-aa36-5cf370a18994")
+		)
+		(pin "1"
+			(uuid "f4596280-ba83-43aa-a4ab-0e06a8144eec")
+		)
+		(pin "3"
+			(uuid "02d60994-813d-4e1d-a415-109eecde1b7c")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA2")
 					(unit 1)
 				)
 			)
@@ -43020,15 +42821,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 322.58 196.85 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab8f54ec-6e16-442e-9aad-0d55a53deba0")
 		(property "Reference" "C78"
-			(at 326.39 195.5799 0)
+			(at 326.39 198.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43037,7 +42838,7 @@
 			)
 		)
 		(property "Value" "250nF"
-			(at 326.39 198.1199 0)
+			(at 326.39 195.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43073,7 +42874,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 321.31 193.675 0)
+			(at 321.31 200.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43082,7 +42883,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 321.945 200.025 0)
+			(at 321.945 193.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43109,15 +42910,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 87.63 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abc8801e-f06f-4365-a3c3-1ee5aa1fdc1f")
 		(property "Reference" "C48"
-			(at 91.44 146.0499 0)
+			(at 91.44 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43126,7 +42927,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 91.44 148.5899 0)
+			(at 91.44 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43162,7 +42963,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 86.36 144.145 0)
+			(at 86.36 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43171,7 +42972,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 86.995 150.495 0)
+			(at 86.995 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43372,7 +43173,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 256.54 121.92 90)
+		(at 256.54 121.92 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43423,7 +43225,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 253.365 125.095 0)
+			(at 259.715 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43432,7 +43234,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 259.715 119.38 0)
+			(at 253.365 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43545,15 +43347,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 651.51 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af42a16c-4781-4a1f-9dc1-f0c5e1ec3b90")
 		(property "Reference" "C15"
-			(at 655.32 144.7799 0)
+			(at 655.32 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43562,7 +43364,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 655.32 147.3199 0)
+			(at 655.32 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43598,7 +43400,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 650.24 142.875 0)
+			(at 650.24 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43607,7 +43409,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 650.875 149.225 0)
+			(at 650.875 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43789,15 +43591,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 608.33 373.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b20e7896-8e01-47f9-9c76-182e59e2e07e")
 		(property "Reference" "C1"
-			(at 612.14 372.1099 0)
+			(at 612.14 374.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43806,7 +43608,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 612.14 374.6499 0)
+			(at 612.14 372.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43842,7 +43644,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 607.06 370.205 0)
+			(at 607.06 376.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43851,7 +43653,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 607.695 376.555 0)
+			(at 607.695 370.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43877,16 +43679,16 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 703.58 50.8 0)
+		(at 688.34 50.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2539852-84db-464b-ad6b-636b7b132f0c")
 		(property "Reference" "C34"
-			(at 707.39 49.5299 0)
+			(at 692.15 52.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43895,7 +43697,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 707.39 52.0699 0)
+			(at 692.15 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43904,7 +43706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 703.58 50.8 0)
+			(at 688.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43913,7 +43715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 703.58 50.8 0)
+			(at 688.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43922,7 +43724,7 @@
 			)
 		)
 		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 703.58 50.8 0)
+			(at 688.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43931,7 +43733,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 702.31 47.625 0)
+			(at 687.07 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43940,7 +43742,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 702.945 53.975 0)
+			(at 687.705 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44626,7 +44428,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 581.66 234.95 90)
+		(at 581.66 234.95 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44677,7 +44480,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 578.485 238.125 0)
+			(at 584.835 238.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44686,7 +44489,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 584.835 232.41 0)
+			(at 578.485 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45057,7 +44860,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 594.36 228.6 90)
+		(at 594.36 228.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45108,7 +44912,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 591.185 231.775 0)
+			(at 597.535 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45117,7 +44921,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 597.535 226.06 0)
+			(at 591.185 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45143,7 +44947,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 87.63 76.2 90)
+		(at 87.63 76.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45194,7 +44999,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 85.09 76.327 0)
+			(at 90.17 76.327 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -45203,7 +45008,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 90.805 77.47 0)
+			(at 84.455 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45882,7 +45687,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 568.96 241.3 90)
+		(at 568.96 241.3 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45933,7 +45739,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 565.785 244.475 0)
+			(at 572.135 244.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45942,7 +45748,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 572.135 238.76 0)
+			(at 565.785 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46035,15 +45841,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 346.71 180.34 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c0c92e58-b7d8-4273-857a-3f3629bc1505")
 		(property "Reference" "R40"
-			(at 349.25 179.0699 0)
+			(at 349.25 181.6101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46052,7 +45858,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 349.25 181.6099 0)
+			(at 349.25 179.0701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46088,7 +45894,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 343.535 177.165 0)
+			(at 343.535 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46097,7 +45903,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 349.25 183.515 0)
+			(at 349.25 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46287,7 +46093,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 523.24 90)
+		(at 645.16 523.24 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46338,7 +46145,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 523.367 0)
+			(at 647.7 523.367 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -46347,7 +46154,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 524.51 0)
+			(at 641.985 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46440,15 +46247,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 72.39 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c407aeb2-305d-4bc8-986b-3cbef7c11cf7")
 		(property "Reference" "C49"
-			(at 76.2 146.0499 0)
+			(at 76.2 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46457,7 +46264,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 76.2 148.5899 0)
+			(at 76.2 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46493,7 +46300,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 71.12 144.145 0)
+			(at 71.12 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46502,7 +46309,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 71.755 150.495 0)
+			(at 71.755 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46986,17 +46793,90 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 179.07 147.32 0)
+		(lib_id "PCM_Transistor_BJT_AKL:Q_NPN_Generic_BEC")
+		(at 241.3 424.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "c8b8cbce-106b-42bd-97d0-2cb237148705")
+		(property "Reference" "Q2"
+			(at 246.38 422.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8C"
+			(at 246.38 425.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, generic symbol, Alternate KiCAD Library"
+			(at 241.3 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd0cc58-dddd-470f-b93f-c68edeb99318")
+		)
+		(pin "3"
+			(uuid "6a261354-572a-4666-9152-2a1302025307")
+		)
+		(pin "2"
+			(uuid "f2e4d60a-47d8-4ec7-87fa-a7fd5a1e8ec6")
+		)
+		(instances
+			(project ""
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 179.07 147.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c962144e-7162-4d88-8e70-6c259006edfa")
 		(property "Reference" "C58"
-			(at 182.88 146.0499 0)
+			(at 182.88 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47005,7 +46885,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 182.88 148.5899 0)
+			(at 182.88 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47041,7 +46921,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 177.8 144.145 0)
+			(at 177.8 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47050,7 +46930,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 178.435 150.495 0)
+			(at 178.435 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47165,7 +47045,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 171.45 96.52 90)
+		(at 171.45 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47216,7 +47097,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 168.275 99.695 0)
+			(at 174.625 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47225,7 +47106,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 174.625 93.98 0)
+			(at 168.275 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47338,7 +47219,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 628.65 100.33 90)
+		(at 628.65 100.33 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47389,7 +47271,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 626.11 100.457 0)
+			(at 631.19 100.457 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -47398,7 +47280,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 631.825 101.6 0)
+			(at 625.475 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47425,15 +47307,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 133.35 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0024294-9012-4aa7-afdf-95e0e48bce31")
 		(property "Reference" "C61"
-			(at 137.16 146.0499 0)
+			(at 137.16 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47442,7 +47324,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 137.16 148.5899 0)
+			(at 137.16 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47478,7 +47360,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 132.08 144.145 0)
+			(at 132.08 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47487,7 +47369,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 132.715 150.495 0)
+			(at 132.715 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47666,15 +47548,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 742.95 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0aeb5f3-252c-44d7-b303-b13b95f207f0")
 		(property "Reference" "C27"
-			(at 746.76 144.7799 0)
+			(at 746.76 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47683,7 +47565,7 @@
 			)
 		)
 		(property "Value" "82pF"
-			(at 746.76 147.3199 0)
+			(at 746.76 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47719,7 +47601,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 741.68 142.875 0)
+			(at 741.68 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47728,7 +47610,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 742.315 149.225 0)
+			(at 742.315 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47754,7 +47636,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 247.65 124.46 90)
+		(at 247.65 124.46 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47805,7 +47688,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 245.11 124.587 0)
+			(at 250.19 124.587 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -47814,7 +47697,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 250.825 125.73 0)
+			(at 244.475 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47841,15 +47724,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 163.83 424.18 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d15d85af-b24b-433e-ba32-80ea2b81edb2")
 		(property "Reference" "R31"
-			(at 166.37 422.9099 0)
+			(at 166.37 425.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47858,7 +47741,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 166.37 425.4499 0)
+			(at 166.37 422.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47894,7 +47777,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 160.655 421.005 0)
+			(at 160.655 427.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47903,7 +47786,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 166.37 427.355 0)
+			(at 166.37 421.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48061,7 +47944,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 201.93 106.68 90)
+		(at 201.93 106.68 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48112,7 +47996,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 198.755 109.855 0)
+			(at 205.105 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48121,7 +48005,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 205.105 104.14 0)
+			(at 198.755 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48235,15 +48119,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 227.33 405.13 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d52bcbf2-fd92-452e-8054-f65509755bec")
 		(property "Reference" "R36"
-			(at 229.87 403.8599 0)
+			(at 229.87 406.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48252,7 +48136,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 229.87 406.3999 0)
+			(at 229.87 403.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48288,7 +48172,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 224.155 401.955 0)
+			(at 224.155 408.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48297,7 +48181,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 229.87 408.305 0)
+			(at 229.87 401.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48409,7 +48293,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 335.28 243.84 90)
+		(at 335.28 243.84 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48460,7 +48345,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 332.105 247.015 0)
+			(at 338.455 247.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48469,7 +48354,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 338.455 241.3 0)
+			(at 332.105 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48561,7 +48446,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 492.76 90)
+		(at 645.16 492.76 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48612,7 +48498,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 492.887 0)
+			(at 647.7 492.887 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -48621,7 +48507,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 494.03 0)
+			(at 641.985 494.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48781,7 +48667,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 323.85 137.16 90)
+		(at 323.85 137.16 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48832,7 +48719,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 321.31 137.287 0)
+			(at 326.39 137.287 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -48841,7 +48728,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 327.025 138.43 0)
+			(at 320.675 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48868,15 +48755,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 684.53 547.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db010bb6-2d98-49ad-97bb-395063c8f411")
 		(property "Reference" "C65"
-			(at 688.34 546.0999 0)
+			(at 688.34 548.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48885,7 +48772,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 688.34 548.6399 0)
+			(at 688.34 546.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48921,7 +48808,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 683.26 544.195 0)
+			(at 683.26 550.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48930,7 +48817,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 683.895 550.545 0)
+			(at 683.895 544.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49023,15 +48910,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 102.87 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dde7700e-8ca1-482e-b9f6-b30e34b83a71")
 		(property "Reference" "C45"
-			(at 106.68 146.0499 0)
+			(at 106.68 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49040,7 +48927,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 106.68 148.5899 0)
+			(at 106.68 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49076,7 +48963,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 101.6 144.145 0)
+			(at 101.6 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49085,7 +48972,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 102.235 150.495 0)
+			(at 102.235 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49247,91 +49134,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_ACK")
-		(at 736.6 422.91 270)
+		(lib_id "PCM_Elektuur:C")
+		(at 666.75 146.05 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfb624b8-ff09-41ad-a79c-fca0ea5c3f3b")
-		(property "Reference" "DA2"
-			(at 739.14 419.7984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1W"
-			(at 739.14 422.3384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 736.6 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 736.6 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual diode, anode/center/cathode"
-			(at 736.6 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "36761ae8-f184-4e1c-96d8-7191a49f5a9e")
-		)
-		(pin "2"
-			(uuid "514a4b19-5e04-426c-ae8a-f8efe28d86ee")
-		)
-		(pin "1"
-			(uuid "1a5e64e4-8385-4a68-9d22-8096747ee25e")
-		)
-		(instances
-			(project "DockingStation"
-				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
-					(reference "DA2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 666.75 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1618cf8-4047-4a4d-99cf-0486b615261b")
 		(property "Reference" "C17"
-			(at 670.56 144.7799 0)
+			(at 670.56 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49340,7 +49153,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 670.56 147.3199 0)
+			(at 670.56 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49376,7 +49189,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 665.48 142.875 0)
+			(at 665.48 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49385,7 +49198,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 666.115 149.225 0)
+			(at 666.115 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49497,7 +49310,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 171.45 106.68 90)
+		(at 171.45 106.68 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49548,7 +49362,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 168.91 106.807 0)
+			(at 173.99 106.807 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -49557,7 +49371,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 174.625 107.95 0)
+			(at 168.275 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50278,15 +50092,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 194.31 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8b43740-cf45-42ca-b624-13e46aa34498")
 		(property "Reference" "C57"
-			(at 198.12 146.0499 0)
+			(at 198.12 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50295,7 +50109,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 198.12 148.5899 0)
+			(at 198.12 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50331,7 +50145,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 193.04 144.145 0)
+			(at 193.04 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50340,7 +50154,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 193.675 150.495 0)
+			(at 193.675 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50367,15 +50181,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 590.55 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8c759ff-9372-4827-b7f4-7dffc9dd0669")
 		(property "Reference" "C25"
-			(at 594.36 144.7799 0)
+			(at 594.36 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50384,7 +50198,7 @@
 			)
 		)
 		(property "Value" "280nF"
-			(at 594.36 147.3199 0)
+			(at 594.36 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50420,7 +50234,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 589.28 142.875 0)
+			(at 589.28 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50429,7 +50243,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 589.915 149.225 0)
+			(at 589.915 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50456,15 +50270,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 270.51 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb2dc5fa-1bec-479a-979a-b56bb7bb2f43")
 		(property "Reference" "C47"
-			(at 274.32 146.0499 0)
+			(at 274.32 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50473,7 +50287,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 274.32 148.5899 0)
+			(at 274.32 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50509,7 +50323,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 269.24 144.145 0)
+			(at 269.24 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50518,7 +50332,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 269.875 150.495 0)
+			(at 269.875 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50544,7 +50358,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 347.98 137.16 90)
+		(at 347.98 137.16 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50595,7 +50410,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 344.805 140.335 0)
+			(at 351.155 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50604,7 +50419,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 351.155 134.62 0)
+			(at 344.805 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50717,15 +50532,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 148.59 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec43d4f6-d6f3-4b79-b721-ab47af756b45")
 		(property "Reference" "C60"
-			(at 152.4 146.0499 0)
+			(at 152.4 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50734,7 +50549,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 152.4 148.5899 0)
+			(at 152.4 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50770,7 +50585,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 147.32 144.145 0)
+			(at 147.32 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50779,7 +50594,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 147.955 150.495 0)
+			(at 147.955 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51177,7 +50992,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 556.26 298.45 90)
+		(at 556.26 298.45 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51228,7 +51044,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 553.085 301.625 0)
+			(at 559.435 301.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51237,7 +51053,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 559.435 295.91 0)
+			(at 553.085 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51506,7 +51322,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 645.16 482.6 90)
+		(at 645.16 482.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51557,7 +51374,7 @@
 			)
 		)
 		(property "Indicator" "●"
-			(at 642.62 482.727 0)
+			(at 647.7 482.727 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -51566,7 +51383,7 @@
 			)
 		)
 		(property "Rating" "A"
-			(at 648.335 483.87 0)
+			(at 641.985 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51744,15 +51561,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 87.63 417.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f71fa93f-0715-464d-9d7f-caf3686c9334")
 		(property "Reference" "C76"
-			(at 91.44 416.5599 0)
+			(at 91.44 419.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51761,7 +51578,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 91.44 419.0999 0)
+			(at 91.44 416.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51797,7 +51614,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 86.36 414.655 0)
+			(at 86.36 421.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51806,7 +51623,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 86.995 421.005 0)
+			(at 86.995 414.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51891,6 +51708,79 @@
 			(project "DockingStation"
 				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_Series_KAC")
+		(at 528.32 425.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80adf2f-98ae-463c-bd90-02cd7df9f3c8")
+		(property "Reference" "DA7"
+			(at 525.78 424.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1W"
+			(at 525.78 426.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 528.32 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 528.32 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, cathode/anode/center"
+			(at 528.32 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ab365cc-e680-4646-87aa-a2eddeade89c")
+		)
+		(pin "1"
+			(uuid "1d5083f0-cdb9-4f29-9d24-fe1883cd9916")
+		)
+		(pin "3"
+			(uuid "62cb4d3b-50c7-4f3d-91bf-3eb9894b7cf1")
+		)
+		(instances
+			(project "DockingStation"
+				(path "/afe2faae-e80e-4b01-bb8e-4bbdc5b29fa9"
+					(reference "DA7")
 					(unit 1)
 				)
 			)
