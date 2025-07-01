@@ -23538,7 +23538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0028f2f8-7b58-4234-929d-be6c0d8d9a9d")
 		(property "Reference" "R11"
@@ -23559,7 +23559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 393.7 361.95 0)
 			(effects
 				(font
@@ -23577,31 +23577,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 393.7 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 390.525 358.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 396.24 365.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -23648,7 +23629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 303.53 0)
 			(effects
 				(font
@@ -23666,31 +23647,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 69.85 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 68.58 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 69.215 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23728,7 +23690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 320.04 146.0501 0)
 			(effects
 				(font
@@ -23737,7 +23699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 316.23 147.32 0)
 			(effects
 				(font
@@ -23755,31 +23717,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 316.23 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 314.96 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 315.595 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23958,7 +23901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 417.83 0)
 			(effects
 				(font
@@ -23976,31 +23919,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 201.93 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 198.755 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 204.47 414.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -24104,7 +24028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 304.8 146.0501 0)
 			(effects
 				(font
@@ -24113,7 +24037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 300.99 147.32 0)
 			(effects
 				(font
@@ -24131,31 +24055,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 300.99 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 299.72 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 300.355 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24242,7 +24147,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 105.41 264.16 90)
+		(at 105.41 264.16 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24265,7 +24171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 105.41 264.16 0)
 			(effects
 				(font
@@ -24283,31 +24189,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 105.41 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 102.87 264.287 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 108.585 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24418,7 +24305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 613.41 508 0)
 			(effects
 				(font
@@ -24436,31 +24323,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 613.41 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 615.95 508.127 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 610.235 509.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24505,7 +24373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -24523,31 +24391,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 125.73 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 128.27 91.567 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 122.555 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24592,7 +24441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -24610,31 +24459,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 262.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 265.43 127.127 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 259.715 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24681,7 +24511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 767.08 49.53 0)
 			(effects
 				(font
@@ -24699,31 +24529,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 767.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 765.81 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 766.445 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24833,7 +24644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 713.74 389.89 0)
 			(effects
 				(font
@@ -24851,31 +24662,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 713.74 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 711.2 390.017 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 716.915 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -24968,7 +24760,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a2e5e36-bb63-4380-873c-4bafbb1bee20")
 		(property "Reference" "R29"
 			(at 435.61 445.7701 0)
@@ -24988,7 +24780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 433.07 444.5 0)
 			(effects
 				(font
@@ -25006,31 +24798,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 433.07 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 429.895 447.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 435.61 441.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -25057,7 +24830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a58327f-1a6a-4bed-9cb8-6c84ef73a0cb")
 		(property "Reference" "C83"
 			(at 332.74 420.3701 0)
@@ -25077,7 +24850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 328.93 419.1 0)
 			(effects
 				(font
@@ -25095,31 +24868,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 328.93 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 327.66 422.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 328.295 415.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25164,7 +24918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -25182,31 +24936,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 113.665 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 107.315 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -25244,7 +24979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 213.36 146.0501 0)
 			(effects
 				(font
@@ -25253,7 +24988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.55 147.32 0)
 			(effects
 				(font
@@ -25271,31 +25006,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 209.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 208.28 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 208.915 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25340,7 +25056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 334.01 134.62 0)
 			(effects
 				(font
@@ -25358,31 +25074,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 334.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 337.185 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 330.835 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -25429,7 +25126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -25447,31 +25144,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 97.79 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 96.52 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 97.155 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25518,7 +25196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 430.53 0)
 			(effects
 				(font
@@ -25536,31 +25214,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 201.93 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 198.755 433.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 204.47 427.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -25604,7 +25263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 713.74 384.81 0)
 			(effects
 				(font
@@ -25622,31 +25281,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 713.74 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 711.2 384.937 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 716.915 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -25691,7 +25331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -25709,31 +25349,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 302.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 305.435 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 299.085 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -25902,7 +25523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DS14C535MSA"
 			(at 308.2133 213.36 0)
 			(effects
 				(font
@@ -25911,7 +25532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
 			(at 306.07 255.27 0)
 			(effects
 				(font
@@ -26059,7 +25680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 632.46 515.62 0)
 			(effects
 				(font
@@ -26077,31 +25698,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 632.46 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 631.19 518.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 631.825 512.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26139,7 +25741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PS/2"
+		(property "Value" "PS2 Connector"
 			(at 717.55 492.7776 90)
 			(effects
 				(font
@@ -26148,7 +25750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:PS2 Connector"
 			(at 711.2 491.49 0)
 			(effects
 				(font
@@ -26157,7 +25759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+		(property "Datasheet" ""
 			(at 711.2 491.49 0)
 			(effects
 				(font
@@ -26166,7 +25768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6-pin Mini-DIN connector"
+		(property "Description" ""
 			(at 711.2 491.49 0)
 			(effects
 				(font
@@ -26353,7 +25955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 289.56 146.0501 0)
 			(effects
 				(font
@@ -26362,7 +25964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 285.75 147.32 0)
 			(effects
 				(font
@@ -26380,31 +25982,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 285.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 284.48 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 285.115 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26451,7 +26034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 681.99 146.05 0)
 			(effects
 				(font
@@ -26469,31 +26052,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 681.99 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 680.72 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 681.355 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26538,7 +26102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse_395Series"
 			(at 130.81 405.13 0)
 			(effects
 				(font
@@ -26556,59 +26120,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "fuse"
+		(property "Description" ""
 			(at 130.81 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2"
-			(at 130.81 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 130.81 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "X"
-			(at 127.635 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 127.635 408.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 133.985 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26655,7 +26172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 514.35 425.45 0)
 			(effects
 				(font
@@ -26673,7 +26190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 514.35 425.45 0)
 			(effects
 				(font
@@ -26719,7 +26236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 259.08 146.0501 0)
 			(effects
 				(font
@@ -26728,7 +26245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -26746,31 +26263,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 255.27 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 254 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 254.635 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26814,7 +26312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 581.66 285.75 0)
 			(effects
 				(font
@@ -26832,31 +26330,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 581.66 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 578.485 288.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 584.835 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -26959,7 +26438,7 @@
 				)
 			)
 		)
-		(property "Value" "Dock Connector"
+		(property "Value" "25-1MP_P0.5mm_Horizontal"
 			(at 224.79 486.41 90)
 			(effects
 				(font
@@ -26967,7 +26446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:25-1MP_P0.5mm_Horizontal_PC110_dock"
 			(at 224.79 490.22 0)
 			(effects
 				(font
@@ -26985,7 +26464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 224.79 490.22 0)
 			(effects
 				(font
@@ -27106,7 +26585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 509.27 0)
 			(effects
 				(font
@@ -27124,31 +26603,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 83.82 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 82.55 506.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 83.185 512.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27195,7 +26655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 547.37 369.57 0)
 			(effects
 				(font
@@ -27213,7 +26673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 547.37 369.57 0)
 			(effects
 				(font
@@ -27267,7 +26727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 718.82 422.91 0)
 			(effects
 				(font
@@ -27285,7 +26745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 718.82 422.91 0)
 			(effects
 				(font
@@ -27340,7 +26800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 740.41 49.53 0)
 			(effects
 				(font
@@ -27358,31 +26818,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 740.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 737.235 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 742.95 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -27426,7 +26867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 537.21 123.19 0)
 			(effects
 				(font
@@ -27444,31 +26885,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 537.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 534.67 123.317 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 540.385 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27579,7 +27001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 217.17 119.38 0)
 			(effects
 				(font
@@ -27597,31 +27019,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 217.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 219.71 119.507 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 213.995 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27731,7 +27134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 234.95 0)
 			(effects
 				(font
@@ -27749,31 +27152,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 161.29 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 158.115 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 164.465 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -27818,7 +27202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 270.51 227.33 0)
 			(effects
 				(font
@@ -27836,31 +27220,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 270.51 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 267.335 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 273.685 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27898,7 +27263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "82pF"
 			(at 534.67 147.3199 0)
 			(effects
 				(font
@@ -27907,7 +27272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 530.86 146.05 0)
 			(effects
 				(font
@@ -27925,31 +27290,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 530.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 529.59 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 530.225 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -27996,7 +27342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 575.31 146.05 0)
 			(effects
 				(font
@@ -28014,31 +27360,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 575.31 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 574.04 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 574.675 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28083,7 +27410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -28101,31 +27428,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 128.905 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 122.555 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -28163,7 +27471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 243.84 146.0501 0)
 			(effects
 				(font
@@ -28172,7 +27480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 147.32 0)
 			(effects
 				(font
@@ -28190,31 +27498,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 240.03 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 238.76 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 239.395 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28306,7 +27595,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1d38d757-c45a-4a53-98ef-3195307be4c6")
 		(property "Reference" "C71"
@@ -28327,7 +27616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 375.92 384.81 0)
 			(effects
 				(font
@@ -28345,31 +27634,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 375.92 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 374.65 381.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 375.285 387.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28414,7 +27684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.06 389.89 0)
 			(effects
 				(font
@@ -28432,31 +27702,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 226.06 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 229.235 393.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 222.885 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -28567,7 +27818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.02 127 0)
 			(effects
 				(font
@@ -28585,31 +27836,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 287.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 290.195 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 283.845 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -28655,7 +27887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 487.045 62.23 90)
 			(effects
 				(font
@@ -28673,7 +27905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 494.03 62.23 0)
 			(effects
 				(font
@@ -28743,7 +27975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 676.91 500.38 0)
 			(effects
 				(font
@@ -28761,31 +27993,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 676.91 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 675.64 503.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 676.275 497.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28872,7 +28085,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 147.32 279.4 90)
+		(at 147.32 279.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28895,7 +28109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 147.32 279.4 0)
 			(effects
 				(font
@@ -28913,31 +28127,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 147.32 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 144.78 279.527 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 150.495 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28984,7 +28179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 753.11 49.53 0)
 			(effects
 				(font
@@ -29002,31 +28197,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 753.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 751.84 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 752.475 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29130,7 +28306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 167.64 146.0501 0)
 			(effects
 				(font
@@ -29139,7 +28315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 147.32 0)
 			(effects
 				(font
@@ -29157,31 +28333,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 163.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 162.56 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 163.195 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29225,7 +28382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 702.31 40.64 0)
 			(effects
 				(font
@@ -29243,31 +28400,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 702.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 699.77 40.767 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 705.485 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -29371,7 +28509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HCT244"
+		(property "Value" "74VHCT244"
 			(at 595.2333 383.54 0)
 			(effects
 				(font
@@ -29380,7 +28518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 			(at 593.09 401.32 0)
 			(effects
 				(font
@@ -29389,7 +28527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf"
+		(property "Datasheet" ""
 			(at 593.09 401.32 0)
 			(effects
 				(font
@@ -29398,7 +28536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Buffer/Line Driver 3-state"
+		(property "Description" ""
 			(at 593.09 401.32 0)
 			(effects
 				(font
@@ -29616,7 +28754,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "24cf04b3-34eb-4da7-b51e-c7b77f1c90a9")
 		(property "Reference" "R10"
 			(at 412.75 363.2201 0)
@@ -29636,7 +28774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 410.21 361.95 0)
 			(effects
 				(font
@@ -29654,31 +28792,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 410.21 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 407.035 365.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 412.75 358.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -29921,7 +29040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:EMI_Transformer"
 			(at 107.95 418.846 0)
 			(effects
 				(font
@@ -29939,7 +29058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EMI 2-inductor common mode filter"
+		(property "Description" ""
 			(at 107.95 417.83 0)
 			(effects
 				(font
@@ -29995,7 +29114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 293.37 132.08 0)
 			(effects
 				(font
@@ -30013,31 +29132,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 293.37 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 295.91 132.207 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 290.195 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30082,7 +29182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -30100,31 +29200,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 229.235 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 222.885 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -30162,7 +29243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 228.6 146.0501 0)
 			(effects
 				(font
@@ -30171,7 +29252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 147.32 0)
 			(effects
 				(font
@@ -30189,31 +29270,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 224.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 223.52 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 224.155 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30258,7 +29320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 533.4 0)
 			(effects
 				(font
@@ -30276,31 +29338,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 533.527 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 534.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30519,7 +29562,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 77.47 254 90)
+		(at 77.47 254 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30542,7 +29586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 77.47 254 0)
 			(effects
 				(font
@@ -30560,31 +29604,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 77.47 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 74.93 254.127 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 80.645 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -30629,7 +29654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 111.76 0)
 			(effects
 				(font
@@ -30647,31 +29672,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 220.345 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 213.995 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -30758,7 +29764,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 105.41 259.08 90)
+		(at 105.41 259.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30781,7 +29788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 259.08 0)
 			(effects
 				(font
@@ -30799,31 +29806,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 105.41 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 102.235 262.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 108.585 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -30869,7 +29857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 522.605 62.23 90)
 			(effects
 				(font
@@ -30887,7 +29875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 529.59 62.23 0)
 			(effects
 				(font
@@ -30957,7 +29945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 424.18 0)
 			(effects
 				(font
@@ -30975,31 +29963,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 148.59 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 147.32 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 147.955 427.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31020,7 +29989,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 91.44 259.08 90)
+		(at 91.44 259.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31043,7 +30013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 91.44 259.08 0)
 			(effects
 				(font
@@ -31061,31 +30031,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 91.44 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 88.9 259.207 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 94.615 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31130,7 +30081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -31148,31 +30099,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 140.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 144.145 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 137.795 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -31219,7 +30151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 697.23 146.05 0)
 			(effects
 				(font
@@ -31237,31 +30169,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 697.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 695.96 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 696.595 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31282,7 +30195,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 161.29 284.48 90)
+		(at 161.29 284.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31305,7 +30219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 161.29 284.48 0)
 			(effects
 				(font
@@ -31323,31 +30237,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 161.29 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 158.75 284.607 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 164.465 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31526,7 +30421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 588.01 313.69 0)
 			(effects
 				(font
@@ -31544,31 +30439,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 588.01 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 584.835 310.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 590.55 316.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -31615,7 +30491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 405.13 0)
 			(effects
 				(font
@@ -31633,31 +30509,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 201.93 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 198.755 408.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 204.47 401.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -31768,7 +30625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -31786,31 +30643,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 110.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 113.03 86.487 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 107.315 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -31837,7 +30675,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39fb1bc3-a633-4f12-bb31-6636d37331b9")
 		(property "Reference" "R43"
 			(at 340.36 432.562 90)
@@ -31855,7 +30693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.36 436.88 0)
 			(effects
 				(font
@@ -31873,31 +30711,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 340.36 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 343.535 440.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 337.185 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -32010,7 +30829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 601.98 514.35 0)
 			(effects
 				(font
@@ -32028,31 +30847,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 601.98 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 600.71 517.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 601.345 511.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -32098,7 +30898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 504.825 62.23 90)
 			(effects
 				(font
@@ -32116,7 +30916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 511.81 62.23 0)
 			(effects
 				(font
@@ -32375,7 +31175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 121.92 146.0501 0)
 			(effects
 				(font
@@ -32384,7 +31184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 147.32 0)
 			(effects
 				(font
@@ -32402,31 +31202,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 116.84 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 117.475 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -32470,7 +31251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 619.76 266.7 0)
 			(effects
 				(font
@@ -32488,31 +31269,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 619.76 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 616.585 269.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 622.935 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -32539,7 +31301,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "438f6930-980f-46e8-8275-b9e3c20b7de5")
 		(property "Reference" "C70"
 			(at 353.06 389.8901 0)
@@ -32559,7 +31321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 349.25 388.62 0)
 			(effects
 				(font
@@ -32577,31 +31339,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 349.25 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 347.98 391.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 348.615 385.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -32627,7 +31370,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "43d5668e-174b-42ac-8aa3-3af47d39bd82")
 		(property "Reference" "DA12"
@@ -32648,7 +31391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
 			(at 316.23 43.18 0)
 			(effects
 				(font
@@ -32666,7 +31409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 1"
+		(property "Description" ""
 			(at 316.23 41.91 0)
 			(effects
 				(font
@@ -32985,7 +31728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 509.27 0)
 			(effects
 				(font
@@ -33003,31 +31746,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 99.06 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 97.79 506.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 98.425 512.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -33071,7 +31795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 624.84 400.05 0)
 			(effects
 				(font
@@ -33089,31 +31813,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 624.84 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 621.665 403.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 628.015 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33158,7 +31863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 417.83 0)
 			(effects
 				(font
@@ -33176,31 +31881,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 173.99 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 170.815 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 177.165 415.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33226,7 +31912,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49d35bfe-b0d2-49ab-a1b4-5e680dfbb53f")
 		(property "Reference" "R51"
 			(at 554.99 243.586 90)
@@ -33244,7 +31930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 554.99 247.65 0)
 			(effects
 				(font
@@ -33262,31 +31948,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 554.99 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 551.815 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 558.165 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33313,7 +31980,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49fd6c0b-4b54-4ff4-9ac9-562030811d31")
 		(property "Reference" "R48"
 			(at 632.46 205.486 90)
@@ -33331,7 +31998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 632.46 209.55 0)
 			(effects
 				(font
@@ -33349,31 +32016,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 632.46 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 635.635 212.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 629.285 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33420,7 +32068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 758.19 146.05 0)
 			(effects
 				(font
@@ -33438,31 +32086,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 758.19 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 756.92 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 757.555 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -33509,7 +32138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 210.185 430.53 0)
 			(effects
 				(font
@@ -33518,7 +32147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+		(property "Datasheet" ""
 			(at 214.63 430.53 0)
 			(effects
 				(font
@@ -33527,7 +32156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mW Zener Diode, DO-35"
+		(property "Description" ""
 			(at 214.63 430.53 0)
 			(effects
 				(font
@@ -33757,7 +32386,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4e54c9b5-350f-40da-9610-5e3d8893d76d")
 		(property "Reference" "R44"
 			(at 645.16 199.136 90)
@@ -33775,7 +32404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 645.16 203.2 0)
 			(effects
 				(font
@@ -33793,31 +32422,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 645.16 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 648.335 206.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 641.985 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -33994,7 +32604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -34012,31 +32622,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 204.47 116.967 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 198.755 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34074,7 +32665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "280nF"
 			(at 492.76 144.7801 0)
 			(effects
 				(font
@@ -34083,7 +32674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 488.95 146.05 0)
 			(effects
 				(font
@@ -34101,31 +32692,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 488.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 487.68 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 488.315 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34163,7 +32735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5uF"
+		(property "Value" "2.5uF"
 			(at 728.98 48.2601 0)
 			(effects
 				(font
@@ -34172,7 +32744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 725.17 49.53 0)
 			(effects
 				(font
@@ -34190,31 +32762,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 725.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 723.9 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 724.535 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34259,7 +32812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 476.25 0)
 			(effects
 				(font
@@ -34277,31 +32830,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 476.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 476.377 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34348,7 +32882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 303.53 0)
 			(effects
 				(font
@@ -34366,31 +32900,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 153.67 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 152.4 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 153.035 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34434,7 +32949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 704.85 85.09 0)
 			(effects
 				(font
@@ -34452,31 +32967,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 704.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 702.31 85.217 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 708.025 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34523,7 +33019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 430.53 0)
 			(effects
 				(font
@@ -34541,31 +33037,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 227.33 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 224.155 433.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 229.87 427.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -34612,7 +33089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 648.97 414.02 0)
 			(effects
 				(font
@@ -34630,31 +33107,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 648.97 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 647.7 410.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 648.335 417.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34675,7 +33133,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 175.26 284.48 90)
+		(at 175.26 284.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34698,7 +33157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 284.48 0)
 			(effects
 				(font
@@ -34716,31 +33175,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 175.26 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 172.085 287.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 178.435 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -34784,7 +33224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 689.61 87.63 0)
 			(effects
 				(font
@@ -34802,31 +33242,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 689.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 687.07 87.757 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 692.785 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -34870,7 +33291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 720.09 82.55 0)
 			(effects
 				(font
@@ -34888,31 +33309,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 720.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 717.55 82.677 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 723.265 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35004,7 +33406,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5fdfd40a-5fb1-4ad7-8544-a4be576dbd5d")
 		(property "Reference" "U2"
 			(at 421.132 392.684 0)
@@ -35014,7 +33416,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "DNP (LT1237CS)"
 			(at 412.75 392.43 0)
 			(effects
 				(font
@@ -35022,7 +33424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
 			(at 412.75 412.75 0)
 			(effects
 				(font
@@ -35167,7 +33569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 594.36 279.4 0)
 			(effects
 				(font
@@ -35185,31 +33587,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 594.36 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 591.185 282.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 597.535 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -35253,7 +33636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 632.46 260.35 0)
 			(effects
 				(font
@@ -35271,31 +33654,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 632.46 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 629.285 263.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 635.635 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -35406,7 +33770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric"
 			(at 283.21 392.43 0)
 			(effects
 				(font
@@ -35424,7 +33788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 283.21 392.43 0)
 			(effects
 				(font
@@ -35473,7 +33837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 613.41 105.41 0)
 			(effects
 				(font
@@ -35491,31 +33855,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 613.41 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 610.87 105.537 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 616.585 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35625,7 +33970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 495.3 130.81 0)
 			(effects
 				(font
@@ -35643,31 +33988,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 495.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 492.76 130.937 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 498.475 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35780,7 +34106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 772.16 422.91 0)
 			(effects
 				(font
@@ -35798,7 +34124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 772.16 422.91 0)
 			(effects
 				(font
@@ -35851,7 +34177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -35869,31 +34195,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 95.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 97.79 81.407 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 92.075 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -35940,7 +34247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 560.07 146.05 0)
 			(effects
 				(font
@@ -35958,31 +34265,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 560.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 558.8 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 559.435 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36026,7 +34314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 209.55 0)
 			(effects
 				(font
@@ -36044,31 +34332,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 90.17 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 86.995 212.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 93.345 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -36113,7 +34382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 132.08 0)
 			(effects
 				(font
@@ -36131,31 +34400,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 317.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 320.675 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 314.325 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -36199,7 +34449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 240.03 0)
 			(effects
 				(font
@@ -36217,31 +34467,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 172.085 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 178.435 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -36288,7 +34519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.89 506.73 0)
 			(effects
 				(font
@@ -36306,31 +34537,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 262.89 506.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 259.715 503.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 265.43 509.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -36351,7 +34563,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 189.23 289.56 90)
+		(at 189.23 289.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36374,7 +34587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 289.56 0)
 			(effects
 				(font
@@ -36392,31 +34605,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 189.23 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 186.055 292.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 192.405 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -36442,7 +34636,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "710345da-a9db-42e3-ac68-b824a3320db5")
 		(property "Reference" "DA11"
@@ -36463,7 +34657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
 			(at 336.55 43.18 0)
 			(effects
 				(font
@@ -36481,7 +34675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 1"
+		(property "Description" ""
 			(at 336.55 41.91 0)
 			(effects
 				(font
@@ -36536,7 +34730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 544.83 146.05 0)
 			(effects
 				(font
@@ -36554,31 +34748,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 544.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 543.56 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 544.195 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36691,7 +34866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 621.03 146.05 0)
 			(effects
 				(font
@@ -36709,31 +34884,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 621.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 619.76 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 620.395 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36777,7 +34933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 598.17 110.49 0)
 			(effects
 				(font
@@ -36795,31 +34951,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 598.17 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 595.63 110.617 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 601.345 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36840,7 +34977,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 133.35 274.32 90)
+		(at 133.35 274.32 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36863,7 +35001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 133.35 274.32 0)
 			(effects
 				(font
@@ -36881,31 +35019,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 133.35 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 130.81 274.447 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 136.525 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -36949,7 +35068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 219.71 0)
 			(effects
 				(font
@@ -36967,31 +35086,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 118.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 114.935 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 121.285 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -37029,7 +35129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "82pF"
 			(at 520.7 147.3199 0)
 			(effects
 				(font
@@ -37038,7 +35138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 516.89 146.05 0)
 			(effects
 				(font
@@ -37056,31 +35156,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 516.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 515.62 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 516.255 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37127,7 +35208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.76 303.53 0)
 			(effects
 				(font
@@ -37145,31 +35226,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 111.76 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 110.49 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 111.125 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37196,7 +35258,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78667509-3346-42d8-a5a7-1b24d10984c6")
 		(property "Reference" "C72"
 			(at 476.25 391.1601 0)
@@ -37216,7 +35278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 472.44 389.89 0)
 			(effects
 				(font
@@ -37234,31 +35296,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 472.44 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 471.17 393.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 471.805 386.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37362,7 +35405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PS/2"
+		(property "Value" "PS2 Connector"
 			(at 717.55 523.2576 90)
 			(effects
 				(font
@@ -37371,7 +35414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:PS2 Connector"
 			(at 711.2 521.97 0)
 			(effects
 				(font
@@ -37380,7 +35423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+		(property "Datasheet" ""
 			(at 711.2 521.97 0)
 			(effects
 				(font
@@ -37389,7 +35432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6-pin Mini-DIN connector"
+		(property "Description" ""
 			(at 711.2 521.97 0)
 			(effects
 				(font
@@ -37451,7 +35494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 539.75 0)
 			(effects
 				(font
@@ -37469,31 +35512,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 539.877 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 541.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37606,7 +35630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 664.21 500.38 0)
 			(effects
 				(font
@@ -37624,31 +35648,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 664.21 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 662.94 503.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 663.575 497.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37759,7 +35764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 186.69 111.76 0)
 			(effects
 				(font
@@ -37777,31 +35782,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 186.69 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 189.23 111.887 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 183.515 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -37980,7 +35966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 546.1 425.45 0)
 			(effects
 				(font
@@ -37998,7 +35984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 546.1 425.45 0)
 			(effects
 				(font
@@ -38050,7 +36036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 735.33 80.01 0)
 			(effects
 				(font
@@ -38068,31 +36054,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 735.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 732.79 80.137 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 738.505 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -38269,7 +36236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 308.61 134.62 0)
 			(effects
 				(font
@@ -38287,31 +36254,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 308.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 311.15 134.747 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 305.435 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -38349,7 +36297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3PJ4"
+		(property "Value" "3P4J"
 			(at 138.43 415.5439 0)
 			(effects
 				(font
@@ -38358,7 +36306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 142.24 412.75 0)
 			(effects
 				(font
@@ -38376,50 +36324,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "thyristor, P-gate (cathode-side controlled); silicon/semiconductor controlled rectifier (SCR)"
+		(property "Description" ""
 			(at 142.24 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=1 3=2 1=3"
-			(at 139.7 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 142.24 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"\" model=\"X\" lib=\"semiconductor.lib\""
-			(at 142.24 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V/A"
-			(at 142.875 409.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -38579,7 +36489,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "80ba8b7a-17ff-408b-9e1d-cda9abf079de")
 		(property "Reference" "C73"
@@ -38600,7 +36510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 457.2 384.81 0)
 			(effects
 				(font
@@ -38618,31 +36528,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 457.2 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 455.93 381.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 456.565 387.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -38752,7 +36643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 509.27 128.27 0)
 			(effects
 				(font
@@ -38770,31 +36661,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 509.27 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 506.73 128.397 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 512.445 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -38839,7 +36711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric"
 			(at 283.21 405.13 0)
 			(effects
 				(font
@@ -38857,7 +36729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 283.21 405.13 0)
 			(effects
 				(font
@@ -38907,7 +36779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 278.13 129.54 0)
 			(effects
 				(font
@@ -38925,31 +36797,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 278.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 280.67 129.667 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 274.955 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -39062,7 +36915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.89 542.29 0)
 			(effects
 				(font
@@ -39080,31 +36933,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 262.89 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 259.715 539.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 265.43 545.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -39141,7 +36975,7 @@
 				)
 			)
 		)
-		(property "Value" "Dock Connector"
+		(property "Value" "25-1MP_P0.5mm_Horizontal"
 			(at 158.75 486.41 90)
 			(effects
 				(font
@@ -39149,7 +36983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:25-1MP_P0.5mm_Horizontal_PC110_dock"
 			(at 158.75 490.22 0)
 			(effects
 				(font
@@ -39167,7 +37001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 158.75 490.22 0)
 			(effects
 				(font
@@ -39278,7 +37112,7 @@
 				)
 			)
 		)
-		(property "Value" "Serial Port"
+		(property "Value" "DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 49.53 269.24 0)
 			(effects
 				(font
@@ -39286,7 +37120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 49.53 284.48 0)
 			(effects
 				(font
@@ -39304,7 +37138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9-pin D-SUB connector, socket (female)"
+		(property "Description" ""
 			(at 49.53 284.48 0)
 			(effects
 				(font
@@ -39357,7 +37191,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "86570635-8b2f-4fd6-bcc3-af800c43c1bc")
 		(property "Reference" "R49"
 			(at 607.06 218.186 90)
@@ -39375,7 +37209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 607.06 222.25 0)
 			(effects
 				(font
@@ -39393,31 +37227,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 607.06 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 610.235 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 603.885 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -39462,7 +37277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 271.78 124.46 0)
 			(effects
 				(font
@@ -39480,31 +37295,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 271.78 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 274.955 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 268.605 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -39548,7 +37344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 552.45 120.65 0)
 			(effects
 				(font
@@ -39566,31 +37362,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 552.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 549.91 120.777 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 555.625 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -39612,15 +37389,15 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 167.64 303.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8942aefb-66c2-40de-b58e-e76dda46dc36")
 		(property "Reference" "C42"
-			(at 171.45 302.2599 0)
+			(at 171.45 304.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39629,7 +37406,7 @@
 			)
 		)
 		(property "Value" "200pF"
-			(at 171.45 304.7999 0)
+			(at 171.45 302.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39637,7 +37414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 303.53 0)
 			(effects
 				(font
@@ -39655,31 +37432,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 167.64 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 166.37 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 167.005 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -39724,7 +37482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 241.3 119.38 0)
 			(effects
 				(font
@@ -39742,31 +37500,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 244.475 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 238.125 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -39810,7 +37549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 582.93 115.57 0)
 			(effects
 				(font
@@ -39828,31 +37567,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 582.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 580.39 115.697 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 586.105 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -39898,7 +37618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 753.11 422.91 0)
 			(effects
 				(font
@@ -39916,7 +37636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 753.11 422.91 0)
 			(effects
 				(font
@@ -39971,7 +37691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.46 417.83 0)
 			(effects
 				(font
@@ -39989,31 +37709,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 124.46 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 123.19 414.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 123.825 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40039,7 +37740,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f5f9630-a37a-4bce-bbfb-e98eadce69b2")
 		(property "Reference" "C74"
@@ -40060,7 +37761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 443.23 384.81 0)
 			(effects
 				(font
@@ -40078,31 +37779,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 443.23 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 441.96 381.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 442.595 387.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40128,7 +37810,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8fe4fa0a-99ea-4df6-a098-fb3b12ed470e")
 		(property "Reference" "DA9"
@@ -40140,7 +37822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1W"
+		(property "Value" "SOT-323_SC-70"
 			(at 497.84 426.7199 90)
 			(effects
 				(font
@@ -40149,7 +37831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 500.38 425.45 0)
 			(effects
 				(font
@@ -40167,7 +37849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 500.38 425.45 0)
 			(effects
 				(font
@@ -40201,7 +37883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9054c333-15c7-4694-88ca-5260c721658a")
 		(property "Reference" "C69"
@@ -40222,7 +37904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 363.22 384.81 0)
 			(effects
 				(font
@@ -40240,31 +37922,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 363.22 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 361.95 381.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 362.585 387.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40309,7 +37972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 624.84 394.97 0)
 			(effects
 				(font
@@ -40327,31 +37990,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 624.84 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 621.665 391.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 628.015 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -40398,7 +38042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 279.4 210.82 0)
 			(effects
 				(font
@@ -40416,31 +38060,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 279.4 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 278.13 207.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 278.765 213.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40467,7 +38092,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "940a7da1-5b76-45f3-9d6e-4a458b44e480")
 		(property "Reference" "R45"
 			(at 619.76 211.836 90)
@@ -40485,7 +38110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 619.76 215.9 0)
 			(effects
 				(font
@@ -40503,31 +38128,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 619.76 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 622.935 219.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 616.585 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -40572,7 +38178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -40590,31 +38196,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 158.75 101.727 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 153.035 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40727,7 +38314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 417.83 0)
 			(effects
 				(font
@@ -40745,31 +38332,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 227.33 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 224.155 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 229.87 414.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -40813,7 +38381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 481.33 133.35 0)
 			(effects
 				(font
@@ -40831,31 +38399,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 481.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 478.79 133.477 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 484.505 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -40968,7 +38517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 670.56 547.37 0)
 			(effects
 				(font
@@ -40986,31 +38535,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 670.56 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 669.29 550.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 669.925 544.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41057,7 +38587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:FDC_Connector"
 			(at 775.97 100.33 0)
 			(effects
 				(font
@@ -41075,7 +38605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 775.97 100.33 0)
 			(effects
 				(font
@@ -41197,7 +38727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 232.41 121.92 0)
 			(effects
 				(font
@@ -41215,31 +38745,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 232.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 234.95 122.047 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 229.235 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41286,7 +38797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 632.46 500.38 0)
 			(effects
 				(font
@@ -41304,31 +38815,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 632.46 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 631.19 497.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 631.825 503.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41375,7 +38867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 621.03 373.38 0)
 			(effects
 				(font
@@ -41393,31 +38885,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 621.03 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 619.76 376.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 620.395 370.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41464,7 +38937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 675.64 50.8 0)
 			(effects
 				(font
@@ -41482,31 +38955,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 675.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 674.37 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 675.005 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41551,7 +39005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -41569,31 +39023,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 156.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 159.385 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 153.035 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -41631,7 +39066,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "280nF"
+		(property "Value" "82pF"
 			(at 609.6 147.3199 0)
 			(effects
 				(font
@@ -41640,7 +39075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 605.79 146.05 0)
 			(effects
 				(font
@@ -41658,31 +39093,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 605.79 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 604.52 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 605.155 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -41901,7 +39317,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 119.38 269.24 90)
+		(at 119.38 269.24 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41924,7 +39341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 119.38 269.24 0)
 			(effects
 				(font
@@ -41942,31 +39359,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 119.38 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 116.84 269.367 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 122.555 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -42076,7 +39474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 214.63 0)
 			(effects
 				(font
@@ -42094,31 +39492,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 104.14 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 100.965 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 107.315 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -42165,7 +39544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 510.54 441.96 0)
 			(effects
 				(font
@@ -42183,31 +39562,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 510.54 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 507.365 445.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 513.08 438.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -42254,7 +39614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 180.34 0)
 			(effects
 				(font
@@ -42272,31 +39632,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 332.74 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 329.565 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 335.28 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -42340,7 +39681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 229.87 0)
 			(effects
 				(font
@@ -42358,31 +39699,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 146.05 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 142.875 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 149.225 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -42427,7 +39749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 140.97 96.52 0)
 			(effects
 				(font
@@ -42445,31 +39767,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 143.51 96.647 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 137.795 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -42515,7 +39818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 736.6 422.91 0)
 			(effects
 				(font
@@ -42533,7 +39836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 736.6 422.91 0)
 			(effects
 				(font
@@ -42577,7 +39880,7 @@
 				)
 			)
 		)
-		(property "Value" "300nH"
+		(property "Value" "680nH"
 			(at 637.54 398.272 90)
 			(effects
 				(font
@@ -42585,7 +39888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 637.54 400.05 0)
 			(effects
 				(font
@@ -42603,31 +39906,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 637.54 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 635 400.177 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 640.715 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -42648,7 +39932,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 147.32 274.32 90)
+		(at 147.32 274.32 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42671,7 +39956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 147.32 274.32 0)
 			(effects
 				(font
@@ -42689,31 +39974,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 147.32 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 144.145 277.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 150.495 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -42757,7 +40023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 523.24 125.73 0)
 			(effects
 				(font
@@ -42775,31 +40041,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 523.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 520.7 125.857 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 526.415 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -42846,7 +40093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 322.58 196.85 0)
 			(effects
 				(font
@@ -42864,31 +40111,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 321.31 200.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 321.945 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -42926,7 +40154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 91.44 146.0501 0)
 			(effects
 				(font
@@ -42935,7 +40163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 147.32 0)
 			(effects
 				(font
@@ -42953,31 +40181,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 86.36 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 86.995 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43021,7 +40230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 674.37 90.17 0)
 			(effects
 				(font
@@ -43039,31 +40248,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 674.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 671.83 90.297 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 677.545 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43101,7 +40291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "82pF"
 			(at 506.73 147.3199 0)
 			(effects
 				(font
@@ -43110,7 +40300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 502.92 146.05 0)
 			(effects
 				(font
@@ -43128,31 +40318,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 502.92 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 501.65 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 502.285 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43197,7 +40368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 121.92 0)
 			(effects
 				(font
@@ -43215,31 +40386,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 256.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 259.715 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 253.365 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -43275,7 +40427,7 @@
 				)
 			)
 		)
-		(property "Value" "300nH"
+		(property "Value" "680nH"
 			(at 648.97 393.192 90)
 			(effects
 				(font
@@ -43283,7 +40435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 648.97 394.97 0)
 			(effects
 				(font
@@ -43301,31 +40453,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 648.97 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 646.43 395.097 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 652.145 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43372,7 +40505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 651.51 146.05 0)
 			(effects
 				(font
@@ -43390,31 +40523,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 651.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 650.24 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 650.875 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43461,7 +40575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 303.53 0)
 			(effects
 				(font
@@ -43479,31 +40593,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 139.7 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 138.43 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 139.065 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43616,7 +40711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 608.33 373.38 0)
 			(effects
 				(font
@@ -43634,31 +40729,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 608.33 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 607.06 376.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 607.695 370.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43705,7 +40781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 688.34 50.8 0)
 			(effects
 				(font
@@ -43723,31 +40799,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 688.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 687.07 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 687.705 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43924,7 +40981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 562.61 392.43 0)
 			(effects
 				(font
@@ -43942,31 +40999,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 562.61 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 559.435 389.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 565.785 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44010,7 +41048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 645.16 254 0)
 			(effects
 				(font
@@ -44028,31 +41066,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 645.16 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 641.985 257.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 648.335 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44096,7 +41115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 750.57 102.87 0)
 			(effects
 				(font
@@ -44114,31 +41133,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 750.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 748.03 102.997 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 753.745 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -44175,7 +41175,7 @@
 				)
 			)
 		)
-		(property "Value" "Dock Connector"
+		(property "Value" "25-1MP_P0.5mm_Horizontal"
 			(at 158.75 521.97 90)
 			(effects
 				(font
@@ -44183,7 +41183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:25-1MP_P0.5mm_Horizontal_PC110_dock"
 			(at 158.75 525.78 0)
 			(effects
 				(font
@@ -44201,7 +41201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 158.75 525.78 0)
 			(effects
 				(font
@@ -44434,7 +41434,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b5d946bc-59d1-4322-b3dc-b7d650168cf2")
 		(property "Reference" "R50"
 			(at 581.66 230.886 90)
@@ -44452,7 +41452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 581.66 234.95 0)
 			(effects
 				(font
@@ -44470,31 +41470,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 581.66 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 584.835 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 578.485 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44604,7 +41585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 245.11 0)
 			(effects
 				(font
@@ -44622,31 +41603,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 189.23 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 186.055 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 192.405 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44690,7 +41652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 568.96 292.1 0)
 			(effects
 				(font
@@ -44708,31 +41670,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 568.96 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 565.785 295.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 572.135 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44769,7 +41712,7 @@
 				)
 			)
 		)
-		(property "Value" "VGA"
+		(property "Value" "DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
 			(at 687.07 374.65 0)
 			(effects
 				(font
@@ -44777,7 +41720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
 			(at 711.2 402.59 0)
 			(effects
 				(font
@@ -44795,7 +41738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15-pin male plug socket D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector"
+		(property "Description" ""
 			(at 687.07 392.43 0)
 			(effects
 				(font
@@ -44866,7 +41809,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8bfe77e-1750-42dd-9f90-848b7e29a45d")
 		(property "Reference" "R46"
 			(at 594.36 224.536 90)
@@ -44884,7 +41827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 594.36 228.6 0)
 			(effects
 				(font
@@ -44902,31 +41845,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 594.36 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 597.535 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 591.185 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44971,7 +41895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -44989,31 +41913,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 90.17 76.327 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 84.455 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -45105,7 +42010,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bb33a3f6-ca8a-4757-99de-3714b5776448")
 		(property "Reference" "RA7"
 			(at 309.88 63.5001 0)
@@ -45125,7 +42030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 307.975 62.23 90)
 			(effects
 				(font
@@ -45143,7 +42048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 314.96 62.23 0)
 			(effects
 				(font
@@ -45187,7 +42092,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 91.44 254 90)
+		(at 91.44 254 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45210,7 +42116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.44 254 0)
 			(effects
 				(font
@@ -45228,31 +42134,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 91.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 88.265 257.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 94.615 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45297,7 +42184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 562.61 402.59 0)
 			(effects
 				(font
@@ -45315,31 +42202,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 562.61 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 559.435 399.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 565.785 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45360,7 +42228,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 119.38 264.16 90)
+		(at 119.38 264.16 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45383,7 +42252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 264.16 0)
 			(effects
 				(font
@@ -45401,31 +42270,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 119.38 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 116.205 267.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 122.555 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45446,7 +42296,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:L")
-		(at 175.26 289.56 90)
+		(at 175.26 289.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45469,7 +42320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 175.26 289.56 0)
 			(effects
 				(font
@@ -45487,31 +42338,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 175.26 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 172.72 289.687 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 178.435 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -45537,7 +42369,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bde7dfa6-65ad-4946-b136-e96fe2cb6472")
 		(property "Reference" "R42"
@@ -45558,7 +42390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 403.86 0)
 			(effects
 				(font
@@ -45576,31 +42408,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 328.93 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 325.755 400.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 331.47 407.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45693,7 +42506,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bef55720-6ac4-4bed-aff5-c3773ca0e814")
 		(property "Reference" "R47"
 			(at 568.96 237.236 90)
@@ -45711,7 +42524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 568.96 241.3 0)
 			(effects
 				(font
@@ -45729,31 +42542,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 568.96 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 572.135 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 565.785 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45846,7 +42640,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c0c92e58-b7d8-4273-857a-3f3629bc1505")
 		(property "Reference" "R40"
 			(at 349.25 181.6101 0)
@@ -45866,7 +42660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 346.71 180.34 0)
 			(effects
 				(font
@@ -45884,31 +42678,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 346.71 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 343.535 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 349.25 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45954,7 +42729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 469.265 62.23 90)
 			(effects
 				(font
@@ -45972,7 +42747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 476.25 62.23 0)
 			(effects
 				(font
@@ -46021,7 +42796,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c287b7b1-c1fd-462d-895c-9fff1a494a1d")
 		(property "Reference" "U4"
 			(at 365.252 429.514 0)
@@ -46039,7 +42814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 364.49 436.88 0)
 			(effects
 				(font
@@ -46048,7 +42823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+		(property "Datasheet" ""
 			(at 364.49 443.23 0)
 			(effects
 				(font
@@ -46058,7 +42833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 364.49 436.88 0)
 			(effects
 				(font
@@ -46117,7 +42892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 523.24 0)
 			(effects
 				(font
@@ -46135,31 +42910,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 523.367 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 524.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -46263,7 +43019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 76.2 146.0501 0)
 			(effects
 				(font
@@ -46272,7 +43028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 147.32 0)
 			(effects
 				(font
@@ -46290,31 +43046,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 72.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 71.12 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 71.755 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -46493,7 +43230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 662.94 414.02 0)
 			(effects
 				(font
@@ -46511,31 +43248,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 662.94 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 661.67 410.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 662.305 417.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -46556,7 +43274,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 161.29 279.4 90)
+		(at 161.29 279.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46579,7 +43298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 279.4 0)
 			(effects
 				(font
@@ -46597,31 +43316,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 161.29 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 158.115 282.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 164.465 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -46731,7 +43431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 224.79 0)
 			(effects
 				(font
@@ -46749,31 +43449,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 132.08 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 128.905 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 135.255 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -46820,7 +43501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 246.38 421.64 0)
 			(effects
 				(font
@@ -46838,7 +43519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, generic symbol, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 241.3 424.18 0)
 			(effects
 				(font
@@ -46884,7 +43565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 182.88 146.0501 0)
 			(effects
 				(font
@@ -46893,7 +43574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 147.32 0)
 			(effects
 				(font
@@ -46911,31 +43592,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 179.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 177.8 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 178.435 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -46982,7 +43644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 303.53 0)
 			(effects
 				(font
@@ -47000,31 +43662,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 125.73 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 124.46 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 125.095 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47069,7 +43712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -47087,31 +43730,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 171.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 174.625 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 168.275 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -47137,7 +43761,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cc59842c-f5ad-4fd6-9763-d7e58b5d55aa")
 		(property "Reference" "RA8"
 			(at 330.2 63.5001 0)
@@ -47157,7 +43781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 328.295 62.23 90)
 			(effects
 				(font
@@ -47175,7 +43799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 335.28 62.23 0)
 			(effects
 				(font
@@ -47243,7 +43867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 628.65 100.33 0)
 			(effects
 				(font
@@ -47261,31 +43885,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 628.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 631.19 100.457 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 625.475 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47323,7 +43928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 137.16 146.0501 0)
 			(effects
 				(font
@@ -47332,7 +43937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -47350,31 +43955,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 133.35 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 132.08 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 132.715 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47418,7 +44004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 659.13 95.25 0)
 			(effects
 				(font
@@ -47436,31 +44022,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 659.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 656.59 95.377 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 662.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47564,7 +44131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82pF"
+		(property "Value" "280nF"
 			(at 746.76 144.7801 0)
 			(effects
 				(font
@@ -47573,7 +44140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 742.95 146.05 0)
 			(effects
 				(font
@@ -47591,31 +44158,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 742.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 741.68 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 742.315 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47660,7 +44208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 247.65 124.46 0)
 			(effects
 				(font
@@ -47678,31 +44226,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 247.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 250.19 124.587 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 244.475 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -47749,7 +44278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.83 424.18 0)
 			(effects
 				(font
@@ -47767,31 +44296,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 163.83 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 160.655 427.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 166.37 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -47968,7 +44478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -47986,31 +44496,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 205.105 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 198.755 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -48055,7 +44546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 335.28 219.71 0)
 			(effects
 				(font
@@ -48073,31 +44564,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 335.28 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 332.105 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 338.455 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -48144,7 +44616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.33 405.13 0)
 			(effects
 				(font
@@ -48162,31 +44634,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 227.33 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 224.155 408.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 229.87 401.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -48230,7 +44683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 567.69 118.11 0)
 			(effects
 				(font
@@ -48248,31 +44701,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 567.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 565.15 118.237 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 570.865 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -48317,7 +44751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 243.84 0)
 			(effects
 				(font
@@ -48335,31 +44769,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 335.28 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 338.455 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 332.105 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -48470,7 +44885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 492.76 0)
 			(effects
 				(font
@@ -48488,31 +44903,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 492.887 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -48557,7 +44953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:BarrelJack_Horizontal_PC110"
 			(at 66.04 418.846 0)
 			(effects
 				(font
@@ -48575,7 +44971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Barrel Jack"
+		(property "Description" ""
 			(at 64.77 417.83 0)
 			(effects
 				(font
@@ -48691,7 +45087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 323.85 137.16 0)
 			(effects
 				(font
@@ -48709,31 +45105,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 323.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 326.39 137.287 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 320.675 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -48780,7 +45157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 684.53 547.37 0)
 			(effects
 				(font
@@ -48798,31 +45175,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 684.53 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 683.26 550.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 683.895 544.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -48926,7 +45284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 106.68 146.0501 0)
 			(effects
 				(font
@@ -48935,7 +45293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -48953,31 +45311,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 102.87 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 101.6 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 102.235 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -49014,7 +45353,7 @@
 				)
 			)
 		)
-		(property "Value" "LPT"
+		(property "Value" "DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -49022,7 +45361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
 			(at 57.15 106.68 0)
 			(effects
 				(font
@@ -49040,7 +45379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25-pin D-SUB connector, socket (female)"
+		(property "Description" ""
 			(at 57.15 106.68 0)
 			(effects
 				(font
@@ -49161,7 +45500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 666.75 146.05 0)
 			(effects
 				(font
@@ -49179,31 +45518,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 666.75 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 665.48 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 666.115 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -49247,7 +45567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 643.89 97.79 0)
 			(effects
 				(font
@@ -49265,31 +45585,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 643.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 641.35 97.917 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 647.065 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -49334,7 +45635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -49352,31 +45653,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 171.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 173.99 106.807 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 168.275 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -49413,7 +45695,7 @@
 				)
 			)
 		)
-		(property "Value" "Dock Connector"
+		(property "Value" "25-1MP_P0.5mm_Horizontal"
 			(at 224.79 521.97 90)
 			(effects
 				(font
@@ -49421,7 +45703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DockingStation:25-1MP_P0.5mm_Horizontal_PC110_dock"
 			(at 224.79 525.78 0)
 			(effects
 				(font
@@ -49439,7 +45721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 224.79 525.78 0)
 			(effects
 				(font
@@ -49692,7 +45974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 712.47 146.05 0)
 			(effects
 				(font
@@ -49710,31 +45992,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 712.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 711.2 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 711.835 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -49903,7 +46166,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fuse_2010_5025Metric"
 			(at 130.81 388.62 90)
 			(effects
 				(font
@@ -49911,7 +46174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_2010_5025Metric"
 			(at 130.81 392.43 0)
 			(effects
 				(font
@@ -49929,59 +46192,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "fuse"
+		(property "Description" ""
 			(at 130.81 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2"
-			(at 130.81 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 130.81 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "X"
-			(at 127.635 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 127.635 395.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 133.985 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50007,7 +46223,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e869c907-bb06-425f-96e6-d8c4a529aa06")
 		(property "Reference" "C68"
@@ -50028,7 +46244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 410.21 377.19 0)
 			(effects
 				(font
@@ -50046,31 +46262,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 410.21 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 408.94 374.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 409.575 380.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50108,7 +46305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 198.12 146.0501 0)
 			(effects
 				(font
@@ -50117,7 +46314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 147.32 0)
 			(effects
 				(font
@@ -50135,31 +46332,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 194.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 193.04 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 193.675 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50206,7 +46384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 590.55 146.05 0)
 			(effects
 				(font
@@ -50224,31 +46402,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 590.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 589.28 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 589.915 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50286,7 +46445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 274.32 146.0501 0)
 			(effects
 				(font
@@ -50295,7 +46454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.51 147.32 0)
 			(effects
 				(font
@@ -50313,31 +46472,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 270.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 269.24 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 269.875 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50382,7 +46522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 137.16 0)
 			(effects
 				(font
@@ -50400,31 +46540,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 347.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 351.155 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 344.805 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -50468,7 +46589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -50486,31 +46607,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 183.515 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 189.865 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -50548,7 +46650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200pF"
+		(property "Value" "200nF"
 			(at 152.4 146.0501 0)
 			(effects
 				(font
@@ -50557,7 +46659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 147.32 0)
 			(effects
 				(font
@@ -50575,31 +46677,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 148.59 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 147.32 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 147.955 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50646,7 +46729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 303.53 0)
 			(effects
 				(font
@@ -50664,31 +46747,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 83.82 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 82.55 300.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 83.185 306.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -50929,7 +46993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 713.74 394.97 0)
 			(effects
 				(font
@@ -50947,31 +47011,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 713.74 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 711.2 395.097 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 716.915 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -51016,7 +47061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 556.26 298.45 0)
 			(effects
 				(font
@@ -51034,31 +47079,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 556.26 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 559.435 301.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 553.085 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -51079,7 +47105,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 133.35 269.24 90)
+		(at 133.35 269.24 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51102,7 +47129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 269.24 0)
 			(effects
 				(font
@@ -51120,31 +47147,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 133.35 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 130.175 272.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 136.525 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -51191,7 +47199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 178.435 411.48 0)
 			(effects
 				(font
@@ -51200,7 +47208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+		(property "Datasheet" ""
 			(at 182.88 411.48 0)
 			(effects
 				(font
@@ -51209,7 +47217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mW Zener Diode, DO-35"
+		(property "Description" ""
 			(at 182.88 411.48 0)
 			(effects
 				(font
@@ -51260,7 +47268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 540.385 62.23 90)
 			(effects
 				(font
@@ -51278,7 +47286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 547.37 62.23 0)
 			(effects
 				(font
@@ -51346,7 +47354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 645.16 482.6 0)
 			(effects
 				(font
@@ -51364,31 +47372,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
+		(property "Description" ""
 			(at 645.16 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 647.7 482.727 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 641.985 483.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -51497,7 +47486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 607.06 273.05 0)
 			(effects
 				(font
@@ -51515,31 +47504,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "resistor"
+		(property "Description" ""
 			(at 607.06 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 603.885 276.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 610.235 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -51586,7 +47556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 417.83 0)
 			(effects
 				(font
@@ -51604,31 +47574,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 87.63 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 86.36 421.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 86.995 414.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -51741,7 +47692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 528.32 425.45 0)
 			(effects
 				(font
@@ -51759,7 +47710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" ""
 			(at 528.32 425.45 0)
 			(effects
 				(font
@@ -51880,7 +47831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 727.71 146.05 0)
 			(effects
 				(font
@@ -51898,31 +47849,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 727.71 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 726.44 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 727.075 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -51960,7 +47892,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "82pF"
 			(at 640.08 147.3199 0)
 			(effects
 				(font
@@ -51969,7 +47901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 636.27 146.05 0)
 			(effects
 				(font
@@ -51987,31 +47919,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 636.27 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 635 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 635.635 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -52122,7 +48035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 335.28 234.95 0)
 			(effects
 				(font
@@ -52140,31 +48053,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" ""
 			(at 335.28 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 332.105 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 338.455 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
