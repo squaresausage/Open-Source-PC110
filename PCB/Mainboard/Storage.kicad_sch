@@ -7422,6 +7422,16 @@
 		)
 		(uuid "63812e03-52e0-4799-8595-f8c63ea54b98")
 	)
+	(text "YellowWire5"
+		(exclude_from_sim no)
+		(at 471.932 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d24b098-3488-43fc-9ddb-7079b6bbc8fc")
+	)
 	(text "Device_Data_BUS"
 		(exclude_from_sim no)
 		(at 33.782 127.254 0)
@@ -7432,6 +7442,16 @@
 		)
 		(uuid "860e1d7f-79c3-4b47-8818-47b284b79206")
 	)
+	(text "YellowWire4"
+		(exclude_from_sim no)
+		(at 464.566 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c43d5ddf-f770-4db4-bad2-a958fc0c6592")
+	)
 	(text "Device_Address_BUS"
 		(exclude_from_sim no)
 		(at 35.052 187.198 0)
@@ -7441,6 +7461,16 @@
 			)
 		)
 		(uuid "c70d0fde-a246-464b-be62-94ddef3f0718")
+	)
+	(text "Schtokey diode between YellowWire4 (Anode) and YwlloWire5 (Cathode)"
+		(exclude_from_sim no)
+		(at 498.348 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da9273d6-f00b-4f3e-8af2-3083d2299610")
 	)
 	(junction
 		(at 114.3 358.14)
@@ -7767,6 +7797,12 @@
 		(uuid "9dd5ac19-15e8-4dfb-af5e-c6125d3368b9")
 	)
 	(junction
+		(at 449.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0344654-9ab4-40df-8923-e8010fbf0836")
+	)
+	(junction
 		(at 431.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7813,6 +7849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74af6a3-88fe-4c06-99b6-b6a9b441f70f")
+	)
+	(junction
+		(at 461.01 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90409a4-a520-4f40-b25b-b345e0e05056")
 	)
 	(junction
 		(at 158.75 139.7)
@@ -8037,6 +8079,14 @@
 	(no_connect
 		(at 248.92 327.66)
 		(uuid "69558523-c5f7-47ee-a035-8c7630dc0f45")
+	)
+	(no_connect
+		(at 471.17 99.06)
+		(uuid "706ee5e5-c6fe-4abb-825a-652f6355f931")
+	)
+	(no_connect
+		(at 478.79 113.03)
+		(uuid "a5f948a0-dde1-4f60-88a7-9130e66380a5")
 	)
 	(no_connect
 		(at 334.01 127)
@@ -11424,6 +11474,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 113.03) (xy 478.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f65fec3-cadc-43d8-af43-09e0e5feaa95")
+	)
+	(wire
+		(pts
 			(xy 125.73 279.4) (xy 135.89 279.4)
 		)
 		(stroke
@@ -12381,6 +12441,16 @@
 			(type default)
 		)
 		(uuid "a7307daf-b317-4c7d-ab11-09c9971fd600")
+	)
+	(wire
+		(pts
+			(xy 449.58 99.06) (xy 471.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c41d1f-9f27-40f0-be27-93d6134911e0")
 	)
 	(bus
 		(pts
@@ -14071,6 +14141,16 @@
 			(type default)
 		)
 		(uuid "f5e4069c-fe0f-4f8d-9f49-05a4095aa47d")
+	)
+	(wire
+		(pts
+			(xy 461.01 120.65) (xy 461.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5faaf5a-eaaf-4196-94cd-c0bdaa54ff68")
 	)
 	(wire
 		(pts
