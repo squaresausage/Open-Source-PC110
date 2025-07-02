@@ -7520,7 +7520,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7538,7 +7538,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9221,6 +9221,12 @@
 		(uuid "10608013-69a2-4346-b816-33c5264a36d8")
 	)
 	(junction
+		(at 386.08 283.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e2f824-2f2a-4529-8144-6838904714ea")
+	)
+	(junction
 		(at 674.37 391.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9771,6 +9777,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e78ae988-f224-469b-a69e-79dffdef58fb")
+	)
+	(junction
+		(at 388.62 283.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9eca1b4-406d-45cb-bd74-9467fb9d3412")
 	)
 	(junction
 		(at 293.37 114.3)
@@ -14856,6 +14868,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 283.21) (xy 388.62 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c66a15-ffe0-4980-8bd9-be85bd913639")
+	)
+	(wire
+		(pts
 			(xy 233.68 316.23) (xy 223.52 316.23)
 		)
 		(stroke
@@ -15086,7 +15108,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 283.21) (xy 403.86 283.21)
+			(xy 407.67 283.21) (xy 403.86 283.21)
 		)
 		(stroke
 			(width 0)
@@ -15483,16 +15505,6 @@
 			(justify left bottom)
 		)
 		(uuid "3519e710-5431-42ee-993d-70c8c66f2a1b")
-	)
-	(label "J13_53"
-		(at 414.02 283.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a557feb-43df-42ea-8b94-440b6e84dfb9")
 	)
 	(label "FDC_PD2"
 		(at 331.47 307.34 0)
@@ -16506,6 +16518,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Dock_PWR_IN-"
+		(shape input)
+		(at 407.67 283.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75cfdd56-1d01-4db9-b035-7fc0b9dcec55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 424.6252 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23627,7 +23661,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63da2652-29b2-45ee-bf79-39415acb851b")
 		(property "Reference" "D55"
 			(at 392.43 276.8599 90)
@@ -25780,6 +25813,7 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 468.63 165.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25787,7 +25821,7 @@
 		(dnp yes)
 		(uuid "8e507f7d-d188-4936-b92d-11275f501fa0")
 		(property "Reference" "C1"
-			(at 472.44 163.8299 0)
+			(at 472.44 166.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25796,7 +25830,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 472.44 166.3699 0)
+			(at 472.44 163.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29451,7 +29485,6 @@
 	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 213.36 495.3 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29459,7 +29492,7 @@
 		(dnp no)
 		(uuid "df8b22cf-373c-4726-a892-1c24b9c30b0d")
 		(property "Reference" "C243"
-			(at 217.17 496.5701 0)
+			(at 217.17 494.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29468,7 +29501,7 @@
 			)
 		)
 		(property "Value" "120nF"
-			(at 217.17 494.0301 0)
+			(at 217.17 496.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
