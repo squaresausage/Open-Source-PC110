@@ -1,4 +1,4 @@
-## PC110 ITX Form Factor
+## PC110-ITX Form Factor
 
 This is an effort to build an ITX form factor motherboard with all the PC110 components, but the BGA parts have been converted to QFP alternatives.
 
