@@ -1,8 +1,7 @@
 # Rebuilding the IBM PC110 
+
 A Deep Dive into Silicon, Sandpaper, and Secrets
-
-**Reverse engineering a 90s subnotebook with undocumented BGA chips, custom gate arrays, and masked ROM microcontrollers**
-
+Reverse engineering a 90s subnotebook with undocumented BGA chips, custom gate arrays, and masked ROM microcontrollers**
 
 ## 📦 Introduction: A Forgotten Palm-Sized Powerhouse
 
