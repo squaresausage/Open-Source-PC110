@@ -1,9 +1,8 @@
 # Rebuilding the IBM PC110 
-## A Deep Dive into Silicon, Sandpaper, and Secrets
+A Deep Dive into Silicon, Sandpaper, and Secrets
 
 **Reverse engineering a 90s subnotebook with undocumented BGA chips, custom gate arrays, and masked ROM microcontrollers**
 
----
 
 ## 📦 Introduction: A Forgotten Palm-Sized Powerhouse
 
@@ -75,6 +74,8 @@ But three components were mysterious:
 
 The VL82C420 was part of VLSI’s **SCAMP IV** series — a power-efficient chipset line — but even after deep digging and contacting former VLSI employees, **no pinout or datasheet surfaced**.
 
+Interestingly, markings on the motherboard PCB suggest that development was done in **collaboration with RIOS Systems**, a likely OEM design partner for IBM.
+
 ---
 
 ## 🔬 Decapping the Chips with CLC & John McMaster
@@ -112,6 +113,18 @@ They handled:
 
 ---
 
+## 🔌 PSU, Modem, and Docking Station Reverse Engineering
+
+Reverse engineering extended beyond the motherboard. By disassembling and analyzing the:
+
+- **Power Supply Unit (PSU)**
+- **Internal Modem**
+- **Docking Station Interface**
+
+…we were able to **fully identify all connector pins** used across these subsystems. This creates new opportunities to **diagnose, repair, or replicate** I/O, audio, and expansion ports — information that was previously unavailable.
+
+---
+
 ## 🤖 Embedded Microcontrollers and ROM Extraction
 
 Beyond the main chips, the PC110 also includes **three microcontrollers**:
@@ -143,6 +156,18 @@ Without his support, organization, and advocacy, many of the technical breakthro
 
 ---
 
+## 🚀 What This Enables — Repair, Rebuild, Reinvent
+
+This reverse engineering effort doesn’t just preserve the IBM PC110 — it opens the door to:
+
+- **Modern upgrades** (battery adapters, flash storage, RAM modules)
+- **Replacement boards or re-creations**
+- **New peripherals** like custom docks or interface cards
+- **Repair and diagnosis** of broken machines — using full connector pinouts and verified schematics
+- **Emulation or simulation**, using extracted ROMs and decoded logic
+
+---
+
 ## 📂 Everything is Open-Source
 
 You can access everything from this project, including:
@@ -163,7 +188,8 @@ This is just the beginning. Next steps may include:
 
 - **Rebuilding** the motherboard with modern tools  
 - Creating a **hardware emulator or simulation**  
-- Attempting a **full boot from a re-engineered system**
+- Attempting a **full boot from a re-engineered system**  
+- Collaborating with others to **enhance and modernize legacy subsystems**
 
 ---
 
