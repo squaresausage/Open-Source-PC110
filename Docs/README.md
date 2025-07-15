@@ -209,7 +209,7 @@ This project would not have been possible without:
 
 ## Featured on Hackaday
 
-Read the article: [https://hackaday.com/2024/07/10/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/](https://hackaday.com/2024/07/10/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/)
+Read the article: [https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/)
 
 > “The kind of project that goes beyond repair — it preserves design history, reveals hidden hardware, and makes future restoration possible.”
 
