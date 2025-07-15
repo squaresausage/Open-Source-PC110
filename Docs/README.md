@@ -1,31 +1,34 @@
-# Rebuilding the IBM PC110 
+# A Tribute to the IBM PC110
 
-A Deep Dive into Silicon, Sandpaper, and Secrets
-Reverse engineering a 90s subnotebook with undocumented BGA chips, custom gate arrays, and masked ROM microcontrollers**
+## A Deep Dive into Silicon, Sandpaper, and Secrets
 
-## 📦 Introduction: A Forgotten Palm-Sized Powerhouse
+**Reverse engineering the beloved IBM PC110, a 90s subnotebook with custom repackaged BGA chips, custom gate arrays, and masked ROM microcontrollers.**
 
-The **IBM PC110**, released exclusively in **Japan in 1995**, was one of the smallest fully functional x86 systems ever made — a palmtop computer that crammed a 486 processor, VGA graphics, PCMCIA, PS/2 peripherals, and full ISA-style architecture into something smaller than a paperback.
+---
 
-Despite rumors of an **English-language or U.S. release**, no such version ever reached the market. The project was reportedly in development but was quietly shelved — making the PC110 not only unique, but **regionally rare and historically mysterious**.
+## Introduction: A Forgotten Palm-Sized Powerhouse
 
-What fascinated me wasn’t just the size — it was the story under the keyboard. Hidden silicon. BGA packages with no public documentation. ASICs IBM never admitted existed.
+The **IBM PC110**, released exclusively in **Japan in 1995**, was one of the smallest fully functional x86 systems ever made by IBM—a palmtop computer that crammed a 486SX CPU, CHIPS 65535 VGA chip, two PCMCIA slots, CF card, PS/2 peripherals, and full ISA-style architecture into something smaller than a paperback.
+
+Despite rumors of an **English-language or U.S. release**, no such version ever reached the market. The project was reportedly in development but was quietly shelved, making the IBM PC110 not only unique, but **regionally rare and historically mysterious**.
+
+What fascinated me wasn’t just the size—it was the story under the keyboard: repackaged BGA packages and chips with no public documentation, the usage of camcorder batteries instead of a proprietary battery, and a CF card slot.
 
 So I decided to **reverse engineer the entire machine**. That journey involved **sandpaper**, **ROM dumps**, **laser decapping**, **high-resolution die photos**, and the help of some brilliant hardware hackers. What I found includes rare chipsets, custom logic arrays, and design decisions that were both *visionary* and *tragically destructive*.
 
 ---
 
-## ⚙️ A Design Ahead of Its Time — and One Fatal Flaw
+## A Design Ahead of Its Time and One Fatal Flaw
 
 The PC110 had forward-thinking design features, including:
 
 - A **standard camcorder battery** (still sold on Amazon today)
 - A **CompactFlash card slot**, used as its primary storage drive
 
-These were remarkable decisions in 1995 — long before CF replaced spinning disks in industrial systems.
+These were remarkable decisions in 1995, long before CF replaced spinning disks in industrial systems.
 
 But the system had a fatal flaw:  
-A small **NiMH-based bridge battery**, soldered internally, designed to maintain power between full battery swaps.
+A small **NiMH-based bridge battery**, placed internally, designed to maintain power between main battery swaps.
 
 Over time, that battery becomes a **ticking time bomb**.  
 As it fails, it **leaks potassium hydroxide (KOH)**, a highly corrosive chemical that **destroys PCB traces**, **eats through components**, and **wrecks solder joints**.  
@@ -33,179 +36,187 @@ It’s the leading cause of death for otherwise restorable PC110 units today.
 
 ---
 
-## 🪚 Sanding a 10-Layer PCB — With a Flatbed Scanner
+## Sanding a 10-Layer PCB — With a Flatbed Scanner
 
-To begin understanding the system, I took the hard route:  
+To begin understanding the system, I took the hard and destructive, yet necessary route:  
 I **sanded the motherboard** down layer by layer.
 
-The board is just **1mm thick**, with **10 copper layers**, each ~**70 microns**. I used **ultra-fine grit sandpaper** to remove layers delicately, scanning the exposed surface after each pass with a **high-resolution flatbed scanner**.
+The board is just **1.0mm thick**, with **10 copper layers**, each ~**70 microns**. I used **ultra-fine grit sandpaper** to remove layers delicately, scanning the exposed surface after each pass with a **high-resolution flatbed scanner**.
 
-It was slow, imperfect, and occasionally damaging — but it worked. By the end, I had a full stack of perfectly aligned copper layers.
+It was slow, imperfect, and occasionally damaging—but it worked. By the end, I had a full stack of perfectly aligned copper layers. Because I made several mistakes during the sanding and went too far, especially as I progressed through the layers, I had to sacrifice a second PCB, this time by sanding it from the other side.
 
 ---
 
-## 🧰 Reconstructing the Board in KiCad
+## Reconstructing the Board in KiCad
 
 With the scanned layers imported into **KiCad**, I aligned them and manually traced:
 
 - Every net  
-- Every via  
+- Every via (through and blind)  
 - Every component pad  
+- Every trace/track  
+- Every power polygon  
+- Many more details  
 
-Bit by bit, the **entire circuit** came back to life. Some traces were incomplete or degraded, but logic and redundancy allowed me to **reconstruct the full schematic** of the system.
+Bit by bit, the **entire circuit** came together. I gave up many times in the middle due to some complexity or unresolved issues, but each time, I returned and continued. Some traces were incomplete or degraded, but logic and redundancy allowed me to **reconstruct the full schematic** of the system. Some tracks even appeared to go nowhere—perhaps used for debugging or cut later by the manufacturer. Who knows what software IBM used in the mid-90s; certainly not KiCad.
 
 ---
 
-## 🧩 The Known and Unknown Silicon
+## Schematic Extraction and Deep System Insight
 
-I was able to identify most major components:
+After the layout was reconstructed and the parts were identified, I began to **extract the schematic**, piece by piece.  
+I organized different **subsystems** into separate schematic sheets, including:
+
+- Clock Tree  
+- CPU and debug port  
+- Chipset and RTC  
+- VGA controller  
+- RAM interface  
+- ROM and BIOS  
+- ASICs  
+- Super IO (FDD, Serial, LPT)  
+- Power and charging logic  
+- PCMCIA controller  
+- Audio and FM Synthesizer  
+- Storage and CF slot  
+- Keyboard/PS2  
+- IRDA and Docking station connector  
+
+This gave me exceptional insight into **how IBM and RIOS Systems engineered this device**. After extracting the full schematic, I linked it back to the layout to identify and resolve discrepancies.  
+
+The result is a schematic that **perfectly reflects the physical PCB** — signal-for-signal.
+
+---
+
+## Why This Schematic Unlocks the Future
+
+With a fully accurate schematic and layout, this project now enables:
+
+- **Redesigning the motherboard** with modern components  
+- **Changing the form factor** entirely (e.g., vertical/landscape designs)  
+- **Creating a Raspberry Pi-based recreation**  
+- **Hardware diagnostics and repair**  
+- **Upgrades and mods**, including custom RAM cards, new docks, and embedded devices
+
+---
+
+## The Known and Unknown Silicon
+
+Identified components:
 
 - **Intel 80486SX** CPU  
 - **CHIPS65535** VGA controller  
 - **Ricoh RB5C396** PCMCIA bridge  
-- Standard floppy, IDE, and Super I/O chips  
+- **FDC37C665IR** for FDD, Serial, LPT  
+- **SC414281PU4** Storage Controller  
+- Various logic ICs
 
-But three components were mysterious:
+Mysterious components:
 
-- **VL82C420** – no known datasheet  
-- **IBM ASIC "Pluto"**  
-- **IBM ASIC "Bowman"**
+- **VL82C420** – part of the SCAMP IV chipset, no datasheet available  
+- **ES488** – no datasheet found; reverse-engineered from ISA sound card  
+- **IBM “Pluto” and “Bowman” ASICs**
 
-The VL82C420 was part of VLSI’s **SCAMP IV** series — a power-efficient chipset line — but even after deep digging and contacting former VLSI employees, **no pinout or datasheet surfaced**.
-
-Interestingly, markings on the motherboard PCB suggest that development was done in **collaboration with RIOS Systems**, a likely OEM design partner for IBM.
-
----
-
-## 🔬 Decapping the Chips with CLC & John McMaster
-
-With the help of **CLC**, we **decapped the VL82C420**, as well as **Pluto** and **Bowman**, using a **laser-driven photo-chemical process**.
-
-Then, with the amazing support of **John McMaster**, we captured **high-resolution images** of the silicon dies. What we found was astonishing.
+The VL82C420 integrates 6 known chips (VL82C59s, VL82C37s, VL82C54, VL82C018) and a custom gate array.
 
 ---
 
-### 🧠 Inside the VL82C420
+## Decapping Chips with CLC and John McMaster
 
-The die layout revealed that the VL82C420 wasn’t just a glue logic chip — it was an integrated north bridge featuring:
+With Fred Nielsen from **CLC**, we decapped the VL82C420, Pluto, and Bowman using a laser-driven photo-chemical process.  
+**John McMaster** provided high-resolution die imaging.
 
-- 2× **VL82C59** interrupt controllers  
-- 2× **VL82C37** DMA controllers  
-- 1× **VL82C54** interval timer  
-- 1× **VL82C018** real-time clock  
-- A **large gate array** connecting them
+### Inside the VL82C420
 
-It was a north bridge **system-on-chip**, custom packaged by IBM in a BGA format never publicly documented.
+- 2× VL82C59 (Interrupt Controller)  
+- 2× VL82C37 (DMA Controller)  
+- 1× VL82C54 (Timer)  
+- 1× VL82C018 (RTC)  
+- Integrated gate array  
+- BGA packaging custom-made by RIOS
 
----
+### Pluto and Bowman
 
-### 🧬 Pluto and Bowman: IBM’s Custom Gate Arrays
+IBM-designed gate arrays responsible for:
 
-Analysis of **Pluto** and **Bowman** showed that both were **IBM-designed gate arrays**, likely manufactured specifically for the PC110 and similar embedded platforms.
-
-They handled:
-
-- **Power sequencing**  
-- **Interrupt management**  
-- **ISA bus control**  
-- Possibly docking I/O and thermal sensing
+- Power sequencing  
+- Interrupt control  
+- ISA and docking logic  
+- System glue logic
 
 ---
 
-## 🔌 PSU, Modem, and Docking Station Reverse Engineering
+## PSU, Modem, and Docking Station Reverse Engineering
 
-Reverse engineering extended beyond the motherboard. By disassembling and analyzing the:
+Reverse-engineering the PSU, modem, and docking station enabled:
 
-- **Power Supply Unit (PSU)**
-- **Internal Modem**
-- **Docking Station Interface**
-
-…we were able to **fully identify all connector pins** used across these subsystems. This creates new opportunities to **diagnose, repair, or replicate** I/O, audio, and expansion ports — information that was previously unavailable.
+- Full **pinout mapping**  
+- Verification of unknown connector functions  
+- Potential for **custom modern docks**
 
 ---
 
-## 🤖 Embedded Microcontrollers and ROM Extraction
-
-Beyond the main chips, the PC110 also includes **three microcontrollers**:
+## Embedded Microcontrollers and ROM Extraction
 
 | Chip           | Function                  |
 |----------------|---------------------------|
 | **M38223**     | Power sequencing          |
-| **M3881**      | Keyboard & PS/2 interface |
+| **M3881**      | Keyboard & PS/2           |
 | **D17137AGT**  | TrackPoint controller     |
 
-With the brilliant work of **Kevin Moonlight**, we were able to **dump the ROMs** from the M38223 and M3881.
-
-The **D17137AGT** was more difficult — it’s a **4-bit mask ROM device**. No external access was possible, but thanks to **John McMaster**, we obtained a **high-resolution die image**, including the ROM section.  
-We chose not to decode it visually — the firmware wouldn't significantly contribute to understanding system behavior — but it’s now archived and preserved.
+ROMs for M38223 and M3881 were extracted (thanks to **Kevin Moonlight**).  
+**D17137AGT** was imaged optically but not visually decoded.
 
 ---
 
-## 🌐 Bringing the Community Together — Thanks to Mike Lycett
+## Everything is Open-Source
 
-One of the most important forces behind this project’s success was **Mike Lycett**.  
-Mike was instrumental in:
+GitHub Repo: [https://github.com/ahmadexp/Open-Source-PC110](https://github.com/ahmadexp/Open-Source-PC110)
 
-- **Coordinating communication** across contributors  
-- Organizing and managing a **community fundraiser**  
-- Bringing **global attention and visibility** to the PC110 project  
-- Helping steer the outreach that enabled us to access rare chips, imaging tools, and archival data
+### Contents
 
-Without his support, organization, and advocacy, many of the technical breakthroughs documented here would have been significantly delayed — or impossible.
-
----
-
-## 🚀 What This Enables — Repair, Rebuild, Reinvent
-
-This reverse engineering effort doesn’t just preserve the IBM PC110 — it opens the door to:
-
-- **Modern upgrades** (battery adapters, flash storage, RAM modules)
-- **Replacement boards or re-creations**
-- **New peripherals** like custom docks or interface cards
-- **Repair and diagnosis** of broken machines — using full connector pinouts and verified schematics
-- **Emulation or simulation**, using extracted ROMs and decoded logic
+- `/scans/` — 10-layer PCB scans  
+- `/kicad/` — Full KiCad schematic/layout  
+- `/rom_dumps/` — ROM binaries  
+- `/die_images/` — Die photographs  
+- `/pinouts/` — Pin mappings  
+- `/notes/` — Research notes
 
 ---
 
-## 📂 Everything is Open-Source
+## What You Can Do
 
-You can access everything from this project, including:
-
-- PCB scans (all 10 layers)  
-- Full KiCad schematic & layout  
-- Microcontroller ROM dumps  
-- High-res silicon die images  
-- Annotations and notes on each subsystem
-
-👉 **[GitHub Repository: https://github.com/ahmadexp/Open-Source-PC110](https://github.com/ahmadexp/Open-Source-PC110)**
+- Rebuild or modify the hardware  
+- Use for emulation or form factor experiments  
+- Study VL82C420 and ES488  
+- Build docks, RAM, and CF replacements  
+- Contribute firmware or ROM analysis
 
 ---
 
-## 🧭 What’s Next?
-
-This is just the beginning. Next steps may include:
-
-- **Rebuilding** the motherboard with modern tools  
-- Creating a **hardware emulator or simulation**  
-- Attempting a **full boot from a re-engineered system**  
-- Collaborating with others to **enhance and modernize legacy subsystems**
-
----
-
-## 🙏 Thanks and Acknowledgements
+## Thanks and Acknowledgements
 
 This project would not have been possible without:
 
-- **Mike Lycett** — for organizing the fundraiser, coordinating the effort, and promoting the project  
 - **Kevin Moonlight** — for microcontroller ROM extraction  
+- **Mike Lycett** — for organizing the fundraiser, coordinating the effort, and promoting the project  
+- **Nick Rogers** — for debugging and verification  
 - **John McMaster** — for high-resolution die imaging and technical consultation  
 - **CLC** — for decapping services and silicon prep  
 - The **open hardware & retrocomputing community** — for encouragement, contributions, and documentation support
 
 ---
 
-## 📢 Stay Updated
+## Featured on Hackaday
 
-- 🔗 GitHub: [https://github.com/ahmadexp/Open-Source-PC110](https://github.com/ahmadexp/Open-Source-PC110)  
-- 📧 Contact: Ahmad Byagowi / [@ahmadexp](https://github.com/ahmadexp)  
-- 🎥 Full video breakdown coming soon on YouTube
+Read the article: [https://hackaday.com/2024/07/10/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/](https://hackaday.com/2024/07/10/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/)
+
+> “The kind of project that goes beyond repair — it preserves design history, reveals hidden hardware, and makes future restoration possible.”
+
+---
+
+## Stay Updated
+
+- GitHub: [ahmadexp/Open-Source-PC110](https://github.com/ahmadexp/Open-Source-PC110)  
+- Contact: Ahmad Byagowi / [@ahmadexp](https://github.com/ahmadexp)  
+- YouTube video coming soon!
