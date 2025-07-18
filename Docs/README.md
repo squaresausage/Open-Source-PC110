@@ -14,9 +14,9 @@ Despite rumors of an **English-language or U.S. release**, no such version ever 
 
 What fascinated me wasn’t just the size—it was the story under the keyboard: repackaged BGA packages and chips with no public documentation, the usage of camcorder batteries instead of a proprietary battery, and a CF card slot which made the machine sort of future proof and relevant to be "practical", even today. 
 
-Ufortuantely, most of the IBM PC110s 
+Unfortunately, most of the IBM PC110s ended up breaking down over time due to the leak of the bridge battery, causing corrosion and destroying the circuit board. It was heartbreaking to see those laptops end up in the landfill helplessly.  
 
-So I decided to **reverse engineer the entire machine**. That journey involved **sandpaper**, **ROM dumps**, **laser decapping**, **high-resolution die photos**, and the help of some brilliant hardware hackers. What I found includes rare chipsets, custom logic arrays, and design decisions that were both *visionary* and *tragically destructive*.
+So I decided to **reverse engineer the entire machine**. That journey involved **sandpaper**, **ROM dumps**, **laser decapping**, **high-resolution die photos**, and the help of some brilliant hardware and software hackers. What I found includes rare chipsets, custom logic arrays, and design decisions that were both *visionary* and *tragically destructive*.
 
 ---
 
@@ -30,7 +30,8 @@ The PC110 had forward-thinking design features, including:
 These were remarkable decisions in 1995, long before CF replaced spinning disks in industrial systems.
 
 But the system had a fatal flaw:  
-A small **NiMH-based bridge battery**, placed internally, designed to maintain power between main battery swaps.
+A small **NiMH-based bridge battery**, placed internally, which was designed to maintain power between main battery swaps.
+This was mainly because the internal PSU was unable to charge the battery while the machine was operating (things we take for granted with today's laptops). Therefore, the bridge battery was placed there to keep the machine running for about 2 minutes while you perform a battery swap.
 
 Over time, that battery becomes a **ticking time bomb**.  
 As it fails, it **leaks potassium hydroxide (KOH)**, a highly corrosive chemical that **destroys PCB traces**, **eats through components**, and **wrecks solder joints**.  
