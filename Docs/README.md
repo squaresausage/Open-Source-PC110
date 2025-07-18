@@ -1,18 +1,20 @@
 # A Tribute to the IBM PC110
 
-## A Deep Dive into Silicon, Sandpaper, and Secrets
+## A Deep Dive into Silicon, Sandpaper, and Secrets of the IBM PC110
 
-**Reverse engineering the beloved IBM PC110, a 90s subnotebook with custom repackaged BGA chips, custom gate arrays, and masked ROM microcontrollers.**
+**Reverse engineering the beloved IBM PC110, a 486SX-based subnotebook from the 90s, released exclusively in Japan with custom repackaged BGA chips, custom ASICs, and an attractive form factor.**
 
 ---
 
-## Introduction: A Forgotten Palm-Sized Powerhouse
+## Introduction: A Palm-Sized Powerhouse
 
-The **IBM PC110**, released exclusively in **Japan in 1995**, was one of the smallest fully functional x86 systems ever made by IBM—a palmtop computer that crammed a 486SX CPU, CHIPS 65535 VGA chip, two PCMCIA slots, CF card, PS/2 peripherals, and full ISA-style architecture into something smaller than a paperback.
+The **IBM PC110**, released exclusively in **Japan in 1995**, was one of the smallest fully functional x86 systems ever made by IBM. This palmtop computer crammed a 486SX CPU, a CHIPS 65535 VGA chip, two PCMCIA slots, a CF card, and more great features into something that fits on top of your palm.
 
-Despite rumors of an **English-language or U.S. release**, no such version ever reached the market. The project was reportedly in development but was quietly shelved, making the IBM PC110 not only unique, but **regionally rare and historically mysterious**.
+Despite rumors of an **English-language or U.S. release**, no such version ever reached the market. The project was reportedly in development but was quietly shelved, making the IBM PC110 unique and **regionally rare and historically mysterious**.
 
-What fascinated me wasn’t just the size—it was the story under the keyboard: repackaged BGA packages and chips with no public documentation, the usage of camcorder batteries instead of a proprietary battery, and a CF card slot.
+What fascinated me wasn’t just the size—it was the story under the keyboard: repackaged BGA packages and chips with no public documentation, the usage of camcorder batteries instead of a proprietary battery, and a CF card slot which made the machine sort of future proof and relevant to be "practical", even today. 
+
+Ufortuantely, most of the IBM PC110s 
 
 So I decided to **reverse engineer the entire machine**. That journey involved **sandpaper**, **ROM dumps**, **laser decapping**, **high-resolution die photos**, and the help of some brilliant hardware hackers. What I found includes rare chipsets, custom logic arrays, and design decisions that were both *visionary* and *tragically destructive*.
 
