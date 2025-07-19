@@ -90,7 +90,10 @@ Highlighted components on the bottom layer
 
 ![PHOTO-2025-06-28-23-32-53](https://github.com/user-attachments/assets/81a08039-c5af-4830-a8ac-0693d4b1b803)
 
-And here is the SVG version of the single-sheet [schematic](https://drive.google.com/file/d/18CVSU7gRzODHXLN1vmV7egy4e2-WGHxe/view?usp=drive_link).
+And here is the SVG version of the single-sheet 
+
+<img width="841" height="595" alt="PC110-Singlesheet-Schematic" src="https://github.com/user-attachments/assets/58c78477-5277-4691-8341-29884e5f051d" />
+
 
 PCB statistics report
 =====================
@@ -144,7 +147,3 @@ Drill holes
 Here is a cross section of the PCB stack-up
 
 ![Board_cross_section](https://github.com/user-attachments/assets/69448d79-1651-4f14-ac00-2899aa87db19)
-
-## Schematics
-
-The schematic is incomplete, and the sch files are placeholders.
