@@ -37,9 +37,13 @@ Please help us [fund](https://gofund.me/716b7dae) the next iteration of PCBA to 
 # Press
 
 Featured on Hack-A-Day: [link to the HackADay article](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) about this project.
-Featured on Taka's blog:
-- [PC110」 PCB Pattern](https://garakutaen.sakura.ne.jp/misc2/MlogmP1.html#e0130)
 
+Featured on Taka's blog:
+- [PC110 PCB Pattern](https://garakutaen.sakura.ne.jp/misc2/MlogmP1.html#e0130)
+- [PC110 PCB Layout creation](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0208)
+- [X-ray photos of the inside of the PC110's LSI](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0225)
+- [PC110 New PSU](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0318)
+- [PC110 New Docking Station PCB](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0324)
 
 # License
 
