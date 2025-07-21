@@ -40,11 +40,11 @@ Featured on Hack-A-Day:
 - [Reverse Engineering The IBM PC110, One PCB At A Time](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) 
 
 Featured on Taka's blog:
+- [PC110 New PSU](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0318)
 - [PC110 PCB Pattern](https://garakutaen.sakura.ne.jp/misc2/MlogmP1.html#e0130)
 - [PC110 PCB Layout creation](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0208)
-- [X-ray photos of the inside of the PC110's LSI](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0225)
-- [PC110 New PSU](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0318)
 - [PC110 New Docking Station PCB](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0324)
+- [X-ray photos of the inside of the PC110's LSI](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0225)
 
 # License
 
