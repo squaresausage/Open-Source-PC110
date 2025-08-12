@@ -40,6 +40,7 @@ Featured on Hack-A-Day:
 - [Reverse Engineering The IBM PC110, One PCB At A Time](https://hackaday.com/2025/04/06/reverse-engineering-the-ibm-pc110-one-pcb-at-a-time/) 
 
 Featured on Taka's blog:
+- [Jeff Geerling](https://youtu.be/p7IvioiveOo?si=PUlHSzOhwXYEpZJ3&t=217)
 - [PC110 New PSU](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0318)
 - [PC110 PCB Pattern](https://garakutaen.sakura.ne.jp/misc2/MlogmP1.html#e0130)
 - [PC110 PCB Layout creation](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0208)
