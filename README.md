@@ -46,8 +46,8 @@ Featured on Taka's blog:
 - [PC110 New Docking Station PCB](https://garakutaen.sakura.ne.jp/misc2/MlogmP3.html#e0324)
 - [X-ray photos of the inside of the PC110's LSI](https://garakutaen.sakura.ne.jp/misc2/MlogmP2.html#e0225)
 
-Jeff Geerling's Youtube Channel:
-- [Reverse engineering the Raspberry Pi Zero 2W](https://youtu.be/p7IvioiveOo?si=PUlHSzOhwXYEpZJ3&t=217)
+Jeff Geerling's YouTube Channel:
+- [Reverse engineering Episode](https://youtu.be/p7IvioiveOo?si=PUlHSzOhwXYEpZJ3&t=217)
 
 # License
 
