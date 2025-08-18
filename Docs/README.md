@@ -117,7 +117,7 @@ Identified components:
 Mysterious components:
 
 - **VL82C420** – part of the SCAMP IV chipset, no datasheet available  
-- **ES488** – no datasheet found; reverse-engineered from ISA sound card  
+- **ES488** – no datasheet found; To recover the pinout, we purchased an old ISA sound card based on the ES488 and carefully traced all the connections from the ISA bus to the chip. This revealed almost the entire pinout and, in turn, helped us determine the ISA bus pinout of the PC110 motherboard.
 - **IBM “Pluto” and “Bowman” ASICs**
 
 The VL82C420 integrates 6 known chips (VL82C59s, VL82C37s, VL82C54, VL82C018) and a custom gate array.
