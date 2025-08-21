@@ -63,11 +63,14 @@ Datasheet states the M3822 group is based on the 740 family core,  which is base
 
 [Mitsubishi 704 Family MCU](https://en.wikipedia.org/wiki/Mitsubishi_740)
 
-The vector table at the end of the PROM is as expected and dissassembly is the next step.
+The vector table at the end of the PROM is as expected and dissassembly is the next step. Work is currently ongoing and many functions are already documented. The M3822 seems to be doing a lot of different things however, so there is still much to be done.
 
 The ROM is appears at 0xC080 -> 0xFFFD  in the 65C02 memory space, with FFFC/FFFD being the reset vector.
 
 ![image](https://github.com/user-attachments/assets/961d2ac0-5853-4dcf-a048-27df407ffb32)
+
+![image](img/Func_list.png)
+
 
 
 
