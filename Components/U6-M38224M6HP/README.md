@@ -65,6 +65,8 @@ Datasheet states the M3822 group is based on the 740 family core,  which is base
 
 The vector table at the end of the PROM is as expected and dissassembly is the next step. Work is currently ongoing and many functions are already documented. The M3822 seems to be doing a lot of different things however, so there is still much to be done.
 
+Note that currently a custom version of Ghidra is needed to add support for the Mitsubishi 740 and its extended variants like the M3822. This currently exists [here](https://github.com/squaresausage/ghidra/tree/philpem-add-melps740).
+
 The ROM is appears at 0xC080 -> 0xFFFD  in the 65C02 memory space, with FFFC/FFFD being the reset vector.
 
 ![image](https://github.com/user-attachments/assets/961d2ac0-5853-4dcf-a048-27df407ffb32)
