@@ -10496,6 +10496,12 @@
 		(uuid "4a918e75-4500-4714-8d62-c57484b2d43d")
 	)
 	(junction
+		(at 468.63 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b0903b8-f9ce-4fc1-8c45-f071312a74d0")
+	)
+	(junction
 		(at 74.93 443.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17354,6 +17360,16 @@
 			(type default)
 		)
 		(uuid "94c1c191-e7ee-45f0-9fa3-9d7aa1c27244")
+	)
+	(wire
+		(pts
+			(xy 468.63 311.15) (xy 468.63 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955346eb-5944-4398-92d4-801966686a64")
 	)
 	(wire
 		(pts
@@ -44427,6 +44443,72 @@
 			(project "PSU"
 				(path "/af346fe7-2682-41ae-8d2a-5a211ef6d3f0"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 468.63 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d36c8579-2b8a-4112-9c07-0f200d818fc3")
+		(property "Reference" "#PWR0128"
+			(at 468.63 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PNET1_PC110"
+			(at 468.63 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 468.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc249a8-c72e-49f0-a3d8-8dd79da0e50a")
+		)
+		(instances
+			(project "PSU"
+				(path "/af346fe7-2682-41ae-8d2a-5a211ef6d3f0"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
