@@ -6749,23 +6749,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 27.94 32.258 0)
+			(property "Reference" "U6"
+				(at 26.67 34.036 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "M38223E4HP"
+				(at 31.496 32.004 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PC110:QFN-80"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7698,7 +7698,7 @@
 				(pin input line
 					(at 11.43 -33.02 90)
 					(length 2.54)
-					(name "21"
+					(name "P37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13963,16 +13963,6 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 485.14) (xy 678.18 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aeb79a0-ca6e-42c9-84c8-77d09fb9f294")
-	)
-	(wire
-		(pts
 			(xy 252.73 163.83) (xy 251.46 163.83)
 		)
 		(stroke
@@ -14570,6 +14560,16 @@
 			(type default)
 		)
 		(uuid "3e1c69d1-6eff-4887-b386-d65f778f73d3")
+	)
+	(wire
+		(pts
+			(xy 673.1 486.41) (xy 685.8 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6567ce-48af-4118-af42-c51d9edefc80")
 	)
 	(wire
 		(pts
@@ -18060,16 +18060,6 @@
 			(type default)
 		)
 		(uuid "9ddcade6-7228-42e8-baf3-329fc771e564")
-	)
-	(wire
-		(pts
-			(xy 673.1 486.41) (xy 678.18 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dfbe91c-cfa7-4a4d-85f2-38b9a5f6e4b9")
 	)
 	(wire
 		(pts
@@ -21951,28 +21941,6 @@
 			)
 		)
 	)
-	(global_label "U21_98"
-		(shape input)
-		(at 685.8 497.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0df56cc5-cf10-4490-b624-7d314379d55e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 695.9213 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U61_RTCBAT_470K"
 		(shape input)
 		(at 241.3 542.29 0)
@@ -22800,6 +22768,28 @@
 		(uuid "69d3fadf-9d5e-4ca8-a078-5a3049696647")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.7575 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U21_99"
+		(shape input)
+		(at 685.8 486.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b8456ff-6102-490f-8be5-603f4300372c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 695.9213 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24015,6 +24005,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U21_98"
+		(shape input)
+		(at 685.8 497.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd8f670e-1045-4fbe-ac82-7702b8550b52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 695.9213 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -34161,7 +34173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.45759 MHz"
+		(property "Value" "245759"
 			(at 577.85 375.9199 0)
 			(effects
 				(font
@@ -49614,72 +49626,6 @@
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000638712fb"
 					(reference "U32")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 678.18 485.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fde97a26-59e0-4841-9193-1d19fc49b83e")
-		(property "Reference" "#PWR034"
-			(at 678.18 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PNET2"
-			(at 678.18 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91528fe-a089-4fe5-bc36-57c1cd41e33e")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000638712fb"
-					(reference "#PWR034")
-					(unit 1)
 				)
 			)
 		)
