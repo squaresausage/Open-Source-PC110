@@ -1362,23 +1362,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 8.636 30.48 0)
+			(property "Reference" "U36"
+				(at 12.446 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "MSM538032E"
+				(at 2.1433 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PC110:SOP48"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1779,6 +1781,24 @@
 						)
 					)
 					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -31.75 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3155,6 +3175,12 @@
 		(uuid "054a41c4-d722-41a8-bc4a-cd9a5ae7aa30")
 	)
 	(junction
+		(at 92.71 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e8d6b00-559c-49e5-a6d9-7e72153cad90")
+	)
+	(junction
 		(at 260.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4098,6 +4124,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 190.5) (xy 90.17 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292d6fb0-08bd-4f1f-9536-67b09b8be9ba")
+	)
+	(wire
+		(pts
 			(xy 120.65 143.51) (xy 135.89 143.51)
 		)
 		(stroke
@@ -4505,6 +4541,16 @@
 			(type default)
 		)
 		(uuid "6cb78e4b-fe77-46eb-a317-97e0f78994d8")
+	)
+	(wire
+		(pts
+			(xy 90.17 191.77) (xy 92.71 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2a34f9-c441-4dd4-985f-8063c3c68091")
 	)
 	(wire
 		(pts
@@ -5028,13 +5074,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 190.5) (xy 92.71 194.31)
+			(xy 92.71 190.5) (xy 92.71 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad88fd2a-f87f-4175-961d-f4fc2078f1aa")
+	)
+	(wire
+		(pts
+			(xy 92.71 191.77) (xy 92.71 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9c9d98-04f2-4ffd-9749-055c5e280cfa")
 	)
 	(wire
 		(pts
@@ -7856,6 +7912,9 @@
 		)
 		(pin "35"
 			(uuid "8c873886-ec94-468c-bc31-f36087af7c85")
+		)
+		(pin "34"
+			(uuid "63783a8b-6b8b-4d1e-8d88-36465ae11bd2")
 		)
 		(instances
 			(project ""

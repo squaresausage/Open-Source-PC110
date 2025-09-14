@@ -21801,24 +21801,6 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 88.9 270)
-				(length 2.54)
-				(name "VCC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "99"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -16.51 -85.09 90)
 				(length 2.54)
 				(name "GND"
@@ -22503,7 +22485,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 39.37 180)
+				(at 49.53 40.64 180)
 				(length 2.54)
 				(name "M38_IO1"
 					(effects
@@ -22521,7 +22503,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 36.83 180)
+				(at 49.53 38.1 180)
 				(length 2.54)
 				(name "M38_IO2"
 					(effects
@@ -22538,10 +22520,28 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 49.53 34.29 180)
+			(pin power_in line
+				(at 49.53 35.56 180)
 				(length 2.54)
 				(name "M38_IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 49.53 33.02 180)
+				(length 2.54)
+				(name "M38_IO4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22557,9 +22557,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 31.75 180)
+				(at 49.53 30.48 180)
 				(length 2.54)
-				(name "M38_IO4"
+				(name "M38_IO5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22575,9 +22575,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 29.21 180)
+				(at 49.53 27.94 180)
 				(length 2.54)
-				(name "M38_IO5"
+				(name "M38_IO6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22593,9 +22593,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 26.67 180)
+				(at 49.53 25.4 180)
 				(length 2.54)
-				(name "M38_IO6"
+				(name "M38_IO7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22611,9 +22611,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 24.13 180)
+				(at 49.53 22.86 180)
 				(length 2.54)
-				(name "M38_IO7"
+				(name "M38_IO8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22629,9 +22629,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 21.59 180)
+				(at 49.53 20.32 180)
 				(length 2.54)
-				(name "M38_IO8"
+				(name "M38_IO9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22647,9 +22647,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 19.05 180)
+				(at 49.53 17.78 180)
 				(length 2.54)
-				(name "M38_IO9"
+				(name "M38_IO10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22665,9 +22665,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 16.51 180)
+				(at 49.53 15.24 180)
 				(length 2.54)
-				(name "M38_IO10"
+				(name "M38_IO11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22683,9 +22683,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 49.53 13.97 180)
+				(at 49.53 12.7 180)
 				(length 2.54)
-				(name "M38_IO11"
+				(name "M38_IO12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22701,9 +22701,9 @@
 				)
 			)
 			(pin output line
-				(at 49.53 11.43 180)
+				(at 49.53 10.16 180)
 				(length 2.54)
-				(name "M38_IO12"
+				(name "M38_IO13"
 					(effects
 						(font
 							(size 1.27 1.27)

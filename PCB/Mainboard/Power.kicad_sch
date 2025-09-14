@@ -13963,16 +13963,6 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 485.14) (xy 678.18 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aeb79a0-ca6e-42c9-84c8-77d09fb9f294")
-	)
-	(wire
-		(pts
 			(xy 252.73 163.83) (xy 251.46 163.83)
 		)
 		(stroke
@@ -18063,7 +18053,7 @@
 	)
 	(wire
 		(pts
-			(xy 673.1 486.41) (xy 678.18 486.41)
+			(xy 673.1 486.41) (xy 687.07 486.41)
 		)
 		(stroke
 			(width 0)
@@ -23878,6 +23868,28 @@
 		(uuid "e39a8521-afd8-44ae-970e-f3b67f36cb22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.2422 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U21_99"
+		(shape input)
+		(at 687.07 486.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4665646-e209-4ae9-897a-55626bc3cef2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 697.1913 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49614,72 +49626,6 @@
 				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000638712fb"
 					(reference "U32")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 678.18 485.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fde97a26-59e0-4841-9193-1d19fc49b83e")
-		(property "Reference" "#PWR034"
-			(at 678.18 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PNET2"
-			(at 678.18 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 678.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91528fe-a089-4fe5-bc36-57c1cd41e33e")
-		)
-		(instances
-			(project "PC110"
-				(path "/45c7911f-b027-440e-9e3e-77a146b41944/00000000-0000-0000-0000-0000638712fb"
-					(reference "#PWR034")
-					(unit 1)
 				)
 			)
 		)
