@@ -50,7 +50,7 @@ Jeff Geerling's YouTube Channel:
 - [Reverse engineering Episode](https://youtu.be/p7IvioiveOo?si=PUlHSzOhwXYEpZJ3&t=217)
 
 LGR YouTube Channel:
-- [LGR Vlog: VCFMW20](https://youtu.be/yIwXQicYClw?si=7MYuRKr7FM0TZ0lh)
+- [LGR Vlog: VCFMW20](https://www.youtube.com/watch?v=yIwXQicYClw&t=7600s)
 
 VCFMW20 YouTube Channel:
 - [Archaeology of the IBM PC110](https://www.youtube.com/watch?v=8Uja7g9hQlo)
