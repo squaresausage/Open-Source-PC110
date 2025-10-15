@@ -49,6 +49,9 @@ Featured on Taka's blog:
 Jeff Geerling's YouTube Channel:
 - [Reverse engineering Episode](https://youtu.be/p7IvioiveOo?si=PUlHSzOhwXYEpZJ3&t=217)
 
+VCFMW20 YouTube Channel:
+- [Archaeology of the IBM PC110](https://www.youtube.com/watch?v=8Uja7g9hQlo)
+
 # License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
