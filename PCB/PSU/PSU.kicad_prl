@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -45,31 +45,25 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffff5_5ffa00a5",
+    "visible_layers": "00000000_00000000_55555555_57555555",
     "zone_display_mode": 1
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PC110.kicad_prl",
+    "filename": "PSU.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -95,21 +89,9 @@
       8,
       9,
       10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17
+      11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,

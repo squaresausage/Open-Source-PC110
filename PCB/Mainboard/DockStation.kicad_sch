@@ -9162,50 +9162,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "YellowWire2_2\n"
-		(exclude_from_sim no)
-		(at 333.756 417.068 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a511eb3-d7d2-4687-b532-028fff742290")
-	)
-	(text "YellowWire2_3"
-		(exclude_from_sim no)
-		(at 345.44 429.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83557dc1-836e-4db3-b978-0fd1f65b1b5c")
-	)
-	(text "YellowWire2_2\n"
-		(exclude_from_sim no)
-		(at 329.184 398.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abc11cca-6e77-4a02-b6b8-15306f0b508d")
-	)
-	(text "YellowWire2_1"
-		(exclude_from_sim no)
-		(at 333.502 442.468 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b678eb9b-5afc-4d30-b8c0-74a1874fc0ac")
-	)
 	(text "Enables all external PS/2 devices; \nPS/2 conn on PC110 and dock"
 		(exclude_from_sim no)
 		(at 281.94 84.074 0)
@@ -9871,28 +9827,12 @@
 		(uuid "fdb54513-efa4-4475-a9cf-f35163be4aa2")
 	)
 	(no_connect
-		(at 361.95 430.53)
-		(uuid "057a03c7-8aad-4a97-a5d4-35270cbb9ef5")
-	)
-	(no_connect
-		(at 313.69 398.78)
-		(uuid "3c68dc75-6f5e-414b-8d41-a3620b322caf")
-	)
-	(no_connect
-		(at 317.5 417.83)
-		(uuid "3c82276b-e838-4c16-b0c6-c7ef41b9703c")
-	)
-	(no_connect
 		(at 425.45 154.94)
 		(uuid "47f6eba9-ba23-4060-abf8-d190f35f2d65")
 	)
 	(no_connect
 		(at 401.32 495.3)
 		(uuid "89147479-f26f-4898-91be-8abe4b4c086c")
-	)
-	(no_connect
-		(at 317.5 443.23)
-		(uuid "d595f7b3-87c9-44b0-ab63-81e0cf7e818b")
 	)
 	(bus_entry
 		(at 328.93 314.96)
@@ -10245,16 +10185,6 @@
 			(type default)
 		)
 		(uuid "0e4732ea-d786-4a8b-9ce3-4af3bbe22e4d")
-	)
-	(wire
-		(pts
-			(xy 313.69 398.78) (xy 330.2 398.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f2e5ded-dbfe-4926-8c22-c7c73827448d")
 	)
 	(wire
 		(pts
@@ -10695,6 +10625,16 @@
 			(type default)
 		)
 		(uuid "22a40ff2-e76e-484f-b50c-0f1c8de3d893")
+	)
+	(wire
+		(pts
+			(xy 339.09 411.48) (xy 330.2 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236511b7-0686-4c9b-b7eb-9b60d550718e")
 	)
 	(wire
 		(pts
@@ -11288,7 +11228,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 392.43) (xy 330.2 398.78)
+			(xy 330.2 392.43) (xy 330.2 411.48)
 		)
 		(stroke
 			(width 0)
@@ -11498,16 +11438,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 417.83) (xy 339.09 417.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454c9c22-e2e8-4bc0-805a-1a7131c1699c")
-	)
-	(wire
-		(pts
 			(xy 365.76 256.54) (xy 365.76 260.35)
 		)
 		(stroke
@@ -11515,16 +11445,6 @@
 			(type default)
 		)
 		(uuid "45ef7b1d-e0f4-473e-b1f3-85077900ffe1")
-	)
-	(wire
-		(pts
-			(xy 339.09 422.91) (xy 339.09 417.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4651692c-a487-4624-9c5c-39349ef85169")
 	)
 	(wire
 		(pts
@@ -12478,6 +12398,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 443.23) (xy 339.09 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710246a7-e37a-4999-ba47-d094068b51e3")
+	)
+	(wire
+		(pts
 			(xy 429.26 170.18) (xy 429.26 172.72)
 		)
 		(stroke
@@ -12658,7 +12588,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 430.53) (xy 361.95 430.53)
+			(xy 344.17 430.53) (xy 359.41 430.53)
 		)
 		(stroke
 			(width 0)
@@ -13625,6 +13555,16 @@
 			(type default)
 		)
 		(uuid "a46087bf-8b52-48a9-9efb-8b4e133997be")
+	)
+	(wire
+		(pts
+			(xy 339.09 411.48) (xy 339.09 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a489650b-c40f-4c5e-8725-58318e8a2f69")
 	)
 	(wire
 		(pts
@@ -15508,16 +15448,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 443.23) (xy 339.09 443.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe49ad3-566b-42ce-b1f6-f2428c4ed3e4")
-	)
-	(wire
-		(pts
 			(xy 153.67 331.47) (xy 193.04 331.47)
 		)
 		(stroke
@@ -16480,6 +16410,28 @@
 			)
 		)
 	)
+	(global_label "YellowWire2_3"
+		(shape passive)
+		(at 359.41 430.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "653917da-7339-4517-a5d8-d465412fdd43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.5886 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Pluto_IRDA_OUT"
 		(shape input)
 		(at 494.03 101.6 0)
@@ -17312,6 +17264,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "YellowWire2_1"
+		(shape passive)
+		(at 328.93 443.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d16408dd-88c0-4d5b-a1ce-6cea90058fa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.7514 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
